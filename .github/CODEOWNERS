@@ -1,0 +1,18 @@
+# 01 데이터·파이프라인
+/data/                     @role1-id
+/pipeline/pdf_chunker.py   @role1-id
+/pipeline/embed_store.py   @role1-id
+/db/seed_error_codes.py    @role1-id
+
+# 02 RAG 엔진
+/pipeline/query_engine.py  @role2-id
+/main.py                   @role2-id
+
+# 03 인프라·DB·API
+/db/                       @role3-id
+/docker-compose.yml        @role3-id
+/api/                      @role3-id
+
+# 04 프론트·데모
+/web/                      @role4-id
+/README.md                 @role4-id

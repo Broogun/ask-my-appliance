@@ -1,8 +1,7 @@
-"""실험 결과 JSON 비교 스크립트.
+"""실험 결과 비교 보고서 생성기.
 
 experiments/results/*.json 을 모두 읽어서
-마크다운 비교 보고서를 출력한다.
-GitHub Actions에서 자동 실행되거나 로컬에서 직접 실행할 수 있다.
+전략 비교 + 성능 비교 마크다운 보고서를 출력한다.
 
 사용법:
   python experiments/compare_results.py
@@ -38,52 +37,89 @@ def build_report(results: list[dict]) -> str:
     lines.append(f"총 실험 수: **{len(results)}**")
     lines.append("")
 
-    # ── 요약 테이블 ──
-    lines.append("## 요약")
+    # ── 1. 전략 비교 ──────────────────────────────────────────────────────
+    lines.append("## 1. 전략 비교")
     lines.append("")
-    lines.append("| 실험명 | 키워드 히트율 | 평균 거리 | 평균 응답시간 |")
-    lines.append("|---|---|---|---|")
+    lines.append("| 실험명 | 청킹 | 이유 | 임베딩 | 이유 | DB/검색 | 이유 |")
+    lines.append("|---|---|---|---|---|---|---|")
 
     for r in results:
-        s = r.get("summary", {})
-        hit = s.get("keyword_hit_rate", 0)
-        dist = s.get("avg_distance", 1)
-        elapsed = s.get("avg_elapsed_sec", 0)
+        s = r.get("strategy", {})
         name = r.get("experiment_name", r["_file"])
+        chunking       = s.get("chunking", "-")
+        chunking_why   = s.get("chunking_reason", "-")
+        embedding      = s.get("embedding", "-")
+        embedding_why  = s.get("embedding_reason", "-")
+        db             = s.get("db", "-") + " / " + s.get("retrieval", "-")
+        db_why         = s.get("db_reason", "-") + " / " + s.get("retrieval_reason", "-")
+        lines.append(f"| {name} | {chunking} | {chunking_why} | {embedding} | {embedding_why} | {db} | {db_why} |")
+
+    lines.append("")
+
+    # ── 2. 성능 요약 ──────────────────────────────────────────────────────
+    lines.append("## 2. 성능 요약")
+    lines.append("")
+    lines.append("| 실험명 | 키워드 히트율 | 평균 거리 ↓ | 평균 응답시간 |")
+    lines.append("|---|---|---|---|")
+
+    sorted_results = sorted(results, key=lambda r: r.get("summary", {}).get("keyword_hit_rate", 0), reverse=True)
+    for r in sorted_results:
+        s = r.get("summary", {})
+        hit    = s.get("keyword_hit_rate", 0)
+        dist   = s.get("avg_distance", 1)
+        elapsed = s.get("avg_elapsed_sec", 0)
+        name   = r.get("experiment_name", r["_file"])
         lines.append(f"| {name} | {hit:.0%} | {dist:.4f} | {elapsed:.1f}s |")
 
     lines.append("")
 
-    # ── 질문별 상세 비교 ──
-    lines.append("## 질문별 상세 비교")
+    # ── 3. 질문별 상세 비교 ───────────────────────────────────────────────
+    lines.append("## 3. 질문별 상세 비교")
     lines.append("")
 
-    # 첫 번째 결과에서 질문 목록 추출
     if results:
-        questions = [r_item["question"] for r_item in results[0].get("results", [])]
+        questions = [item["question"] for item in results[0].get("results", [])]
         for q_idx, question in enumerate(questions):
-            lines.append(f"### Q{q_idx + 1}. {question}")
+            desc = results[0]["results"][q_idx].get("description", "")
+            lines.append(f"### Q{q_idx+1}. [{desc}] {question}")
             lines.append("")
-            lines.append("| 실험명 | 히트 | 거리 | 답변 (앞 100자) |")
-            lines.append("|---|---|---|---|")
+            lines.append("| 실험명 | 키워드 히트 | 거리 | 응답시간 | 답변 (앞 120자) |")
+            lines.append("|---|---|---|---|---|")
             for r in results:
                 q_results = r.get("results", [])
                 if q_idx >= len(q_results):
                     continue
                 qr = q_results[q_idx]
                 hit_mark = "O" if qr.get("keyword_hit") else "X"
-                dist = qr.get("avg_distance", 1)
-                answer = qr.get("answer", "")[:100].replace("\n", " ")
-                name = r.get("experiment_name", r["_file"])
-                lines.append(f"| {name} | {hit_mark} | {dist:.4f} | {answer}... |")
+                dist     = qr.get("avg_distance", 1)
+                elapsed  = qr.get("elapsed_sec", 0)
+                answer   = qr.get("answer", "")[:120].replace("\n", " ")
+                name     = r.get("experiment_name", r["_file"])
+                lines.append(f"| {name} | {hit_mark} | {dist:.4f} | {elapsed:.1f}s | {answer}... |")
             lines.append("")
+
+    # ── 4. 결론 ───────────────────────────────────────────────────────────
+    if sorted_results:
+        best = sorted_results[0]
+        best_name = best.get("experiment_name", best["_file"])
+        best_hit  = best.get("summary", {}).get("keyword_hit_rate", 0)
+        lines.append("## 4. 결론")
+        lines.append("")
+        lines.append(f"키워드 히트율 기준 최우수 실험: **{best_name}** ({best_hit:.0%})")
+        best_strategy = best.get("strategy", {})
+        if best_strategy:
+            lines.append("")
+            lines.append(f"- 청킹: {best_strategy.get('chunking', '-')}")
+            lines.append(f"- 임베딩: {best_strategy.get('embedding', '-')}")
+            lines.append(f"- DB/검색: {best_strategy.get('db', '-')} / {best_strategy.get('retrieval', '-')}")
+        lines.append("")
 
     return "\n".join(lines)
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--out", default=None, help="출력 파일 경로 (없으면 stdout)")
+    parser.add_argument("--out", default=None)
     args = parser.parse_args()
 
     results = load_results()

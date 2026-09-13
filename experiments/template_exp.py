@@ -1,22 +1,22 @@
 """RAG 실험 템플릿.
 
 사용법:
-  1. 이 파일을 복사한다.
-  2. 파일명을 {이름}_exp{번호}.py 로 바꾼다.  예: minsoo_exp01.py
-  3. EXPERIMENT_NAME, NOTES 를 채운다.
-  4. my_chunk() 와 my_embed() 두 함수만 구현한다.
-  5. python experiments/{이름}_exp01.py 로 실행한다.
-  6. results/{이름}_exp01.json 이 저장된다.
+  1. 이 파일을 복사한다: cp template_exp.py {이름}_exp01.py
+  2. EXPERIMENT_NAME, NOTES, STRATEGY 를 채운다.
+  3. my_answer() 함수 안에 본인 RAG 전 과정을 구현한다.
+  4. python experiments/{이름}_exp01.py 로 실행한다.
 
-실험 변수:
-  - my_chunk()  : 청킹 방식 (고정크기 / 문단 / 슬라이딩 등 자유롭게)
-  - my_embed()  : 임베딩 모델 (OpenAI / bge-m3 등 자유롭게)
+통일 사항 (모든 팀원 동일):
+  - 데이터   : data/lg/ 폴더의 LG PDF
+  - LLM      : gpt-4o-mini (SYSTEM_PROMPT 수정 금지)
+  - 평가 질문: COMMON_QUESTIONS (수정 금지)
+  - 반환 형식: {"answer": str, "candidates": list[dict]}
 
-고정값 (모든 팀원 동일):
-  - 질문 셋     : COMMON_QUESTIONS (5개)
-  - LLM         : gpt-4o-mini
-  - 답변 형식   : 한국어, 근거 문서 기반
-  - 평가 방식   : 키워드 히트율, 평균 거리, 응답 시간
+자유 사항 (본인이 결정):
+  - 청킹 방식, 청크 크기, 오버랩
+  - 임베딩 모델 (OpenAI / bge-m3 / 기타)
+  - 벡터 DB (ChromaDB / FAISS / numpy 코사인 등)
+  - 검색 전략 (top_k, 필터, 중복 제거 등)
 """
 
 from __future__ import annotations
@@ -26,22 +26,31 @@ import os
 import time
 from pathlib import Path
 
-import chromadb
-import fitz  # PyMuPDF
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# ── 설정 ─────────────────────────────────────────────────────────────────────
 load_dotenv(Path(__file__).parent.parent / ".env")
 OAI = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
 
-# PDF 경로 — 팀 공유 드라이브에서 받은 LG PDF 폴더
 PDF_DIR = Path(__file__).parent.parent / "data" / "lg"
 
-EXPERIMENT_NAME = "template_baseline"   # ← 본인 이름 + 번호로 변경
-NOTES = "베이스라인"                     # ← 무엇을 바꿨는지 한 줄 메모
+# ── 실험 메타 정보 ────────────────────────────────────────────────────────────
+EXPERIMENT_NAME = "template_baseline"   # {이름}_exp{번호} 형식 권장
 
-# ── 공통 테스트 질문 (수정 금지) ──────────────────────────────────────────────
+NOTES = "설명을 여기 적으세요"          # 이번 실험에서 무엇을 시도했는지
+
+STRATEGY = {
+    "chunking":         "고정 크기 500자, 오버랩 50",      # 어떤 방식?
+    "chunking_reason":  "베이스라인으로 가장 단순한 방식",  # 왜 선택?
+    "embedding":        "OpenAI text-embedding-3-small",
+    "embedding_reason": "API로 빠르게 테스트",
+    "db":               "ChromaDB 인메모리",
+    "db_reason":        "별도 설치 없이 바로 사용 가능",
+    "retrieval":        "top_k=3, 코사인 유사도",
+    "retrieval_reason": "기본 설정",
+}
+
+# ── 공통 평가 질문 (수정 금지) ────────────────────────────────────────────────
 COMMON_QUESTIONS = [
     ("에어컨 UE 오류가 뭐야?",              "UE",   "에러코드 단순 조회"),
     ("에어컨 필터 청소 방법 알려줘",         "필터", "일반 사용법"),
@@ -50,47 +59,7 @@ COMMON_QUESTIONS = [
     ("UE 오류랑 필터 청소 방법 같이 알려줘", "필터", "복합 질문"),
 ]
 
-
-# ════════════════════════════════════════════════════════════════════════════
-# ★ 여기만 구현하면 됩니다 ★
-# ════════════════════════════════════════════════════════════════════════════
-
-def my_chunk(pdf_path: str) -> list[str]:
-    """PDF 파일 하나를 청크 리스트로 변환한다.
-
-    rag_tutorial.ipynb 의 Part 1 을 참고해서 본인 방식으로 구현하세요.
-    반환값은 문자열 리스트여야 합니다.
-    """
-    # 예시: 고정 크기 청킹 (바꿔보세요)
-    doc = fitz.open(pdf_path)
-    full_text = "".join(page.get_text() for page in doc)
-
-    chunk_size = 500    # ← 바꿔보세요
-    overlap    = 50     # ← 바꿔보세요
-
-    chunks = []
-    start = 0
-    while start < len(full_text):
-        chunks.append(full_text[start:start + chunk_size])
-        start += chunk_size - overlap
-    return [c for c in chunks if c.strip()]
-
-
-def my_embed(texts: list[str]) -> list[list[float]]:
-    """텍스트 리스트를 임베딩 벡터 리스트로 변환한다.
-
-    rag_tutorial.ipynb 의 Part 2 를 참고해서 본인 방식으로 구현하세요.
-    반환값은 float 리스트의 리스트여야 합니다.
-    """
-    # 예시: OpenAI (바꿔보세요 — bge-m3 로 교체 가능)
-    resp = OAI.embeddings.create(model="text-embedding-3-small", input=texts)
-    return [item.embedding for item in resp.data]
-
-
-# ════════════════════════════════════════════════════════════════════════════
-# 아래는 공통 코드 — 수정 불필요
-# ════════════════════════════════════════════════════════════════════════════
-
+# ── 공통 시스템 프롬프트 (수정 금지) ─────────────────────────────────────────
 SYSTEM_PROMPT = (
     "너는 가전제품 사용법과 문제 해결을 도와주는 어시스턴트야. 반드시 한국어로만 답해. "
     "아래 검색된 문서 내용만 근거로 자연스럽고 친절하게 답변해. "
@@ -100,49 +69,79 @@ SYSTEM_PROMPT = (
 )
 
 
-def _build_index(pdf_dir: Path) -> chromadb.Collection:
-    """PDF 디렉토리 전체를 청킹·임베딩해서 ChromaDB 인메모리 컬렉션으로 반환."""
+# ════════════════════════════════════════════════════════════════════════════
+# ★ 여기만 구현하면 됩니다 ★
+# ════════════════════════════════════════════════════════════════════════════
+
+def my_answer(query: str) -> dict:
+    """사용자 질문을 받아 RAG 답변을 반환한다.
+
+    청킹, 임베딩, DB 구성, 검색, LLM 호출까지 전부 이 함수 안에서 자유롭게 구현.
+    단, 반환 형식은 반드시 지켜야 한다:
+
+    Returns:
+        {
+            "answer": str,           # LLM이 생성한 최종 답변
+            "candidates": [          # 검색된 근거 청크 목록
+                {
+                    "id":       str,
+                    "text":     str,
+                    "distance": float,   # 낮을수록 유사 (없으면 0.0)
+                },
+                ...
+            ],
+        }
+    """
+    # ── 아래 예시 코드를 지우고 본인 방식으로 구현하세요 ──────────────────
+
+    import fitz
+    import chromadb
+
+    # 1. 청킹
+    all_chunks, all_ids = [], []
+    for pdf_path in PDF_DIR.rglob("*.pdf"):
+        doc = fitz.open(str(pdf_path))
+        text = "".join(page.get_text() for page in doc)
+        size, overlap = 500, 50
+        start = 0
+        while start < len(text):
+            chunk = text[start:start + size].strip()
+            if chunk:
+                all_chunks.append(chunk)
+                all_ids.append(f"{pdf_path.stem}_{len(all_chunks)}")
+            start += size - overlap
+
+    # 2. 임베딩 + DB 저장
     db = chromadb.Client()
-    col = db.create_collection("exp")
+    try:
+        col = db.get_collection("exp")
+    except Exception:
+        col = db.create_collection("exp")
+        batch = 50
+        for i in range(0, len(all_chunks), batch):
+            resp = OAI.embeddings.create(
+                model="text-embedding-3-small",
+                input=all_chunks[i:i + batch],
+            )
+            col.add(
+                ids=all_ids[i:i + batch],
+                embeddings=[e.embedding for e in resp.data],
+                documents=all_chunks[i:i + batch],
+            )
 
-    pdf_files = list(pdf_dir.rglob("*.pdf"))
-    print(f"[인덱스] PDF {len(pdf_files)}개 처리 중...")
-
-    all_chunks, all_ids, all_metas = [], [], []
-    for pdf_path in pdf_files:
-        chunks = my_chunk(str(pdf_path))
-        for i, chunk in enumerate(chunks):
-            all_chunks.append(chunk)
-            all_ids.append(f"{pdf_path.stem}_{i}")
-            all_metas.append({"source": pdf_path.stem})
-
-    # 배치 임베딩
-    batch = 50
-    for i in range(0, len(all_chunks), batch):
-        vecs = my_embed(all_chunks[i:i + batch])
-        col.add(
-            ids=all_ids[i:i + batch],
-            embeddings=vecs,
-            documents=all_chunks[i:i + batch],
-            metadatas=all_metas[i:i + batch],
-        )
-
-    print(f"[인덱스] 총 {col.count()}개 청크 저장 완료")
-    return col
-
-
-def _search(col: chromadb.Collection, query: str, top_k: int = 3) -> list[dict]:
-    [q_vec] = my_embed([query])
-    res = col.query(query_embeddings=[q_vec], n_results=top_k)
-    return [
-        {"text": doc, "distance": dist, "id": id_}
-        for doc, dist, id_ in zip(
-            res["documents"][0], res["distances"][0], res["ids"][0]
+    # 3. 검색
+    [q_vec] = [e.embedding for e in OAI.embeddings.create(
+        model="text-embedding-3-small", input=[query]
+    ).data]
+    res = col.query(query_embeddings=[q_vec], n_results=3)
+    candidates = [
+        {"id": id_, "text": doc, "distance": dist}
+        for id_, doc, dist in zip(
+            res["ids"][0], res["documents"][0], res["distances"][0]
         )
     ]
 
-
-def _generate(query: str, candidates: list[dict]) -> str:
+    # 4. LLM 답변 (SYSTEM_PROMPT 수정 금지)
     context = "\n".join(f"- {c['text']}" for c in candidates)
     resp = OAI.chat.completions.create(
         model="gpt-4o-mini",
@@ -151,20 +150,28 @@ def _generate(query: str, candidates: list[dict]) -> str:
             {"role": "user", "content": f"[검색된 문서]\n{context}\n\n[사용자 질문]\n{query}"},
         ],
     )
-    return resp.choices[0].message.content
+    return {"answer": resp.choices[0].message.content, "candidates": candidates}
 
 
-def _run(col: chromadb.Collection) -> dict:
+# ════════════════════════════════════════════════════════════════════════════
+# 아래는 평가 harness — 수정 불필요
+# ════════════════════════════════════════════════════════════════════════════
+
+def _run_eval() -> list[dict]:
     results = []
     for question, keyword, description in COMMON_QUESTIONS:
         start = time.time()
-        candidates = _search(col, question)
-        answer = _generate(question, candidates)
+        try:
+            out = my_answer(question)
+        except Exception as e:
+            out = {"answer": f"[ERROR] {e}", "candidates": []}
         elapsed = time.time() - start
 
-        all_text = answer + " ".join(c["text"] for c in candidates)
+        answer = out.get("answer", "")
+        candidates = out.get("candidates", [])
+        all_text = answer + " ".join(c.get("text", "") for c in candidates)
         keyword_hit = keyword in all_text
-        distances = [c["distance"] for c in candidates]
+        distances = [c.get("distance", 0.0) for c in candidates]
         avg_dist = sum(distances) / len(distances) if distances else 1.0
 
         mark = "O" if keyword_hit else "X"
@@ -178,20 +185,21 @@ def _run(col: chromadb.Collection) -> dict:
             "elapsed_sec": round(elapsed, 2),
             "avg_distance": round(avg_dist, 4),
             "answer": answer,
-            "candidates": [{"id": c["id"], "distance": c["distance"], "text": c["text"][:200]} for c in candidates],
+            "candidates": [
+                {"id": c.get("id",""), "distance": c.get("distance", 0.0), "text": c.get("text","")[:200]}
+                for c in candidates
+            ],
         })
     return results
 
 
 if __name__ == "__main__":
-    col = _build_index(PDF_DIR)
-
     print(f"\n{'='*55}")
-    print(f"  실험: {EXPERIMENT_NAME}")
-    print(f"  메모: {NOTES}")
+    print(f"  실험명  : {EXPERIMENT_NAME}")
+    print(f"  메모    : {NOTES}")
     print(f"{'='*55}\n")
 
-    results = _run(col)
+    results = _run_eval()
 
     hit_rate = sum(r["keyword_hit"] for r in results) / len(results)
     avg_dist = sum(r["avg_distance"] for r in results) / len(results)
@@ -206,6 +214,7 @@ if __name__ == "__main__":
     report = {
         "experiment_name": EXPERIMENT_NAME,
         "notes": NOTES,
+        "strategy": STRATEGY,
         "summary": {
             "keyword_hit_rate": hit_rate,
             "avg_distance": avg_dist,

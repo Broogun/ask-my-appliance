@@ -1,0 +1,37 @@
+# 환경 설정 (API 키 포함)
+.env
+
+# 벡터DB (각자 로컬에서 ingest 스크립트로 생성)
+chroma_db/
+
+# PDF 원본 매뉴얼 (용량 크므로 별도 공유 - README 참고)
+data/lg/
+data/samsung/
+
+# 그림 추출 결과 (ingest 시 자동 생성)
+data/manual_figures/
+
+# 에러코드 SQLite DB (seed_error_codes.py로 재생성)
+data/error_codes.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.conda/
+
+# 실험 결과 JSON (팀장이 수동으로 수집·비교)
+experiments/results/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Claude Code 로컬 설정
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

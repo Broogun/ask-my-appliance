@@ -1,3 +1,0 @@
-# EMBEDDING_BACKEND=openai / CHAT_BACKEND=openai 를 쓸 때만 필요
--r requirements.txt
-openai>=1.30

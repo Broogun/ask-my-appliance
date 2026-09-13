@@ -4,7 +4,7 @@
 
 | 항목 | 통일 (수정 금지) | 자유 (각자 결정) |
 |---|---|---|
-| 데이터 | `data/lg/` LG PDF | - |
+| 데이터 | `data/lg/` + `data/samsung/` LG·삼성 PDF | - |
 | LLM | gpt-4o-mini | - |
 | 답변 형식 | `SYSTEM_PROMPT` (한국어, 근거 기반) | - |
 | 평가 질문 | `COMMON_QUESTIONS` 5개 | - |
@@ -98,17 +98,37 @@ PR push 시 GitHub Actions가 자동으로 PR 댓글에 보고서를 달아준�
 
 ---
 
+## 데이터 구조 및 brand 메타데이터
+
+LG와 삼성 PDF를 **같은 DB**에 저장하고, `brand` 메타데이터로 구분한다.
+
+```python
+# pdf_path 경로에서 브랜드 자동 판별
+brand = "samsung" if "samsung" in pdf_path.parts else "lg"
+metadata = {"brand": brand, "source": pdf_path.name}
+```
+
+브랜드 필터링이 필요한 경우:
+```python
+# ChromaDB 예시
+col.query(..., where={"brand": "samsung"})
+```
+
+---
+
 ## 공통 테스트 질문
 
 `template_exp.py`의 `COMMON_QUESTIONS` 참고. 질문 추가·수정은 팀장 승인 후 PR.
 
 | # | 질문 | 기대 키워드 | 유형 |
 |---|---|---|---|
-| 1 | 에어컨 UE 오류가 뭐야? | UE | 에러코드 |
+| 1 | 에어컨 UE 오류가 뭐야? | UE | 에러코드 (LG) |
 | 2 | 에어컨 필터 청소 방법 알려줘 | 필터 | 일반 사용법 |
 | 3 | 세탁기 탈수가 너무 시끄러워 | 탈수 | 증상 기반 |
 | 4 | 냉장고 온도를 어떻게 설정해? | 온도 | 설정/조작 |
 | 5 | UE 오류랑 필터 청소 방법 같이 알려줘 | 필터 | 복합 질문 |
+| 6 | 삼성 에어컨 스스로 청소 기능은 어떻게 써? | 청소 | 삼성 특화 기능 |
+| 7 | 삼성 냉장고에서 소음이 나는데 왜 그래? | 소음 | 삼성 증상 기반 |
 
 ---
 

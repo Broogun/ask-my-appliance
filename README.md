@@ -1,6 +1,6 @@
 # Ask My Appliance
 
-LG 가전제품 사용설명서 기반 RAG 실험 프로젝트.  
+LG·삼성 가전제품 사용설명서 기반 RAG 실험 프로젝트.  
 팀원 4명이 각자 독립적인 RAG 파이프라인을 구현하고 공통 기준으로 성능을 비교한다.
 
 ---
@@ -11,7 +11,7 @@ LG 가전제품 사용설명서 기반 RAG 실험 프로젝트.
 
 | 항목 | 내용 |
 |---|---|
-| 데이터 | LG 에어컨·냉장고·세탁기 PDF 30개 |
+| 데이터 | LG·삼성 에어컨·냉장고·세탁기 PDF (`data/lg/` + `data/samsung/`) |
 | LLM | gpt-4o-mini |
 | 답변 형식 | 한국어, 근거 문서 기반 |
 | 평가 질문 | 5개 고정 (`COMMON_QUESTIONS`) |
@@ -70,10 +70,16 @@ PDF는 용량 문제로 Git에 포함되지 않는다.
 ```
 data/
   lg/
-    aircon/    ← LG 에어컨 PDF
-    fridge/    ← LG 냉장고 PDF
-    washer/    ← LG 세탁기 PDF
+    aircon/       ← LG 에어컨 PDF
+    fridge/       ← LG 냉장고 PDF
+    washer/       ← LG 세탁기 PDF
+  samsung/
+    aircon/       ← 삼성 에어컨 PDF
+    fridge/       ← 삼성 냉장고 PDF
+    washer/       ← 삼성 세탁기 PDF
 ```
+
+LG·삼성 PDF를 **같은 DB** 에 넣고, `brand` 메타데이터(`"lg"` / `"samsung"`)로 필터링하는 방식을 권장한다.
 
 ---
 

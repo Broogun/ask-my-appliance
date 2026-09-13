@@ -7,7 +7,7 @@
   4. python experiments/{이름}_exp01.py 로 실행한다.
 
 통일 사항 (모든 팀원 동일):
-  - 데이터   : data/lg/ 폴더의 LG PDF
+  - 데이터   : data/lg/ + data/samsung/ — LG·삼성 PDF 전체
   - LLM      : gpt-4o-mini (SYSTEM_PROMPT 수정 금지)
   - 평가 질문: COMMON_QUESTIONS (수정 금지)
   - 반환 형식: {"answer": str, "candidates": list[dict]}
@@ -32,7 +32,7 @@ from openai import OpenAI
 load_dotenv(Path(__file__).parent.parent / ".env")
 OAI = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
 
-PDF_DIR = Path(__file__).parent.parent / "data" / "lg"
+PDF_DIR = Path(__file__).parent.parent / "data"  # lg/ + samsung/ 전체
 
 # ── 실험 메타 정보 ────────────────────────────────────────────────────────────
 EXPERIMENT_NAME = "template_baseline"   # {이름}_exp{번호} 형식 권장
@@ -52,11 +52,13 @@ STRATEGY = {
 
 # ── 공통 평가 질문 (수정 금지) ────────────────────────────────────────────────
 COMMON_QUESTIONS = [
-    ("에어컨 UE 오류가 뭐야?",              "UE",   "에러코드 단순 조회"),
+    ("에어컨 UE 오류가 뭐야?",              "UE",   "에러코드 단순 조회 (LG)"),
     ("에어컨 필터 청소 방법 알려줘",         "필터", "일반 사용법"),
     ("세탁기 탈수가 너무 시끄러워",          "탈수", "증상 기반"),
     ("냉장고 온도를 어떻게 설정해?",         "온도", "설정/조작"),
     ("UE 오류랑 필터 청소 방법 같이 알려줘", "필터", "복합 질문"),
+    ("삼성 에어컨 스스로 청소 기능은 어떻게 써?", "청소", "삼성 특화 기능"),
+    ("삼성 냉장고에서 소음이 나는데 왜 그래?",    "소음", "삼성 증상 기반"),
 ]
 
 # ── 공통 시스템 프롬프트 (수정 금지) ─────────────────────────────────────────
@@ -98,8 +100,11 @@ def my_answer(query: str) -> dict:
     import chromadb
 
     # 1. 청킹
-    all_chunks, all_ids = [], []
+    # pdf_path 구조: data/lg/... 또는 data/samsung/... → brand 메타데이터로 구분
+    all_chunks, all_ids, all_metas = [], [], []
     for pdf_path in PDF_DIR.rglob("*.pdf"):
+        parts = pdf_path.parts
+        brand = "samsung" if "samsung" in parts else "lg"
         doc = fitz.open(str(pdf_path))
         text = "".join(page.get_text() for page in doc)
         size, overlap = 500, 50
@@ -109,6 +114,7 @@ def my_answer(query: str) -> dict:
             if chunk:
                 all_chunks.append(chunk)
                 all_ids.append(f"{pdf_path.stem}_{len(all_chunks)}")
+                all_metas.append({"brand": brand, "source": pdf_path.name})
             start += size - overlap
 
     # 2. 임베딩 + DB 저장
@@ -127,6 +133,7 @@ def my_answer(query: str) -> dict:
                 ids=all_ids[i:i + batch],
                 embeddings=[e.embedding for e in resp.data],
                 documents=all_chunks[i:i + batch],
+                metadatas=all_metas[i:i + batch],
             )
 
     # 3. 검색

@@ -131,10 +131,3 @@ python experiments/{이름}_exp01.py
 
 ---
 
-## 주의사항
-
-- 로컬 임베딩(bge-m3) 기준 LG 30개 ingest는 약 1시간 소요.
-  OpenAI 임베딩 사용 시 `.env`에서 `EMBEDDING_BACKEND=openai`로 변경.
-- ChromaDB 컬렉션명: `appliance_manuals_local`
-- 에러코드 DB가 없으면 `python db/seed_error_codes.py` 실행.
-- Streamlit 실행: `streamlit run app_streamlit.py` → http://localhost:8501

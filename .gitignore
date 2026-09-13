@@ -22,8 +22,8 @@ __pycache__/
 venv/
 .conda/
 
-# 실험 결과 JSON (팀장이 수동으로 수집·비교)
-experiments/results/
+# 실험 결과는 커밋한다 (GitHub Actions가 자동 보고서 생성에 사용)
+# experiments/results/ → gitignore 제외
 
 # Jupyter
 .ipynb_checkpoints/

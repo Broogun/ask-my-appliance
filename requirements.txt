@@ -1,0 +1,22 @@
+# 기본(무료/로컬) 구성에 필요한 패키지
+chromadb>=0.5
+python-dotenv>=1.0
+sentence-transformers>=3.0
+transformers>=4.45
+torch>=2.2
+accelerate>=0.34
+requests>=2.31
+
+# PDF 청킹 (pipeline/pdf_chunker.py) + 그림 추출/OCR (pipeline/figure_extractor.py)
+pymupdf>=1.24
+pillow>=10.0
+pytesseract>=0.3.13
+# pytesseract는 파이썬 래퍼일 뿐, 별도로 Tesseract-OCR 바이너리(한국어 언어팩 포함)를
+# 설치해야 동작한다: https://github.com/UB-Mannheim/tesseract/wiki (Windows)
+# 설치 안 돼 있어도 그림 추출 자체는 계속 동작하고, OCR(그림 안 텍스트 인식)만 건너뛴다.
+
+# CHAT_BACKEND=ollama 로 바꿔서 쓸 경우, Ollama는 pip 패키지가 아니라 별도 설치 프로그램입니다.
+# https://ollama.com 에서 설치 후: ollama pull qwen2.5:7b
+
+# TODO: 가전제품 설명서 데이터 수집 방식(PDF 파싱 vs 웹 스크래핑 등)이 정해지면
+# 그에 맞는 패키지(pypdf, playwright 등)를 추가할 것.

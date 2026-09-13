@@ -100,11 +100,8 @@ def my_answer(query: str) -> dict:
     import chromadb
 
     # 1. 청킹
-    # pdf_path 구조: data/lg/... 또는 data/samsung/... → brand 메타데이터로 구분
-    all_chunks, all_ids, all_metas = [], [], []
+    all_chunks, all_ids = [], []
     for pdf_path in PDF_DIR.rglob("*.pdf"):
-        parts = pdf_path.parts
-        brand = "samsung" if "samsung" in parts else "lg"
         doc = fitz.open(str(pdf_path))
         text = "".join(page.get_text() for page in doc)
         size, overlap = 500, 50
@@ -114,7 +111,6 @@ def my_answer(query: str) -> dict:
             if chunk:
                 all_chunks.append(chunk)
                 all_ids.append(f"{pdf_path.stem}_{len(all_chunks)}")
-                all_metas.append({"brand": brand, "source": pdf_path.name})
             start += size - overlap
 
     # 2. 임베딩 + DB 저장
@@ -133,7 +129,6 @@ def my_answer(query: str) -> dict:
                 ids=all_ids[i:i + batch],
                 embeddings=[e.embedding for e in resp.data],
                 documents=all_chunks[i:i + batch],
-                metadatas=all_metas[i:i + batch],
             )
 
     # 3. 검색

@@ -98,24 +98,6 @@ PR push 시 GitHub Actions가 자동으로 PR 댓글에 보고서를 달아준�
 
 ---
 
-## 데이터 구조 및 brand 메타데이터
-
-LG와 삼성 PDF를 **같은 DB**에 저장하고, `brand` 메타데이터로 구분한다.
-
-```python
-# pdf_path 경로에서 브랜드 자동 판별
-brand = "samsung" if "samsung" in pdf_path.parts else "lg"
-metadata = {"brand": brand, "source": pdf_path.name}
-```
-
-브랜드 필터링이 필요한 경우:
-```python
-# ChromaDB 예시
-col.query(..., where={"brand": "samsung"})
-```
-
----
-
 ## 공통 테스트 질문
 
 `template_exp.py`의 `COMMON_QUESTIONS` 참고. 질문 추가·수정은 팀장 승인 후 PR.

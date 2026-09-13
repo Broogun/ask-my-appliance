@@ -79,7 +79,6 @@ data/
     washer/       ← 삼성 세탁기 PDF
 ```
 
-LG·삼성 PDF를 **같은 DB** 에 넣고, `brand` 메타데이터(`"lg"` / `"samsung"`)로 필터링하는 방식을 권장한다.
 
 ---
 

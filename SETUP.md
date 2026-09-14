@@ -9,7 +9,11 @@ cd ask-my-appliance
 
 ## 2. 패키지 설치
 
+**Python 3.12.14 사용** (GitHub Actions 자동 보고서 생성도 3.12.14 기준. `.python-version`
+파일에 명시돼 있음 - pyenv 쓰면 자동으로 맞춰짐).
+
 ```bash
+python --version   # 3.12.14인지 확인
 pip install -r requirements.txt
 ```
 

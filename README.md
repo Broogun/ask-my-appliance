@@ -54,6 +54,8 @@ SETUP.md               ← 환경 세팅 가이드
 
 ### 1. 클론 및 패키지 설치
 
+**Python 3.12.14** 기준 (`.python-version`에 명시).
+
 ```bash
 git clone https://github.com/Broogun/ask-my-appliance.git
 cd ask-my-appliance

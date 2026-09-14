@@ -29,7 +29,12 @@ cp .env.example .env
 
 ## 4. PDF 받기
 
-Git에는 PDF가 포함되어 있지 않다. 팀 공유 드라이브에서 받아서 아래 경로에 넣는다.
+Git에는 PDF가 포함되어 있지 않다. 아래 구글 드라이브에서 `ask-my-appliance-data.zip`을 받아서
+압축을 풀면 나오는 `data/` 폴더 내용물을 레포 루트의 `data/` 밑에 그대로 넣는다.
+
+**다운로드**: https://drive.google.com/file/d/1ePqOVFxh0t0qK-fjMoVuMGw4LbdHV-XF/view?usp=sharing
+
+압축 풀면 아래 구조 그대로 들어있다:
 
 ```
 data/
@@ -42,6 +47,11 @@ data/
     fridge/    ← 삼성 냉장고 PDF
     washer/    ← 삼성 세탁기 PDF
 ```
+
+기본 에러코드 데이터도 같은 공유 드라이브에서 같이 받는다.
+
+> 이번 라운드는 PDF 텍스트 + 에러코드 데이터만 다룬다. 이미지/그림(다이어그램)
+> 추출, OCR은 하지 않는다 — 나중에 RAG 고도화 단계에서 별도로 진행할 예정.
 
 ## 5. 세팅 확인
 

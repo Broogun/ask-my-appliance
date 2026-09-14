@@ -11,14 +11,19 @@ LG·삼성 가전제품 사용설명서 기반 RAG 실험 프로젝트.
 
 | 항목 | 내용 |
 |---|---|
-| 데이터 | LG·삼성 에어컨·냉장고·세탁기 PDF (`data/lg/` + `data/samsung/`) |
+| 데이터 | LG·삼성 에어컨·냉장고·세탁기 PDF 텍스트(`data/lg/` + `data/samsung/`) + 기본 에러코드 데이터 |
 | LLM | gpt-4o-mini |
 | 답변 형식 | 한국어, 근거 문서 기반 |
-| 평가 질문 | 5개 고정 (`COMMON_QUESTIONS`) |
+| 평가 질문 | 22개 (`COMMON_QUESTIONS`, LG·삼성 x 에어컨·냉장고·세탁기 골고루) |
 
 ### 자유 (각자 결정)
 
 청킹 방식 / 임베딩 모델 / 벡터 DB / 검색 전략
+
+### 이번 라운드 범위 밖
+
+이미지/그림(다이어그램) 추출, OCR — RAG 고도화 단계에서 별도로 진행 예정. 지금은 PDF
+텍스트 데이터와 에러코드 데이터만으로 실험한다.
 
 ---
 
@@ -68,7 +73,10 @@ cp .env.example .env
 ### 3. PDF 받기
 
 PDF는 용량 문제로 Git에 포함되지 않는다.  
-팀 공유 드라이브에서 받아서 아래 경로에 넣는다.
+아래 구글 드라이브에서 `ask-my-appliance-data.zip`을 받아서 압축을 풀고, 나오는
+`data/` 폴더 내용물을 레포 루트의 `data/` 밑에 그대로 넣는다.
+
+**다운로드**: https://drive.google.com/file/d/1ePqOVFxh0t0qK-fjMoVuMGw4LbdHV-XF/view?usp=sharing
 
 ```
 data/
@@ -81,6 +89,9 @@ data/
     fridge/       ← 삼성 냉장고 PDF
     washer/       ← 삼성 세탁기 PDF
 ```
+
+기본 에러코드 데이터(`lg_*_errors.json`, `samsung_*_errors.json`)도 같은 압축 파일에
+포함되어 있다.
 
 
 ---

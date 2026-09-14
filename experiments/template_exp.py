@@ -7,7 +7,8 @@
   4. python experiments/{이름}_exp01.py 로 실행한다.
 
 통일 사항 (모든 팀원 동일):
-  - 데이터   : data/lg/ + data/samsung/ — LG·삼성 PDF 전체
+  - 데이터   : data/lg/ + data/samsung/ — LG·삼성 PDF 텍스트 전체 + 기본 에러코드 데이터
+              (이미지/그림 추출·OCR은 이번 라운드 범위 밖 - RAG 고도화 단계에서 진행 예정)
   - LLM      : gpt-4o-mini (SYSTEM_PROMPT 수정 금지)
   - 평가 질문: COMMON_QUESTIONS (수정 금지)
   - 반환 형식: {"answer": str, "candidates": list[dict]}

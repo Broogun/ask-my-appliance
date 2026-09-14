@@ -23,12 +23,20 @@ experiments/
   compare_results.py    ← 팀 전체 결과 비교 보고서 생성
   results/              ← 실험 결과 JSON (커밋 대상)
 
+pipeline/
+  evaluate.py            ← 공용 평가 하니스 (COMMON_QUESTIONS/SYSTEM_PROMPT/채점/
+                            보고서 저장 - 실험마다 복붙하지 않고 import해서 씀)
+
 .github/workflows/
   eval_report.yml       ← PR push 시 자동 보고서 생성 Action
 
 README.md / CLAUDE.md / SETUP.md
 .env.example / .gitignore / requirements.txt
 ```
+
+`template_exp.py`는 이미 `from pipeline.evaluate import SYSTEM_PROMPT, run_and_save`로
+이 모듈을 가져다 쓰고 있다 - 실험 파일에는 `my_answer()`만 구현하면 되고,
+`COMMON_QUESTIONS`/`SYSTEM_PROMPT`/채점 로직은 건드릴 필요도, 복사할 필요도 없다.
 
 ---
 

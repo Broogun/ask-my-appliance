@@ -33,6 +33,9 @@ experiments/
   compare_results.py    ← 팀 결과 비교 보고서 생성
   results/              ← 실험 결과 JSON (커밋 대상)
 
+pipeline/
+  evaluate.py            ← 공용 평가 하니스 (실험마다 복붙 안 하고 import)
+
 .github/workflows/
   eval_report.yml       ← PR push 시 자동 보고서 생성
 

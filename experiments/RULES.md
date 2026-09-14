@@ -23,6 +23,12 @@ experiments/
   {이름}_exp{번호}.py     ← 실험 스크립트 (본인 브랜치에 커밋)
   results/
     {이름}_exp{번호}.json ← 평가 결과 (커밋 필수 — GitHub Actions가 사용)
+
+pipeline/
+  evaluate.py             ← 공용 평가 하니스 (COMMON_QUESTIONS/SYSTEM_PROMPT/채점/
+                             보고서 저장). template_exp.py가 이미 import해서 쓰고
+                             있으니 실험 파일에 복붙할 필요 없음 - my_answer()만
+                             구현하면 된다.
 ```
 
 - 번호는 01부터 시작, 개선할 때마다 번호 올리기 (덮어쓰지 말 것)
@@ -59,7 +65,8 @@ main
        ],
    }
    ```
-5. `COMMON_QUESTIONS`와 `SYSTEM_PROMPT`는 수정하지 않는다.
+5. `COMMON_QUESTIONS`와 `SYSTEM_PROMPT`는 수정하지 않는다 (`pipeline/evaluate.py`에서
+   import돼 있어서, 애초에 실험 파일 안에 이 값들이 없다 - 건드릴 곳도 없다).
 6. 실험 실행 후 `results/{EXPERIMENT_NAME}.json`이 생성되면 함께 커밋한다.
 
 ---

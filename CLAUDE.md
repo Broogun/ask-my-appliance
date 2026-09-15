@@ -42,7 +42,7 @@ experiments/
   results/              ← 실험 결과 JSON (커밋 대상)
 
 pipeline/
-  evaluate.py            ← 공용 평가 하니스 (COMMON_QUESTIONS/SYSTEM_PROMPT/채점/
+  evaluate.py            ← 공용 평가 하니스 (MODEL_QUESTIONS/SYSTEM_PROMPT/채점/
                             보고서 저장 - 실험마다 복붙하지 않고 import해서 씀)
 
 .github/workflows/
@@ -54,7 +54,7 @@ README.md / CLAUDE.md / SETUP.md
 
 `template_exp.py`는 이미 `from pipeline.evaluate import SYSTEM_PROMPT, run_and_save`로
 이 모듈을 가져다 쓰고 있다 - 실험 파일에는 `my_answer()`만 구현하면 되고,
-`COMMON_QUESTIONS`/`SYSTEM_PROMPT`/채점 로직은 건드릴 필요도, 복사할 필요도 없다.
+`MODEL_QUESTIONS`/`SYSTEM_PROMPT`/채점 로직은 건드릴 필요도, 복사할 필요도 없다.
 
 ---
 
@@ -67,7 +67,7 @@ README.md / CLAUDE.md / SETUP.md
 | 데이터 | `data/lg/` + `data/samsung/` LG·삼성 PDF 텍스트 + 기본 에러코드 데이터 |
 | LLM | gpt-4o-mini |
 | SYSTEM_PROMPT | 한국어, 근거 문서 기반 답변 |
-| COMMON_QUESTIONS | 22개 (LG·삼성 x 에어컨·냉장고·세탁기 골고루) |
+| MODEL_QUESTIONS | 900개 (제품 모델 60개 x 3라운드 x 5문항, 계속 늘어남, 2026-09부터 - 이전 COMMON_QUESTIONS 22개 대체) |
 | 반환 형식 | `{"answer": str, "candidates": list[dict]}` |
 
 ### 자유 (각자 결정)
@@ -134,7 +134,7 @@ STRATEGY = {
 
 ## 금지 사항
 
-- `COMMON_QUESTIONS`, `SYSTEM_PROMPT` 수정 금지 (팀 비교 기준이 무너짐)
+- `MODEL_QUESTIONS`, `SYSTEM_PROMPT` 수정 금지 (팀 비교 기준이 무너짐 - 확장/변경은 관리자 승인 후에만)
 - `.env` 커밋 금지 (API 키 포함)
 - `data/` 커밋 금지 (용량 큼, 공유 드라이브에서 배포)
 

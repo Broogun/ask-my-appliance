@@ -10,7 +10,7 @@
   - 데이터   : data/lg/ + data/samsung/ — LG·삼성 PDF 텍스트 전체 + 기본 에러코드 데이터
               (이미지/그림 추출·OCR은 이번 라운드 범위 밖 - RAG 고도화 단계에서 진행 예정)
   - LLM      : gpt-4o-mini (SYSTEM_PROMPT 수정 금지)
-  - 평가 질문: COMMON_QUESTIONS (수정 금지)
+  - 평가 질문: MODEL_QUESTIONS (수정 금지 - 제품 모델 60개 x 5문항 = 300개, 2026-09부터)
   - 반환 형식: {"answer": str, "candidates": list[dict]}
 
 자유 사항 (본인이 결정):
@@ -19,7 +19,7 @@
   - 벡터 DB (ChromaDB / FAISS / numpy 코사인 등)
   - 검색 전략 (top_k, 필터, 중복 제거 등)
 
-COMMON_QUESTIONS/SYSTEM_PROMPT(통일 기준)와 채점/보고서 저장 로직은
+MODEL_QUESTIONS/SYSTEM_PROMPT(통일 기준)와 채점/보고서 저장 로직은
 pipeline/evaluate.py에 공용으로 모아뒀다 - 실험마다 똑같이 복붙하지 않고
 import해서 쓴다. 이 파일에는 본인이 실제로 다르게 구현하는 my_answer()만 남는다.
 """

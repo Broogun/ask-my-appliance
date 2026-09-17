@@ -17,6 +17,14 @@ python --version   # 3.12.14인지 확인
 pip install -r requirements.txt
 ```
 
+**GPU가 있으면 (선택, 강력 권장):** 위 명령은 CPU 전용 torch를 깔아서 검색기의 리랭커가 질문당 3초 걸린다.
+NVIDIA GPU가 있는 노트북이면 CUDA 빌드로 바꾸면 0.3초가 되고, 자체 테스트셋 256문항 채점도 18분 → 5분.
+
+```bash
+pip install --force-reinstall --index-url https://download.pytorch.org/whl/cu126 torch    # 드라이버가 CUDA 12.6 이상이면
+python -c "import torch; print(torch.cuda.is_available())"                                 # True 면 성공. 코드는 자동 감지
+```
+
 ## 3. 환경변수 설정
 
 `.env.example`을 복사해서 `.env`를 만들고 값을 채운다.
@@ -66,6 +74,21 @@ data/
 - LLM 응답 출력
 
 세 가지가 모두 정상이면 실험 시작 준비 완료.
+
+## 5-b. siyeon 검색기 / 웹 앱 처음 실행 (해당 브랜치를 받은 사람만)
+
+`experiments/siyeon/README.md`, `web/README.md` 참고. 처음 한 번은 오래 걸린다:
+
+- `data/appliance.sqlite` 가 없으면 자동 생성 (`experiments/siyeon/rdb/build_db.py`, 1분)
+- `chroma_lg/` 벡터 인덱스가 없으면 청크 5천 개 + 예상질문 3.7만 개를 임베딩 — **CPU 30~40분, GPU 3~5분**.
+  예상질문 자체는 `experiments/siyeon/chunk_questions.json` 에 캐시돼 있어 OpenAI 호출·과금은 없다.
+- 그 다음부터는 서버 시작 1~2분(모델 로딩)
+
+```bash
+python -m uvicorn web.main:app --port 8000        # http://localhost:8000  로그인 admin1~7 / 1234
+streamlit run experiments/siyeon/app.py            # 검색 결과·근거 조각을 뜯어보는 실험 GUI
+python experiments/siyeon/eval_testset.py --tag {태그}   # 자체 테스트셋 256문항 채점
+```
 
 ## 6. 실험 시작
 

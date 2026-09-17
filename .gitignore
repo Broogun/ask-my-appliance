@@ -35,3 +35,26 @@ notebooks/.ipynb_checkpoints/
 # OS
 .DS_Store
 Thumbs.db
+
+# data 폴더 제외
+/data
+
+# chroma db
+/chroma_lg_aircon
+# siyeon: 생성물 (build_db.py / 노트북 영속화)
+data/appliance.sqlite
+chroma_lg_aircon/
+chroma_lg/
+data/appliance_new.sqlite
+data/answer_cache/
+
+# 웹 앱 DB (사용자·대화 — 로컬 데이터)
+data/app.sqlite
+
+# 썸네일 검수용 모음 (재생성 가능)
+web/static/img/models/auto/sheet.png
+
+# siyeon: 커밋 안 하는 것 — 썸네일 원본(avif, 웹은 png 사용) / 옛 예상질문 캐시 v1 / 선화 썸네일(make_thumbs.py로 재생성, LG는 실사진 있음)
+experiments/siyeon/LG_images/
+experiments/siyeon/chunk_questions_v1.json
+web/static/img/models/auto/

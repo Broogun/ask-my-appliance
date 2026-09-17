@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>가전 도우미 — 제품 등록</title>
+<link rel="stylesheet" href="/static/css/base.css">
+</head>
+<body>
+<div class="onboard-wrap"><div class="onboard-card" id="flow"></div></div>
+<script src="/static/js/api.js"></script>
+<script src="/static/js/register.js"></script>
+<script>
+requireLogin();
+RegisterFlow.mount(document.getElementById('flow'), { onDone: () => location.href = '/app?new=1' });
+</script>
+</body>
+</html>

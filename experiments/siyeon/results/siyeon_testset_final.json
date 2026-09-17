@@ -1,0 +1,5697 @@
+{
+ "mode": "v3",
+ "top_k": 3,
+ "n": 256,
+ "rows": [
+  {
+   "id": "howto-01",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "제습 모드 어떻게 켜요?",
+   "expect": {
+    "subsection": [
+     "제습 기능 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.047,
+   "d2": 0.745,
+   "top3": [
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 제습 기능 사용하기 (0.047)",
+    "AC_FQ18GC1EHN > 공기청정 기능 사용하기 > 공기청정 기능 사용하기(옵션) > 공기청정 기능 사용하기 (0.745)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 기능 사용하기 (0.925)"
+   ]
+  },
+  {
+   "id": "howto-02",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "바람만 나오게 하고 싶은데 송풍은 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "송풍 기능 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.443,
+   "d2": 0.978,
+   "top3": [
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 송풍 기능 사용하기 (0.443)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 (0.978)",
+    "AC_FQ18GC1EHN > 공기청정 기능 사용하기 > 공기청정 기능 사용하기(옵션) > 공기청정 기능 사용하기 (0.991)"
+   ]
+  },
+  {
+   "id": "howto-03",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "빨리 시원하게 하는 기능 있나요?",
+   "expect": {
+    "subsection": [
+     "아이스 쿨파워 냉방"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.402,
+   "d2": 0.983,
+   "top3": [
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 > 아이스 쿨파워 냉방 (0.402)",
+    "AC_FQ18GC1EHN > 운전 (0.983)",
+    "AC_FQ18GC1EHN > 공기청정 기능 사용하기 > 공기청정 기능 사용하기(옵션) (0.988)"
+   ]
+  },
+  {
+   "id": "howto-04",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "전기요금 아끼는 절전 모드 설정법",
+   "expect": {
+    "subsection": [
+     "스마트 절전 냉방"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.159,
+   "d2": 0.759,
+   "top3": [
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 > 스마트 절전 냉방 (0.159)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 전력량 확인하기 (0.759)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약 설정하기 (0.978)"
+   ]
+  },
+  {
+   "id": "howto-05",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "잘 때 켜두는 취침 기능은 몇 시간까지 설정돼요?",
+   "expect": {
+    "subsection": [
+     "AI 수면(취침) 설정하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.588,
+   "d2": 0.747,
+   "top3": [
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > AI 수면(취침) 설정하기 (0.588)",
+    "AC_FQ18GC1EHN > 리모컨 살펴보기 > 리모컨 처음 사용하기 (0.747)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약 설정하기 (0.844)"
+   ]
+  },
+  {
+   "id": "howto-06",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "아침 7시에 자동으로 켜지게 예약하고 싶어요",
+   "expect": {
+    "subsection": [
+     "켜짐 예약"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.52,
+   "d2": 0.782,
+   "top3": [
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약 설정하기 (0.520)",
+    "AC_FQ18GC1EHN > 리모컨 살펴보기 > 리모컨 처음 사용하기 (0.782)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > AI 수면(취침) 설정하기 (0.938)"
+   ]
+  },
+  {
+   "id": "howto-07",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "지금까지 전기 얼마나 썼는지 볼 수 있어요?",
+   "expect": {
+    "subsection": [
+     "전력량 확인하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.126,
+   "d2": 0.997,
+   "top3": [
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 전력량 확인하기 (0.126)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 > 스마트 절전 냉방 (0.997)",
+    "AC_FQ18GC1EHN > 운전 (0.998)"
+   ]
+  },
+  {
+   "id": "howto-08",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "버튼 누를 때 삐 소리 안 나게 하는 방법",
+   "expect": {
+    "subsection": [
+     "음량 설정하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.995,
+   "d2": 0.997,
+   "top3": [
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 음량 설정하기 (0.995)",
+    "AC_FQ18GC1EHN > 소음 (0.997)",
+    "AC_FQ18GC1EHN > 조작부 살펴보기 > 실내기 버튼부 (0.999)"
+   ]
+  },
+  {
+   "id": "howto-09",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "밤에 화면 불빛이 너무 밝아요. 끌 수 있나요?",
+   "expect": {
+    "subsection": [
+     "화면 밝기 설정하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.447,
+   "d2": 0.924,
+   "top3": [
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 (0.447)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 (0.924)",
+    "AC_FQ18GC1EHN > 운전 (0.997)"
+   ]
+  },
+  {
+   "id": "howto-10",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "아이가 본체 버튼을 자꾸 눌러요. 못 누르게 잠글 수 있어요?",
+   "expect": {
+    "subsection": [
+     "잠금 기능 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.868,
+   "d2": 0.996,
+   "top3": [
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 잠금 기능 사용하기 (0.868)",
+    "AC_FQ18GC1EHN > 운전 (0.996)",
+    "AC_FQ18GC1EHN > 조작부 살펴보기 > 실내기 버튼부 (0.999)"
+   ]
+  },
+  {
+   "id": "howto-11",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "리모컨 배터리 교체는 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "리모컨 건전지 끼우기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.045,
+   "d2": 0.855,
+   "top3": [
+    "AC_FQ18GC1EHN > 리모컨 살펴보기 > 리모컨 건전지 끼우기 (0.045)",
+    "AC_FQ18GC1EHN > 운전 (0.855)",
+    "AC_FQ18GC1EHN > 경고 > 리모컨을 사용할 때 (0.986)"
+   ]
+  },
+  {
+   "id": "howto-12",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "공기청정 기능만 따로 돌릴 수 있어요?",
+   "expect": {
+    "subsection": [
+     "공기청정 기능 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.204,
+   "d2": 0.932,
+   "top3": [
+    "AC_FQ18GC1EHN > 공기청정 기능 사용하기 > 공기청정 기능 사용하기(옵션) > 공기청정 기능 사용하기 (0.204)",
+    "AC_FQ18GC1EHN > 공기청정 기능 사용하기 > 공기청정 기능 사용하기(옵션) (0.932)",
+    "AC_FQ18GC1EHN > 리모컨 살펴보기 > 리모컨 처음 사용하기 (0.965)"
+   ]
+  },
+  {
+   "id": "howto-13",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "howto",
+   "query": "스마트폰 앱에 에어컨 등록하는 방법",
+   "expect": {
+    "subsection": [
+     "앱 설치 및 제품 등록하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 3,
+   "ok": false,
+   "d1": 0.886,
+   "d2": 0.932,
+   "top3": [
+    "AC_FQ18GC1EHN > 리모컨 살펴보기 > 리모컨 처음 사용하기 (0.886)",
+    "AC_FQ18GC1EHN > 조작부 살펴보기 > 실내기 버튼부 (0.932)",
+    "AC_FQ18GC1EHN > LG ThinQ와 LG 가전 연결하기 > 앱 설치 및 제품 등록하기 (0.955)"
+   ]
+  },
+  {
+   "id": "howto-14",
+   "doc_id": "AC_SQ09GK1WEN",
+   "category": "howto",
+   "query": "정전됐다가 전기 들어오면 자동으로 다시 켜지게 할 수 있어요?",
+   "expect": {
+    "subsection": [
+     "정전 보상"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.396,
+   "d2": 0.995,
+   "top3": [
+    "AC_SQ09GK1WEN > 추가 기능 및 설정하기 > 정전 보상(자동 재운전) 기능 사용하기 (0.396)",
+    "AC_SQ09GK1WEN > 추가 기능 및 설정하기 > 정전 보상(자동 재운전) 기능 사용하기 > 정전 보상 기능 설정 (0.995)",
+    "AC_SQ09GK1WEN > 추가 기능 및 설정하기 > 정전 보상(자동 재운전) 기능 사용하기 > 정전 보상 기능 해제 (0.996)"
+   ]
+  },
+  {
+   "id": "howto-15",
+   "doc_id": "AC_SQ09GK1WEN",
+   "category": "howto",
+   "query": "리모컨 없이 본체에서 켜는 방법",
+   "expect": {
+    "subsection": [
+     "강제 운전 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.305,
+   "d2": 0.925,
+   "top3": [
+    "AC_SQ09GK1WEN > 추가 기능 및 설정하기 > 강제 운전 사용하기 (0.305)",
+    "AC_SQ09GK1WEN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 (0.925)",
+    "AC_SQ09GK1WEN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약 설정하기 (0.952)"
+   ]
+  },
+  {
+   "id": "howto-16",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "howto",
+   "query": "말로 에어컨 조작하려면 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "음성인식 기능 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.813,
+   "d2": 0.878,
+   "top3": [
+    "AC_FQ25GN9BKN > 추가 기능 및 설정하기 > 음성인식 기능 사용하기 > 본체 음성인식 기능 사용하기(옵션) (0.813)",
+    "AC_FQ25GN9BKN > 추가 기능 및 설정하기 > 음성인식 기능 사용하기 (0.878)",
+    "AC_FQ25GN9BKN > 냉방 기본 기능 작동하기 > 냉방 기능 사용하기 (0.946)"
+   ]
+  },
+  {
+   "id": "howto-17",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "howto",
+   "query": "실외기 소리가 시끄러운데 조용하게 돌릴 수 있어요?",
+   "expect": {
+    "subsection": [
+     "저소음 기능 설정하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.806,
+   "d2": 0.974,
+   "top3": [
+    "AC_FQ25GN9BKN > 추가 기능 및 설정하기 > 저소음 기능 설정하기 (0.806)",
+    "AC_FQ25GN9BKN > 소음 (0.974)",
+    "AC_FQ25GN9BKN > 리모컨 살펴보기 > 리모컨 처음 사용하기 (0.984)"
+   ]
+  },
+  {
+   "id": "howto-18",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "howto",
+   "query": "예약해둔 거 취소하려면?",
+   "expect": {
+    "subsection": [
+     "예약 취소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.082,
+   "d2": 0.65,
+   "top3": [
+    "AC_FQ25GN9BKN > 추가 기능 및 설정하기 > 예약 취소하기 (0.082)",
+    "AC_FQ25GN9BKN > 청소하기 > 열교환기 세척 기능 설정하기 (0.650)",
+    "AC_FQ25GN9BKN > 리모컨 살펴보기 > 리모컨 처음 사용하기 (0.967)"
+   ]
+  },
+  {
+   "id": "care-01",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "care",
+   "query": "필터 청소는 얼마나 자주 해야 해요?",
+   "expect": {
+    "subsection": [
+     "필터 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.035,
+   "d2": 0.953,
+   "top3": [
+    "AC_FQ18GC1EHN > 청소하기 > 필터 청소하기 (0.035)",
+    "AC_FQ18GC1EHN > 청소하기 > 필터 교체 알림 초기화하기(옵션) (0.953)",
+    "AC_FQ18GC1EHN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.957)"
+   ]
+  },
+  {
+   "id": "care-02",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "care",
+   "query": "필터 물로 씻어도 되나요?",
+   "expect": {
+    "subsection": [
+     "필터 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.025,
+   "d2": 0.245,
+   "top3": [
+    "AC_FQ18GC1EHN > 청소하기 > 필터 청소하기 (0.025)",
+    "AC_FQ18GC1EHN > 경고 > 제품을 청소할 때 (0.245)",
+    "AC_FQ18GC1EHN > 청소하기 > 필터 청소하기 (0.925)"
+   ]
+  },
+  {
+   "id": "care-03",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "care",
+   "query": "에어컨에서 쿰쿰한 냄새가 나요",
+   "expect": {
+    "subsection": [
+     "냄새에 따른 제거 방법"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.503,
+   "d2": 0.919,
+   "top3": [
+    "AC_FQ18GC1EHN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.503)",
+    "AC_FQ18GC1EHN > 청소하기 > 필터 청소하기 (0.919)",
+    "AC_FQ18GC1EHN > 소음 (0.986)"
+   ]
+  },
+  {
+   "id": "care-04",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "care",
+   "query": "여름 끝나고 오래 안 쓸 때 어떻게 보관해요?",
+   "expect": {
+    "subsection": [
+     "제품 보관하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.635,
+   "d2": 0.999,
+   "top3": [
+    "AC_FQ18GC1EHN > 보관하기 > 제품 보관하기 (0.635)",
+    "AC_FQ18GC1EHN > 에어컨의 모습과 기능 살펴보기 > 사용하기 전 알아두기 (0.999)",
+    "AC_FQ18GC1EHN > 경고 > 리모컨을 사용할 때 (1.000)"
+   ]
+  },
+  {
+   "id": "care-05",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "care",
+   "query": "에어컨 끄면 한동안 바람이 계속 나와요. 이거 뭐예요?",
+   "expect": {
+    "subsection": [
+     "AI 건조 설정하기"
+    ],
+    "body": [
+     "AI 건조"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.617,
+   "d2": 0.887,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.617)",
+    "AC_FQ18GC1EHN > 운전 (0.887)",
+    "AC_FQ18GC1EHN > 리모컨 살펴보기 > 리모컨 처음 사용하기 (0.976)"
+   ]
+  },
+  {
+   "id": "care-06",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "care",
+   "query": "필터 교체 표시등 깜빡이는데 어떻게 없애요?",
+   "expect": {
+    "subsection": [
+     "필터 교체 알림 초기화하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.073,
+   "d2": 0.525,
+   "top3": [
+    "AC_FQ18GC1EHN > 청소하기 > 필터 교체 알림 초기화하기(옵션) (0.073)",
+    "AC_FQ18GC1EHN > 청소하기 > 필터 청소하기 (0.525)",
+    "AC_FQ18GC1EHN > 조작부 살펴보기 > 실내기 표시부 (0.997)"
+   ]
+  },
+  {
+   "id": "care-07",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "care",
+   "query": "안쪽 팬 청소는 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "팬 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.028,
+   "d2": 0.098,
+   "top3": [
+    "AC_FQ18GC1EHN > 청소하기 > 팬 청소하기 (0.028)",
+    "AC_FQ18GC1EHN > 청소하기 > 팬 청소하기 (0.098)",
+    "AC_FQ18GC1EHN > 청소하기 > UVnano 설정하기(옵션) (0.812)"
+   ]
+  },
+  {
+   "id": "care-08",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "care",
+   "query": "클린봇 자동 청소 켜는 방법",
+   "expect": {
+    "subsection": [
+     "클린봇 기능 설정하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.004,
+   "top3": [
+    "AC_FQ25GN9BKN > 청소하기 > 클린봇 기능 설정하기(옵션) (0.001)",
+    "AC_FQ25GN9BKN > 클린봇(옵션) (0.004)",
+    "AC_FQ25GN9BKN > 청소하기 > 먼지통 비움 알림 초기화하기(옵션) (0.565)"
+   ]
+  },
+  {
+   "id": "care-09",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "care",
+   "query": "먼지통은 어떻게 비워요?",
+   "expect": {
+    "subsection": [
+     "먼지통 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.014,
+   "d2": 0.625,
+   "top3": [
+    "AC_FQ25GN9BKN > 청소하기 > 먼지통 비움 알림 초기화하기(옵션) (0.014)",
+    "AC_FQ25GN9BKN > 청소하기 > 먼지통 청소하기(옵션) (0.625)",
+    "AC_FQ25GN9BKN > 청소하기 > 필터 청소하기 (0.997)"
+   ]
+  },
+  {
+   "id": "care-10",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "care",
+   "query": "열교환기 세척 기능 사용법",
+   "expect": {
+    "subsection": [
+     "열교환기 세척 기능 설정하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.012,
+   "top3": [
+    "AC_FQ25GN9BKN > 청소하기 > 열교환기 세척 기능 설정하기 (0.000)",
+    "AC_FQ25GN9BKN > 청소하기 > 팬 청소하기 (0.012)",
+    "AC_FQ25GN9BKN > 경고 > 제품을 청소할 때 (0.075)"
+   ]
+  },
+  {
+   "id": "care-11",
+   "doc_id": "AC_SQ09GK1WEN",
+   "category": "care",
+   "query": "바람 나오는 날개 부분 청소하는 법",
+   "expect": {
+    "subsection": [
+     "상하 풍향 조절기 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.944,
+   "d2": 0.998,
+   "top3": [
+    "AC_SQ09GK1WEN > 청소하기 > 상하 풍향 조절기 청소하기 (0.944)",
+    "AC_SQ09GK1WEN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.998)",
+    "AC_SQ09GK1WEN > 냉방 기본 기능 작동하기 > 제습 기능 사용하기 (1.000)"
+   ]
+  },
+  {
+   "id": "symptom-01",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "전원 버튼 눌러도 안 켜져요",
+   "expect": {
+    "body": [
+     "증상: 제품이 켜지지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 3,
+   "ok": false,
+   "d1": 0.701,
+   "d2": 0.763,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.701)",
+    "AC_FQ18GC1EHN > 소음 (0.763)",
+    "AC_FQ18GC1EHN > 운전 (0.770)"
+   ]
+  },
+  {
+   "id": "symptom-02",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "냉방 켰는데 하나도 안 시원해요",
+   "expect": {
+    "body": [
+     "증상: 냉방을 켰는데 시원하지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.021,
+   "d2": 0.971,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.021)",
+    "AC_FQ18GC1EHN > 에어컨의 모습과 기능 살펴보기 > 사용하기 전 알아두기 (0.971)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 > 아이스 쿨파워 냉방 (0.983)"
+   ]
+  },
+  {
+   "id": "symptom-03",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "리모컨 눌러도 반응이 없어요",
+   "expect": {
+    "body": [
+     "증상: 리모컨이 작동하지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.647,
+   "d2": 0.848,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.647)",
+    "AC_FQ18GC1EHN > 운전 (0.848)",
+    "AC_FQ18GC1EHN > 운전 (0.991)"
+   ]
+  },
+  {
+   "id": "symptom-04",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "찬바람 나오다가 갑자기 멈춰요",
+   "expect": {
+    "body": [
+     "증상: 차가운 바람이 나오다가 멈춰요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.036,
+   "d2": 0.958,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.036)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 > 아이스 쿨파워 냉방 (0.958)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 기능 사용하기 (0.964)"
+   ]
+  },
+  {
+   "id": "symptom-05",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "실내기에서 물이 뚝뚝 떨어져요",
+   "expect": {
+    "body": [
+     "증상: 실내기에서 물이 넘쳐요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.414,
+   "d2": 0.932,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.414)",
+    "AC_FQ18GC1EHN > 운전 (0.932)",
+    "AC_FQ18GC1EHN > 소음 (0.989)"
+   ]
+  },
+  {
+   "id": "symptom-06",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "에어컨에서 흰 연기 같은 게 나와요",
+   "expect": {
+    "body": [
+     "증상: 실내기에서 흰 안개가 나와요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.548,
+   "d2": 0.969,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.548)",
+    "AC_FQ18GC1EHN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.969)",
+    "AC_FQ18GC1EHN > 운전 (0.993)"
+   ]
+  },
+  {
+   "id": "symptom-07",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "아무것도 안 했는데 에어컨이 혼자 켜졌어요",
+   "expect": {
+    "body": [
+     "증상: 제품이 갑자기 작동해요"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.978,
+   "d2": 0.979,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.978)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약 설정하기 (0.979)",
+    "AC_FQ18GC1EHN > 운전 (0.981)"
+   ]
+  },
+  {
+   "id": "symptom-08",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "에어컨 껐는데 계속 돌아가요",
+   "expect": {
+    "body": [
+     "증상: 전원을 껐는데도 계속 작동해요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.366,
+   "d2": 0.712,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.366)",
+    "AC_FQ18GC1EHN > 운전 (0.712)",
+    "AC_FQ18GC1EHN > 운전 (0.772)"
+   ]
+  },
+  {
+   "id": "symptom-09",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "화면에 NO라고 뜨고 안 돼요",
+   "expect": {
+    "body": [
+     "'NO'"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.703,
+   "d2": 0.992,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.703)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 (0.992)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 (0.995)"
+   ]
+  },
+  {
+   "id": "symptom-10",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "본체 표면에 물방울이 맺혀요",
+   "expect": {
+    "body": [
+     "증상: 제품 표면에 이슬이 맺혀요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.893,
+   "d2": 1.0,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.893)",
+    "AC_FQ18GC1EHN > 운전 (1.000)",
+    "AC_FQ18GC1EHN > 운전 (1.000)"
+   ]
+  },
+  {
+   "id": "symptom-11",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "본체 버튼이 안 눌려요",
+   "expect": {
+    "body": [
+     "증상: 실내기 버튼부에서 버튼을 누를 수 없어요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.845,
+   "d2": 0.993,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.845)",
+    "AC_FQ18GC1EHN > 운전 (0.993)",
+    "AC_FQ18GC1EHN > 운전 (0.993)"
+   ]
+  },
+  {
+   "id": "symptom-12",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "실내기에서 이상한 소리가 나요",
+   "expect": {
+    "body": [
+     "증상: 실내기에서 이상한 소리가 나요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.005,
+   "d2": 0.402,
+   "top3": [
+    "AC_FQ18GC1EHN > 소음 (0.005)",
+    "AC_FQ18GC1EHN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.402)",
+    "AC_FQ18GC1EHN > 소음 (0.899)"
+   ]
+  },
+  {
+   "id": "symptom-13",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "와이파이 연결이 안 돼요",
+   "expect": {
+    "body": [
+     "증상: 제품과 스마트폰을 와이파이로 연결할 수 없어요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.134,
+   "d2": 0.68,
+   "top3": [
+    "AC_FQ18GC1EHN > 와이파이 (0.134)",
+    "AC_FQ18GC1EHN > 고장 진단하기 (0.680)",
+    "AC_FQ18GC1EHN > LG ThinQ와 LG 가전 연결하기 > 앱 설치 및 제품 등록하기 (0.781)"
+   ]
+  },
+  {
+   "id": "symptom-14",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "symptom",
+   "query": "표시되는 온도가 실제보다 높게 나와요",
+   "expect": {
+    "body": [
+     "증상: 실내기 표시부에 나타나는 온도가 실제 온도보다 높게 나와요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.019,
+   "d2": 0.569,
+   "top3": [
+    "AC_FQ18GC1EHN > 운전 (0.019)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 기능 사용하기 (0.569)",
+    "AC_FQ18GC1EHN > 운전 (0.922)"
+   ]
+  },
+  {
+   "id": "symptom-15",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "symptom",
+   "query": "클린봇이 안 움직여요",
+   "expect": {
+    "body": [
+     "증상: 클린봇이 작동하지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.608,
+   "d2": 0.889,
+   "top3": [
+    "AC_FQ25GN9BKN > 클린봇(옵션) (0.608)",
+    "AC_FQ25GN9BKN > 주의 > 제품을 사용할 때 (0.889)",
+    "AC_FQ25GN9BKN > 클린봇(옵션) (0.915)"
+   ]
+  },
+  {
+   "id": "symptom-16",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "symptom",
+   "query": "미세먼지 표시가 계속 좋음이에요. 고장인가요?",
+   "expect": {
+    "body": [
+     "증상: 종합 청정도가 계속"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.092,
+   "d2": 0.799,
+   "top3": [
+    "AC_FQ25GN9BKN > 공기청정(옵션) (0.092)",
+    "AC_FQ25GN9BKN > 공기청정(옵션) (0.799)",
+    "AC_FQ25GN9BKN > 공기청정(옵션) (0.895)"
+   ]
+  },
+  {
+   "id": "symptom-17",
+   "doc_id": "AC_SQ09GK1WEN",
+   "category": "symptom",
+   "query": "바람 나오는 쪽 날개가 안 닫혀요",
+   "expect": {
+    "body": [
+     "증상: 실내기의 풍향 조절기가 닫히지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.991,
+   "d2": 0.997,
+   "top3": [
+    "AC_SQ09GK1WEN > 운전 (0.991)",
+    "AC_SQ09GK1WEN > 운전 (0.997)",
+    "AC_SQ09GK1WEN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 > 소프트 바람 (0.998)"
+   ]
+  },
+  {
+   "id": "error-01",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "error_code",
+   "query": "CH05 에러가 떴어요",
+   "expect": {
+    "subsection": [
+     "CH05"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 9.9,
+   "top3": [
+    "LG-AC-COMMON > CH05 / E0 / CH53 (통신 에러) (0.000)"
+   ]
+  },
+  {
+   "id": "error-02",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "error_code",
+   "query": "에어컨에 CH04라고 나와요",
+   "expect": {
+    "subsection": [
+     "CH04"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 9.9,
+   "top3": [
+    "LG-AC-COMMON > CH04 / FL (배수 불량, 만수 감지) (0.000)"
+   ]
+  },
+  {
+   "id": "error-03",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "error_code",
+   "query": "실내기랑 실외기 통신 에러래요",
+   "expect": {
+    "subsection": [
+     "CH05",
+     "CH93",
+     "CH66"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.006,
+   "d2": 0.006,
+   "top3": [
+    "LG-AC-COMMON > CH93 (실내기·실외기 통신 이상) (0.006)",
+    "LG-AC-COMMON > CH05 / E0 / CH53 (통신 에러) (0.006)",
+    "LG-AC-COMMON > CH66 (통신선 결선/배관 연결 이상) (0.014)"
+   ]
+  },
+  {
+   "id": "error-04",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "error_code",
+   "query": "CH38 뜨는데 가스 부족인가요?",
+   "expect": {
+    "subsection": [
+     "CH38"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 9.9,
+   "top3": [
+    "LG-AC-COMMON > CH38 / F4 (냉매 가스 부족) (0.000)"
+   ]
+  },
+  {
+   "id": "error-05",
+   "doc_id": "AC_SQ09GK1WEN",
+   "category": "error_code",
+   "query": "ch 61 에러",
+   "expect": {
+    "subsection": [
+     "CH61"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 9.9,
+   "top3": [
+    "LG-AC-COMMON > CH61 (실외기/실내기 온도 이상, 제품에 따라 P4/P6/P7/P8/CH34) (0.000)"
+   ]
+  },
+  {
+   "id": "error-06",
+   "doc_id": "AC_FQ25GN9BKN",
+   "category": "error_code",
+   "query": "CH07 에러 뭐예요",
+   "expect": {
+    "subsection": [
+     "CH07"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 9.9,
+   "top3": [
+    "LG-AC-COMMON > CH07 (2in1 냉난방 겸용 운전모드 불일치) (0.000)"
+   ]
+  },
+  {
+   "id": "error-07",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "error_code",
+   "query": "실외기에 전원이 안 들어온다고 CH237 떠요",
+   "expect": {
+    "subsection": [
+     "CH237"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.998,
+   "top3": [
+    "LG-AC-COMMON > CH237 / CH238 (2021년 이후 제품, 실외기 전원 미공급) (0.000)",
+    "AC_FQ18GC1EHN > 운전 (0.998)"
+   ]
+  },
+  {
+   "id": "safety-01",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "safety",
+   "query": "에어컨에서 타는 냄새가 나는데 계속 써도 돼요?",
+   "expect": {
+    "subsection": [
+     "제품 이상 및 고장이 발생했을 때"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": null,
+   "ok": false,
+   "d1": 0.903,
+   "d2": 0.988,
+   "top3": [
+    "AC_FQ18GC1EHN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.903)",
+    "AC_FQ18GC1EHN > 에어컨의 모습과 기능 살펴보기 > 사용하기 전 알아두기 (0.988)",
+    "AC_FQ18GC1EHN > 보관하기 > 제품 보관하기 (0.996)"
+   ]
+  },
+  {
+   "id": "safety-02",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "safety",
+   "query": "집에 가스 냄새 나는데 에어컨 켜도 돼요?",
+   "expect": {
+    "subsection": [
+     "만일의 경우를 대비하여"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.988,
+   "d2": 0.995,
+   "top3": [
+    "AC_FQ18GC1EHN > 에어컨의 모습과 기능 살펴보기 > 사용하기 전 알아두기 (0.988)",
+    "AC_FQ18GC1EHN > 경고 > 만일의 경우를 대비하여 (0.995)",
+    "AC_FQ18GC1EHN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.996)"
+   ]
+  },
+  {
+   "id": "safety-03",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "safety",
+   "query": "젖은 손으로 플러그 만져도 돼요?",
+   "expect": {
+    "subsection": [
+     "전원 플러그나 전원선을 다룰 때"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.014,
+   "d2": 0.998,
+   "top3": [
+    "AC_FQ18GC1EHN > 경고 > 전원 플러그나 전원선을 다룰 때 (0.014)",
+    "AC_FQ18GC1EHN > 경고 > 제품을 사용할 때 (0.998)",
+    "AC_FQ18GC1EHN > 청소하기 > 팬 청소하기 (1.000)"
+   ]
+  },
+  {
+   "id": "info-01",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "info",
+   "query": "무상 보증 기간이 몇 년이에요?",
+   "expect": {
+    "subsection": [
+     "품질 보증 기간"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.073,
+   "d2": 0.92,
+   "top3": [
+    "AC_FQ18GC1EHN > 제품 보증서 > 품질 보증 기간 (0.073)",
+    "AC_FQ18GC1EHN > 제품 보증서 > 소비자 분쟁 해결 기준 (0.920)",
+    "AC_FQ18GC1EHN > 제품 보증서 > 고객이 비용을 내야 하는 유상 서비스에 대한 책임 (0.991)"
+   ]
+  },
+  {
+   "id": "info-02",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "info",
+   "query": "필터 새로 사려면 어디서 사요?",
+   "expect": {
+    "subsection": [
+     "소모품 구매하기",
+     "필터 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.93,
+   "d2": 0.998,
+   "top3": [
+    "AC_FQ18GC1EHN > 청소하기 > 필터 청소하기 (0.930)",
+    "AC_FQ18GC1EHN > 에어컨의 모습과 기능 살펴보기 > 소모품 구매하기 (0.998)",
+    "AC_FQ18GC1EHN > 청소하기 > 필터 교체 알림 초기화하기(옵션) (0.999)"
+   ]
+  },
+  {
+   "id": "info-03",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "info",
+   "query": "이사할 때 에어컨 옮기면 비용 내야 돼요?",
+   "expect": {
+    "subsection": [
+     "고객이 비용을 내야 하는 유상 서비스"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.996,
+   "d2": 0.997,
+   "top3": [
+    "AC_FQ18GC1EHN > 에어컨의 모습과 기능 살펴보기 > 사용하기 전 알아두기 (0.996)",
+    "AC_FQ18GC1EHN > 제품 보증서 > 고객이 비용을 내야 하는 유상 서비스에 대한 책임 (0.997)",
+    "AC_FQ18GC1EHN > 에어컨의 모습과 기능 살펴보기 > 사용하기 전 알아두기 (0.998)"
+   ]
+  },
+  {
+   "id": "none-01",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "none",
+   "query": "클린봇 자동 청소 켜는 방법",
+   "expect": {
+    "none": true
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.964,
+   "d2": 0.968,
+   "top3": [
+    "AC_FQ18GC1EHN > 청소하기 > AI 건조 설정하기 (0.964)",
+    "AC_FQ18GC1EHN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약 설정하기 (0.968)",
+    "AC_FQ18GC1EHN > 공기청정 기능 사용하기 > 공기청정 기능 사용하기(옵션) > 공기청정 기능 사용하기 (0.978)"
+   ]
+  },
+  {
+   "id": "none-02",
+   "doc_id": "AC_SQ09GK1WEN",
+   "category": "none",
+   "query": "먼지통은 어떻게 비워요?",
+   "expect": {
+    "none": true
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.998,
+   "d2": 0.999,
+   "top3": [
+    "AC_SQ09GK1WEN > 청소하기 > 상하 풍향 조절기 청소하기 (0.998)",
+    "AC_SQ09GK1WEN > 청소하기 > 필터 청소하기 (0.999)",
+    "AC_SQ09GK1WEN > 냄새 제거하기 > 냄새에 따른 제거 방법 알아보기 (0.999)"
+   ]
+  },
+  {
+   "id": "none-03",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "none",
+   "query": "말로 에어컨 조작하려면 어떻게 해요?",
+   "expect": {
+    "none": true
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.95,
+   "d2": 0.979,
+   "top3": [
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 기능 사용하기 (0.950)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 제습 기능 사용하기 (0.979)",
+    "AC_FQ18GC1EHN > 냉방 기본 기능 작동하기 > 냉방 부가 기능 설정하기 (0.989)"
+   ]
+  },
+  {
+   "id": "none-04",
+   "doc_id": "AC_FQ18GC1EHN",
+   "category": "none",
+   "query": "세탁기 탈수가 안 돼요",
+   "expect": {
+    "none": true
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.992,
+   "d2": 0.994,
+   "top3": [
+    "AC_FQ18GC1EHN > 청소하기 > 팬 청소하기 (0.992)",
+    "AC_FQ18GC1EHN > 제품 보증서 > 소비자 분쟁 해결 기준 (0.994)",
+    "AC_FQ18GC1EHN > 운전 (0.994)"
+   ]
+  },
+  {
+   "id": "rf-howto-01",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "howto",
+   "query": "냉장고 온도는 어디서 조절해요?",
+   "expect": {
+    "subsection": [
+     "제어창 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.082,
+   "d2": 0.139,
+   "top3": [
+    "RF_GC-B40BSCQ > 제어창 > 제어창 사용하기 (0.082)",
+    "RF_GC-B40BSCQ > 냉장고의 모습과 기능 살펴보기 > 냉장고 내부 (0.139)",
+    "RF_GC-B40BSCQ > 냉장고의 모습과 기능 살펴보기 > 냉장고 내부 (0.201)"
+   ]
+  },
+  {
+   "id": "rf-howto-02",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "howto",
+   "query": "얼음 만드는 기능 어떻게 써요?",
+   "expect": {
+    "subsection": [
+     "아이스 메이커 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.626,
+   "d2": 0.781,
+   "top3": [
+    "RF_GC-B40BSCQ > 아이스 메이커 > 아이스 메이커 사용하기 (0.626)",
+    "RF_GC-B40BSCQ > 냉장고의 모습과 기능 살펴보기 > 냉장고 내부 (0.781)",
+    "RF_GC-B40BSCQ > 냉장고의 모습과 기능 살펴보기 > 냉장고 내부 (0.926)"
+   ]
+  },
+  {
+   "id": "rf-howto-03",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "howto",
+   "query": "야채 서랍 빼서 씻고 싶은데 어떻게 분리해요?",
+   "expect": {
+    "subsection": [
+     "야채 서랍 분리/조립하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.017,
+   "d2": 0.92,
+   "top3": [
+    "RF_GC-B40BSCQ > 상칸 서랍 > 야채 서랍 분리/조립하기 (0.017)",
+    "RF_GC-B40BSCQ > 중칸 서랍 > 중칸 서랍 분리/조립하기 > 분리하기 (0.920)",
+    "RF_GC-B40BSCQ > 하칸 서랍 > 하칸 서랍 분리/조립하기 > 분리하기 (0.941)"
+   ]
+  },
+  {
+   "id": "rf-howto-04",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "howto",
+   "query": "문 열어두면 소리 나는 거 뭐예요?",
+   "expect": {
+    "subsection": [
+     "문 열림 경보"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.713,
+   "d2": 0.945,
+   "top3": [
+    "RF_GC-B40BSCQ > 알아두면 좋은 정보 > 문 열림 경보 (0.713)",
+    "RF_GC-B40BSCQ > 부품 (0.945)",
+    "RF_GC-B40BSCQ > 소음 (0.962)"
+   ]
+  },
+  {
+   "id": "rf-howto-05",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "howto",
+   "query": "김치는 어느 칸에 넣는 게 좋아요?",
+   "expect": {
+    "subsection": [
+     "중칸 서랍"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.291,
+   "d2": 0.319,
+   "top3": [
+    "RF_GC-B40BSCQ > 중칸 서랍 > 중칸 서랍 사용하기 > 중칸 서랍에서 김치를 보관하는 방법 (0.291)",
+    "RF_GC-B40BSCQ > 중칸 서랍 > 중칸 서랍 사용하기 (0.319)",
+    "RF_GC-B40BSCQ > 냉장고의 모습과 기능 살펴보기 > 냉장고 내부 (0.576)"
+   ]
+  },
+  {
+   "id": "rf-care-01",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "care",
+   "query": "냉장고 안쪽 청소는 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "내부 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.015,
+   "d2": 0.1,
+   "top3": [
+    "RF_GC-B40BSCQ > 청소하기 > 내부 청소하기 (0.015)",
+    "RF_GC-B40BSCQ > 청소하기 > 청소할 때 알아두기 (0.100)",
+    "RF_GC-B40BSCQ > 냉장 & 냉동 (0.602)"
+   ]
+  },
+  {
+   "id": "rf-care-02",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "care",
+   "query": "이사할 때 냉장고 옮기는 요령",
+   "expect": {
+    "subsection": [
+     "옮길 때 알아두기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.013,
+   "d2": 0.767,
+   "top3": [
+    "RF_GC-B40BSCQ > 제품을 옮길 때 > 옮길 때 알아두기 (0.013)",
+    "RF_GC-B40BSCQ > 제품을 설치할 때 > 설치할 때 알아두기 (0.767)",
+    "RF_GC-B40BSCQ > 주의 > 제품을 설치할 때 (0.958)"
+   ]
+  },
+  {
+   "id": "rf-sym-01",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "symptom",
+   "query": "냉동실에 성에가 계속 생겨요",
+   "expect": {
+    "body": [
+     "증상: 냉동실에 성에가 생겨요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.091,
+   "d2": 0.117,
+   "top3": [
+    "RF_GC-B40BSCQ > 냉장 & 냉동 (0.091)",
+    "RF_GC-B40BSCQ > 냉장 & 냉동 (0.117)",
+    "RF_GC-B40BSCQ > 알아두면 좋은 정보 > 사용하기 전 알아두기 (0.209)"
+   ]
+  },
+  {
+   "id": "rf-sym-02",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "symptom",
+   "query": "냉장실 채소가 얼어버려요",
+   "expect": {
+    "body": [
+     "증상: 냉장실 식품이 얼어요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.68,
+   "d2": 0.966,
+   "top3": [
+    "RF_GC-B40BSCQ > 냉장 & 냉동 (0.680)",
+    "RF_GC-B40BSCQ > 부품 (0.966)",
+    "RF_GC-B40BSCQ > 냉장 & 냉동 (0.975)"
+   ]
+  },
+  {
+   "id": "rf-sym-03",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "symptom",
+   "query": "냉장고 문이 잘 안 닫혀요",
+   "expect": {
+    "body": [
+     "증상: 냉장고 문이 잘 닫히지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.007,
+   "d2": 0.035,
+   "top3": [
+    "RF_GC-B40BSCQ > 부품 (0.007)",
+    "RF_GC-B40BSCQ > 부품 (0.035)",
+    "RF_GC-B40BSCQ > 냉장 & 냉동 (0.233)"
+   ]
+  },
+  {
+   "id": "rf-sym-04",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "symptom",
+   "query": "냉장고 옆면이 뜨끈해요 고장인가요",
+   "expect": {
+    "body": [
+     "증상: 냉장고를 만지면 따뜻해요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.048,
+   "d2": 0.615,
+   "top3": [
+    "RF_GC-B40BSCQ > 부품 (0.048)",
+    "RF_GC-B40BSCQ > 부품 (0.615)",
+    "RF_GC-B40BSCQ > 소음 (0.805)"
+   ]
+  },
+  {
+   "id": "rf-sym-05",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "symptom",
+   "query": "냉장고에서 웅웅 소리가 나요",
+   "expect": {
+    "body": [
+     "증상: 냉장고에서 시끄러운 소음이나 이상한 소리가 나요",
+     "증상: 냉장고에서 소리가 들려요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.038,
+   "d2": 0.413,
+   "top3": [
+    "RF_GC-B40BSCQ > 소음 (0.038)",
+    "RF_GC-B40BSCQ > 소음 (0.413)",
+    "RF_GC-B40BSCQ > 부품 (0.878)"
+   ]
+  },
+  {
+   "id": "rf-sym-06",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "symptom",
+   "query": "냉장고 안에서 냄새가 나요",
+   "expect": {
+    "body": [
+     "증상: 냉장고 안에서 냄새가 나요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.014,
+   "d2": 0.233,
+   "top3": [
+    "RF_GC-B40BSCQ > 부품 (0.014)",
+    "RF_GC-B40BSCQ > 소음 (0.233)",
+    "RF_GC-B40BSCQ > 소음 (0.581)"
+   ]
+  },
+  {
+   "id": "rf-err-01",
+   "doc_id": "RF_GC-B40BSCQ",
+   "category": "error_code",
+   "query": "냉장고에 Er FF 떠요",
+   "expect": {
+    "subsection": [
+     "Er(E) FF"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.998,
+   "top3": [
+    "LG-RF-COMMON > Er(E) FF / Er(E) rF (냉동실·냉장실 팬 모터 이상) (0.000)",
+    "RF_GC-B40BSCQ > 소음 (0.998)"
+   ]
+  },
+  {
+   "id": "wm-howto-01",
+   "doc_id": "WM_F21VDSK",
+   "category": "howto",
+   "query": "세탁 코스 어떻게 고르고 돌려요?",
+   "expect": {
+    "subsection": [
+     "세탁 코스/옵션 선택하고 세탁하기",
+     "세탁 코스 자세히 알아보기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.087,
+   "d2": 0.141,
+   "top3": [
+    "WM_F21VDSK > 세탁 코스 및 옵션 사용하기 > 세탁 코스/옵션 선택하고 세탁하기 (0.087)",
+    "WM_F21VDSK > 세탁 코스 및 옵션 사용하기 > 세탁 코스 자세히 알아보기 (0.141)",
+    "WM_F21VDSK > 세탁 코스 및 옵션 사용하기 > 세탁 코스 설정 변경하기 (0.386)"
+   ]
+  },
+  {
+   "id": "wm-howto-02",
+   "doc_id": "WM_F21VDSK",
+   "category": "howto",
+   "query": "세탁 시작했는데 빨래 하나 더 넣을 수 있어요?",
+   "expect": {
+    "subsection": [
+     "빨래 추가하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.418,
+   "d2": 0.98,
+   "top3": [
+    "WM_F21VDSK > 편리한 기능 사용하기 > 빨래 추가하기 (0.418)",
+    "WM_F21VDSK > 알아두면 좋은 정보 > 세탁물 분류하기 (0.980)",
+    "WM_F21VDSK > 세탁 코스 및 옵션 사용하기 > 세탁 코스 자세히 알아보기 (0.993)"
+   ]
+  },
+  {
+   "id": "wm-howto-03",
+   "doc_id": "WM_F21VDSK",
+   "category": "howto",
+   "query": "탈수만 따로 돌리는 방법",
+   "expect": {
+    "subsection": [
+     "헹굼/탈수 중 한 가지만 하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.161,
+   "d2": 0.93,
+   "top3": [
+    "WM_F21VDSK > 편리한 기능 사용하기 > 헹굼/탈수 중 한 가지만 하기 (0.161)",
+    "WM_F21VDSK > 편리한 기능 사용하기 > 버튼 잠금 설정/해제하기 > 옵션 변경하기 (0.930)",
+    "WM_F21VDSK > 사용 관련 (0.977)"
+   ]
+  },
+  {
+   "id": "wm-howto-04",
+   "doc_id": "WM_F21VDSK",
+   "category": "howto",
+   "query": "액체세제는 어디에 얼마나 넣어요?",
+   "expect": {
+    "subsection": [
+     "액체 세제 넣고 사용하기",
+     "세제 투입량 가이드"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.094,
+   "d2": 0.42,
+   "top3": [
+    "WM_F21VDSK > 세제 또는 섬유 유연제 사용하기 > 세제 넣고 사용하기 > 액체 세제 넣고 사용하기 (0.094)",
+    "WM_F21VDSK > 세제 또는 섬유 유연제 사용하기 > 세제 넣고 사용하기 > 가루 세제 넣고 사용하기 (0.420)",
+    "WM_F21VDSK > 세제 또는 섬유 유연제 사용하기 > 세제 투입량 가이드 (0.665)"
+   ]
+  },
+  {
+   "id": "wm-howto-05",
+   "doc_id": "WM_F21VDSK",
+   "category": "howto",
+   "query": "아이가 버튼 못 누르게 잠글 수 있어요?",
+   "expect": {
+    "subsection": [
+     "버튼 잠금 설정/해제하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.974,
+   "d2": 0.998,
+   "top3": [
+    "WM_F21VDSK > 편리한 기능 사용하기 > 버튼 잠금 설정/해제하기 (0.974)",
+    "WM_F21VDSK > 편리한 기능 사용하기 > 버튼 잠금 설정/해제하기 > 옵션 변경하기 (0.998)",
+    "WM_F21VDSK > 경고 > 제품을 폐기 및 재활용할 때 (0.999)"
+   ]
+  },
+  {
+   "id": "wm-howto-06",
+   "doc_id": "WM_F21VDSK",
+   "category": "howto",
+   "query": "밤에 예약해서 아침에 끝나게 하고 싶어요",
+   "expect": {
+    "subsection": [
+     "예약 설정하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.954,
+   "d2": 0.999,
+   "top3": [
+    "WM_F21VDSK > 편리한 기능 사용하기 > 예약 설정하기 (0.954)",
+    "WM_F21VDSK > 편리한 기능 사용하기 > 버튼 잠금 설정/해제하기 > 옵션 변경하기 (0.999)",
+    "WM_F21VDSK > 편리한 기능 사용하기 > 내마음 코스 설정하기 > 내마음 코스 사용하기 (1.000)"
+   ]
+  },
+  {
+   "id": "wm-care-01",
+   "doc_id": "WM_F21VDSK",
+   "category": "care",
+   "query": "세탁기 통 살균은 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "통살균 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.003,
+   "d2": 0.044,
+   "top3": [
+    "WM_F21VDSK > 제품 관리하기 > 통살균 사용하기 (0.003)",
+    "WM_F21VDSK > 제품 관리하기 > 통살균 사용하기 (0.044)",
+    "LG-WM-COMMON > tCL (통세척 시기 알림) (0.461)"
+   ]
+  },
+  {
+   "id": "wm-care-02",
+   "doc_id": "WM_F21VDSK",
+   "category": "care",
+   "query": "세탁기 필터 청소 방법 알려줘",
+   "expect": {
+    "subsection": [
+     "배수 펌프 거름망 청소하기",
+     "급수구 거름망 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": null,
+   "ok": false,
+   "d1": 0.723,
+   "d2": 0.754,
+   "top3": [
+    "WM_F21VDSK > 알아두면 좋은 정보 > 세탁물 분류하기 (0.723)",
+    "WM_F21VDSK > 제품 관리하기 > 통살균 사용하기 (0.754)",
+    "WM_F21VDSK > 제품 청소하기 > 외부 청소하기 (0.909)"
+   ]
+  },
+  {
+   "id": "wm-care-03",
+   "doc_id": "WM_F21VDSK",
+   "category": "care",
+   "query": "겨울에 세탁기 얼었을 때 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "얼었을 경우에는",
+     "동결 확인"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.009,
+   "d2": 0.078,
+   "top3": [
+    "WM_F21VDSK > 겨울철 동결 해결하기 > 얼었을 경우에는 (0.009)",
+    "LG-WM-COMMON > OE (배수 안됨, 동결) (0.078)",
+    "LG-WM-COMMON > FF (동결 감지) (0.126)"
+   ]
+  },
+  {
+   "id": "wm-care-04",
+   "doc_id": "WM_F21VDSK",
+   "category": "care",
+   "query": "세제통에 세제가 굳어 있어요 청소 방법",
+   "expect": {
+    "subsection": [
+     "세제함 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.133,
+   "d2": 0.547,
+   "top3": [
+    "WM_F21VDSK > 제품 청소하기 > 세제함 청소하기 (0.133)",
+    "WM_F21VDSK > 사용 관련 (0.547)",
+    "WM_F21VDSK > 세제 또는 섬유 유연제 사용하기 > 세제 넣고 사용하기 > 가루 세제 넣고 사용하기 (0.858)"
+   ]
+  },
+  {
+   "id": "wm-sym-01",
+   "doc_id": "WM_F21VDSK",
+   "category": "symptom",
+   "query": "탈수할 때 쿵쾅거리고 소음이 심해요",
+   "expect": {
+    "body": [
+     "증상: 소음 또는 진동이 심해요",
+     "증상: 탈수 시 쿵쾅거리다가"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.07,
+   "d2": 0.643,
+   "top3": [
+    "WM_F21VDSK > 사용 관련 (0.070)",
+    "WM_F21VDSK > 사용 관련 (0.643)",
+    "WM_F21VDSK > 사용 관련 (0.735)"
+   ]
+  },
+  {
+   "id": "wm-sym-02",
+   "doc_id": "WM_F21VDSK",
+   "category": "symptom",
+   "query": "세탁 끝났는데 빨래가 축축해요",
+   "expect": {
+    "body": [
+     "증상: 탈수가 끝나도 세탁물이 축축해요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.064,
+   "d2": 0.989,
+   "top3": [
+    "WM_F21VDSK > 사용 관련 (0.064)",
+    "WM_F21VDSK > 에러 메시지 (0.989)",
+    "WM_F21VDSK > 사용 관련 (0.995)"
+   ]
+  },
+  {
+   "id": "wm-sym-03",
+   "doc_id": "WM_F21VDSK",
+   "category": "symptom",
+   "query": "세탁기 문 아래로 물이 새요",
+   "expect": {
+    "body": [
+     "증상: 세탁기 문 아래쪽에서 물이 흘러 나와요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.05,
+   "d2": 0.93,
+   "top3": [
+    "WM_F21VDSK > 사용 관련 (0.050)",
+    "WM_F21VDSK > 사용 관련 (0.930)",
+    "WM_F21VDSK > 세탁 코스 및 옵션 사용하기 > 세탁 코스/옵션 선택하고 세탁하기 (0.954)"
+   ]
+  },
+  {
+   "id": "wm-sym-04",
+   "doc_id": "WM_F21VDSK",
+   "category": "symptom",
+   "query": "전원 버튼 눌러도 안 켜져요",
+   "expect": {
+    "body": [
+     "증상: 전원이 들어오지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 3,
+   "ok": false,
+   "d1": 0.709,
+   "d2": 0.73,
+   "top3": [
+    "WM_F21VDSK > 사용 관련 (0.709)",
+    "WM_F21VDSK > 에러 메시지 (0.730)",
+    "WM_F21VDSK > 사용 관련 (0.798)"
+   ]
+  },
+  {
+   "id": "wm-err-01",
+   "doc_id": "WM_F21VDSK",
+   "category": "error_code",
+   "query": "UE 뜨면서 탈수가 안 돼요",
+   "expect": {
+    "subsection": [
+     "UE"
+    ],
+    "body": [
+     "증상: UE"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.148,
+   "top3": [
+    "LG-WM-COMMON > UE (불균형, 탈수 안됨) (0.000)",
+    "WM_F21VDSK > 에러 메시지 (0.148)",
+    "WM_F21VDSK > 에러 메시지 (0.957)"
+   ]
+  },
+  {
+   "id": "wm-err-02",
+   "doc_id": "WM_F21VDSK",
+   "category": "error_code",
+   "query": "세탁기에 IE라고 떠요",
+   "expect": {
+    "subsection": [
+     "IE"
+    ],
+    "body": [
+     "증상: IE"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.472,
+   "top3": [
+    "LG-WM-COMMON > IE (급수 안됨) (0.000)",
+    "WM_F21VDSK > 에러 메시지 (0.472)",
+    "WM_F21VDSK > 에러 메시지 (0.997)"
+   ]
+  },
+  {
+   "id": "wm-err-03",
+   "doc_id": "WM_F21VDSK",
+   "category": "error_code",
+   "query": "dE 에러 문이 안 닫힌다는데",
+   "expect": {
+    "subsection": [
+     "dE"
+    ],
+    "body": [
+     "증상: dE"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.007,
+   "d2": 0.283,
+   "top3": [
+    "LG-WM-COMMON > dE / dE1 / dE2 (도어 안 닫힘) (0.007)",
+    "WM_F21VDSK > 에러 메시지 (0.283)",
+    "WM_F21VDSK > 에러 메시지 (0.453)"
+   ]
+  },
+  {
+   "id": "wm-err-04",
+   "doc_id": "WM_F21VDSK",
+   "category": "error_code",
+   "query": "OE 뜨고 물이 안 빠져요",
+   "expect": {
+    "subsection": [
+     "OE"
+    ],
+    "body": [
+     "증상: OE"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.859,
+   "top3": [
+    "LG-WM-COMMON > OE (배수 안됨, 동결) (0.000)",
+    "WM_F21VDSK > 에러 메시지 (0.859)",
+    "WM_F21VDSK > 겨울철 동결 해결하기 > 얼었을 경우에는 (0.974)"
+   ]
+  },
+  {
+   "id": "noappl-07",
+   "doc_id": null,
+   "category": "symptom",
+   "query": "F21VDSK 세탁기 배수가 안 돼요",
+   "expect": {
+    "subsection": [
+     "OE"
+    ],
+    "body": [
+     "증상: OE",
+     "배수"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.241,
+   "d2": 0.3,
+   "top3": [
+    "LG-WM-COMMON > OE (배수 안됨, 동결) (0.241)",
+    "LG-WM-COMMON > FF (동결 감지) (0.300)",
+    "WM_F21VDSK > 에러 메시지 (0.952)"
+   ]
+  },
+  {
+   "id": "ss-ac-01",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "symptom",
+   "query": "리모컨을 눌러도 에어컨이 반응이 없어요",
+   "expect": {
+    "subsection": [
+     "리모컨이 작동하지 않아요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.241,
+   "d2": 0.95,
+   "top3": [
+    "AC_AF17B6474WSN > 작동법 > 리모컨이 작동하지 않아요. (0.241)",
+    "AC_AF17B6474WSN > 사용전 확인하기 (0.950)",
+    "AC_AF17B6474WSN > 작동법 > 리모컨 사용 시 벽걸이형 에어컨도 작동해요. (0.964)"
+   ]
+  },
+  {
+   "id": "ss-ac-02",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "symptom",
+   "query": "켰는데 찬바람이 바로 안 나와요",
+   "expect": {
+    "subsection": [
+     "찬 바람이 왜 바로 나오지"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.049,
+   "d2": 0.251,
+   "top3": [
+    "AC_AF17B6474WSN > 냉방 안됨 > 찬 바람이 왜 바로 나오지 않나요? (0.049)",
+    "AC_AF17B6474WSN > 냉방 안됨 > 찬 바람이 나오지 않는 것 같아요. (0.251)",
+    "AC_AF17B6474WSN > 실외기 작동 > 실외기의 팬이 늦게 돌아가기 시작해요. (0.440)"
+   ]
+  },
+  {
+   "id": "ss-ac-03",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "symptom",
+   "query": "에어컨에서 꿉꿉한 냄새가 나요",
+   "expect": {
+    "subsection": [
+     "이상한 냄새가 나요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.506,
+   "top3": [
+    "AC_AF17B6474WSN > 냄새 > 이상한 냄새가 나요. (0.001)",
+    "AC_AF17B6474WSN > 소리 > 이상한 소리가 나요. (0.506)",
+    "AC_AF17B6474WSN > 전자 제품을 버리려면 (0.852)"
+   ]
+  },
+  {
+   "id": "ss-ac-04",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "howto",
+   "query": "필터는 어떻게 청소해요?",
+   "expect": {
+    "subsection": [
+     "필터 청소하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.006,
+   "d2": 0.046,
+   "top3": [
+    "AC_AF17B6474WSN > 필터 청소하기 (0.006)",
+    "AC_AF17B6474WSN > 제품 청소하기 > 제품 청소하기 (0.046)",
+    "AC_AF17B6474WSN > 실내기 > 실내기 (0.345)"
+   ]
+  },
+  {
+   "id": "ss-ac-05",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "howto",
+   "query": "자동으로 꺼지게 예약하고 싶어요",
+   "expect": {
+    "subsection": [
+     "예약 기능 사용하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.024,
+   "d2": 0.552,
+   "top3": [
+    "AC_AF17B6474WSN > 예약 기능 사용하기 (0.024)",
+    "AC_AF17B6474WSN > 예약 기능 사용하기 > 예약 기능 사용하기 (0.552)",
+    "AC_AF17B6474WSN > 작동법 > 예약이 안 돼요. (0.995)"
+   ]
+  },
+  {
+   "id": "ss-ac-06",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "howto",
+   "query": "스마트폰 앱으로 에어컨 켤 수 있어요?",
+   "expect": {
+    "subsection": [
+     "SmartThings"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.397,
+   "d2": 0.678,
+   "top3": [
+    "AC_AF17B6474WSN > SmartThings 앱 사용하기 (0.397)",
+    "AC_AF17B6474WSN > SmartThings 앱 사용하기 (0.678)",
+    "AC_AF17B6474WSN >  (0.985)"
+   ]
+  },
+  {
+   "id": "ss-ac-07",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "error_code",
+   "query": "C101 뜨는데 뭐예요",
+   "expect": {
+    "subsection": [
+     "C101"
+    ]
+   },
+   "brand": "samsung",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.223,
+   "top3": [
+    "SAMSUNG-AC-COMMON > C101/E101, C102/E102, C124/E124 (실내기-실외기 통신 불량) (0.000)",
+    "AC_AF17B6474WSN > 확인(Check) 사항 > 실내기 디스플레이에 이상한 표시가 나타나요. (0.223)"
+   ]
+  },
+  {
+   "id": "ss-ac-08",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "symptom",
+   "query": "잠잘 때 소리가 너무 커요",
+   "expect": {
+    "subsection": [
+     "잠잘 때 시끄러워요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.026,
+   "d2": 0.957,
+   "top3": [
+    "AC_AF17B6474WSN > 소리 > 잠잘 때 시끄러워요. (0.026)",
+    "AC_AF17B6474WSN > 소리 > 이상한 소리가 나요. (0.957)",
+    "AC_AF17B6474WSN > 냄새 > 이상한 냄새가 나요. (0.998)"
+   ]
+  },
+  {
+   "id": "ss-rf-01",
+   "doc_id": "RF_RS84B5041WW",
+   "category": "symptom",
+   "query": "정수기에서 물이 안 나와요",
+   "expect": {
+    "subsection": [
+     "디스펜서에서 물이 안 나와요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.62,
+   "d2": 0.862,
+   "top3": [
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 디스펜서에서 물이 안 나와요. (해당 모델만 참조하세요.) (0.620)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 디스펜서에서 얼음이 안 나와요. (해당 모델만 참조하세요. (0.862)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 물이 안 시원해요. (해당 모델만 참조하세요.) (0.932)"
+   ]
+  },
+  {
+   "id": "ss-rf-02",
+   "doc_id": "RF_RS84B5041WW",
+   "category": "symptom",
+   "query": "냉장고 옆면이 뜨거운데 고장인가요",
+   "expect": {
+    "subsection": [
+     "만지면 뜨거워요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.003,
+   "d2": 0.017,
+   "top3": [
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 냉장고 바닥에서 뜨거운 바람이 나와요. (0.003)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 만지면 뜨거워요! (0.017)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 소음이 심하고 이상한 소리가 나요. (0.426)"
+   ]
+  },
+  {
+   "id": "ss-rf-03",
+   "doc_id": "RF_RS84B5041WW",
+   "category": "symptom",
+   "query": "냉동실에 성에가 껴요",
+   "expect": {
+    "subsection": [
+     "성에가 생겨요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.008,
+   "d2": 0.021,
+   "top3": [
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요) (0.008)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 냉장고 본체, 냉동실 실내등 덮개에 이슬이 맺혀요! (0.021)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 물 흐르는 소리가 나요! (꾸르륵, 지글지글, 벅벅 등) (0.434)"
+   ]
+  },
+  {
+   "id": "ss-rf-04",
+   "doc_id": "RF_RS84B5041WW",
+   "category": "care",
+   "query": "정수 필터 교체는 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "정수필터 교체하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.007,
+   "d2": 0.048,
+   "top3": [
+    "RF_RS84B5041WW > 정수필터 교체하기 (해당 모델만 참조하세요.) (0.007)",
+    "RF_RS84B5041WW > 정수필터 교체하기 (해당 모델만 참조하세요.) (0.048)",
+    "RF_RS84B5041WW > 버튼과 표시부 (0.984)"
+   ]
+  },
+  {
+   "id": "ss-rf-05",
+   "doc_id": "RF_RS84B5041WW",
+   "category": "howto",
+   "query": "냉장고 문을 떼어내고 싶어요",
+   "expect": {
+    "subsection": [
+     "문 분리하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.225,
+   "d2": 0.695,
+   "top3": [
+    "RF_RS84B5041WW > 냉동실/냉장실 문 분리하기 (0.225)",
+    "RF_RS84B5041WW > 냉동실/냉장실 문 분리하기 (0.695)",
+    "RF_RS84B5041WW > 냉동실/냉장실 선반 (0.701)"
+   ]
+  },
+  {
+   "id": "ss-rf-06",
+   "doc_id": "RF_RS84B5041WW",
+   "category": "symptom",
+   "query": "냉장고에서 물 흐르는 소리가 나요",
+   "expect": {
+    "subsection": [
+     "물 흐르는 소리가 나요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.462,
+   "top3": [
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 물 흐르는 소리가 나요! (꾸르륵, 지글지글, 벅벅 등) (0.001)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 냉장고 안에서 '뚝'하는 소리가 나요! (뚝,딱,뚜둑, 달 (0.462)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > '웅~', '웽~', '드르륵', '덜컥'하는 소리가 나요 (0.586)"
+   ]
+  },
+  {
+   "id": "ss-wm-01",
+   "doc_id": "WM_WA19CG6745BV",
+   "category": "howto",
+   "query": "세제는 어디에 넣어요?",
+   "expect": {
+    "subsection": [
+     "세제 넣고 사용하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.031,
+   "d2": 0.379,
+   "top3": [
+    "WM_WA19CG6745BV > 세제 넣고 사용하기 (0.031)",
+    "WM_WA19CG6745BV > 유연제 넣고 사용하기 (0.379)",
+    "WM_WA19CG6745BV > 세제 넣고 사용하기 > ﻿ (0.912)"
+   ]
+  },
+  {
+   "id": "ss-wm-02",
+   "doc_id": "WM_WA19CG6745BV",
+   "category": "symptom",
+   "query": "탈수가 안 돼요",
+   "expect": {
+    "body": [
+     "증상: 탈수가 안 돼요",
+     "탈수가 되지 않아요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.034,
+   "d2": 0.112,
+   "top3": [
+    "WM_WA19CG6745BV > 점검 코드 (0.034)",
+    "WM_WA19CG6745BV > 문제 해결 (0.112)",
+    "WM_WA19CG6745BV > 문제 해결 (0.130)"
+   ]
+  },
+  {
+   "id": "ss-wm-03",
+   "doc_id": "WM_WA19CG6745BV",
+   "category": "symptom",
+   "query": "세탁기 밑으로 물이 새요",
+   "expect": {
+    "body": [
+     "증상: 물이 새요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": null,
+   "ok": false,
+   "d1": 0.207,
+   "d2": 0.591,
+   "top3": [
+    "SAMSUNG-WM-COMMON > LE/LC (급수량 부족, 배수호스 오설치) (0.207)",
+    "WM_WA19CG6745BV > 사용 관련 (0.591)",
+    "WM_WA19CG6745BV > 급수 호스 연결하기 (0.795)"
+   ]
+  },
+  {
+   "id": "ss-wm-04",
+   "doc_id": "WM_WA19CG6745BV",
+   "category": "symptom",
+   "query": "세탁기에서 악취가 나요",
+   "expect": {
+    "body": [
+     "증상: 악취가 나요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.01,
+   "d2": 0.179,
+   "top3": [
+    "WM_WA19CG6745BV > 문제 해결 (0.010)",
+    "WM_WA19CG6745BV > 사용 관련 (0.179)",
+    "WM_WA19CG6745BV > 문제 해결 (0.641)"
+   ]
+  },
+  {
+   "id": "ss-wm-05",
+   "doc_id": "WM_WA19CG6745BV",
+   "category": "error_code",
+   "query": "UE 떴어요",
+   "expect": {
+    "subsection": [
+     "UE/UB"
+    ],
+    "body": [
+     "불균형"
+    ]
+   },
+   "brand": "samsung",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 1.0,
+   "top3": [
+    "SAMSUNG-WM-COMMON > UE/UB, U6 (불균형 감지, 언밸런스) (0.000)",
+    "WM_WA19CG6745BV > 점검 코드 (1.000)"
+   ]
+  },
+  {
+   "id": "ss-wm-06",
+   "doc_id": "WM_WA19CG6745BV",
+   "category": "care",
+   "query": "세탁기 필터 청소 방법",
+   "expect": {
+    "subsection": [
+     "필터 분리/청소하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.324,
+   "top3": [
+    "WM_WA19CG6745BV > 필터 분리/청소하기 (0.001)",
+    "WM_WA19CG6745BV > 세탁 전 확인사항 (0.324)",
+    "WM_WA19CG6745BV > 청소 관련 (0.396)"
+   ]
+  },
+  {
+   "id": "ss-wm-07",
+   "doc_id": "WM_WA19CG6745BV",
+   "category": "symptom",
+   "query": "세탁기가 심하게 흔들려요",
+   "expect": {
+    "body": [
+     "증상: 세탁기가 심하게 흔들리거나"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.038,
+   "d2": 0.333,
+   "top3": [
+    "WM_WA19CG6745BV > 문제 해결 (0.038)",
+    "WM_WA19CG6745BV > 증상 확인 (0.333)",
+    "WM_WA19CG6745BV > 수평 확인하기 (0.496)"
+   ]
+  },
+  {
+   "id": "sa11-01",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "symptom",
+   "query": "리모컨 눌러도 반응이 없어요",
+   "expect": {
+    "subsection": [
+     "리모컨이 작동하지 않아요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.212,
+   "d2": 0.949,
+   "top3": [
+    "AC_AR11B9150HZT > 작동법 > 리모컨이 작동하지 않아요. (0.212)",
+    "AC_AR11B9150HZT > 확인(Check) 사항 > 실내기 디스플레이에 이상한 표시가 나타나요. (0.949)",
+    "AC_AR11B9150HZT > 리모컨 (0.967)"
+   ]
+  },
+  {
+   "id": "sa11-02",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "symptom",
+   "query": "에어컨이 안 꺼져요",
+   "expect": {
+    "subsection": [
+     "전원이 꺼지지 않아요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.03,
+   "d2": 0.585,
+   "top3": [
+    "AC_AR11B9150HZT > 전원 > 전원이 꺼지지 않아요. (0.030)",
+    "AC_AR11B9150HZT > SmartThings 앱으로 사용하기 (0.585)",
+    "AC_AR11B9150HZT > 기본 기능 사용하기 (0.632)"
+   ]
+  },
+  {
+   "id": "sa11-03",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "symptom",
+   "query": "온도를 못 바꿔요",
+   "expect": {
+    "subsection": [
+     "온도 조절이 안 돼요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.393,
+   "d2": 0.889,
+   "top3": [
+    "AC_AR11B9150HZT > 작동법 > 온도 조절이 안 돼요. (0.393)",
+    "AC_AR11B9150HZT > 실외기 작동 > 실외기의 팬이 돌아가지 않아요. (0.889)",
+    "AC_AR11B9150HZT > 작동법 > 제품이 작동하지 않아요. (0.971)"
+   ]
+  },
+  {
+   "id": "sa11-04",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "symptom",
+   "query": "실외기 팬이 안 돌아요",
+   "expect": {
+    "subsection": [
+     "실외기의 팬이 돌아가지 않아요"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.047,
+   "top3": [
+    "AC_AR11B9150HZT > 실외기 작동 > 실외기의 팬이 돌아가지 않아요. (0.002)",
+    "AC_AR11B9150HZT > 실외기 작동 > 실외기의 팬이 돌아가다가 정지돼요. (0.047)",
+    "AC_AR11B9150HZT > 실외기 작동 > 실외기의 팬이 늦게 돌아가기 시작해요. (0.065)"
+   ]
+  },
+  {
+   "id": "sa11-05",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "symptom",
+   "query": "에어컨에서 물이 떨어져요",
+   "expect": {
+    "subsection": [
+     "이슬이 맺히고 물이 떨어져요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.206,
+   "top3": [
+    "AC_AR11B9150HZT > 물방울/습기 > 에어컨에 이슬이 맺히고 물이 떨어져요. (0.001)",
+    "AC_AR11B9150HZT > 소리 > 이상한 소리가 나요. (0.206)",
+    "AC_AR11B9150HZT > 전자 제품을 버리려면 (0.290)"
+   ]
+  },
+  {
+   "id": "sa11-06",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "symptom",
+   "query": "흰 연기 같은 게 나와요",
+   "expect": {
+    "subsection": [
+     "흰 수증기가 나와요"
+    ]
+   },
+   "note": "vocab_gap",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.572,
+   "d2": 0.991,
+   "top3": [
+    "AC_AR11B9150HZT > 물방울/습기 > 공기 배출구에서 흰 수증기가 나와요. (0.572)",
+    "AC_AR11B9150HZT > 냄새 > 이상한 냄새가 나요. (0.991)",
+    "AC_AR11B9150HZT > 전자 제품을 버리려면 (0.993)"
+   ]
+  },
+  {
+   "id": "sa11-07",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "howto",
+   "query": "꺼짐 예약은 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "예약 기능 사용하기"
+    ],
+    "body": [
+     "켜짐/꺼짐 예약"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.011,
+   "d2": 0.045,
+   "top3": [
+    "AC_AR11B9150HZT > SmartThings 앱으로 사용하기 (0.011)",
+    "AC_AR11B9150HZT > 예약 기능 사용하기 (0.045)",
+    "AC_AR11B9150HZT > 예약 기능 사용하기 > 예약 기능 사용하기 (0.473)"
+   ]
+  },
+  {
+   "id": "sa11-08",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "howto",
+   "query": "워시클린이 뭐예요?",
+   "expect": {
+    "body": [
+     "워시클린"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.076,
+   "d2": 0.566,
+   "top3": [
+    "AC_AR11B9150HZT > 부가 기능 사용하기 > 부가 기능 사용하기 (0.076)",
+    "AC_AR11B9150HZT > 냄새 > 이상한 냄새가 나요. (0.566)",
+    "AC_AR11B9150HZT > 전자 제품을 버리려면 (1.000)"
+   ]
+  },
+  {
+   "id": "sa11-09",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "care",
+   "query": "실외기 청소는 어떻게 해요?",
+   "expect": {
+    "subsection": [
+     "제품 청소하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.006,
+   "d2": 0.565,
+   "top3": [
+    "AC_AR11B9150HZT > 제품 청소하기 (0.006)",
+    "AC_AR11B9150HZT > 부가 기능 사용하기 > 부가 기능 사용하기 (0.565)",
+    "AC_AR11B9150HZT > 제품 청소하기 (0.952)"
+   ]
+  },
+  {
+   "id": "sa09-01",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "symptom",
+   "query": "찬바람이 안 나와요",
+   "expect": {
+    "subsection": [
+     "냉방 안됨"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.014,
+   "d2": 0.606,
+   "top3": [
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 냉방 안됨 (0.014)",
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 실외기 작동 (0.606)",
+    "AC_AR09T9170HCN > 무더운 여름철, 에어컨으로 사용하기 > 무풍 기능 (0.957)"
+   ]
+  },
+  {
+   "id": "sa09-02",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "symptom",
+   "query": "에어컨에서 이상한 냄새가 나요",
+   "expect": {
+    "subsection": [
+     "서비스를 요청하기 전에 > 냄새"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.027,
+   "top3": [
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 냄새 (0.001)",
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 소리 (0.027)",
+    "AC_AR09T9170HCN > 안전을 위한 주의 사항 > 폐 전자 제품 신고 및 수수료 납부 (0.098)"
+   ]
+  },
+  {
+   "id": "sa09-03",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "symptom",
+   "query": "실내기 화면에 이상한 표시가 떠요",
+   "expect": {
+    "subsection": [
+     "확인(Check) 사항"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.008,
+   "d2": 0.942,
+   "top3": [
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 확인(Check) 사항 (0.008)",
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 소리 (0.942)",
+    "AC_AR09T9170HCN > 안전을 위한 주의 사항 (0.998)"
+   ]
+  },
+  {
+   "id": "sa09-04",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "howto",
+   "query": "무풍 모드 켜는 법",
+   "expect": {
+    "subsection": [
+     "무풍 기능"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.394,
+   "d2": 0.587,
+   "top3": [
+    "AC_AR09T9170HCN > 제품 청소하기 (0.394)",
+    "AC_AR09T9170HCN > 무더운 여름철, 에어컨으로 사용하기 > 무풍 기능 (0.587)",
+    "AC_AR09T9170HCN > 무풍 패널 청소하기 (0.595)"
+   ]
+  },
+  {
+   "id": "sa09-05",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "care",
+   "query": "필터 청소 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "필터 청소하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.022,
+   "d2": 0.353,
+   "top3": [
+    "AC_AR09T9170HCN > 필터 청소하기 (0.022)",
+    "AC_AR09T9170HCN > 사시사철, 도움되는 숨은 기능 활용하기 > 필터리셋 기능 (0.353)",
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 냄새 (0.801)"
+   ]
+  },
+  {
+   "id": "sa09-06",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "howto",
+   "query": "필터리셋이 뭐예요?",
+   "expect": {
+    "subsection": [
+     "필터리셋 기능"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.05,
+   "d2": 0.999,
+   "top3": [
+    "AC_AR09T9170HCN > 사시사철, 도움되는 숨은 기능 활용하기 > 필터리셋 기능 (0.050)",
+    "AC_AR09T9170HCN > 안전을 위한 주의 사항 > 폐 전자 제품 신고 및 수수료 납부 (0.999)",
+    "AC_AR09T9170HCN > 서비스를 요청하기 전에 > 냄새 (1.000)"
+   ]
+  },
+  {
+   "id": "sa09-07",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "howto",
+   "query": "열대야에 잘 때 쓰는 기능 있어요?",
+   "expect": {
+    "subsection": [
+     "열대야 쾌면 기능"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.096,
+   "d2": 0.869,
+   "top3": [
+    "AC_AR09T9170HCN > 알뜰하게 사용하기 > 열대야 쾌면 기능 (0.096)",
+    "AC_AR09T9170HCN > 사시사철, 도움되는 숨은 기능 활용하기 > 정음 기능 (0.869)",
+    "AC_AR09T9170HCN > 사시사철, 도움되는 숨은 기능 활용하기 > MAX 기능 (0.889)"
+   ]
+  },
+  {
+   "id": "sa09-08",
+   "doc_id": "AC_AR09T9170HCN",
+   "category": "howto",
+   "query": "전기 얼마나 쓰는지 볼 수 있어요?",
+   "expect": {
+    "subsection": [
+     "전력량 확인"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.276,
+   "d2": 0.995,
+   "top3": [
+    "AC_AR09T9170HCN > 어디서나, SmartThings 앱으로 스마트하게 사용하기 > 전력량 확인 기능 (0.276)",
+    "AC_AR09T9170HCN >  (0.995)",
+    "AC_AR09T9170HCN > 어디서나, SmartThings 앱으로 스마트하게 사용하기 > 절전 기능 (0.998)"
+   ]
+  },
+  {
+   "id": "srf85-01",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "symptom",
+   "query": "얼음에서 냄새가 나요",
+   "expect": {
+    "subsection": [
+     "얼음에서 냄새가"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.005,
+   "d2": 0.959,
+   "top3": [
+    "RF_RF85B90P1AP > 안심하세요! 고장이 아닙니다 > 얼음에서 냄새가 나요. (0.005)",
+    "RF_RF85B90P1AP > 빅 아이스메이커 고장 신고 전 확인하기 > 이상한 소리가 나요. (0.959)",
+    "RF_RF85B90P1AP > 빅 아이스메이커 (자동 아이스메이커) (0.977)"
+   ]
+  },
+  {
+   "id": "srf85-02",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "symptom",
+   "query": "김치가 얼었어요",
+   "expect": {
+    "subsection": [
+     "김치가 얼었"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.017,
+   "d2": 0.102,
+   "top3": [
+    "RF_RF85B90P1AP > 김치 기능 고장 신고 전 확인하기 > 김치가 얼었어요! (0.017)",
+    "RF_RF85B90P1AP > 김치 기능 고장 신고 전 확인하기 > 김치가 너무 빨리 시어요. (0.102)",
+    "RF_RF85B90P1AP > 김치 기능 고장 신고 전 확인하기 > 김치가 물러졌어요! (0.613)"
+   ]
+  },
+  {
+   "id": "srf85-03",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "symptom",
+   "query": "김치가 너무 빨리 익어요",
+   "expect": {
+    "subsection": [
+     "김치가 너무"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.018,
+   "d2": 0.554,
+   "top3": [
+    "RF_RF85B90P1AP > 김치 기능 고장 신고 전 확인하기 > 김치가 너무 빨리 시어요. (0.018)",
+    "RF_RF85B90P1AP > 김치 기능 고장 신고 전 확인하기 > 김치가 물러졌어요! (0.554)",
+    "RF_RF85B90P1AP > 김치 기능 고장 신고 전 확인하기 > 김치에서 이상한 냄새가 나요. (0.987)"
+   ]
+  },
+  {
+   "id": "srf85-04",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "symptom",
+   "query": "오토필 물통에 물이 안 채워져요",
+   "expect": {
+    "subsection": [
+     "물이 안 채워져"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.023,
+   "top3": [
+    "RF_RF85B90P1AP > 오토필 고장 신고 전 확인하기 > 물이 안 채워져요. (0.002)",
+    "RF_RF85B90P1AP > 오토필(Autofill) 물통 (0.023)",
+    "RF_RF85B90P1AP > 정수기 필터 모듈 고장 신고 전 확인하기 > 물맛이 이상해요. (0.364)"
+   ]
+  },
+  {
+   "id": "srf85-05",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "symptom",
+   "query": "정수기 물맛이 이상해요",
+   "expect": {
+    "subsection": [
+     "물맛"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.02,
+   "d2": 0.897,
+   "top3": [
+    "RF_RF85B90P1AP > 정수기 필터 모듈 고장 신고 전 확인하기 > 물맛이 이상해요. (0.020)",
+    "RF_RF85B90P1AP > 정수기 필터 모듈 고장 신고 전 확인하기 > 이상한 소리가 나요. (0.897)",
+    "RF_RF85B90P1AP > 정수기 필터 모듈 고장 신고 전 확인하기 > 정수된 물이 뿌옇고 미세한 입자가 보여요. (0.960)"
+   ]
+  },
+  {
+   "id": "srf85-06",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "symptom",
+   "query": "물 흐르는 소리가 나요",
+   "expect": {
+    "subsection": [
+     "물 흐르는 소리"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.006,
+   "d2": 0.01,
+   "top3": [
+    "RF_RF85B90P1AP > 안심하세요! 고장이 아닙니다 > 물 흐르는 소리가 나요! (꾸르륵, 지글지글, 벅벅 등) (0.006)",
+    "RF_RF85B90P1AP > 정수기 필터 모듈 고장 신고 전 확인하기 > 물 흐르는 소리가 나요. (0.010)",
+    "RF_RF85B90P1AP > 정수기 필터 모듈 고장 신고 전 확인하기 > 이상한 소리가 나요. (0.693)"
+   ]
+  },
+  {
+   "id": "srf85-07",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "howto",
+   "query": "해동 기능은 어떻게 써요?",
+   "expect": {
+    "subsection": [
+     "해동 기능 사용하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.022,
+   "d2": 0.806,
+   "top3": [
+    "RF_RF85B90P1AP > 해동 기능 사용하기 (0.022)",
+    "RF_RF85B90P1AP > 조작부 (패밀리허브가 아닌 모델) (0.806)",
+    "RF_RF85B90P1AP > SmartThings (0.997)"
+   ]
+  },
+  {
+   "id": "srf85-08",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "care",
+   "query": "정수 필터 교체 방법",
+   "expect": {
+    "subsection": [
+     "제품 관리하기"
+    ],
+    "body": [
+     "정수 필터 교체"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.005,
+   "d2": 0.011,
+   "top3": [
+    "RF_RF85B90P1AP > 제품 관리하기 (0.005)",
+    "RF_RF85B90P1AP > 제품 관리하기 (0.011)",
+    "RF_RF85B90P1AP > 정수기 필터 모듈 고장 신고 전 확인하기 > 필터 교체 방법을 모르겠어요. (0.116)"
+   ]
+  },
+  {
+   "id": "srf85-09",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "howto",
+   "query": "빅스비로 음성 제어 되나요?",
+   "expect": {
+    "subsection": [
+     "Bixby"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.264,
+   "top3": [
+    "RF_RF85B90P1AP > Bixby (0.001)",
+    "RF_RF85B90P1AP > 조작부 (패밀리허브 모델) (0.264)",
+    "RF_RF85B90P1AP > 패밀리허브 모델 조작부 고장 신고 전 확인하기 > 음성 인식이 잘 동작하지 않아요. (1.000)"
+   ]
+  },
+  {
+   "id": "srf85-10",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "howto",
+   "query": "양쪽 문 높이가 안 맞아요",
+   "expect": {
+    "subsection": [
+     "문 높이 차 조정",
+     "정면에서 보면 문"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.477,
+   "d2": 0.758,
+   "top3": [
+    "RF_RF85B90P1AP > 냉장고 문 높이 차 조정 방법 (0.477)",
+    "RF_RF85B90P1AP > 안심하세요! 고장이 아닙니다 > 정면에서 보면 문이 약간 내려가 있어요. 문의 위, 아래  (0.758)",
+    "RF_RF85B90P1AP > 안심하세요! 고장이 아닙니다 > 냉장고 문이 잘 안 열려요! (0.969)"
+   ]
+  },
+  {
+   "id": "srf85-11",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "symptom",
+   "query": "패밀리허브 화면이 먹통이에요",
+   "expect": {
+    "subsection": [
+     "패밀리허브 모델 조작부 고장"
+    ]
+   },
+   "brand": "samsung",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.902,
+   "d2": 0.943,
+   "top3": [
+    "RF_RF85B90P1AP > 패밀리허브 모델 조작부 고장 신고 전 확인하기 > 냉장고 안을 촬영한 사진이 찌그러져 있어 (0.902)",
+    "RF_RF85B90P1AP > 패밀리허브 모델 조작부 고장 신고 전 확인하기 > 냉장고 화면 터치가 잘 되지 않아요. (0.943)",
+    "RF_RF85B90P1AP > 조작부 (패밀리허브 모델) (0.979)"
+   ]
+  },
+  {
+   "id": "srf85-12",
+   "doc_id": "RF_RF85B90P1AP",
+   "category": "howto",
+   "query": "키친핏 설치가 뭐예요",
+   "expect": {
+    "subsection": [
+     "키친핏"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.308,
+   "d2": 1.0,
+   "top3": [
+    "RF_RF85B90P1AP > 페어(PAIR) 또는 키친핏 설치하기 (0.308)",
+    "RF_RF85B90P1AP > 설치 관련 (1.000)",
+    "RF_RF85B90P1AP > 조작부 (패밀리허브 모델) (1.000)"
+   ]
+  },
+  {
+   "id": "srt42-01",
+   "doc_id": "RF_RT42CG6024S9",
+   "category": "symptom",
+   "query": "냉장고 옆면이 뜨거워요",
+   "expect": {
+    "subsection": [
+     "만지면 뜨거워요"
+    ]
+   },
+   "note": "vocab_gap",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.009,
+   "d2": 0.035,
+   "top3": [
+    "RF_RT42CG6024S9 > 고장 신고 전 확인하기 > 만지면 뜨거워요! (0.009)",
+    "RF_RT42CG6024S9 > 고장 신고 전 확인하기 > 냉장고 바닥에서 뜨거운 바람이 나와요. (0.035)",
+    "RF_RT42CG6024S9 > 냉장고 외관 (0.600)"
+   ]
+  },
+  {
+   "id": "srt42-02",
+   "doc_id": "RF_RT42CG6024S9",
+   "category": "symptom",
+   "query": "냉장실 음식이 얼어요",
+   "expect": {
+    "subsection": [
+     "냉장실의 식품이 얼"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.4,
+   "top3": [
+    "RF_RT42CG6024S9 > 고장 신고 전 확인하기 > 냉장실의 식품이 얼어요. (0.002)",
+    "SAMSUNG-RF-COMMON > 온도 표시 깜빡임 + 냉기 없음 (12시간 이상 고온 유지 경고) (0.400)",
+    "RF_RT42CG6024S9 > 02. 급속냉장 (0.422)"
+   ]
+  },
+  {
+   "id": "srt42-03",
+   "doc_id": "RF_RT42CG6024S9",
+   "category": "symptom",
+   "query": "조작부 불이 안 들어와요",
+   "expect": {
+    "subsection": [
+     "조작부가 켜지지"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.618,
+   "d2": 0.776,
+   "top3": [
+    "RF_RT42CG6024S9 > 고장 신고 전 확인하기 > 조작부가 켜지지 않아요. (0.618)",
+    "RF_RT42CG6024S9 > 02. 급속냉장 (0.776)",
+    "RF_RT42CG6024S9 > 고장 신고 전 확인하기 > 냉장고 조작부(표시부) 버튼을 눌러도 작동하지 않아요. (0.956)"
+   ]
+  },
+  {
+   "id": "srt42-04",
+   "doc_id": "RF_RT42CG6024S9",
+   "category": "howto",
+   "query": "급속냉장이 뭐예요",
+   "expect": {
+    "subsection": [
+     "급속냉장"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.079,
+   "d2": 0.571,
+   "top3": [
+    "RF_RT42CG6024S9 > 02. 급속냉장 (0.079)",
+    "RF_RT42CG6024S9 >  (0.571)",
+    "RF_RT42CG6024S9 > 스마트폰을 통한 냉장고 모니터링 및 제어하기 > SmartThings 앱 살펴보기 (0.839)"
+   ]
+  },
+  {
+   "id": "srt42-05",
+   "doc_id": "RF_RT42CG6024S9",
+   "category": "care",
+   "query": "냉장고 뒷면 청소는 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "냉장고 뒷면"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.011,
+   "d2": 0.018,
+   "top3": [
+    "RF_RT42CG6024S9 > 냉장고 뒷면 (0.011)",
+    "RF_RT42CG6024S9 > 냉장고 외관 (0.018)",
+    "RF_RT42CG6024S9 > 냉장고 안과 부속품 (0.093)"
+   ]
+  },
+  {
+   "id": "srq49-01",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "howto",
+   "query": "김치 맛있게 숙성하려면 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "김치 맛있게 숙성하기",
+     "김치 숙성 기능"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.024,
+   "d2": 0.03,
+   "top3": [
+    "RF_RQ49C9002S9 > 김치 맛있게 숙성하기 (0.024)",
+    "RF_RQ49C9002S9 > 김치 숙성 기능 사용 방법 (상/중/하칸) (0.030)",
+    "RF_RQ49C9002S9 > 각 버튼의 기능 (0.160)"
+   ]
+  },
+  {
+   "id": "srq49-02",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "howto",
+   "query": "김치 발효시키는 방법",
+   "expect": {
+    "subsection": [
+     "김치 맛있게 숙성하기",
+     "김치 숙성 기능"
+    ]
+   },
+   "note": "vocab_gap",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.396,
+   "d2": 0.571,
+   "top3": [
+    "RF_RQ49C9002S9 > 김치 맛있게 숙성하기 (0.396)",
+    "RF_RQ49C9002S9 > 김치에 대한 잦은 질문 (0.571)",
+    "RF_RQ49C9002S9 > 김치 숙성 기능 사용 방법 (상/중/하칸) (0.618)"
+   ]
+  },
+  {
+   "id": "srq49-03",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "howto",
+   "query": "김치통 어떻게 꺼내요",
+   "expect": {
+    "subsection": [
+     "김치통 꺼내기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.01,
+   "d2": 0.01,
+   "top3": [
+    "RF_RQ49C9002S9 > 중칸/하칸 김치통 꺼내기 > 하칸 (0.010)",
+    "RF_RQ49C9002S9 > 중칸/하칸 김치통 꺼내기 > 중칸 (0.010)",
+    "RF_RQ49C9002S9 > 김치 저장용기 사용하기 (0.014)"
+   ]
+  },
+  {
+   "id": "srq49-04",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "care",
+   "query": "탈취기 분해 방법",
+   "expect": {
+    "subsection": [
+     "탈취기 분해"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.002,
+   "top3": [
+    "RF_RQ49C9002S9 > 탈취기 분해 > 탈취기 분해 : 상칸 밀폐전문실 (0.001)",
+    "RF_RQ49C9002S9 > 탈취기 분해 > 탈취기 분해 : 중칸, 하칸 (0.002)",
+    "RF_RQ49C9002S9 > 탈취기 분해 > 탈취기 분해 : 상칸 (0.003)"
+   ]
+  },
+  {
+   "id": "srq49-05",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "symptom",
+   "query": "경보음이 계속 울려요",
+   "expect": {
+    "subsection": [
+     "경보음이 울려요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.075,
+   "d2": 0.221,
+   "top3": [
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 경보음이 울려요. (0.075)",
+    "SAMSUNG-RF-COMMON > 딩동딩동 경보음 (도어 열림 알림) (0.221)",
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 표시부에 글씨가 나타나요. / 표시부가 깜박여요. (0.690)"
+   ]
+  },
+  {
+   "id": "srq49-06",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "symptom",
+   "query": "김치냉장고 앞면이 뜨거워요",
+   "expect": {
+    "subsection": [
+     "앞면/뒷면이 뜨거"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.981,
+   "top3": [
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 김치냉장고의 앞면/뒷면이 뜨거워요. (0.001)",
+    "RF_RQ49C9002S9 > 설치 및 장소 고르기 (0.981)",
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 표시부에 글씨가 나타나요. / 표시부가 깜박여요. (0.991)"
+   ]
+  },
+  {
+   "id": "srq49-07",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "symptom",
+   "query": "표시부에 글씨가 떠요",
+   "expect": {
+    "subsection": [
+     "표시부에 글씨"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.063,
+   "d2": 0.999,
+   "top3": [
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 표시부에 글씨가 나타나요. / 표시부가 깜박여요. (0.063)",
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 경보음이 울려요. (0.999)",
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 새 제품인데 내부에 물기가 있어요. (1.000)"
+   ]
+  },
+  {
+   "id": "srq49-08",
+   "doc_id": "RF_RQ49C9002S9",
+   "category": "howto",
+   "query": "곡물 디스펜서 조립하는 법",
+   "expect": {
+    "subsection": [
+     "곡물 디스펜서"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.001,
+   "top3": [
+    "RF_RQ49C9002S9 > 곡물 디스펜서 (별매품) > 조립 방법 (0.000)",
+    "RF_RQ49C9002S9 > 곡물 디스펜서 (별매품) > 조립 방법 (0.001)",
+    "RF_RQ49C9002S9 > 안심하세요! 고장이 아닙니다 > 성에나 이슬이 생겨요. (0.715)"
+   ]
+  },
+  {
+   "id": "swf17-01",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "symptom",
+   "query": "급수가 안 돼요",
+   "expect": {
+    "body": [
+     "증상: 급수가 안 돼요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.061,
+   "d2": 0.876,
+   "top3": [
+    "WM_WF17M9100KG > 문제 해결 (0.061)",
+    "WM_WF17M9100KG > 점검 코드 (0.876)",
+    "WM_WF17M9100KG > 문제 해결 (0.945)"
+   ]
+  },
+  {
+   "id": "swf17-02",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "symptom",
+   "query": "세탁기 문이 안 열려요",
+   "expect": {
+    "body": [
+     "증상: 문이 열리지 않아요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.038,
+   "d2": 0.098,
+   "top3": [
+    "WM_WF17M9100KG > 문제 해결 (0.038)",
+    "WM_WF17M9100KG > 사용 관련 (0.098)",
+    "SAMSUNG-WM-COMMON > DE/DC (도어 감지 이상) (0.483)"
+   ]
+  },
+  {
+   "id": "swf17-03",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "symptom",
+   "query": "탈수 끝났는데 옷이 축축해요",
+   "expect": {
+    "body": [
+     "증상: 탈수가 끝나도 축축"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.086,
+   "d2": 0.95,
+   "top3": [
+    "WM_WF17M9100KG > 문제 해결 (0.086)",
+    "WM_WF17M9100KG > 의류변색/얼룩/탈색이 생기는 유형 (0.950)",
+    "WM_WF17M9100KG > 문제 해결 (0.972)"
+   ]
+  },
+  {
+   "id": "swf17-04",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "symptom",
+   "query": "겨울에 세탁기가 얼었어요",
+   "expect": {
+    "body": [
+     "증상: 겨울철 세탁기가 얼었"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.298,
+   "top3": [
+    "WM_WF17M9100KG > 문제 해결 (0.002)",
+    "WM_WF17M9100KG > 설치 관련 (0.298)",
+    "WM_WF17M9100KG > 사용 관련 (0.975)"
+   ]
+  },
+  {
+   "id": "swf17-05",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "symptom",
+   "query": "세탁 끝났는데 세제가 남아 있어요",
+   "expect": {
+    "body": [
+     "증상: 사용 후에도 세제가 남아"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.295,
+   "d2": 0.389,
+   "top3": [
+    "WM_WF17M9100KG > 문제 해결 (0.295)",
+    "WM_WF17M9100KG > 세제 넣고 사용하기 (0.389)",
+    "WM_WF17M9100KG > 세제함 분리/청소하기 (0.813)"
+   ]
+  },
+  {
+   "id": "swf17-06",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "care",
+   "query": "배수필터 청소 방법",
+   "expect": {
+    "subsection": [
+     "배수필터 청소"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.087,
+   "top3": [
+    "WM_WF17M9100KG > 배수필터 청소/잔수 제거하기 (0.002)",
+    "WM_WF17M9100KG > 세탁 전 확인사항 (0.087)",
+    "WM_WF17M9100KG > 점검 코드 (0.340)"
+   ]
+  },
+  {
+   "id": "swf17-07",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "care",
+   "query": "세탁기 필터 청소 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "배수필터 청소",
+     "급수호스 연결구 청소"
+    ]
+   },
+   "note": "vocab_gap",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.032,
+   "d2": 0.479,
+   "top3": [
+    "WM_WF17M9100KG > 배수필터 청소/잔수 제거하기 (0.032)",
+    "WM_WF17M9100KG > 세제함 분리/청소하기 (0.479)",
+    "WM_WF17M9100KG > 세탁 전 확인사항 (0.596)"
+   ]
+  },
+  {
+   "id": "swf17-08",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "howto",
+   "query": "유연제는 어디에 넣어요",
+   "expect": {
+    "subsection": [
+     "유연제 넣고 사용하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.035,
+   "d2": 0.072,
+   "top3": [
+    "WM_WF17M9100KG > 유연제 넣고 사용하기 (0.035)",
+    "WM_WF17M9100KG > 세제 넣고 사용하기 (0.072)",
+    "WM_WF17M9100KG > 합성섬유 코스 (0.849)"
+   ]
+  },
+  {
+   "id": "swf17-09",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "howto",
+   "query": "울 세탁은 어떤 코스로 해요",
+   "expect": {
+    "subsection": [
+     "울/란제리 코스"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.003,
+   "d2": 0.134,
+   "top3": [
+    "WM_WF17M9100KG > 울/란제리 코스 (0.003)",
+    "WM_WF17M9100KG >  (0.134)",
+    "WM_WF17M9100KG > 표준세탁 코스 (0.650)"
+   ]
+  },
+  {
+   "id": "sdv17-01",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "symptom",
+   "query": "건조가 안 돼요",
+   "expect": {
+    "body": [
+     "증상: 건조가 안 돼요"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.016,
+   "d2": 0.061,
+   "top3": [
+    "DR_DV17T8520BV > 문제 해결 (0.016)",
+    "DR_DV17T8520BV > 문제 해결 (0.061)",
+    "DR_DV17T8520BV > 건조해서는 안되는 세탁물 (0.120)"
+   ]
+  },
+  {
+   "id": "sdv17-02",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "symptom",
+   "query": "옷에 보푸라기가 많이 남아요",
+   "expect": {
+    "body": [
+     "증상: 옷에 보푸라기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.012,
+   "d2": 0.99,
+   "top3": [
+    "DR_DV17T8520BV > 문제 해결 (0.012)",
+    "DR_DV17T8520BV > 문제 해결 (0.990)",
+    "DR_DV17T8520BV > 건조 시 Tip (0.994)"
+   ]
+  },
+  {
+   "id": "sdv17-03",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "symptom",
+   "query": "건조기에서 냄새나요",
+   "expect": {
+    "body": [
+     "증상: 냄새가 나요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.003,
+   "d2": 0.024,
+   "top3": [
+    "DR_DV17T8520BV > 문제 해결 (0.003)",
+    "DR_DV17T8520BV > 문제 해결 (0.024)",
+    "DR_DV17T8520BV > 냄새 관련 주의사항 (0.032)"
+   ]
+  },
+  {
+   "id": "sdv17-04",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "symptom",
+   "query": "건조 시간이 계속 바뀌어요",
+   "expect": {
+    "body": [
+     "증상: 건조 시간이 바뀌어요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.035,
+   "d2": 0.738,
+   "top3": [
+    "DR_DV17T8520BV > 문제 해결 (0.035)",
+    "DR_DV17T8520BV > 문제 해결 (0.738)",
+    "DR_DV17T8520BV > 문제 해결 (0.841)"
+   ]
+  },
+  {
+   "id": "sdv17-05",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "care",
+   "query": "물통은 어떻게 비워요",
+   "expect": {
+    "subsection": [
+     "물통 비우기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.648,
+   "top3": [
+    "DR_DV17T8520BV > 물통 비우기 (0.001)",
+    "DR_DV17T8520BV > 점검 코드 (0.648)",
+    "DR_DV17T8520BV > 청소 관련 (0.987)"
+   ]
+  },
+  {
+   "id": "sdv17-06",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "care",
+   "query": "열교환기 청소 방법",
+   "expect": {
+    "subsection": [
+     "열 교환기 청소하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.003,
+   "top3": [
+    "DR_DV17T8520BV > 열 교환기 청소하기 (0.000)",
+    "DR_DV17T8520BV > 3차필터(마이크로 안심필터) 사용 및 청소하기 (0.003)",
+    "DR_DV17T8520BV > 청소 관련 (0.011)"
+   ]
+  },
+  {
+   "id": "sdv17-07",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "howto",
+   "query": "이불 건조 코스 있어요?",
+   "expect": {
+    "subsection": [
+     "이불 코스"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.009,
+   "top3": [
+    "DR_DV17T8520BV > 이불 코스 (0.001)",
+    "DR_DV17T8520BV > 이불털기/패딩케어 코스 (0.009)",
+    "DR_DV17T8520BV >  (0.016)"
+   ]
+  },
+  {
+   "id": "sdv17-08",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "howto",
+   "query": "구김방지 옵션이 뭐예요",
+   "expect": {
+    "subsection": [
+     "구김방지"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.062,
+   "d2": 0.848,
+   "top3": [
+    "DR_DV17T8520BV > 구김방지 (0.062)",
+    "DR_DV17T8520BV > 섬세의류 코스 (0.848)",
+    "DR_DV17T8520BV > 셔츠 코스 (0.880)"
+   ]
+  },
+  {
+   "id": "sdv17-09",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "howto",
+   "query": "건조기에 넣으면 안 되는 옷",
+   "expect": {
+    "subsection": [
+     "건조해서는 안되는 세탁물"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.095,
+   "d2": 0.167,
+   "top3": [
+    "DR_DV17T8520BV > 건조해서는 안되는 세탁물 (0.095)",
+    "DR_DV17T8520BV > 건조를 위한 경고 기호 (0.167)",
+    "DR_DV17T8520BV > 건조 시 Tip (0.482)"
+   ]
+  },
+  {
+   "id": "sdv17-10",
+   "doc_id": "DR_DV17T8520BV",
+   "category": "howto",
+   "query": "아이가 못 만지게 잠그는 기능",
+   "expect": {
+    "subsection": [
+     "어린이보호 기능"
+    ]
+   },
+   "brand": "samsung",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.952,
+   "d2": 0.977,
+   "top3": [
+    "DR_DV17T8520BV > 어린이보호 기능 (0.952)",
+    "DR_DV17T8520BV >  (0.977)",
+    "DR_DV17T8520BV >  (0.999)"
+   ]
+  },
+  {
+   "id": "sdf60-01",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "symptom",
+   "query": "문 열면 연기가 나와요",
+   "expect": {
+    "body": [
+     "증상: 문을 열면 연기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.01,
+   "d2": 0.95,
+   "top3": [
+    "ST_DF60R8300WG > 문제 해결 (0.010)",
+    "ST_DF60R8300WG > 문제 해결 (0.950)",
+    "ST_DF60R8300WG > 청정보관 기능 (0.955)"
+   ]
+  },
+  {
+   "id": "sdf60-02",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "symptom",
+   "query": "옷이 축축해요",
+   "expect": {
+    "body": [
+     "증상: 의류가 축축"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.051,
+   "d2": 0.866,
+   "top3": [
+    "ST_DF60R8300WG > 문제 해결 (0.051)",
+    "ST_DF60R8300WG > 사용 관련 (0.866)",
+    "ST_DF60R8300WG > 문제 해결 (0.981)"
+   ]
+  },
+  {
+   "id": "sdf60-03",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "symptom",
+   "query": "냄새가 안 빠져요",
+   "expect": {
+    "body": [
+     "증상: 냄새가 제거되지"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.272,
+   "d2": 0.966,
+   "top3": [
+    "ST_DF60R8300WG > 문제 해결 (0.272)",
+    "ST_DF60R8300WG >  (0.966)",
+    "ST_DF60R8300WG > 문제 해결 (0.970)"
+   ]
+  },
+  {
+   "id": "sdf60-04",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "symptom",
+   "query": "물보충 표시가 떠요",
+   "expect": {
+    "body": [
+     "증상: 물보충 필요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 3,
+   "ok": false,
+   "d1": 0.647,
+   "d2": 0.89,
+   "top3": [
+    "ST_DF60R8300WG > 사용 전 참고사항 (0.647)",
+    "ST_DF60R8300WG > 물보충통 및 물비움통 (0.890)",
+    "ST_DF60R8300WG > 점검 코드 (0.949)"
+   ]
+  },
+  {
+   "id": "sdf60-05",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "howto",
+   "query": "바지는 어떻게 걸어요",
+   "expect": {
+    "subsection": [
+     "바지 전용 걸이"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.428,
+   "d2": 0.709,
+   "top3": [
+    "ST_DF60R8300WG > 정장 한벌 관리하기 (0.428)",
+    "ST_DF60R8300WG > 바지 전용 걸이 사용하기 (해당 모델에 한함) (0.709)",
+    "ST_DF60R8300WG > 바지무게추 사용하기 (해당 모델에 한함) (0.860)"
+   ]
+  },
+  {
+   "id": "sdf60-06",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "howto",
+   "query": "미세먼지 코스가 뭐예요",
+   "expect": {
+    "subsection": [
+     "미세먼지 코스"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.019,
+   "d2": 0.977,
+   "top3": [
+    "ST_DF60R8300WG > 미세먼지 코스 (0.019)",
+    "ST_DF60R8300WG > 모피/가죽 코스 (0.977)",
+    "ST_DF60R8300WG > 내부살균 코스 (0.981)"
+   ]
+  },
+  {
+   "id": "sdf60-07",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "care",
+   "query": "미세먼지 필터 교체",
+   "expect": {
+    "subsection": [
+     "미세먼지 필터"
+    ],
+    "body": [
+     "미세먼지 필터 교체"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.003,
+   "d2": 0.058,
+   "top3": [
+    "ST_DF60R8300WG > 미세먼지 필터 (0.003)",
+    "ST_DF60R8300WG > 점검 코드 (0.058)",
+    "ST_DF60R8300WG > 보푸라기 필터 (0.970)"
+   ]
+  },
+  {
+   "id": "sdf60-08",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "howto",
+   "query": "아로마 시트 어디에 넣어요",
+   "expect": {
+    "subsection": [
+     "아로마시트"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.015,
+   "d2": 0.909,
+   "top3": [
+    "ST_DF60R8300WG > 아로마시트 케이스 (0.015)",
+    "ST_DF60R8300WG > 공간제습 코스 (0.909)",
+    "ST_DF60R8300WG >  (0.983)"
+   ]
+  },
+  {
+   "id": "sdf60-09",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "howto",
+   "query": "문 열리는 방향 바꿀 수 있어요?",
+   "expect": {
+    "subsection": [
+     "문 열림 방향 변경하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.04,
+   "d2": 0.999,
+   "top3": [
+    "ST_DF60R8300WG > 문 열림 방향 변경하기 (0.040)",
+    "ST_DF60R8300WG > 모피/가죽 코스 (0.999)",
+    "ST_DF60R8300WG > 아웃도어 코스 (0.999)"
+   ]
+  },
+  {
+   "id": "swf21-01",
+   "doc_id": "WM_WF21T6500KW",
+   "category": "howto",
+   "query": "무세제 통세척은 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "무세제통세척"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.008,
+   "d2": 0.489,
+   "top3": [
+    "WM_WF21T6500KW > 무세제통세척 (0.008)",
+    "WM_WF21T6500KW > 주의사항 (0.489)",
+    "WM_WF21T6500KW > 세탁 코스 살펴보기 (0.746)"
+   ]
+  },
+  {
+   "id": "swf21-02",
+   "doc_id": "WM_WF21T6500KW",
+   "category": "howto",
+   "query": "세제 자동투입량 바꾸기",
+   "expect": {
+    "subsection": [
+     "세제투입량",
+     "자동 투입 세제함"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.024,
+   "top3": [
+    "WM_WF21T6500KW > 세제투입량 (0.000)",
+    "WM_WF21T6500KW > 2\t액체세제 자동투입함의 뚜껑을 반시계 방향으로 돌려 (0.024)",
+    "WM_WF21T6500KW > 유연제투입량 (0.060)"
+   ]
+  },
+  {
+   "id": "swf21-03",
+   "doc_id": "WM_WF21T6500KW",
+   "category": "symptom",
+   "query": "세탁기 문이 안 열려요",
+   "expect": {
+    "subsection": [
+     "세탁기 문이 열리지 않아요"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.003,
+   "d2": 0.009,
+   "top3": [
+    "WM_WF21T6500KW > 세탁기 문이 열리지 않아요 (0.003)",
+    "WM_WF21T6500KW > 증상 확인 후 조치하기 (0.009)",
+    "WM_WF21T6500KW > 어린이보호 (0.456)"
+   ]
+  },
+  {
+   "id": "swf21-04",
+   "doc_id": "WM_WF21T6500KW",
+   "category": "care",
+   "query": "배수필터 청소",
+   "expect": {
+    "subsection": [
+     "배수필터 청소"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.006,
+   "d2": 0.009,
+   "top3": [
+    "WM_WF21T6500KW > 배수필터 청소/잔수 제거하기 (0.006)",
+    "WM_WF21T6500KW > 6\t잔수 제거 호스의 마개를 닫아 홈에 맞추어 끼운 후 (0.009)",
+    "WM_WF21T6500KW > 세탁 전 확인사항 (0.078)"
+   ]
+  },
+  {
+   "id": "swf21-05",
+   "doc_id": "WM_WF21T6500KW",
+   "category": "howto",
+   "query": "어린이보호 설정",
+   "expect": {
+    "subsection": [
+     "어린이보호"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.005,
+   "d2": 0.412,
+   "top3": [
+    "WM_WF21T6500KW > 어린이보호 (0.005)",
+    "WM_WF21T6500KW > 세탁기 문이 열리지 않아요 (0.412)",
+    "WM_WF21T6500KW > 조작부 살펴보기 (0.547)"
+   ]
+  },
+  {
+   "id": "srh82-01",
+   "doc_id": "RF_RH82M9152SL",
+   "category": "howto",
+   "query": "냉장고 옮길 때 주의할 점",
+   "expect": {
+    "subsection": [
+     "운반하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.013,
+   "d2": 0.209,
+   "top3": [
+    "RF_RH82M9152SL > 운반하기 (0.013)",
+    "RF_RH82M9152SL > 기타 주의사항 (0.209)",
+    "RF_RH82M9152SL > 사용 관련 (0.358)"
+   ]
+  },
+  {
+   "id": "srh82-02",
+   "doc_id": "RF_RH82M9152SL",
+   "category": "howto",
+   "query": "접지는 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "접지하기"
+    ]
+   },
+   "brand": "samsung",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.749,
+   "d2": 0.996,
+   "top3": [
+    "RF_RH82M9152SL > 접지하기 (0.749)",
+    "RF_RH82M9152SL >  (0.996)",
+    "RF_RH82M9152SL > 수평/높이차/간격차 조절방법 (0.997)"
+   ]
+  },
+  {
+   "id": "lfq16-01",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "symptom",
+   "query": "리모컨이 안 먹어요",
+   "expect": {
+    "body": [
+     "증상: 리모컨이 작동하지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.841,
+   "d2": 0.975,
+   "top3": [
+    "AC_FQ16FV6EDN > 운전 (0.841)",
+    "AC_FQ16FV6EDN > 경고 > 리모컨을 사용할 때 (0.975)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 스마트 진단하기 (0.976)"
+   ]
+  },
+  {
+   "id": "lfq16-02",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "symptom",
+   "query": "전원 켰는데 화면에 아무것도 안 나와요",
+   "expect": {
+    "body": [
+     "증상: 전원을 켰는데 실내기 표시부에"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.018,
+   "d2": 0.968,
+   "top3": [
+    "AC_FQ16FV6EDN > 운전 (0.018)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 (0.968)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 > 화면 밝기 바로 설정하기 (0.974)"
+   ]
+  },
+  {
+   "id": "lfq16-03",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "symptom",
+   "query": "에어컨이 혼자 켜져요",
+   "expect": {
+    "body": [
+     "증상: 제품이 갑자기 작동해요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": null,
+   "ok": false,
+   "d1": 0.7,
+   "d2": 0.817,
+   "top3": [
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약하기 (0.700)",
+    "AC_FQ16FV6EDN > 냉방 기본 기능 작동하기 > 공기청정 기능 사용하기 (0.817)",
+    "AC_FQ16FV6EDN > 냉방 기본 기능 작동하기 > 냉방 기능 사용하기 (0.907)"
+   ]
+  },
+  {
+   "id": "lfq16-04",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "symptom",
+   "query": "껐는데 계속 돌아가요",
+   "expect": {
+    "body": [
+     "증상: 전원을 껐는데도 계속 작동"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.147,
+   "d2": 0.914,
+   "top3": [
+    "AC_FQ16FV6EDN > 운전 (0.147)",
+    "AC_FQ16FV6EDN > 운전 (0.914)",
+    "AC_FQ16FV6EDN > 운전 (0.972)"
+   ]
+  },
+  {
+   "id": "lfq16-05",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "symptom",
+   "query": "실내기에서 물이 넘쳐요",
+   "expect": {
+    "body": [
+     "증상: 실내기에서 물이 넘쳐요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.024,
+   "d2": 0.744,
+   "top3": [
+    "AC_FQ16FV6EDN > 운전 (0.024)",
+    "AC_FQ16FV6EDN > 운전 (0.744)",
+    "AC_FQ16FV6EDN > 에어컨의 모습과 기능 살펴보기 > 실내기 (0.939)"
+   ]
+  },
+  {
+   "id": "lfq16-06",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "howto",
+   "query": "예약 취소는 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "예약 취소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.055,
+   "d2": 0.643,
+   "top3": [
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 예약 취소하기 (0.055)",
+    "AC_FQ16FV6EDN > 청소하기 > 열교환기 세척 기능 설정하기 (0.643)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 열대야 취침 설정하기 > 열대야 취침 바로 설정하기 (0.974)"
+   ]
+  },
+  {
+   "id": "lfq16-07",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "howto",
+   "query": "소리 좀 줄이고 싶어요",
+   "expect": {
+    "subsection": [
+     "음량 설정하기",
+     "저소음 기능"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.549,
+   "d2": 0.992,
+   "top3": [
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 저소음 기능 설정하기 (0.549)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 음량 설정하기 > 설정 항목에서 음량 설정하기 (0.992)",
+    "AC_FQ16FV6EDN > 소음 (0.996)"
+   ]
+  },
+  {
+   "id": "lfq16-08",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "howto",
+   "query": "스마트 진단은 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "스마트 진단하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.051,
+   "d2": 0.168,
+   "top3": [
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 스마트 진단하기 (0.051)",
+    "AC_FQ16FV6EDN > 고장 진단하기 > 신호음으로 고장 진단하기 (0.168)",
+    "AC_FQ16FV6EDN > 고장 진단하기 > LG ThinQ로 고장 진단하기 (0.484)"
+   ]
+  },
+  {
+   "id": "lfq16-09",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "howto",
+   "query": "무드등 색 바꾸는 법",
+   "expect": {
+    "subsection": [
+     "무드 라이팅"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.445,
+   "d2": 0.91,
+   "top3": [
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 무드 라이팅 선택하기 (0.445)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 라이팅 선택하기 (0.910)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 화면 밝기 설정하기 > 설정 항목에서 화면 밝기 설정하기 (0.980)"
+   ]
+  },
+  {
+   "id": "lw826-01",
+   "doc_id": "RF_W826AAA492",
+   "category": "howto",
+   "query": "문 열어두면 알림이 오나요",
+   "expect": {
+    "subsection": [
+     "문 열림 알림"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.018,
+   "d2": 0.983,
+   "top3": [
+    "RF_W826AAA492 > 알아두면 좋은 정보 > 문 열림 알림 (0.018)",
+    "RF_W826AAA492 > 알아두면 좋은 정보 > 냉기 차단막 (0.983)",
+    "RF_W826AAA492 > 노크온 > 노크온 사용하기 (0.989)"
+   ]
+  },
+  {
+   "id": "lw826-02",
+   "doc_id": "RF_W826AAA492",
+   "category": "howto",
+   "query": "노크온이 뭐예요",
+   "expect": {
+    "subsection": [
+     "노크온"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.219,
+   "d2": 0.812,
+   "top3": [
+    "RF_W826AAA492 > 노크온 > 노크온 사용하기 (0.219)",
+    "RF_W826AAA492 > 청소하기 > 외부 청소하기 (0.812)",
+    "RF_W826AAA492 > 냉장고의 모습과 기능 살펴보기 > 냉장고 외부 (0.972)"
+   ]
+  },
+  {
+   "id": "lw826-03",
+   "doc_id": "RF_W826AAA492",
+   "category": "howto",
+   "query": "크래프트 아이스 만드는 법",
+   "expect": {
+    "subsection": [
+     "크래프트 아이스 메이커 사용하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.168,
+   "top3": [
+    "RF_W826AAA492 > 냉동실 아이스 메이커 > 크래프트 아이스 메이커 사용하기 (0.002)",
+    "RF_W826AAA492 > 크래프트 아이스 (0.168)",
+    "RF_W826AAA492 > 크래프트 아이스 (0.394)"
+   ]
+  },
+  {
+   "id": "lw826-04",
+   "doc_id": "RF_W826AAA492",
+   "category": "symptom",
+   "query": "얼음이 안 나와요",
+   "expect": {
+    "body": [
+     "증상: 얼음이 나오지 않아요"
+    ]
+   },
+   "note": "hard_pair",
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.017,
+   "d2": 0.17,
+   "top3": [
+    "RF_W826AAA492 > 얼음 (0.017)",
+    "RF_W826AAA492 > 크래프트 아이스 (0.170)",
+    "RF_W826AAA492 > 크래프트 아이스 (0.333)"
+   ]
+  },
+  {
+   "id": "lw826-05",
+   "doc_id": "RF_W826AAA492",
+   "category": "symptom",
+   "query": "정수기 물이 안 나와요",
+   "expect": {
+    "body": [
+     "증상: 물이 나오지 않아요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.235,
+   "d2": 0.858,
+   "top3": [
+    "RF_W826AAA492 > 물 (0.235)",
+    "RF_W826AAA492 > 얼음 정수기 > 정수기 사용하기 전 알아두기 (0.858)",
+    "RF_W826AAA492 > 얼음 (0.941)"
+   ]
+  },
+  {
+   "id": "lw826-06",
+   "doc_id": "RF_W826AAA492",
+   "category": "symptom",
+   "query": "음성 명령을 못 알아들어요",
+   "expect": {
+    "body": [
+     "증상: 사용자의 음성을 인식하지",
+     "증상: 음성 명령대로 작동하지"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.163,
+   "d2": 0.365,
+   "top3": [
+    "RF_W826AAA492 > 음성인식 (0.163)",
+    "RF_W826AAA492 > 음성인식 (0.365)",
+    "RF_W826AAA492 > 음성인식 기능 > 음성인식 기능 사용하기 (0.617)"
+   ]
+  },
+  {
+   "id": "lw826-07",
+   "doc_id": "RF_W826AAA492",
+   "category": "symptom",
+   "query": "냉장고 문이 들썩거려요",
+   "expect": {
+    "body": [
+     "증상: 냉장고 문이 들썩"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.003,
+   "d2": 0.293,
+   "top3": [
+    "RF_W826AAA492 > 부품 (0.003)",
+    "RF_W826AAA492 > 소음 (0.293)",
+    "RF_W826AAA492 > 알아두면 좋은 정보 > 문 열림 알림 (0.735)"
+   ]
+  },
+  {
+   "id": "lw826-08",
+   "doc_id": "RF_W826AAA492",
+   "category": "symptom",
+   "query": "냉장고 옆이 뜨거워요",
+   "expect": {
+    "body": [
+     "증상: 냉장고를 만지면 따뜻해요"
+    ]
+   },
+   "note": "vocab_gap",
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.043,
+   "d2": 0.904,
+   "top3": [
+    "RF_W826AAA492 > 부품 (0.043)",
+    "RF_W826AAA492 > 부품 (0.904)",
+    "RF_W826AAA492 > 소음 (0.965)"
+   ]
+  },
+  {
+   "id": "lw826-09",
+   "doc_id": "RF_W826AAA492",
+   "category": "care",
+   "query": "아이스 메이커 청소는 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "오토 아이스 메이커 청소하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.479,
+   "top3": [
+    "RF_W826AAA492 > 얼음 정수기 > 오토 아이스 메이커 청소하기 (0.002)",
+    "RF_W826AAA492 > 냉동실 아이스 메이커 > 냉동실 아이스 메이커 사용하기 전 알아두기 (0.479)",
+    "RF_W826AAA492 > 얼음 정수기 > 오토 아이스 메이커 (0.840)"
+   ]
+  },
+  {
+   "id": "lw826-10",
+   "doc_id": "RF_W826AAA492",
+   "category": "howto",
+   "query": "신선맞춤실 분리하는 법",
+   "expect": {
+    "subsection": [
+     "신선맞춤실 분리/조립하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.003,
+   "d2": 0.645,
+   "top3": [
+    "RF_W826AAA492 > 냉장실 서랍 > 신선맞춤실 분리/조립하기 (0.003)",
+    "RF_W826AAA492 > 냉장실 서랍 > 신선맞춤실 사용하기 (0.645)",
+    "RF_W826AAA492 > 냉장실 서랍 > 냉장실 서랍 분리/조립하기 (0.749)"
+   ]
+  },
+  {
+   "id": "lw826-11",
+   "doc_id": "RF_W826AAA492",
+   "category": "info",
+   "query": "고장 감지 기능이 뭐예요",
+   "expect": {
+    "subsection": [
+     "고장 감지 기능"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.087,
+   "d2": 0.414,
+   "top3": [
+    "RF_W826AAA492 > 알아두면 좋은 정보 > 고장 감지 기능 (0.087)",
+    "RF_W826AAA492 > 고장 진단하기 (0.414)",
+    "RF_W826AAA492 > 음성인식 (0.916)"
+   ]
+  },
+  {
+   "id": "lk135-01",
+   "doc_id": "RF_K135LW123",
+   "category": "symptom",
+   "query": "김치가 빨리 시어요",
+   "expect": {
+    "body": [
+     "증상: 김치가 빨리 시어집니다"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.034,
+   "d2": 0.038,
+   "top3": [
+    "RF_K135LW123 > 냉장 & 냉동 (0.034)",
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김치 보관할 때 알아두기 (0.038)",
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김치 보관할 때 알아두기 (0.104)"
+   ]
+  },
+  {
+   "id": "lk135-02",
+   "doc_id": "RF_K135LW123",
+   "category": "symptom",
+   "query": "김치에 하얀 막이 생겼어요",
+   "expect": {
+    "body": [
+     "증상: 김치 표면 또는 우거지에 산막"
+    ]
+   },
+   "note": "vocab_gap",
+   "brand": "lg",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.164,
+   "d2": 0.497,
+   "top3": [
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김치 보관할 때 알아두기 (0.164)",
+    "RF_K135LW123 > 냉장 & 냉동 (0.497)",
+    "RF_K135LW123 > 냉장 & 냉동 (1.000)"
+   ]
+  },
+  {
+   "id": "lk135-03",
+   "doc_id": "RF_K135LW123",
+   "category": "symptom",
+   "query": "김치가 물러졌어요",
+   "expect": {
+    "body": [
+     "증상: 김치가 물러지고"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.016,
+   "d2": 0.909,
+   "top3": [
+    "RF_K135LW123 > 냉장 & 냉동 (0.016)",
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김치 보관할 때 알아두기 (0.909)",
+    "RF_K135LW123 > 냉장 & 냉동 (0.963)"
+   ]
+  },
+  {
+   "id": "lk135-04",
+   "doc_id": "RF_K135LW123",
+   "category": "symptom",
+   "query": "한 칸 전원이 꺼졌어요",
+   "expect": {
+    "body": [
+     "증상: 일부 칸의 전원이 꺼졌"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.085,
+   "d2": 0.994,
+   "top3": [
+    "RF_K135LW123 > 냉장 & 냉동 (0.085)",
+    "RF_K135LW123 > 냉장 & 냉동 (0.994)",
+    "RF_K135LW123 > 경고 > 전원 플러그나 전원선을 다룰 때 (0.997)"
+   ]
+  },
+  {
+   "id": "lk135-05",
+   "doc_id": "RF_K135LW123",
+   "category": "howto",
+   "query": "야채 보관 모드로 바꾸기",
+   "expect": {
+    "subsection": [
+     "야채/과일 모드"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.008,
+   "d2": 0.191,
+   "top3": [
+    "RF_K135LW123 > 제어창 > 보관 모드 설정하기 > 야채/과일 모드: 야채/과일 보관하기 (0.008)",
+    "RF_K135LW123 > 제어창 > 보관 모드 설정하기 > 냉동 모드: 냉동 식품 보관하기 (0.191)",
+    "RF_K135LW123 > 제어창 > 보관 모드 설정하기 (0.875)"
+   ]
+  },
+  {
+   "id": "lk135-06",
+   "doc_id": "RF_K135LW123",
+   "category": "howto",
+   "query": "김장 전에 알아둘 것",
+   "expect": {
+    "subsection": [
+     "김장하기 전 알아두기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.016,
+   "d2": 0.556,
+   "top3": [
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김장하기 전 알아두기 (0.016)",
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김치 보관할 때 알아두기 (0.556)",
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김치 보관할 때 알아두기 (0.660)"
+   ]
+  },
+  {
+   "id": "lk135-07",
+   "doc_id": "RF_K135LW123",
+   "category": "howto",
+   "query": "김치통 꺼내는 법",
+   "expect": {
+    "subsection": [
+     "김치 용기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.867,
+   "d2": 0.946,
+   "top3": [
+    "RF_K135LW123 > 청소하기 > 청소할 때 알아두기 (0.867)",
+    "RF_K135LW123 > 김치 용기 꺼내기 및 보관하기 > 김치 용기 알아두기 (0.946)",
+    "RF_K135LW123 > 김치에 관한 상식 알아두기 > 김치 보관할 때 알아두기 (0.992)"
+   ]
+  },
+  {
+   "id": "lfc4-01",
+   "doc_id": "WM_FC4KC",
+   "category": "error_code",
+   "query": "UE 떴어요",
+   "expect": {
+    "subsection": [
+     "UE"
+    ],
+    "body": [
+     "UE"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.822,
+   "top3": [
+    "LG-WM-COMMON > UE (불균형, 탈수 안됨) (0.000)",
+    "WM_FC4KC > 에러 메시지 (0.822)"
+   ]
+  },
+  {
+   "id": "lfc4-02",
+   "doc_id": "WM_FC4KC",
+   "category": "error_code",
+   "query": "dE4 뜨는데 뭐예요",
+   "expect": {
+    "subsection": [
+     "dE4",
+     "DE4"
+    ],
+    "body": [
+     "dE4"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.541,
+   "d2": 0.997,
+   "top3": [
+    "WM_FC4KC > 에러 메시지 (0.541)",
+    "WM_FC4KC > 에러 메시지 (0.997)"
+   ]
+  },
+  {
+   "id": "lfc4-03",
+   "doc_id": "WM_FC4KC",
+   "category": "error_code",
+   "query": "tcL 표시가 떠요",
+   "expect": {
+    "subsection": [
+     "tcL",
+     "TCL",
+     "tCL"
+    ],
+    "body": [
+     "tcL",
+     "tCL"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.087,
+   "d2": 0.878,
+   "top3": [
+    "LG-WM-COMMON > tCL (통세척 시기 알림) (0.087)",
+    "WM_FC4KC > 에러 메시지 (0.878)",
+    "WM_FC4KC > 에러 메시지 (1.000)"
+   ]
+  },
+  {
+   "id": "lfc4-04",
+   "doc_id": "WM_FC4KC",
+   "category": "symptom",
+   "query": "쾅쾅 쇳소리가 나요",
+   "expect": {
+    "body": [
+     "증상: 쾅쾅거리는 쇳소리"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.029,
+   "d2": 0.998,
+   "top3": [
+    "WM_FC4KC > 사용 관련 (0.029)",
+    "WM_FC4KC > 설치 준비하기 > 옮길 때 알아두기 (0.998)",
+    "WM_FC4KC > 사용 관련 (1.000)"
+   ]
+  },
+  {
+   "id": "lfc4-05",
+   "doc_id": "WM_FC4KC",
+   "category": "symptom",
+   "query": "세탁물에 찌꺼기가 묻어나와요",
+   "expect": {
+    "body": [
+     "증상: 세탁물에 찌꺼기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.028,
+   "d2": 0.345,
+   "top3": [
+    "WM_FC4KC > 사용 관련 (0.028)",
+    "WM_FC4KC > 알아두면 좋은 정보 > 세탁물 분류하기 (0.345)",
+    "WM_FC4KC > 사용 관련 (0.804)"
+   ]
+  },
+  {
+   "id": "lfc4-06",
+   "doc_id": "WM_FC4KC",
+   "category": "symptom",
+   "query": "서랍이 안 열려요",
+   "expect": {
+    "body": [
+     "증상: 서랍이 열리지 않습니다"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.017,
+   "d2": 0.149,
+   "top3": [
+    "WM_FC4KC > 사용 관련 (0.017)",
+    "WM_FC4KC > 알아두면 좋은 정보 > 세탁기 문 사용하기 > 세탁기 서랍과 문 열기 (0.149)",
+    "WM_FC4KC > 에러 메시지 (0.151)"
+   ]
+  },
+  {
+   "id": "lfc4-07",
+   "doc_id": "WM_FC4KC",
+   "category": "symptom",
+   "query": "바닥에 물이 새요",
+   "expect": {
+    "body": [
+     "증상: 바닥에 누수"
+    ]
+   },
+   "brand": "lg",
+   "route": "none",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.947,
+   "d2": 0.996,
+   "top3": [
+    "WM_FC4KC > 사용 관련 (0.947)",
+    "WM_FC4KC > 에러 메시지 (0.996)",
+    "WM_FC4KC > 사용 관련 (0.998)"
+   ]
+  },
+  {
+   "id": "lfc4-08",
+   "doc_id": "WM_FC4KC",
+   "category": "howto",
+   "query": "탈수만 하려면 어떻게 해요",
+   "expect": {
+    "subsection": [
+     "탈수만 하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.012,
+   "d2": 0.334,
+   "top3": [
+    "WM_FC4KC > 편리한 기능 사용하기 > 탈수만 하기 (0.012)",
+    "WM_FC4KC > 겨울철 동결 해결하기 > 얼지 않게 하려면 (0.334)",
+    "WM_FC4KC > 겨울철 동결 해결하기 > 얼었을 경우에는 (0.955)"
+   ]
+  },
+  {
+   "id": "lfc4-09",
+   "doc_id": "WM_FC4KC",
+   "category": "howto",
+   "query": "미니워시 연결하는 법",
+   "expect": {
+    "subsection": [
+     "미니워시 연결"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.059,
+   "top3": [
+    "WM_FC4KC > 편리한 기능 사용하기 > 미니워시 연결 (0.001)",
+    "WM_FC4KC > 설치 준비하기 > 제품 조립하기 (0.059)",
+    "WM_FC4KC > LG ThinQ와 LG 가전 연결하기 > 앱 설치 및 제품 등록하기 (0.089)"
+   ]
+  },
+  {
+   "id": "lrh10-01",
+   "doc_id": "DR_RH10VTA",
+   "category": "symptom",
+   "query": "건조가 너무 오래 걸려요",
+   "expect": {
+    "body": [
+     "증상: 건조 시간이 너무 오래"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.006,
+   "d2": 0.695,
+   "top3": [
+    "DR_RH10VTA > 사용 관련 (0.006)",
+    "DR_RH10VTA > 사용 관련 (0.695)",
+    "DR_RH10VTA > 건조 코스 및 옵션 사용하기 > 기능조작부 사용하기 (0.750)"
+   ]
+  },
+  {
+   "id": "lrh10-02",
+   "doc_id": "DR_RH10VTA",
+   "category": "symptom",
+   "query": "옷에 보풀이 묻어나와요",
+   "expect": {
+    "body": [
+     "증상: 건조물에 보풀"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.119,
+   "d2": 0.761,
+   "top3": [
+    "DR_RH10VTA > 사용 관련 (0.119)",
+    "DR_RH10VTA > 알아두면 좋은 정보 > 건조물 분류하기 (0.761)",
+    "DR_RH10VTA > 사용 관련 (0.960)"
+   ]
+  },
+  {
+   "id": "lrh10-03",
+   "doc_id": "DR_RH10VTA",
+   "category": "symptom",
+   "query": "옷이 덜 말랐어요",
+   "expect": {
+    "body": [
+     "증상: 건조물의 일부에 수분"
+    ]
+   },
+   "note": "vocab_gap",
+   "brand": "lg",
+   "route": "none",
+   "rank": 3,
+   "ok": false,
+   "d1": 0.973,
+   "d2": 0.975,
+   "top3": [
+    "DR_RH10VTA > 편리한 기능 사용하기 > 원하는 시간 동안만 건조하기 (0.973)",
+    "DR_RH10VTA > 사용 관련 (0.975)",
+    "DR_RH10VTA > 사용 관련 (0.980)"
+   ]
+  },
+  {
+   "id": "lrh10-04",
+   "doc_id": "DR_RH10VTA",
+   "category": "error_code",
+   "query": "dE1 떴어요",
+   "expect": {
+    "subsection": [
+     "dE1",
+     "DE1"
+    ],
+    "body": [
+     "dE1"
+    ]
+   },
+   "brand": "lg",
+   "route": "error_code",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.0,
+   "d2": 0.318,
+   "top3": [
+    "LG-WM-COMMON > dE / dE1 / dE2 (도어 안 닫힘) (0.000)",
+    "DR_RH10VTA > 에러 메세지 (0.318)",
+    "DR_RH10VTA > 에러 메세지 (0.995)"
+   ]
+  },
+  {
+   "id": "lrh10-05",
+   "doc_id": "DR_RH10VTA",
+   "category": "howto",
+   "query": "건조 선반은 어떻게 써요",
+   "expect": {
+    "subsection": [
+     "건조 선반을 사용하여 건조하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.004,
+   "d2": 0.069,
+   "top3": [
+    "DR_RH10VTA > 편리한 기능 사용하기 > 건조 선반을 사용하여 건조하기 (0.004)",
+    "DR_RH10VTA > 사용 관련 (0.069)",
+    "DR_RH10VTA > 건조 코스 및 옵션 사용하기 > 건조 코스/옵션 선택하고 건조하기 (0.537)"
+   ]
+  },
+  {
+   "id": "lrh10-06",
+   "doc_id": "DR_RH10VTA",
+   "category": "howto",
+   "query": "시간 정해서 건조하기",
+   "expect": {
+    "subsection": [
+     "원하는 시간 동안만 건조하기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.008,
+   "d2": 0.03,
+   "top3": [
+    "DR_RH10VTA > 편리한 기능 사용하기 > 원하는 시간 동안만 건조하기 (0.008)",
+    "DR_RH10VTA > 편리한 기능 사용하기 > 예약 설정하기 (0.030)",
+    "DR_RH10VTA > 건조 코스 및 옵션 사용하기 > 건조 코스/옵션 선택하고 건조하기 (0.210)"
+   ]
+  },
+  {
+   "id": "lrh10-07",
+   "doc_id": "DR_RH10VTA",
+   "category": "howto",
+   "query": "내부 조명 끄기",
+   "expect": {
+    "subsection": [
+     "내부 조명 켜고 끄기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.007,
+   "d2": 0.972,
+   "top3": [
+    "DR_RH10VTA > 편리한 기능 사용하기 > 내부 조명 켜고 끄기 (0.007)",
+    "DR_RH10VTA > 겨울철 동결 해결하기 > 제품 내부 물이 얼었다면 (자동 해동) (0.972)",
+    "DR_RH10VTA > 제품 관리하기 > 제품 내부 환기하기 (0.985)"
+   ]
+  },
+  {
+   "id": "lsc3-01",
+   "doc_id": "ST_SC3GBE50",
+   "category": "symptom",
+   "query": "연기가 나와요",
+   "expect": {
+    "body": [
+     "증상: 연기가 나와요"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.041,
+   "d2": 0.694,
+   "top3": [
+    "ST_SC3GBE50 > 사용 관련 (0.041)",
+    "ST_SC3GBE50 > 경고 > 제품 이상 및 고장이 발생했을 때 (0.694)",
+    "ST_SC3GBE50 > 에러 메시지 (0.996)"
+   ]
+  },
+  {
+   "id": "lsc3-02",
+   "doc_id": "ST_SC3GBE50",
+   "category": "symptom",
+   "query": "옷이 젖어 있어요",
+   "expect": {
+    "body": [
+     "증상: 옷이 축축하게 젖어"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.072,
+   "d2": 0.395,
+   "top3": [
+    "ST_SC3GBE50 > 사용 관련 (0.072)",
+    "ST_SC3GBE50 > 사용 관련 (0.395)",
+    "ST_SC3GBE50 > 에러 메시지 (0.725)"
+   ]
+  },
+  {
+   "id": "lsc3-03",
+   "doc_id": "ST_SC3GBE50",
+   "category": "symptom",
+   "query": "물 보충 불이 깜빡여요",
+   "expect": {
+    "body": [
+     "물 보층",
+     "물 보충"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.012,
+   "d2": 0.273,
+   "top3": [
+    "ST_SC3GBE50 > 에러 메시지 (0.012)",
+    "ST_SC3GBE50 > 에러 메시지 (0.273)",
+    "ST_SC3GBE50 > 사용 관련 (0.992)"
+   ]
+  },
+  {
+   "id": "lsc3-04",
+   "doc_id": "ST_SC3GBE50",
+   "category": "error_code",
+   "query": "1F라고 떠요",
+   "expect": {
+    "subsection": [
+     "1F"
+    ],
+    "body": [
+     "1F"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.013,
+   "d2": 0.98,
+   "top3": [
+    "ST_SC3GBE50 > 에러 메시지 (0.013)",
+    "ST_SC3GBE50 > 에러 메시지 (0.980)",
+    "ST_SC3GBE50 > 에러 메시지 (0.995)"
+   ]
+  },
+  {
+   "id": "lsc3-05",
+   "doc_id": "ST_SC3GBE50",
+   "category": "howto",
+   "query": "물통에 물 채우기",
+   "expect": {
+    "subsection": [
+     "물통에 물 채우기/비우기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.001,
+   "d2": 0.129,
+   "top3": [
+    "ST_SC3GBE50 > 시작 전 준비하기 > 물통에 물 채우기/비우기 (0.001)",
+    "ST_SC3GBE50 > 시작 전 준비하기 > 물통에 물 채우기/비우기 > 알아두기 (0.129)",
+    "ST_SC3GBE50 > 알아두면 좋은 정보 > 스타일러 사용 방법 (0.172)"
+   ]
+  },
+  {
+   "id": "lsc3-06",
+   "doc_id": "ST_SC3GBE50",
+   "category": "howto",
+   "query": "아로마 시트는 어디에 넣어요",
+   "expect": {
+    "subsection": [
+     "아로마 시트 넣기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.002,
+   "d2": 0.184,
+   "top3": [
+    "ST_SC3GBE50 > 시작 전 준비하기 > 아로마 시트 넣기 (0.002)",
+    "ST_SC3GBE50 > 알아두면 좋은 정보 > 스타일러 사용 방법 (0.184)",
+    "ST_SC3GBE50 > 스타일러의 모습과 기능 살펴보기 > 스타일러 내부 (0.279)"
+   ]
+  },
+  {
+   "id": "lsc3-07",
+   "doc_id": "ST_SC3GBE50",
+   "category": "howto",
+   "query": "긴 옷은 어떻게 걸어요",
+   "expect": {
+    "subsection": [
+     "긴 옷 걸기",
+     "무빙행어에 옷 걸기"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.013,
+   "d2": 0.576,
+   "top3": [
+    "ST_SC3GBE50 > 의류 넣기 > 무빙행어에 옷 걸기 > 긴 옷 걸기 (0.013)",
+    "ST_SC3GBE50 > 사용 관련 (0.576)",
+    "ST_SC3GBE50 > 의류 넣기 > 무빙행어에 옷 걸기 (0.864)"
+   ]
+  },
+  {
+   "id": "ls825-01",
+   "doc_id": "RF_S825AW35",
+   "category": "howto",
+   "query": "홈바는 어떻게 써요",
+   "expect": {
+    "subsection": [
+     "냉장실홈바"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.299,
+   "d2": 0.353,
+   "top3": [
+    "RF_S825AW35 > 7. 냉장실홈바 (0.299)",
+    "RF_S825AW35 > 7. 냉장실홈바 (0.353)",
+    "RF_S825AW35 > 6. 냉동실서랍 (0.604)"
+   ]
+  },
+  {
+   "id": "ls825-02",
+   "doc_id": "RF_S825AW35",
+   "category": "howto",
+   "query": "얼음은 어떻게 얼려요",
+   "expect": {
+    "subsection": [
+     "도어아이스메이커"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.022,
+   "d2": 0.976,
+   "top3": [
+    "RF_S825AW35 > 2. 도어아이스메이커 (0.022)",
+    "RF_S825AW35 > 2. 도어아이스메이커 (0.976)",
+    "RF_S825AW35 >  (0.991)"
+   ]
+  },
+  {
+   "id": "ls825-03",
+   "doc_id": "RF_S825AW35",
+   "category": "care",
+   "query": "탈취제 재생하는 법",
+   "expect": {
+    "subsection": [
+     "나노참숯탈취"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 1,
+   "ok": true,
+   "d1": 0.005,
+   "d2": 0.988,
+   "top3": [
+    "RF_S825AW35 > 9. 나노참숯탈취 (0.005)",
+    "RF_S825AW35 > 13. UV 안심제균* (0.988)",
+    "RF_S825AW35 > 1. 신선 (0.998)"
+   ]
+  },
+  {
+   "id": "ls825-04",
+   "doc_id": "RF_S825AW35",
+   "category": "howto",
+   "query": "특냉실이 뭐예요",
+   "expect": {
+    "subsection": [
+     "특냉실"
+    ]
+   },
+   "brand": "lg",
+   "route": "vector",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.121,
+   "d2": 0.5,
+   "top3": [
+    "RF_S825AW35 > 4. LED 램프(냉동/냉장) (0.121)",
+    "RF_S825AW35 > 5. -35℃특냉실 (0.500)",
+    "RF_S825AW35 > 14. 표시창 (0.877)"
+   ]
+  },
+  {
+   "id": "none-06",
+   "doc_id": "AC_AR11B9150HZT",
+   "category": "none",
+   "query": "음성으로 에어컨 켤 수 있어요?",
+   "expect": {
+    "none": true
+   },
+   "note": "없는 기능",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": null,
+   "ok": false,
+   "d1": 0.834,
+   "d2": 0.956,
+   "top3": [
+    "AC_AR11B9150HZT > 작동법 > 제품이 작동하지 않아요. (0.834)",
+    "AC_AR11B9150HZT > SmartThings 앱으로 사용하기 (0.956)",
+    "AC_AR11B9150HZT >  (0.981)"
+   ]
+  },
+  {
+   "id": "none-09",
+   "doc_id": "AC_FQ16FV6EDN",
+   "category": "none",
+   "query": "클린봇 자동청소 켜는 법",
+   "expect": {
+    "none": true
+   },
+   "note": "없는 기능",
+   "brand": "lg",
+   "route": "vector",
+   "rank": null,
+   "ok": false,
+   "d1": 0.83,
+   "d2": 0.954,
+   "top3": [
+    "AC_FQ16FV6EDN > 청소하기 > AI 건조 설정하기 (0.830)",
+    "AC_FQ16FV6EDN > 추가 기능 및 설정하기 > 켜짐 및 꺼짐 예약하기 > 켜짐 예약하기 (0.954)",
+    "AC_FQ16FV6EDN > 냉방 기본 기능 작동하기 > 공기청정 기능 사용하기 (0.965)"
+   ]
+  },
+  {
+   "id": "none-11",
+   "doc_id": "DR_RH10VTA",
+   "category": "none",
+   "query": "스팀 기능 있어요?",
+   "expect": {
+    "none": true
+   },
+   "note": "없는 기능",
+   "brand": "lg",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.997,
+   "d2": 0.999,
+   "top3": [
+    "DR_RH10VTA > LG ThinQ 앱으로 제품 작동하기 > LG ThinQ 기능 안내 (0.997)",
+    "DR_RH10VTA > 에러 메세지 (0.999)",
+    "DR_RH10VTA > 건조 코스 및 옵션 사용하기 > 기능조작부 사용하기 (0.999)"
+   ]
+  },
+  {
+   "id": "none-12",
+   "doc_id": "WM_WF17M9100KG",
+   "category": "none",
+   "query": "세제 자동투입 설정하는 법",
+   "expect": {
+    "none": true
+   },
+   "note": "없는 기능",
+   "brand": "samsung",
+   "route": "vector",
+   "rank": null,
+   "ok": false,
+   "d1": 0.252,
+   "d2": 0.753,
+   "top3": [
+    "WM_WF17M9100KG > 유연제 넣고 사용하기 (0.252)",
+    "WM_WF17M9100KG > 표준세탁 코스 (0.753)",
+    "WM_WF17M9100KG > 세제 넣고 사용하기 (0.966)"
+   ]
+  },
+  {
+   "id": "none-13",
+   "doc_id": "ST_DF60R8300WG",
+   "category": "none",
+   "query": "무빙행어가 안 움직여요",
+   "expect": {
+    "none": true
+   },
+   "note": "없는 기능",
+   "brand": "samsung",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.995,
+   "d2": 1.0,
+   "top3": [
+    "ST_DF60R8300WG > 문제 해결 (0.995)",
+    "ST_DF60R8300WG > 점검 코드 (1.000)",
+    "ST_DF60R8300WG > 문제 해결 (1.000)"
+   ]
+  },
+  {
+   "id": "none-14",
+   "doc_id": "RF_RS84B5041WW",
+   "category": "none",
+   "query": "김치 숙성 모드 어떻게 켜요",
+   "expect": {
+    "none": true
+   },
+   "note": "없는 기능",
+   "brand": "samsung",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.999,
+   "d2": 0.999,
+   "top3": [
+    "RF_RS84B5041WW > 버튼과 표시부 (0.999)",
+    "RF_RS84B5041WW > 버튼과 표시부 (0.999)",
+    "RF_RS84B5041WW > 안심하세요! 고장이 아닙니다 > 온도 표시부가 켜지지 않아요. (0.999)"
+   ]
+  },
+  {
+   "id": "none-15",
+   "doc_id": "AC_AF17B6474WSN",
+   "category": "none",
+   "query": "난방은 어떻게 켜요?",
+   "expect": {
+    "none": true
+   },
+   "note": "없는 기능",
+   "brand": "samsung",
+   "route": "none",
+   "rank": null,
+   "ok": true,
+   "d1": 0.901,
+   "d2": 0.909,
+   "top3": [
+    "AC_AF17B6474WSN >  (0.901)",
+    "AC_AF17B6474WSN > 기본 기능 사용하기 (0.909)",
+    "AC_AF17B6474WSN > 예약 기능 사용하기 (0.934)"
+   ]
+  },
+  {
+   "id": "srt42-06",
+   "doc_id": "RF_RT42CG6024S9",
+   "category": "howto",
+   "query": "여름에 온도 몇 도로 맞춰요?",
+   "expect": {
+    "body": [
+     "여름철 (35",
+     "냉장실 온도를 설",
+     "냉동실 온도"
+    ]
+   },
+   "brand": "samsung",
+   "route": "none",
+   "rank": 2,
+   "ok": false,
+   "d1": 0.998,
+   "d2": 1.0,
+   "top3": [
+    "RF_RT42CG6024S9 >  (0.998)",
+    "RF_RT42CG6024S9 >  (1.000)",
+    "RF_RT42CG6024S9 > Wi-Fi 전원 제어 (1.000)"
+   ]
+  }
+ ]
+}

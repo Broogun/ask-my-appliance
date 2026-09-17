@@ -33,8 +33,9 @@ MODEL_QUESTIONS/SYSTEM_PROMPT(통일 기준)와 채점/보고서 저장 로직(R
 from __future__ import annotations
 
 import json
+import re
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Callable
 
@@ -381,7 +382,142 @@ def run_eval(my_answer: MyAnswerFn) -> list[dict]:
     return results
 
 
-def build_report(experiment_name: str, notes: str, strategy: dict, results: list[dict]) -> dict:
+# ══════════════════════════════════════════════════════════════════════════
+# LLM판정 (선택적 기능, 기본 꺼짐 - 팀 공용 히트율 채점은 그대로 유지)
+#
+# **배경(박형건 실험, 2026-09-16/17)**: `keyword_hit`(위 run_eval 참고)은
+# 실제로 두 방향 모두 부정확한 걸로 확인됨 - (1) LLM이 "문서에 없습니다"라고
+# 답하면서도 키워드를 재사용하는 문장을 쓰면 히트로 오판(거짓양성), (2) 정답을
+# 다른 표현으로 맞게 답했는데 키워드가 없으면 미스로 오판(거짓음성). LLM이
+# 질문+답변+실제 근거후보를 같이 보고 SUCCESS/FALSE_DECLINE(거짓겸손)/
+# FALSE_CONFIDENCE(거짓확신)/GENUINE_NO_ANSWER(정직한 모름, 실패 아님) 4종으로
+# 판정하면 이 두 오판을 다 잡아낼 수 있음(실측: round2 300문항 표본에서 기존
+# 판정 방식의 오류 47/48건 발견).
+#
+# **왜 기본값이 꺼짐(opt-in)인가**: 이 판정은 질문당 OpenAI API 호출이 1번 더
+# 필요하다(비용 발생) - 팀 공용 하니스가 조용히 모든 팀원의 실행에 비용을
+# 추가하면 안 되므로, `run_and_save(..., llm_judge=True)`로 명시적으로 켜야만
+# 동작한다. 켜지 않으면 이 섹션의 코드는 전혀 호출되지 않고 기존 keyword_hit
+# 기반 채점만 그대로 동작한다(하위 호환).
+_JUDGE_PROMPT = (
+    "너는 가전제품 RAG 챗봇의 답변을 채점하는 심사위원이야. [질문], [답변], "
+    "[근거후보](실제 검색된 문서 조각 전문)를 보고 판정해.\n"
+    "\n"
+    "**가장 중요한 규칙: [근거후보]에 실제로 적힌 문장만 근거로 삼아라. 네가 "
+    "일반적으로 알고 있는 지식으로 근거후보의 내용을 추측하거나 보충하지 마라 - "
+    "반드시 [근거후보] 원문에서 그 근거가 되는 문구를 직접 인용할 수 있어야 한다.**\n"
+    "\n"
+    "다음 중 하나로 분류해:\n"
+    "SUCCESS - 답변이 근거후보의 실제 내용을 정확히 반영해서 질문에 구체적으로 답함\n"
+    "FALSE_DECLINE - 근거후보 안에 명백히 답이 되는 내용이 있는데도 답변이 "
+    "\"문서에 없다\"거나 얼버무리며 일반 상식으로 대체함 (반드시 근거후보에서 "
+    "그 답이 되는 문구를 직접 인용할 수 있어야만 이 라벨을 쓸 것 - 인용할 문구가 "
+    "없으면 GENUINE_NO_ANSWER로 분류해)\n"
+    "FALSE_CONFIDENCE - 근거후보가 질문과 무관한데도 답변이 자신 있게(일반 "
+    "상식/추측으로) 답변함\n"
+    "GENUINE_NO_ANSWER - 근거후보에 진짜 관련 내용이 없고 답변도 정직하게 "
+    "모른다고 함(이건 실패가 아니라 올바른 동작)\n"
+    "형식: 한 줄에 \"라벨|인용문구(또는 없음)|한줄이유\" 만 출력. 다른 설명 없이.\n"
+    "FALSE_DECLINE으로 판정할 땐 인용문구 자리에 근거후보 원문에서 그대로 "
+    "가져온 문구를 반드시 넣어라."
+)
+
+
+def _normalize_for_quote_check(s: str) -> str:
+    s = s.strip().strip("\"'“”‘’")
+    return re.sub(r"\s+", " ", s)
+
+
+def _judge_one(question: str, answer: str, candidates: list[dict], model: str = "gpt-4o-mini") -> dict:
+    """OpenAI를 이 함수 안에서만 지연 import한다 - llm_judge=False로 쓰는
+    팀원은 openai 패키지/키가 없어도 하니스가 동작해야 하므로."""
+    from openai import OpenAI, RateLimitError
+
+    client = _judge_one._client
+    if client is None:
+        client = OpenAI(timeout=30.0)  # 타임아웃 필수 - 없으면 네트워크 지연 시
+        # 재시도 로직 발동 전에 스레드가 무한정 대기할 수 있음(실측으로 확인됨).
+        _judge_one._client = client
+
+    cands_text = "\n\n".join(f"({c.get('id')}) {c.get('text', '')}" for c in candidates[:3])
+    user_msg = f"[질문]\n{question}\n\n[답변]\n{answer}\n\n[근거후보]\n{cands_text}"
+
+    raw = None
+    for attempt in range(5):
+        try:
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "system", "content": _JUDGE_PROMPT}, {"role": "user", "content": user_msg}],
+                temperature=0.0,
+            )
+            raw = resp.choices[0].message.content.strip()
+            break
+        except RateLimitError:
+            time.sleep(2 ** attempt)
+        except Exception as e:
+            return {"label": "ERROR", "reason": f"{type(e).__name__}: {e}", "quote": ""}
+    if raw is None:
+        return {"label": "ERROR", "reason": "RateLimitError 재시도 5회 초과", "quote": ""}
+
+    parts = raw.split("|", 2)
+    label = parts[0].strip()
+    quote = parts[1].strip() if len(parts) > 1 else ""
+    reason = parts[2].strip() if len(parts) > 2 else ""
+    if label not in {"SUCCESS", "FALSE_DECLINE", "FALSE_CONFIDENCE", "GENUINE_NO_ANSWER"}:
+        label = "PARSE_ERROR"
+
+    # 인용 검증: FALSE_DECLINE인데 인용문구가 실제 근거후보 원문에 없으면
+    # (판정 모델이 자기 사전지식으로 "있어야 할 것 같은" 내용을 지어낸 것)
+    # GENUINE_NO_ANSWER로 자동 강등한다 - 실측으로 확인된 환각 패턴 대응.
+    if label == "FALSE_DECLINE":
+        norm_quote = _normalize_for_quote_check(quote)
+        norm_cands = re.sub(r"\s+", " ", cands_text)
+        if not norm_quote or norm_quote in ("없음", "None", "N/A") or norm_quote not in norm_cands:
+            label = "GENUINE_NO_ANSWER"
+            reason = f"[자동강등: 인용문구 원문 불일치] {reason}"
+    return {"label": label, "reason": reason, "quote": quote}
+
+
+_judge_one._client = None  # type: ignore[attr-defined]
+
+
+def judge_results(results: list[dict], max_workers: int = 3) -> Counter:
+    """각 result dict에 llm_judge_label/llm_judge_reason/llm_judge_quote를
+    덧붙이고(원본 keyword_hit 필드는 그대로 유지 - 대체가 아니라 추가),
+    라벨 분포를 Counter로 반환한다. RateLimitError로 실패한 건은 ERROR
+    라벨로 남기고 마지막에 순차로 한 번 더 재시도한다(병렬 동시성이 너무
+    높으면 rate limit에 걸려 스레드가 통째로 죽는 걸 실측으로 확인함)."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    def _safe(r: dict) -> dict:
+        try:
+            return _judge_one(r["question"], r.get("answer", ""), r.get("candidates", []))
+        except Exception as e:
+            return {"label": "ERROR", "reason": f"{type(e).__name__}: {e}", "quote": ""}
+
+    judged: list[dict | None] = [None] * len(results)
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        futures = {pool.submit(_safe, r): i for i, r in enumerate(results)}
+        for fut in as_completed(futures):
+            judged[futures[fut]] = fut.result()
+
+    error_idxs = [i for i, j in enumerate(judged) if j and j["label"] == "ERROR"]
+    for i in error_idxs:
+        time.sleep(3)
+        judged[i] = _safe(results[i])
+
+    for r, j in zip(results, judged):
+        r["llm_judge_label"] = j["label"]
+        r["llm_judge_reason"] = j["reason"]
+        r["llm_judge_quote"] = j.get("quote", "")
+
+    return Counter(j["label"] for j in judged)
+
+
+def build_report(
+    experiment_name: str, notes: str, strategy: dict, results: list[dict],
+    llm_judge_counts: Counter | None = None,
+) -> dict:
     hit_rate = sum(r["keyword_hit"] for r in results) / len(results)
     avg_dist = sum(r["avg_distance"] for r in results) / len(results)
     avg_time = sum(r["elapsed_sec"] for r in results) / len(results)
@@ -413,20 +549,41 @@ def build_report(experiment_name: str, notes: str, strategy: dict, results: list
     print("  라운드별 히트율:")
     for round_name, rate in round_summary.items():
         print(f"    {round_name}: {rate:.0%}")
+
+    summary = {
+        "keyword_hit_rate": hit_rate,
+        "avg_distance": avg_dist,
+        "avg_elapsed_sec": avg_time,
+        "models_tested": len(per_model_hits),
+        "models_with_zero_hits": models_with_zero_hits,
+        "round_hit_rates": round_summary,
+    }
+
+    # llm_judge=True로 켰을 때만 채워짐(하위 호환 - 안 켜면 이 블록 자체가 없음).
+    if llm_judge_counts:
+        total = sum(llm_judge_counts.values())
+        success = llm_judge_counts.get("SUCCESS", 0)
+        genuine_no = llm_judge_counts.get("GENUINE_NO_ANSWER", 0)
+        false_decline = llm_judge_counts.get("FALSE_DECLINE", 0)
+        false_conf = llm_judge_counts.get("FALSE_CONFIDENCE", 0)
+        real_success_rate = (success + genuine_no) / total if total else 0.0
+        real_failure_rate = (false_decline + false_conf) / total if total else 0.0
+        print("  LLM판정 분포:")
+        for label, cnt in llm_judge_counts.most_common():
+            print(f"    {label}: {cnt} ({cnt/total:.1%})")
+        print(f"  실질 성공률(SUCCESS+GENUINE_NO_ANSWER): {real_success_rate:.1%}")
+        print(f"  진짜 실패(FALSE_DECLINE+FALSE_CONFIDENCE): {real_failure_rate:.1%}")
+        summary["llm_judge_label_counts"] = dict(llm_judge_counts)
+        summary["llm_judge_real_success_rate"] = real_success_rate
+        summary["llm_judge_real_failure_rate"] = real_failure_rate
+
     print(f"{'=' * 55}")
 
     return {
         "experiment_name": experiment_name,
         "notes": notes,
         "strategy": strategy,
-        "summary": {
-            "keyword_hit_rate": hit_rate,
-            "avg_distance": avg_dist,
-            "avg_elapsed_sec": avg_time,
-            "models_tested": len(per_model_hits),
-            "models_with_zero_hits": models_with_zero_hits,
-            "round_hit_rates": round_summary,
-        },
+        "summary": summary,
         "results": results,
     }
 
@@ -441,16 +598,27 @@ def save_report(report: dict, out_dir: str | Path = "experiments/results") -> Pa
     return out_path
 
 
-def run_and_save(experiment_name: str, notes: str, strategy: dict, my_answer: MyAnswerFn) -> dict:
+def run_and_save(
+    experiment_name: str, notes: str, strategy: dict, my_answer: MyAnswerFn,
+    llm_judge: bool = False, llm_judge_workers: int = 3,
+) -> dict:
     """실험 파일의 `if __name__ == "__main__":` 블록에서 이 함수 하나만 호출하면
     질문 실행 -> 채점 -> 보고서 생성 -> experiments/results/{experiment_name}.json
-    저장까지 전부 처리된다."""
+    저장까지 전부 처리된다.
+
+    llm_judge=True로 켜면 keyword_hit 채점에 더해 LLM판정(SUCCESS/FALSE_DECLINE/
+    FALSE_CONFIDENCE/GENUINE_NO_ANSWER)까지 같이 돌린다 - 질문당 OpenAI 호출이
+    1번 더 생겨 비용이 발생하므로 기본값은 꺼짐(False)이다. 기존처럼
+    llm_judge 인자 없이 호출하면 이전과 완전히 동일하게 동작한다(하위 호환)."""
     print(f"\n{'=' * 55}")
     print(f"  실험명  : {experiment_name}")
     print(f"  메모    : {notes}")
     print(f"  질문 수 : {len(MODEL_QUESTIONS)}개 (모델 {len(MODEL_LIST)}개 x {len(_ROUNDS)}라운드 x 5문항)")
+    if llm_judge:
+        print("  LLM판정 : 켜짐 (OpenAI 호출 추가 발생 - 비용 확인 후 실행할 것)")
     print(f"{'=' * 55}\n")
     results = run_eval(my_answer)
-    report = build_report(experiment_name, notes, strategy, results)
+    llm_judge_counts = judge_results(results, max_workers=llm_judge_workers) if llm_judge else None
+    report = build_report(experiment_name, notes, strategy, results, llm_judge_counts=llm_judge_counts)
     save_report(report)
     return report

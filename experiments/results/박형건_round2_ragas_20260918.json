@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "FQ16FV6EDN 에어컨 리모컨 사용법 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.5554522351449457
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 무풍 기능이 뭐야",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 제습 모드는 어떻게 써",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.49763304179525897
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.48238616192474737
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5647195740938659
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 리모컨 사용법 알려줘",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.5739625858636082
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 무풍 기능이 뭐야",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 제습 모드는 어떻게 써",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5385963598239488
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4942098838161874
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.5800695608111207
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 리모컨 사용법 알려줘",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.5842322162872703
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 무풍 기능이 뭐야",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 제습 모드는 어떻게 써",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.546859021368627
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.34043456267037364
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.8461538461538461,
+    "answer_relevancy": 0.5992689685639802
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 리모컨 사용법 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.5726669670758651
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 무풍 기능이 뭐야",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 제습 모드는 어떻게 써",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.526958991300846
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.32702085127678127
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.5847514959672069
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 리모컨 사용법 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.5847868862519483
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 무풍 기능이 뭐야",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 제습 모드는 어떻게 써",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.5468827051696864
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3394090009595898
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6063784235548975
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 리모컨 사용법 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5671363784512953
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 무풍 기능이 뭐야",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 제습 모드는 어떻게 써",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.5277240782191576
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.32004586119226014
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.5687326770465707
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 리모컨 사용법 알려줘",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.6923076923076923,
+    "answer_relevancy": 0.5055170539334081
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 무풍 기능이 뭐야",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 제습 모드는 어떻게 써",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.43400450810171354
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.39554735732561036
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5139381819951497
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 리모컨 사용법 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.5483964284621833
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 무풍 기능이 뭐야",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 제습 모드는 어떻게 써",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.5000846068417112
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.31902016556551904
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5648916218697345
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 리모컨 사용법 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5335100658664935
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 무풍 기능이 뭐야",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 제습 모드는 어떻게 써",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.49033148188874576
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.4395959888190741
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5805991301401727
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 리모컨 사용법 알려줘",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5341129515287729
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 무풍 기능이 뭐야",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 제습 모드는 어떻게 써",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.4705821038105763
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.42416410991176795
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.5658585035308323
+  },
+  {
+    "question": "B242S32 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "B242S32",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6556239780929904
+  },
+  {
+    "question": "B242S32 냉장고 야채실 사용법 알려줘",
+    "model": "B242S32",
+    "faithfulness": 0.7142857142857143,
+    "answer_relevancy": 0.5896066151262088
+  },
+  {
+    "question": "B242S32 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "B242S32",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "B242S32 냉장고 절전하는 방법 알려줘",
+    "model": "B242S32",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.5795941069915734
+  },
+  {
+    "question": "B242S32 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "B242S32",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5982255162985844
+  },
+  {
+    "question": "CA-H17DC 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "CA-H17DC",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.672600486719382
+  },
+  {
+    "question": "CA-H17DC 냉장고 야채실 사용법 알려줘",
+    "model": "CA-H17DC",
+    "faithfulness": 0.45454545454545453,
+    "answer_relevancy": 0.6158659684759472
+  },
+  {
+    "question": "CA-H17DC 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "CA-H17DC",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "CA-H17DC 냉장고 절전하는 방법 알려줘",
+    "model": "CA-H17DC",
+    "faithfulness": 0.625,
+    "answer_relevancy": 0.6217599150970265
+  },
+  {
+    "question": "CA-H17DC 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "CA-H17DC",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.65341289551203
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 야채실 사용법 알려줘",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.625,
+    "answer_relevancy": 0.6330496379241828
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 절전하는 방법 알려줘",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.6469724161514294
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.6413909388246775
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "GC-B414HG7M",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.6976754803233931
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 야채실 사용법 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6394928239636847
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 절전하는 방법 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.6268753092114258
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "J825MEE042 냉장고 냉동실 온도는 몇 도가 적당해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "J825MEE042 냉장고 야채실 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "J825MEE042 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6231167739146414
+  },
+  {
+    "question": "J825MEE042 냉장고 절전하는 방법 알려줘",
+    "model": "J825MEE042",
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.5986641970899479
+  },
+  {
+    "question": "J825MEE042 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "M402ND 냉장고 냉동실 온도는 몇 도가 적당해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "M402ND 냉장고 야채실 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "M402ND 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "M402ND",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "M402ND 냉장고 절전하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "M402ND 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "M402ND",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6493023415276822
+  },
+  {
+    "question": "S825AW35 냉장고 냉동실 온도는 몇 도가 적당해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "S825AW35 냉장고 야채실 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "S825AW35 냉장고 정수 필터 교체 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "S825AW35 냉장고 절전하는 방법 알려줘",
+    "model": "S825AW35",
+    "faithfulness": 0.8461538461538461,
+    "answer_relevancy": 0.6225496594825101
+  },
+  {
+    "question": "S825AW35 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "S825AW35",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.6193765134783727
+  },
+  {
+    "question": "S835S31 냉장고 냉동실 온도는 몇 도가 적당해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "S835S31 냉장고 야채실 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "S835S31 냉장고 정수 필터 교체 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "S835S31 냉장고 절전하는 방법 알려줘",
+    "model": "S835S31",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.6237238153103057
+  },
+  {
+    "question": "S835S31 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "W826AAA492 냉장고 냉동실 온도는 몇 도가 적당해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "W826AAA492 냉장고 야채실 사용법 알려줘",
+    "model": "W826AAA492",
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.3925446300172466
+  },
+  {
+    "question": "W826AAA492 냉장고 정수 필터 교체 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "W826AAA492 냉장고 절전하는 방법 알려줘",
+    "model": "W826AAA492",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.5789723957040152
+  },
+  {
+    "question": "W826AAA492 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "K135LW123 김치냉장고 보관 용기는 어떻게 써",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "K135LW123 김치냉장고 절전 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "K135LW123 김치냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "K135LW123 김치냉장고 알림 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "K135LW123 김치냉장고 설치 시 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "F21VDSK 세탁기 세제는 어디에 넣어",
+    "model": "F21VDSK",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6173061106991345
+  },
+  {
+    "question": "F21VDSK 세탁기 예약 세탁 어떻게 해",
+    "model": "F21VDSK",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6457008328416508
+  },
+  {
+    "question": "F21VDSK 세탁기 통 세척 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "F21VDSK 세탁기 울 코스는 어떻게 써",
+    "model": "F21VDSK",
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.7332500598841871
+  },
+  {
+    "question": "F21VDSK 세탁기 에러 코드는 어디서 확인해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FC4KC 세탁기 세제는 어디에 넣어",
+    "model": "FC4KC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5598346611374387
+  },
+  {
+    "question": "FC4KC 세탁기 예약 세탁 어떻게 해",
+    "model": "FC4KC",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FC4KC 세탁기 통 세척 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FC4KC 세탁기 울 코스는 어떻게 써",
+    "model": "FC4KC",
+    "faithfulness": 0.6363636363636364,
+    "answer_relevancy": 0.5661379730710641
+  },
+  {
+    "question": "FC4KC 세탁기 에러 코드는 어디서 확인해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 세제는 어디에 넣어",
+    "model": "T17J4EFNTX",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.623902390109347
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 예약 세탁 어떻게 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 통 세척 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 울 코스는 어떻게 써",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 에러 코드는 어디서 확인해",
+    "model": "T17J4EFNTX",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.7558008651804229
+  },
+  {
+    "question": "TR16MV6 세탁기 세제는 어디에 넣어",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5640708552031587
+  },
+  {
+    "question": "TR16MV6 세탁기 예약 세탁 어떻게 해",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "TR16MV6 세탁기 통 세척 방법 알려줘",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6096006906095548
+  },
+  {
+    "question": "TR16MV6 세탁기 울 코스는 어떻게 써",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "TR16MV6 세탁기 에러 코드는 어디서 확인해",
+    "model": "TR16MV6",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.757446885681759
+  },
+  {
+    "question": "RH10VTA 건조기 응축수 비우는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH10VTA 건조기에 세탁물을 얼마나 넣어도 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH10VTA 건조기 사용하면 옷에 구김이 덜 가나",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH10VTA 건조기에서 냄새가 나요",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH10VTA 건조기 정기 관리 방법 알려줘",
+    "model": "RH10VTA",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 탈수할 때 소음이 심해요",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 예약 세탁 어떻게 해",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.6829777115375434
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 응축수 비우는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 세제는 어디에 넣어",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기에서 소음이 나는데 왜 그래요",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6380440632977606
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 탈수할 때 소음이 심해요",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 예약 세탁 어떻게 해",
+    "model": "FA25AJPB",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6529478335908386
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 응축수 비우는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 세제는 어디에 넣어",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FA25AJPB 세탁건조기에서 소음이 나는데 왜 그래요",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 탈수할 때 소음이 심해요",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 예약 세탁 어떻게 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 응축수 비우는 방법 알려줘",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.8461538461538461,
+    "answer_relevancy": 0.585845953606892
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 세제는 어디에 넣어",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.5129240186792998
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기에서 소음이 나는데 왜 그래요",
+    "model": "FC2521KX6C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6039931352158848
+  },
+  {
+    "question": "FH23KN 세탁건조기 탈수할 때 소음이 심해요",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FH23KN 세탁건조기 예약 세탁 어떻게 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FH23KN 세탁건조기 응축수 비우는 방법 알려줘",
+    "model": "FH23KN",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.5771741365873717
+  },
+  {
+    "question": "FH23KN 세탁건조기 세제는 어디에 넣어",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FH23KN 세탁건조기에서 소음이 나는데 왜 그래요",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SC3GBE50 스타일러 정전기 방지 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SC3GBE50 스타일러 스팀 기능 알려줘",
+    "model": "SC3GBE50",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.572673234636795
+  },
+  {
+    "question": "SC3GBE50 스타일러 한 번 사용하는데 시간이 얼마나 걸려",
+    "model": "SC3GBE50",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SC3GBE50 스타일러에서 소음이 나는데 왜 그래요",
+    "model": "SC3GBE50",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.5330888097218893
+  },
+  {
+    "question": "SC3GBE50 스타일러 필터 교체 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 리모컨 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 무풍 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 제습 모드는 어떻게 써",
+    "model": "AF17B6474WSN",
+    "faithfulness": 0.7692307692307693,
+    "answer_relevancy": 0.5058873323996653
+  },
+  {
+    "question": "AF17B6474WSN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 실내기 자동 건조 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 리모컨 사용법 알려줘",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5290277678981867
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 무풍 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 제습 모드는 어떻게 써",
+    "model": "AF17B7538TZN",
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.4889211413988129
+  },
+  {
+    "question": "AF17B7538TZN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 실내기 자동 건조 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 리모컨 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 무풍 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 제습 모드는 어떻게 써",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.7692307692307693,
+    "answer_relevancy": 0.5106582573111894
+  },
+  {
+    "question": "AF18RX975CAN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "AF18RX975CAN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.47795017857328
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 실내기 자동 건조 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 리모컨 사용법 알려줘",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.5655223412735042
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 무풍 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 제습 모드는 어떻게 써",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.4769548188770826
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 실내기 자동 건조 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 리모컨 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 무풍 기능이 뭐야",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 제습 모드는 어떻게 써",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.5018218691751289
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.29632372583603844
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 실내기 자동 건조 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR-EH05 에어컨 리모컨 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR-EH05 에어컨 무풍 기능이 뭐야",
+    "model": "AR-EH05",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.7178650307554246
+  },
+  {
+    "question": "AR-EH05 에어컨 제습 모드는 어떻게 써",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR-EH05 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR-EH05 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "AR-EH05",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.6465926084221025
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 리모컨 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 무풍 기능이 뭐야",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.6985527654769365
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 제습 모드는 어떻게 써",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.5676647754130034
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 실내기 자동 건조 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 리모컨 사용법 알려줘",
+    "model": "AR06R1130HZN",
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.5656216775213837
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 무풍 기능이 뭐야",
+    "model": "AR06R1130HZN",
+    "faithfulness": 0.4,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 제습 모드는 어떻게 써",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 실내기 자동 건조 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 리모컨 사용법 알려줘",
+    "model": "AR09T9170HCN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5132293040797753
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 무풍 기능이 뭐야",
+    "model": "AR09T9170HCN",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.6809163698548113
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 제습 모드는 어떻게 써",
+    "model": "AR09T9170HCN",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.5903952558661136
+  },
+  {
+    "question": "AR09T9170HCN 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "model": "AR09T9170HCN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5318140542175125
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "AR09T9170HCN",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.6576566695213802
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 리모컨 사용법 알려줘",
+    "model": "AR11B9150HZT",
+    "faithfulness": 0.8823529411764706,
+    "answer_relevancy": 0.5706047755437583
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 무풍 기능이 뭐야",
+    "model": "AR11B9150HZT",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.641581734988045
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 제습 모드는 어떻게 써",
+    "model": "AR11B9150HZT",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.49817280816566506
+  },
+  {
+    "question": "AR11B9150HZT 에어컨에서 냄새가 나는데 계속 써도 될까",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 실내기 자동 건조 기능 알려줘",
+    "model": "AR11B9150HZT",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.6058021155132767
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "RF85B90P1AP",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6598031644415514
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 야채실 사용법 알려줘",
+    "model": "RF85B90P1AP",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6377042608714193
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 정수 필터 교체 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 절전하는 방법 알려줘",
+    "model": "RF85B90P1AP",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.43327392633559975
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "RF85B90P1AP",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.5832823239762661
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.6594207672792431
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 야채실 사용법 알려줘",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.5833333333333334,
+    "answer_relevancy": 0.594517706037716
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6216935186211077
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 절전하는 방법 알려줘",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6036555448971759
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6025715158441881
+  },
+  {
+    "question": "RH82M9152SL 냉장고 냉동실 온도는 몇 도가 적당해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH82M9152SL 냉장고 야채실 사용법 알려줘",
+    "model": "RH82M9152SL",
+    "faithfulness": 0.21428571428571427,
+    "answer_relevancy": 0.6059149530953165
+  },
+  {
+    "question": "RH82M9152SL 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "RH82M9152SL",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RH82M9152SL 냉장고 절전하는 방법 알려줘",
+    "model": "RH82M9152SL",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RH82M9152SL 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "RH82M9152SL",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5774392956827984
+  },
+  {
+    "question": "RS63R557EB4 냉장고 냉동실 온도는 몇 도가 적당해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS63R557EB4 냉장고 야채실 사용법 알려줘",
+    "model": "RS63R557EB4",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.582583628145522
+  },
+  {
+    "question": "RS63R557EB4 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "RS63R557EB4",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS63R557EB4 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS84B5041WW 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "RS84B5041WW",
+    "faithfulness": 0.4,
+    "answer_relevancy": 0.6279577632008762
+  },
+  {
+    "question": "RS84B5041WW 냉장고 야채실 사용법 알려줘",
+    "model": "RS84B5041WW",
+    "faithfulness": 0.42857142857142855,
+    "answer_relevancy": 0.5524172388102103
+  },
+  {
+    "question": "RS84B5041WW 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "RS84B5041WW",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6161736395638627
+  },
+  {
+    "question": "RS84B5041WW 냉장고 절전하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS84B5041WW 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "RS84B5041WW",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.5669904528238051
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "RT42CG6024S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.57240794905413
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 야채실 사용법 알려줘",
+    "model": "RT42CG6024S9",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "RT42CG6024S9",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 절전하는 방법 알려줘",
+    "model": "RT42CG6024S9",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.5484557184911185
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "RT42CG6024S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6080559784084477
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.2,
+    "answer_relevancy": 0.6423173217760801
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 야채실 사용법 알려줘",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.18181818181818182,
+    "answer_relevancy": 0.5623759085883665
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 절전하는 방법 알려줘",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.625,
+    "answer_relevancy": 0.47054192651153437
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SRS705IC 냉장고 냉동실 온도는 몇 도가 적당해",
+    "model": "SRS705IC",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6515580650829137
+  },
+  {
+    "question": "SRS705IC 냉장고 야채실 사용법 알려줘",
+    "model": "SRS705IC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6352084304346736
+  },
+  {
+    "question": "SRS705IC 냉장고 정수 필터 교체 방법 알려줘",
+    "model": "SRS705IC",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SRS705IC 냉장고 절전하는 방법 알려줘",
+    "model": "SRS705IC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6391201033072206
+  },
+  {
+    "question": "SRS705IC 냉장고 문이 오래 열려 있으면 알림이 오나",
+    "model": "SRS705IC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5887006149656107
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 보관 용기는 어떻게 써",
+    "model": "RP20C3111S9",
+    "faithfulness": 0.8823529411764706,
+    "answer_relevancy": 0.6685884718124645
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 절전 방법 알려줘",
+    "model": "RP20C3111S9",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 급속 냉동 기능이 뭐야",
+    "model": "RP20C3111S9",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 알림 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 설치 시 주의사항 알려줘",
+    "model": "RP20C3111S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7203983883123622
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 보관 용기는 어떻게 써",
+    "model": "RQ49C9002S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.47861669569363785
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 절전 방법 알려줘",
+    "model": "RQ49C9002S9",
+    "faithfulness": 0.5555555555555556,
+    "answer_relevancy": 0.5003383171311645
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 급속 냉동 기능이 뭐야",
+    "model": "RQ49C9002S9",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 알림 기능 알려줘",
+    "model": "RQ49C9002S9",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.6941449116584207
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 설치 시 주의사항 알려줘",
+    "model": "RQ49C9002S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7422255649686096
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 세제는 어디에 넣어",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 예약 세탁 어떻게 해",
+    "model": "WA19CG6745BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.62218830465773
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 통 세척 방법 알려줘",
+    "model": "WA19CG6745BV",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.5978323079689374
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 울 코스는 어떻게 써",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 에러 코드는 어디서 확인해",
+    "model": "WA19CG6745BV",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.7645647425460296
+  },
+  {
+    "question": "WA80F19E8W 세탁기 세제는 어디에 넣어",
+    "model": "WA80F19E8W",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5755227516744084
+  },
+  {
+    "question": "WA80F19E8W 세탁기 예약 세탁 어떻게 해",
+    "model": "WA80F19E8W",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.607847561604182
+  },
+  {
+    "question": "WA80F19E8W 세탁기 통 세척 방법 알려줘",
+    "model": "WA80F19E8W",
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.6035885823031424
+  },
+  {
+    "question": "WA80F19E8W 세탁기 울 코스는 어떻게 써",
+    "model": "WA80F19E8W",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.5622465103660877
+  },
+  {
+    "question": "WA80F19E8W 세탁기 에러 코드는 어디서 확인해",
+    "model": "WA80F19E8W",
+    "faithfulness": 0.4,
+    "answer_relevancy": 0.7673454898638853
+  },
+  {
+    "question": "WF17M9100KG 세탁기 세제는 어디에 넣어",
+    "model": "WF17M9100KG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5460360419379158
+  },
+  {
+    "question": "WF17M9100KG 세탁기 예약 세탁 어떻게 해",
+    "model": "WF17M9100KG",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "WF17M9100KG 세탁기 통 세척 방법 알려줘",
+    "model": "WF17M9100KG",
+    "faithfulness": 0.38461538461538464,
+    "answer_relevancy": 0.5975661830698403
+  },
+  {
+    "question": "WF17M9100KG 세탁기 울 코스는 어떻게 써",
+    "model": "WF17M9100KG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5634909629046059
+  },
+  {
+    "question": "WF17M9100KG 세탁기 에러 코드는 어디서 확인해",
+    "model": "WF17M9100KG",
+    "faithfulness": 0.25,
+    "answer_relevancy": 0.7704411774030694
+  },
+  {
+    "question": "WF21T6500KW 세탁기 세제는 어디에 넣어",
+    "model": "WF21T6500KW",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.587616109012355
+  },
+  {
+    "question": "WF21T6500KW 세탁기 예약 세탁 어떻게 해",
+    "model": "WF21T6500KW",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6689024165372011
+  },
+  {
+    "question": "WF21T6500KW 세탁기 통 세척 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF21T6500KW 세탁기 울 코스는 어떻게 써",
+    "model": "WF21T6500KW",
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.5578077575749746
+  },
+  {
+    "question": "WF21T6500KW 세탁기 에러 코드는 어디서 확인해",
+    "model": "WF21T6500KW",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.7699965187448049
+  },
+  {
+    "question": "DV17T8520BV 건조기 응축수 비우는 방법 알려줘",
+    "model": "DV17T8520BV",
+    "faithfulness": 0.38461538461538464,
+    "answer_relevancy": 0.6278509743231909
+  },
+  {
+    "question": "DV17T8520BV 건조기에 세탁물을 얼마나 넣어도 돼",
+    "model": "DV17T8520BV",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.5993265971901997
+  },
+  {
+    "question": "DV17T8520BV 건조기 사용하면 옷에 구김이 덜 가나",
+    "model": "DV17T8520BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5666219261969451
+  },
+  {
+    "question": "DV17T8520BV 건조기에서 냄새가 나요",
+    "model": "DV17T8520BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5913985682791452
+  },
+  {
+    "question": "DV17T8520BV 건조기 정기 관리 방법 알려줘",
+    "model": "DV17T8520BV",
+    "faithfulness": 0.9444444444444444,
+    "answer_relevancy": 0.6654995002097476
+  },
+  {
+    "question": "DV90TA040TE 건조기 응축수 비우는 방법 알려줘",
+    "model": "DV90TA040TE",
+    "faithfulness": 0.3,
+    "answer_relevancy": 0.5996063317608309
+  },
+  {
+    "question": "DV90TA040TE 건조기에 세탁물을 얼마나 넣어도 돼",
+    "model": "DV90TA040TE",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.5828998407888186
+  },
+  {
+    "question": "DV90TA040TE 건조기 사용하면 옷에 구김이 덜 가나",
+    "model": "DV90TA040TE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5917956035046057
+  },
+  {
+    "question": "DV90TA040TE 건조기에서 냄새가 나요",
+    "model": "DV90TA040TE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5695462410270242
+  },
+  {
+    "question": "DV90TA040TE 건조기 정기 관리 방법 알려줘",
+    "model": "DV90TA040TE",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6434379864718573
+  },
+  {
+    "question": "DF60R8300WG 스타일러 정전기 방지 기능이 뭐야",
+    "model": "DF60R8300WG",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "DF60R8300WG 스타일러 스팀 기능 알려줘",
+    "model": "DF60R8300WG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4565542039220426
+  },
+  {
+    "question": "DF60R8300WG 스타일러 한 번 사용하는데 시간이 얼마나 걸려",
+    "model": "DF60R8300WG",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "DF60R8300WG 스타일러에서 소음이 나는데 왜 그래요",
+    "model": "DF60R8300WG",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.5861648898668357
+  },
+  {
+    "question": "DF60R8300WG 스타일러 필터 교체 방법 알려줘",
+    "model": "DF60R8300WG",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.5805263045059099
+  },
+  {
+    "question": "DF90H24R5C 스타일러 정전기 방지 기능이 뭐야",
+    "model": "DF90H24R5C",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "DF90H24R5C 스타일러 스팀 기능 알려줘",
+    "model": "DF90H24R5C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.41439954201188905
+  },
+  {
+    "question": "DF90H24R5C 스타일러 한 번 사용하는데 시간이 얼마나 걸려",
+    "model": "DF90H24R5C",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "DF90H24R5C 스타일러에서 소음이 나는데 왜 그래요",
+    "model": "DF90H24R5C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5732728753280052
+  },
+  {
+    "question": "DF90H24R5C 스타일러 필터 교체 방법 알려줘",
+    "model": "DF90H24R5C",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.5594191025929327
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 신발 트레이는 어떻게 써",
+    "model": "DJ30T9500FE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.45106268737749516
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 한 번 사용하는데 시간이 얼마나 걸려",
+    "model": "DJ30T9500FE",
+    "faithfulness": 0.42857142857142855,
+    "answer_relevancy": 0.5634967875994907
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 에러 코드는 어디서 확인해",
+    "model": "DJ30T9500FE",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.818026315158928
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 습기 제거 기능 알려줘",
+    "model": "DJ30T9500FE",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.5421505836631932
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 정기 관리 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 신발 트레이는 어떻게 써",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.4499593084642187
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 한 번 사용하는데 시간이 얼마나 걸려",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.5859720700380967
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 에러 코드는 어디서 확인해",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.813190839916594
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 습기 제거 기능 알려줘",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5193150136860011
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 정기 관리 방법 알려줘",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.6873400428902393
+  }
+]

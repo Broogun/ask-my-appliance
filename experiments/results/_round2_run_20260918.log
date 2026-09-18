@@ -1,0 +1,29 @@
+round2 질문 수: 300
+[박형건_exp02] 임베딩 device: cuda
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:   6%|▌         | 22/391 [00:00<00:01, 206.41it/s]Loading weights:  11%|█         | 43/391 [00:00<00:02, 163.48it/s]Loading weights:  15%|█▌        | 60/391 [00:00<00:02, 142.34it/s]Loading weights:  20%|██        | 80/391 [00:00<00:01, 160.03it/s]Loading weights:  25%|██▍       | 97/391 [00:00<00:02, 146.80it/s]Loading weights:  29%|██▉       | 113/391 [00:00<00:01, 147.73it/s]Loading weights:  33%|███▎      | 129/391 [00:00<00:02, 129.31it/s]Loading weights:  37%|███▋      | 143/391 [00:01<00:01, 125.51it/s]Loading weights: 100%|██████████| 391/391 [00:01<00:00, 380.13it/s]
+  20/300 완료 (52초)
+  40/300 완료 (158초)
+  60/300 완료 (246초)
+  80/300 완료 (337초)
+  100/300 완료 (419초)
+  120/300 완료 (519초)
+  140/300 완료 (621초)
+  160/300 완료 (719초)
+  180/300 완료 (809초)
+  200/300 완료 (903초)
+  220/300 완료 (997초)
+  240/300 완료 (1079초)
+  260/300 완료 (1180초)
+  280/300 완료 (1287초)
+  300/300 완료 (1375초)
+
+에러 4건 순차 재시도 중...
+  재시도: SQ09GK1WEN 에어컨 제습 모드는 어떻게 써 -> 성공
+  재시도: RF85DB90B1AP 냉장고 정수 필터 교체 방법 알려줘 -> 성공
+  재시도: RT53DG7A1CWW 냉장고 야채실 사용법 알려줘 -> 성공
+  재시도: WF21T6500KW 세탁기 에러 코드는 어디서 확인해 -> 성공
+
+완료: 1408초, 히트율 86.3%, 에러 0건
+0히트 모델: 0개 []
+저장: experiments\results\박형건_round2_official_20260918.json

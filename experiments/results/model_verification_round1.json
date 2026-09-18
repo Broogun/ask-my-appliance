@@ -1,0 +1,2709 @@
+{
+  "round": "round1",
+  "total_questions": 300,
+  "models_tested": 60,
+  "keyword_hit_rate": 0.9533,
+  "models_with_zero_hits": [],
+  "results": [
+    {
+      "product_model": "AF17B6474WSN",
+      "question": "안전을 위한 주의 사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의 사항",
+      "source_section_title": "안전을 위한 주의 사항",
+      "keyword_hit": true,
+      "min_distance": 0.8697,
+      "top_candidate_text": "[안전을 위한 주의 사항] 다.\n열기구 및 열에 약한 물건 근처나 습기, 기름, 먼지가 많은 곳, 직사광선 및 물(빗물 등)이 닿는 곳이나 가스가 샐 \n가능성이 있는 곳에 설치하지 마세요.\n•\t 감전, 화재의 원인이 됩니다.\n높은 외벽, 베란다 바깥 쪽 등 낙하 우려가"
+    },
+    {
+      "product_model": "AF17B6474WSN",
+      "question": "실내기 어떻게 하나요?",
+      "keyword": "실내기",
+      "source_section_title": "실내기",
+      "keyword_hit": true,
+      "min_distance": 0.8687,
+      "top_candidate_text": "[실내기] 11\n명칭알기\n01\t 상단 바람문 (공기 배출구)\n02\t 하단 바람문 (공기 배출구)\n03\t 받침대\n04\t 디스플레이\n05\t 리모컨 수신부\n본체 조절부\n06\t 전원 버튼\n07\t 온도 조절 버튼\n•\t 청정 운전 중에 ∧ ∨ 버튼을 누르면 냉방 모드로 \n변경됩니"
+    },
+    {
+      "product_model": "AF17B6474WSN",
+      "question": "부가 기능 사용하기 어떻게 하나요?",
+      "keyword": "부가 기능 사용하기",
+      "source_section_title": "부가 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8416,
+      "top_candidate_text": "[부가 기능 사용하기] 21\n사용하기\n부가 기능 사용하기\n스피드 기능\n실내 온도를 빠르고 강력하게 내릴 수 있는 초강력 냉방을 해 주는 운전 \n기능입니다. \n운전 중▶\n▶\n▶[스피드] \n선택\n▶\n  참고\n•\t 취소하고 싶을 때는 위의 경로를 재실행하세요.\n•\t 30분 "
+    },
+    {
+      "product_model": "AF17B6474WSN",
+      "question": "제품 청소하기 어떻게 하나요?",
+      "keyword": "제품 청소하기",
+      "source_section_title": "제품 청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.7661,
+      "top_candidate_text": "[제품 청소하기] 33\n청소하기\n에어컨 구석구석을 간편하게 청소해 보세요.\n실외기 열교환기 외관 청소하기\n실외기 외관에 물을 뿌려가며 먼지를 제거하세요.\n  참고\n•\t 세척 및 청소를 위해 제품을 분해하려면 서비스 센터에 \n문의하세요.\n•\t 해안 지역에 설치한 경우 주"
+    },
+    {
+      "product_model": "AF17B6474WSN",
+      "question": "서비스를 요청하기 전에 어떻게 하나요?",
+      "keyword": "서비스를 요청하기 전에",
+      "source_section_title": "서비스를 요청하기 전에",
+      "keyword_hit": true,
+      "min_distance": 0.8671,
+      "top_candidate_text": "[서비스를 요청하기 전에] 37\n문제해결\n서비스를 요청하기 전에\n  참고\n•\t 제품 고장이 아닌데 방문 서비스를 요청할 경우, 방문 및 상담 비용이 청구되므로 서비스 센터에 의뢰하기 전에 다음 \n사항을 먼저 확인해 주세요.\n전원\n전원이 켜지지 않아요.\n•\t 콘센트가 잘"
+    },
+    {
+      "product_model": "AF17B7538TZN",
+      "question": "안전을 위한 주의 사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의 사항",
+      "source_section_title": "안전을 위한 주의 사항",
+      "keyword_hit": true,
+      "min_distance": 0.8236,
+      "top_candidate_text": "[안전을 위한 주의 사항] 화재, 고장, 폭발, 상해의 원인이 됩니다..\n사용자의 안전을 지키고 재산상의 손해를 막기 위한 내용입니다.  \n반드시 잘 읽고 제품을 올바르게 사용해 주세요.\n안전을 위한 주의 사항\n\n4\n주의하기\n에어컨 전용 개폐기 및 누전차단기를 설치하세"
+    },
+    {
+      "product_model": "AF17B7538TZN",
+      "question": "실내기 어떻게 하나요?",
+      "keyword": "실내기",
+      "source_section_title": "실내기",
+      "keyword_hit": true,
+      "min_distance": 0.8647,
+      "top_candidate_text": "[실내기] 12\n명칭알기\n01\t 바람문\n02\t 공기 배출구\n03\t (내부) 리모컨 수신부 /  \n디스플레이(LED) 및 본체 조절부\n04\t 실내기 하단 패널\n05\t 받침대\n06\t 메탈 쿨링 패널\n07\t (내부) 리모컨 보관함  \n(리모컨 형상에 맞게 ⓐ부에 꽂아 사용하"
+    },
+    {
+      "product_model": "AF17B7538TZN",
+      "question": "부가 기능 사용하기 어떻게 하나요?",
+      "keyword": "부가 기능 사용하기",
+      "source_section_title": "부가 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8772,
+      "top_candidate_text": "[부가 기능 사용하기] 23\n사용하기\n부가 기능 사용하기\n스피드 기능\n실내 온도를 빠르고 강력하게 내릴 수 있는 초강력 냉방을 해 주는 운전 \n기능입니다. \n운전 중▶\n▶\n▶[스피드] \n선택\n▶\n  참고\n•\t 취소하고 싶을 때는 위의 경로를 재실행하세요.\n•\t 30분 "
+    },
+    {
+      "product_model": "AF17B7538TZN",
+      "question": "SmartThings 앱 사용하기 어떻게 하나요?",
+      "keyword": "SmartThings 앱 사용하기",
+      "source_section_title": "SmartThings 앱 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5405,
+      "top_candidate_text": "[SmartThings 앱 사용하기] 인터넷에 연결하지 못할 수 있습니다. \n인터넷서비스 제공업체에 문제해결을 문의하세요.\n3 SmartThings 앱 설치 및 계정 등록하기\n1\t SmartThings 앱 설치하기\n•\t Play 스토어, App Store에서 \"Smar"
+    },
+    {
+      "product_model": "AF17B7538TZN",
+      "question": "서비스를 요청하기 전에 어떻게 하나요?",
+      "keyword": "서비스를 요청하기 전에",
+      "source_section_title": "서비스를 요청하기 전에",
+      "keyword_hit": true,
+      "min_distance": 0.8561,
+      "top_candidate_text": "[서비스를 요청하기 전에] 에는 실내 온도가 희망 온도까지 상승하면 다시 운전합니다.\n3분 후"
+    },
+    {
+      "product_model": "AF18RX975CAN",
+      "question": "사용전 확인하기(반드시 읽어 보고 사용하세요!) 어떻게 하나요?",
+      "keyword": "사용전 확인하기(반드시 읽어 보고 사용하세요!)",
+      "source_section_title": "사용전 확인하기(반드시 읽어 보고 사용하세요!)",
+      "keyword_hit": true,
+      "min_distance": 0.8584,
+      "top_candidate_text": "[안전을 위한 주의 사항] 체하기'를 참조하세요.\n•• 감전, 화재의 원인이 됩니다.\n청소 등 사용자 유지 보수 전에 반드시 모든 전원 공급원을 차단하고, 전원 공급 전에는 완전한 조립 상태를 확인하세요."
+    },
+    {
+      "product_model": "AF18RX975CAN",
+      "question": "눅눅한 장마철, 제습기로 사용하기 어떻게 하나요?",
+      "keyword": "눅눅한 장마철, 제습기로 사용하기",
+      "source_section_title": "눅눅한 장마철, 제습기로 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.6169,
+      "top_candidate_text": "[눅눅한 장마철, 제습기로 사용하기] 현재 습도 표시]\n제품 디스플레이\n눅눅한 장마철, 제습기로 사용하기\n습기가 많아 집안 구석구석 눅눅한 장마철!\n삼성 스마트 에어컨의 똑똑한 제습 기능으로 실내 공기를 쾌적하게 바꿔 보세요."
+    },
+    {
+      "product_model": "AF18RX975CAN",
+      "question": "음성인식으로, 편리하게 확인하기 어떻게 하나요?",
+      "keyword": "음성인식으로, 편리하게 확인하기",
+      "source_section_title": "음성인식으로, 편리하게 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.8101,
+      "top_candidate_text": "[음성인식으로, 편리하게 확인하기] 27\n똑똑하게 사용하기\n음성인식으로만 사용할 수 있는 기능입니다. 음성인식 명령어는 '음성인식 명령어 알아보기(12쪽)'를 참고하세요.\n음성인식으로, 편리하게 확인하기\n날씨 안내 기능\n현재 날씨와 내일 날씨 정보를 음성으로 안내해 주"
+    },
+    {
+      "product_model": "AF18RX975CAN",
+      "question": "SmartThings 앱 사용하기 어떻게 하나요?",
+      "keyword": "SmartThings 앱 사용하기",
+      "source_section_title": "SmartThings 앱 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5778,
+      "top_candidate_text": "[SmartThings 앱 사용하기] 반드시 \n끄고 연결하세요.\n끄기\n고급\nWi-Fi와 모바일 데이터를 자동으로 전환하고 자주\n사용하는 Wi-Fi 네트워크를 저장합니다.\nAdaptive Wi-Fi\n끄기\n 참고\n•• 스마트폰 OS 및 제조사에 따라 설정 방법이 다를 수 "
+    },
+    {
+      "product_model": "AF18RX975CAN",
+      "question": "확인(Check) 표시 어떻게 하나요?",
+      "keyword": "확인(Check) 표시",
+      "source_section_title": "확인(Check) 표시",
+      "keyword_hit": true,
+      "min_distance": 0.3876,
+      "top_candidate_text": "[확인(Check) 표시] S"
+    },
+    {
+      "product_model": "AF19TX978MZ3N",
+      "question": "사용전 확인하기 (반드시 읽어 보고 사용하세요!) 어떻게 하나요?",
+      "keyword": "사용전 확인하기 (반드시 읽어 보고 사용하세요!)",
+      "source_section_title": "사용전 확인하기 (반드시 읽어 보고 사용하세요!)",
+      "keyword_hit": false,
+      "min_distance": 0.795,
+      "top_candidate_text": "[[부록 > 서비스를 요청하기 전에] 확인(Check) 사항] S"
+    },
+    {
+      "product_model": "AF19TX978MZ3N",
+      "question": "알뜰하게 사용하기 어떻게 하나요?",
+      "keyword": "알뜰하게 사용하기",
+      "source_section_title": "[알뜰하게 사용하기] 알뜰하게 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.9926,
+      "top_candidate_text": "[[알뜰하게 사용하기] 알뜰하게 사용하기] 설정할 수 없습니다.  \n두 기능을 동시에 설정하면 나중에 설정한 기능만 예약됩니다.\n•\t 열대야 쾌면 기능을 선택하면 제품 디스플레이는 꺼지며, 라이팅은 최소 \n밝기로 변경됩니다.\n•\t 열대야 쾌면 운전 중에는 써큘러 기능이"
+    },
+    {
+      "product_model": "AF19TX978MZ3N",
+      "question": "확인(Check) 사항 어떻게 하나요?",
+      "keyword": "확인(Check) 사항",
+      "source_section_title": "[부록 > 서비스를 요청하기 전에] 확인(Check) 사항",
+      "keyword_hit": true,
+      "min_distance": 0.6482,
+      "top_candidate_text": "[[부록 > 서비스를 요청하기 전에] 확인(Check) 사항] S"
+    },
+    {
+      "product_model": "AF19TX978MZ3N",
+      "question": "똑똑하게 사용하기 어떻게 하나요?",
+      "keyword": "똑똑하게 사용하기",
+      "source_section_title": "똑똑하게 사용하기",
+      "keyword_hit": true,
+      "min_distance": 1.0156,
+      "top_candidate_text": "[똑똑하게 사용하기] 13\n똑똑하게 사용하기\n낮이고 밤이고 푹푹 찌는 여름철! \n삼성 스마트 에어컨의 초강력 냉방 기능으로 무더위를 시원하게 날려 보세요. \n무더운 여름철, 에어컨으로 사용하기\n냉방 모드\n한여름 무더위를 식힐 수 있는 기본적인 냉방 운전 모드입니다.\n▶"
+    },
+    {
+      "product_model": "AF19TX978MZ3N",
+      "question": "모델별 규격 확인하기 어떻게 하나요?",
+      "keyword": "모델별 규격 확인하기",
+      "source_section_title": "[FAC006-03_IB_AF9900T TIME1_KR_KO_200422_38page.pdf > 부록] 모델별 규격 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.864,
+      "top_candidate_text": "[[부록] 모델별 규격 확인하기] 37\n부록\n제품 크기는 측정 위치에 따라 다를 수 있습니다.\n모델별 규격 확인하기\n실내기 모델명\n실내기 크기  \n[가로 x 높이 x \n실외기 모델명\n깊이,(mm)]\n실외기 크기  \n[가로 x 높이 x \n벽걸이형 조합 \n깊이,(mm)]\n"
+    },
+    {
+      "product_model": "AM145JNPDBH1",
+      "question": "안전을 위한 주의사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의사항",
+      "source_section_title": "안전을 위한 주의사항",
+      "keyword_hit": true,
+      "min_distance": 0.8271,
+      "top_candidate_text": "[안전을 위한 주의사항] 3\n사용자의 안전을 지키고 재산상의 손해를 막기 위한 내용입니다. 반드시 잘 읽고 제품을 올바르게 사용해 주세요.\n지키지 않았을 경우 사용자가 사망하거나 중상을 입을 수 있습니다.\n지키지 않았을 경우 사용자가 부상을 당하거나 재산상의 손해를 입"
+    },
+    {
+      "product_model": "AM145JNPDBH1",
+      "question": "안전을 위한 주의사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의사항",
+      "source_section_title": "안전을 위한 주의사항",
+      "keyword_hit": true,
+      "min_distance": 0.8271,
+      "top_candidate_text": "[안전을 위한 주의사항] 3\n사용자의 안전을 지키고 재산상의 손해를 막기 위한 내용입니다. 반드시 잘 읽고 제품을 올바르게 사용해 주세요.\n지키지 않았을 경우 사용자가 사망하거나 중상을 입을 수 있습니다.\n지키지 않았을 경우 사용자가 부상을 당하거나 재산상의 손해를 입"
+    },
+    {
+      "product_model": "AM145JNPDBH1",
+      "question": "각 부분의 이름 어떻게 하나요?",
+      "keyword": "각 부분의 이름",
+      "source_section_title": "각 부분의 이름",
+      "keyword_hit": true,
+      "min_distance": 1.0759,
+      "top_candidate_text": "[각 부분의 이름] 9\n실내기\n바람 조절판 (좌우) \n본체조절부\n바람 조절판 (상하) \n에어컨 운전/정지에 따라 자동으로 \n열리고 닫힘\n공기 배출구\n먼지거름필터\n흡입된 공기 중의 먼지를 걸러내는 \n부분\n공기 흡입구\n외부 공기를 흡입하는 부분\n리모컨 보관함\n안전고리\n안전"
+    },
+    {
+      "product_model": "AM145JNPDBH1",
+      "question": "기본운전 어떻게 하나요?",
+      "keyword": "기본운전",
+      "source_section_title": "기본운전",
+      "keyword_hit": true,
+      "min_distance": 0.6869,
+      "top_candidate_text": "[기본운전] 드] 버튼과 동일한 기능입니다.\n•\t 스피드운전은 냉방/난방운전 중일 때만 선택할 수 있습니다.\n•\t 바람방향을 상하 또는 좌우로 설정할 수 있습니다.\n•\t 희망온도 및 바람세기는 조절할 수 없습니다.\n기본운전\n기본운전이란 [모드] 버튼을 눌러 선택할 수 "
+    },
+    {
+      "product_model": "AM145JNPDBH1",
+      "question": "제품규격 어떻게 하나요?",
+      "keyword": "제품규격",
+      "source_section_title": "제품규격",
+      "keyword_hit": true,
+      "min_distance": 1.0021,
+      "top_candidate_text": "[제품규격] 20\n모 델 명\nAM145*NPDBH* 시리즈\n전원\n-\n단상 220 V, 60 Hz\n냉방능력\nW\n14 500\n난방능력\nW\n16 300\n크기\n(가로×높이×깊이)\nmm\n610 X 1850 X 400\n제품규격"
+    },
+    {
+      "product_model": "AR-EH05",
+      "question": "안전을 위한 주의 사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의 사항",
+      "source_section_title": "안전을 위한 주의 사항",
+      "keyword_hit": true,
+      "min_distance": 0.4654,
+      "top_candidate_text": "[안전을 위한 주의 사항] 니다."
+    },
+    {
+      "product_model": "AR-EH05",
+      "question": "리모컨 어떻게 하나요?",
+      "keyword": "리모컨",
+      "source_section_title": "리모컨",
+      "keyword_hit": true,
+      "min_distance": 0.7031,
+      "top_candidate_text": "[리모컨] 5\n명칭알기\n02\n03\n04\n10\n11\n13\n12\n07\n08\n17\n19\n16\n05\n20\n06\n01\n15\n14\n18\n09\n일부 기능은 실내기 사양에 따라 작동하지 않을 수 있습니다.\n•• 공통 기능: 희망 온도, 바람 세기, 바람 방향, 자동/냉방/제습/송풍 "
+    },
+    {
+      "product_model": "AR-EH05",
+      "question": "기본 기능 사용하기 어떻게 하나요?",
+      "keyword": "기본 기능 사용하기",
+      "source_section_title": "기본 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.904,
+      "top_candidate_text": "[기본 기능 사용하기] 9\n사용하기\n기본 기능 사용하기\n자동 모드\n에어컨이 설정된 온도 조건에 따라 자동으로 냉방, 난방 운전을 하고, 냉방 \n운전에서는 쾌속하고 쾌적한 운전을 합니다.\n▶\n▶\n[자동] \n선택\n 참고\n•\t 사용자가 바람 세기를 임의로 변경할 수 없습니다"
+    },
+    {
+      "product_model": "AR-EH05",
+      "question": "부가 기능 사용하기 어떻게 하나요?",
+      "keyword": "부가 기능 사용하기",
+      "source_section_title": "부가 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8399,
+      "top_candidate_text": "[부가 기능 사용하기] 12\n사용하기\n부가 기능 사용하기\n청정 기능\n공기 중의 각종 유해한 물질을 제거하여 건강하고 깨끗한 환경을 만들어 주는 \n운전 기능입니다. 에어컨 운전 중에 청정 기능을 함께 실행할 수 있습니다.\n운전 중\n▶\n▶\n▶[청정] \n선택\n▶\n 참고\n•\t"
+    },
+    {
+      "product_model": "AR-EH05",
+      "question": "예약 기능 사용하기 어떻게 하나요?",
+      "keyword": "예약 기능 사용하기",
+      "source_section_title": "예약 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.6258,
+      "top_candidate_text": "[예약 기능 사용하기] 19\n사용하기\n예약 기능 사용하기\n켜짐/꺼짐 예약 기능\n원하는 시간에 에어컨이 자동으로 켜지거나 꺼지도록 설정할 수 있는 예약 \n기능입니다. 켜짐/꺼짐 시간을 미리 설정해 두면 불필요한 시간에 낭비되는 \n소비 전력을 아낄 수 있습니다.\n▶\n▶\n켜"
+    },
+    {
+      "product_model": "AR06A9170HNQ",
+      "question": "사용전 확인하기 어떻게 하나요?",
+      "keyword": "사용전 확인하기",
+      "source_section_title": "사용전 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.8167,
+      "top_candidate_text": "[확인(Check) 사항] 후"
+    },
+    {
+      "product_model": "AR06A9170HNQ",
+      "question": "부가 기능 사용하기 어떻게 하나요?",
+      "keyword": "부가 기능 사용하기",
+      "source_section_title": "부가 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8918,
+      "top_candidate_text": "[모델별 규격 확인하기] \n직접풍\n간접풍\n뒤로가기\n상하바람\n좌우바람\n뒤로가기\n음소거\n필터리셋\n라이팅\n모션감지\n정음\n워시클린\n풍향\n설정\n \n \n \n \n \n \n \n \n \n \n 참고\n\t• 부가기능은 모델별로 다를 수 있으며, 상세한 내용은 각 기능 설명을 참조하세요. \n\t•"
+    },
+    {
+      "product_model": "AR06A9170HNQ",
+      "question": "필터 청소하기 어떻게 하나요?",
+      "keyword": "필터 청소하기",
+      "source_section_title": "필터 청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.5878,
+      "top_candidate_text": "[필터 청소하기] 25\n제품 청소하기\n필터를 각각 분리하여 청소할 수 있습니다.\n필터 청소하기\n실내기에서 필터 분리하기\n청소를 위해 실내기에서 먼지거름 필터를 분리해 주세요.\n  참고\n•\t 청소 주기는 사용 시간과 환경에 따라 달라질 수 있으며, \n필터 청소 서비스 요"
+    },
+    {
+      "product_model": "AR06A9170HNQ",
+      "question": "물방울/습기 어떻게 하나요?",
+      "keyword": "물방울/습기",
+      "source_section_title": "물방울/습기",
+      "keyword_hit": true,
+      "min_distance": 0.7621,
+      "top_candidate_text": "[물방울/습기] 가 나와요.\n헤어 스프레이를 사용하는 곳, 기름을 많이 사용하는 음식점, 습도가 높은 \n환경에서 사용하면 공기 배출구에서 수증기가 나올 수 있습니다.\n실외기\n외벽\n실내기\n단열재 절개\n15°\n타공부 실내‧외 마감"
+    },
+    {
+      "product_model": "AR06A9170HNQ",
+      "question": "안전을 위한 주의 사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의 사항",
+      "source_section_title": "안전을 위한 주의 사항",
+      "keyword_hit": true,
+      "min_distance": 0.813,
+      "top_candidate_text": "[안전을 위한 주의 사항] 34\n부록\n사용자의 안전을 지키고 재산상의 손해를 막기 위한 내용입니다.  \n반드시 잘 읽고 제품을 올바르게 사용해 주세요.\n안전을 위한 주의 사항\n  경고\n지키지 않았을 경우 사용자가 사망하거나 중상을 입을 수 있습니다.\n  주의\n지키지 않"
+    },
+    {
+      "product_model": "AR06R1130HZN",
+      "question": "실내기 살펴보기 어떻게 하나요?",
+      "keyword": "실내기 살펴보기",
+      "source_section_title": "실내기 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.81,
+      "top_candidate_text": "[실내기 살펴보기] 4\n스마트 에어컨 살펴보기\n모델에 따라 제품 형상이 다를 수 있습니다.\n실내기 살펴보기\n01\n03\n04\n02\n05\n06\n07\nAUTO\n08\n01\t 공기 흡입구\n02\t (내부) 먼지거름 필터\n03\t 바람 조절판(상하)\n04\t 바람 조절판(좌우)\n05\t"
+    },
+    {
+      "product_model": "AR06R1130HZN",
+      "question": "알뜰하게 사용하기 어떻게 하나요?",
+      "keyword": "알뜰하게 사용하기",
+      "source_section_title": "알뜰하게 사용하기",
+      "keyword_hit": true,
+      "min_distance": 1.0259,
+      "top_candidate_text": "[알뜰하게 사용하기] 12\n알뜰하게 사용하기\n상황에 맞는 절전 기능를 선택해 에너지를 절약하고 살림도 알뜰하게 꾸려 보세요.\n켜짐/꺼짐 예약\n원하는 시간에 에어컨이 자동으로 켜지거나 꺼지도록 설정할 수 있는 예약 \n기능입니다. 켜짐/꺼짐 시간을 미리 설정해 두면 불필요"
+    },
+    {
+      "product_model": "AR06R1130HZN",
+      "question": "냉방 안됨 어떻게 하나요?",
+      "keyword": "냉방 안됨",
+      "source_section_title": "냉방 안됨",
+      "keyword_hit": true,
+      "min_distance": 0.8161,
+      "top_candidate_text": "[냉방 안됨] 19\n부록\n냉방 안됨\n찬 바람이 왜 바로 나오지 않나요?\n에어컨은 가동 시 내부 부품의 고장을 방지하기 위해 약 3분 정도의 대기 \n시간이 필요할 수 있습니다.\n약 3분 후에 찬 바람이 나오면 정상입니다.\n찬 바람이 나오지 않는 것 같아요.\n•\t 설정된 "
+    },
+    {
+      "product_model": "AR06R1130HZN",
+      "question": "안전을 위한 주의 사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의 사항",
+      "source_section_title": "안전을 위한 주의 사항",
+      "keyword_hit": true,
+      "min_distance": 0.8104,
+      "top_candidate_text": "[안전을 위한 주의 사항] 인이 됩니다.\n\u0007열기구 및 열에 약한 물건 근처나 습기, 기름, 먼지가 많은 곳, 직사광선 및 물(빗물 등)이 닿는 곳이나 가스가 샐 \n가능성이 있는 곳에 설치하지 마세요.\n•• 감전, 화재의 원인이 됩니다.\n높은 외벽, 베란다 바깥 쪽 등 "
+    },
+    {
+      "product_model": "AR06R1130HZN",
+      "question": "설치 체크 리스트(소비자용) 어떻게 하나요?",
+      "keyword": "설치 체크 리스트(소비자용)",
+      "source_section_title": "설치 체크 리스트(소비자용)",
+      "keyword_hit": true,
+      "min_distance": 0.9948,
+      "top_candidate_text": "[설치 체크 리스트(소비자용)] 되는지 확인이 필요하며, 매립 배수관인 \n경우 내부가 막혔는지 확인하세요.\n에어컨 전원 연결 \n(멀티탭 사용 금지)\n실외기 전원선을 반드시 에어컨 전용 \n전원에 연결하세요.\n전원선을 멀티탭에 연결하여 사용할 경우 \n용량 부족으로 차단기가"
+    },
+    {
+      "product_model": "AR09T9170HCN",
+      "question": "사용전 확인하기 어떻게 하나요?",
+      "keyword": "사용전 확인하기",
+      "source_section_title": "사용전 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.9198,
+      "top_candidate_text": "[확인(Check) 사항] 다시 작동됩니다. 고장이 아니니 안심하세요.\n3분 후"
+    },
+    {
+      "product_model": "AR09T9170HCN",
+      "question": "사시사철, 도움되는 숨은 기능 활용하기 어떻게 하나요?",
+      "keyword": "사시사철, 도움되는 숨은 기능 활용하기",
+      "source_section_title": "사시사철, 도움되는 숨은 기능 활용하기",
+      "keyword_hit": true,
+      "min_distance": 0.2134,
+      "top_candidate_text": "[사시사철, 도움되는 숨은 기능 활용하기] , 도움되는 숨은 기능 활용하기"
+    },
+    {
+      "product_model": "AR09T9170HCN",
+      "question": "제품 청소하기 어떻게 하나요?",
+      "keyword": "제품 청소하기",
+      "source_section_title": "제품 청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.7079,
+      "top_candidate_text": "[제품 청소하기] 23\n제품 청소하기\n에어컨 구석구석을 간편하게 청소해 보세요. \n세척 및 청소를 위해 제품을 분해하려면 서비스 센터에 문의하세요.\n실외기 열교환기 외관 청소하기\n실외기 외관에 물을 뿌려가며 먼지를 제거하세요.\n실내기 외관 청소하기\n물을 묻힌 부드러운 "
+    },
+    {
+      "product_model": "AR09T9170HCN",
+      "question": "작동법 어떻게 하나요?",
+      "keyword": "작동법",
+      "source_section_title": "작동법",
+      "keyword_hit": true,
+      "min_distance": 0.876,
+      "top_candidate_text": "[작동법] 32\n부록\n서비스를 요청하기 전에\n작동법\n온도 조절이 안 돼요.\n청정 운전 실행 중에는 온도를 조절할 수 없습니다. [온도] 버튼을 올리거나 \n내리면 냉방 운전으로 변경됩니다.\n풍량 조절이 안 돼요.\n제습/AI(인공지능)쾌적/MAX/열대야 쾌면 실행시 풍량은"
+    },
+    {
+      "product_model": "AR09T9170HCN",
+      "question": "실외기 작동 어떻게 하나요?",
+      "keyword": "실외기 작동",
+      "source_section_title": "실외기 작동",
+      "keyword_hit": true,
+      "min_distance": 0.6885,
+      "top_candidate_text": "[실외기 작동] 다시 작동됩니다. 고장이 아니니 안심하세요.\n3분 후"
+    },
+    {
+      "product_model": "AR11B9150HZT",
+      "question": "안전을 위한 주의 사항 어떻게 하나요?",
+      "keyword": "안전을 위한 주의 사항",
+      "source_section_title": "안전을 위한 주의 사항",
+      "keyword_hit": true,
+      "min_distance": 0.8252,
+      "top_candidate_text": "[안전을 위한 주의 사항] 3\n주의하기\n  경고\n지키지 않았을 경우 사용자가 사망하거나 중상을 입을 수 있습니다.\n  주의\n지키지 않았을 경우 사용자가 부상을 당하거나 재산상의 손해를 입을 수 있습니다.\n경고: 연소 속도가 느린 물질 포함.  \n(본 제품에는 R-32 "
+    },
+    {
+      "product_model": "AR11B9150HZT",
+      "question": "리모컨 어떻게 하나요?",
+      "keyword": "리모컨",
+      "source_section_title": "리모컨",
+      "keyword_hit": true,
+      "min_distance": 0.6621,
+      "top_candidate_text": "[리모컨] 11\n명칭알기\n리모컨\n01\t 리모컨 디스플레이\n02\t 전원 버튼\n03\t 운전 모드 버튼\n04\t AI(인공지능)쾌적 모드 버튼\n05\t 제습 모드 버튼\n06\t 무풍 기능 버튼\n07\t MAX 기능 버튼\n08\t 부가기능 선택 및 확인/자동 건조 버튼\n•\t 버튼을 3"
+    },
+    {
+      "product_model": "AR11B9150HZT",
+      "question": "부가 기능 사용하기 어떻게 하나요?",
+      "keyword": "부가 기능 사용하기",
+      "source_section_title": "부가 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8601,
+      "top_candidate_text": "[모델별 규격 확인하기] 예약\n쾌면예약\n뒤로가기\n상하바람\n좌우바람\n뒤로가기\n음소거\n필터리셋\n라이팅\n설정\n워시클린\n \n \n \n \n \n \n \n \n \n \n정음\n풍향\n  참고\n•\t 부가기능은 모델별로 다를 수 있으며, 상세한 내용은 각 기능 설명을 참조하세요. \n•\t 1단계의"
+    },
+    {
+      "product_model": "AR11B9150HZT",
+      "question": "SmartThings 앱 사용하기 어떻게 하나요?",
+      "keyword": "SmartThings 앱 사용하기",
+      "source_section_title": "SmartThings 앱 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5395,
+      "top_candidate_text": "[SmartThings 앱 사용하기] 넷에 연결하지 못할 수 있습니다. \n인터넷서비스 제공업체에 문제해결을 문의하세요.\n3 SmartThings 앱 설치 및 계정 등록하기\n1\t SmartThings 앱 설치하기\n•\t Play 스토어, App Store에서 \"SmartT"
+    },
+    {
+      "product_model": "AR11B9150HZT",
+      "question": "서비스를 요청하기 전에 어떻게 하나요?",
+      "keyword": "서비스를 요청하기 전에",
+      "source_section_title": "서비스를 요청하기 전에",
+      "keyword_hit": true,
+      "min_distance": 0.9064,
+      "top_candidate_text": "[서비스를 요청하기 전에] 33\n문제해결\n  참고\n•\t 제품 고장이 아닌데 방문 서비스를 요청할 경우, 방문 및 상담 비용이 청구되므로 서비스 센터에 의뢰하기 전에 다음 \n사항을 먼저 확인해 주세요.\n전원\n전원이 켜지지 않아요.\n•\t 콘센트가 잘 연결되었는지 다시 확인"
+    },
+    {
+      "product_model": "B242S32",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요. ",
+      "keyword_hit": true,
+      "min_distance": 0.785,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요. ] 3\n안전을 위해 주의하기\n안전을 위해 주의하기\n제품을 사용하기 전에 읽어주세요. \n다음의 ‘안전을 위해 주의하기’는 예상하지 못한 위험이나 손해를 방지하기 위한 것이니 \n반드시 확인해 주세요.\n‘안전을 위해 주의하기’는 ‘경고’와"
+    },
+    {
+      "product_model": "B242S32",
+      "question": "사용하기 전 알아두기 어떻게 하나요?",
+      "keyword": "사용하기 전 알아두기",
+      "source_section_title": "사용하기 전 알아두기",
+      "keyword_hit": true,
+      "min_distance": 0.979,
+      "top_candidate_text": "[사용하기 전 알아두기] 10\n사용하기\n사용하기\n알아두면 좋은 정보\n사용하기 전 알아두기\n• 정전이 발생한 경우, 전기 회사에 전화하여 정전 예상 \n시간을 확인해주세요. 전원이 꺼져있는 동안에는 문을 \n여는 것을 자제해주세요. 전원이 다시 공급되면, 음식 \n상태를 확인"
+    },
+    {
+      "product_model": "B242S32",
+      "question": "문 열림 경보 어떻게 하나요?",
+      "keyword": "문 열림 경보",
+      "source_section_title": "문 열림 경보",
+      "keyword_hit": true,
+      "min_distance": 0.9425,
+      "top_candidate_text": "[문 열림 경보] 10\n사용하기\n사용하기\n알아두면 좋은 정보\n사용하기 전 알아두기\n• 정전이 발생한 경우, 전기 회사에 전화하여 정전 예상 \n시간을 확인해주세요. 전원이 꺼져있는 동안에는 문을 \n여는 것을 자제해주세요. 전원이 다시 공급되면, 음식 \n상태를 확인하십시오"
+    },
+    {
+      "product_model": "B242S32",
+      "question": "제품을 옮길 때 어떻게 하나요?",
+      "keyword": "제품을 옮길 때",
+      "source_section_title": "제품을 옮길 때",
+      "keyword_hit": true,
+      "min_distance": 0.7511,
+      "top_candidate_text": "[제품을 옮길 때] 15\n설치하기\n설치하기\n제품을 옮길 때\n옮길 때 알아두기\n• 냉장고 속 식품을 모두 꺼내고, 선반 같이 깨질 위험이 \n있는 부품과 냉장고 문의 손잡이는 움직이지 않게 \n테이프를 붙여서 옮기세요.\n- 냉장고가 부서질 수 있습니다.\n• 냉장고를 옮길 때"
+    },
+    {
+      "product_model": "B242S32",
+      "question": "소음 어떻게 하나요?",
+      "keyword": "소음",
+      "source_section_title": "소음",
+      "keyword_hit": true,
+      "min_distance": 0.9082,
+      "top_candidate_text": "[소음]  크게 들리나요?\n• 냉장고를 처음 작동시키면 온도를 빨리 낮추기 위해 부품이 빠르게 돌기 때문에 소리가 \n크게 들릴 수 있습니다. 일정 온도 아래로 내려가면 소리도 작아집니다.\n증상\n원인 및 해결책"
+    },
+    {
+      "product_model": "CA-H17DC",
+      "question": "앞표지 어떻게 하나요?",
+      "keyword": "앞표지",
+      "source_section_title": "앞표지",
+      "keyword_hit": true,
+      "min_distance": 0.8847,
+      "top_candidate_text": "[앞표지] CA-H11AZ\r\nCA-H11XZ\r\nCA-H17ABZ\r\nCA-H17DC\r\nCA-H17DZ\r\nCA-H17WC\r\nCA-H17WZ\nCA-G11AZ\r\nCA-G11XZ\r\nCA-G17ABZ\r\nCA-G17DC\r\nCA-G17DZ\r\nCA-G17WC\r\nCA-G17WZ"
+    },
+    {
+      "product_model": "CA-H17DC",
+      "question": "각 부분의 이름과 기능 어떻게 하나요?",
+      "keyword": "각 부분의 이름과 기능",
+      "source_section_title": "각 부분의 이름과 기능",
+      "keyword_hit": true,
+      "min_distance": 0.9605,
+      "top_candidate_text": "[각 부분의 이름과 기능]  선반의 높이를 \n조절할 수 있습니다.\n이동용 바퀴\n(이동시 넘어지지 \n않도록 조심하세요.)\n높이조절나사\n조절나사로 높이를 \n조절할 수 있습니다.\n문\n사용한 후에는 \n항상 닫아주세요.\n접지나사\n(뒷면 아래)\n감전 사고의 \n방지를 위해 \n접지선"
+    },
+    {
+      "product_model": "CA-H17DC",
+      "question": "설치방법 어떻게 하나요?",
+      "keyword": "설치방법",
+      "source_section_title": "설치방법",
+      "keyword_hit": true,
+      "min_distance": 0.8478,
+      "top_candidate_text": "[설치방법] 22\n설치방법\n잘못된 설치\n틈새발생: 냉장고의 성능이 크게 저하되어 냉장고로\n서의 역할을 할 수 없습니다. (반드시 상기와 \n같이 CLAMP 및 조임 BRACKET을 BOLT로써 \n체결해야만 사용이 가능합니다.)\n분리설치: 분리설치하여 사용하시면 절대 \n안"
+    },
+    {
+      "product_model": "CA-H17DC",
+      "question": "사용방법 어떻게 하나요?",
+      "keyword": "사용방법",
+      "source_section_title": "사용방법",
+      "keyword_hit": true,
+      "min_distance": 0.9777,
+      "top_candidate_text": "[설치방법] V이고 접지단자가 없는 콘센트를 사용할 경우 접지방법\n▶ 접지구리판에 접지선을 연결한 후 습기가 있는 땅속에 묻어 주세요.\n동판 크기: 두께 0.7mm이상\n면적 900cm\n2이상\n▶ 접지전용 콘센트에 연결하세요.\n지하실 등 물기나 습기가 많은 곳에 설치시\n"
+    },
+    {
+      "product_model": "CA-H17DC",
+      "question": "절즌을 위해 참고하세요 어떻게 하나요?",
+      "keyword": "절즌을 위해 참고하세요",
+      "source_section_title": "절즌을 위해 참고하세요",
+      "keyword_hit": true,
+      "min_distance": 0.9252,
+      "top_candidate_text": "[절즌을 위해 참고하세요] 참\n고\n39\n절전을 위해 참고하세요\n필요 이상으로 \n제품의 문을\n자주 여닫지 \n마세요.\n뜨거운 음식물을 곧바로 \n넣지 마세요.\n오랫동안 문을 \n열어놓지 마세요.\n필요 이상으로 제품 \n안을 차갑게 \n하지 마세요."
+    },
+    {
+      "product_model": "DF60R8300WG",
+      "question": "경고/주의 기호 어떻게 하나요?",
+      "keyword": "경고/주의 기호",
+      "source_section_title": "경고/주의 기호",
+      "keyword_hit": true,
+      "min_distance": 0.7851,
+      "top_candidate_text": "[경고/주의 기호] 3\n안전을 위한 주의사항\n경고/주의 기호\n 경 고\n매우 위험하니 꼭 따라야 합니다. \n 주 의\n지키지 않을 경우 상해나 재산 피해가 발생할 수 있습니다.\n 참 고\n제품을 보다 효율적으로 사용할 수 있습니다.\n사용 설명서를 반드시 읽어주세요.\n전원 관"
+    },
+    {
+      "product_model": "DF60R8300WG",
+      "question": "사용 전 참고사항 어떻게 하나요?",
+      "keyword": "사용 전 참고사항",
+      "source_section_title": "사용 전 참고사항",
+      "keyword_hit": true,
+      "min_distance": 0.613,
+      "top_candidate_text": "[사용 전 참고사항] 를 \n제공합니다.\n의류 관리하기"
+    },
+    {
+      "product_model": "DF60R8300WG",
+      "question": "울/니트 코스 어떻게 하나요?",
+      "keyword": "울/니트 코스",
+      "source_section_title": "울/니트 코스",
+      "keyword_hit": true,
+      "min_distance": 0.5433,
+      "top_candidate_text": "[울/니트 코스] 35\n조작부 살펴보기\n울/니트 코스\n울/니트\n울/니트류 옷감을 보송보송하게 케어할 때 사용하는 코스입니다.\n1.\t [전원] 버튼을 누르세요.\n2.\t 전문케어의 [스페셜] 버튼을 누르고 LCD 양 옆의 ' < ' 또는' > '를 눌러 울/니트 코스를 선"
+    },
+    {
+      "product_model": "DF60R8300WG",
+      "question": "SmartThings 앱 사용하기 어떻게 하나요?",
+      "keyword": "SmartThings 앱 사용하기",
+      "source_section_title": "SmartThings 앱 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5643,
+      "top_candidate_text": "[SmartThings 앱 사용하기]  연결할 \n제품을 선택하세요.\n4.\t 스마트폰의 안내에 따라 SmartThings 앱과 제품을 연결하세요.\nSmartThings 앱 사용하기\n\tꞏ제품 연결 후 모바일에서 기기를 제어하기 위해서는 제품의 스마트 컨트롤 기능을 켜 주세"
+    },
+    {
+      "product_model": "DF60R8300WG",
+      "question": "미세먼지 필터 어떻게 하나요?",
+      "keyword": "미세먼지 필터",
+      "source_section_title": "미세먼지 필터",
+      "keyword_hit": true,
+      "min_distance": 0.593,
+      "top_candidate_text": "[미세먼지 필터] 66\n사용 및 관리하기\n미세먼지 필터\n\tꞏ제품 내부에서 생기는 먼지를 걸러주는 미세먼지 필터입니다. \n\tꞏ미세먼지 필터는 교체형으로 필터 교체 알람이 뜨면 교체해 주세요. \n미세먼지 필터를 교체하지 않고 사용하는 경우 성능에 영향을 줄 수 있습니다.\n"
+    },
+    {
+      "product_model": "DF90H24R5C",
+      "question": "경고/주의 기호 어떻게 하나요?",
+      "keyword": "경고/주의 기호",
+      "source_section_title": "경고/주의 기호",
+      "keyword_hit": true,
+      "min_distance": 0.8598,
+      "top_candidate_text": "[경고/주의 기호] 한국어 3\n 안전을 위한 주의 사항 \n﻿ 제품의 외관 및 규격은 제품 개선을 위해 예고 없이 변경될 수 있습니다. \n﻿ 다음과 같은 증상이 있으면 안전을 위해 전원 스위치를 끄고 콘센트에서 전원 플러그를 뽑은 후, 구매처 또는 서비스센터로 \n연락하여"
+    },
+    {
+      "product_model": "DF90H24R5C",
+      "question": "스마트싱스에 기기 등록하기 어떻게 하나요?",
+      "keyword": "스마트싱스에 기기 등록하기",
+      "source_section_title": "스마트싱스에 기기 등록하기",
+      "keyword_hit": true,
+      "min_distance": 0.2606,
+      "top_candidate_text": "[스마트싱스에 기기 등록하기]    \u001f\u001f 3:35:41"
+    },
+    {
+      "product_model": "DF90H24R5C",
+      "question": "에어드레서 사용하기 어떻게 하나요?",
+      "keyword": "에어드레서 사용하기",
+      "source_section_title": "에어드레서 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.4549,
+      "top_candidate_text": "[에어드레서 사용하기] 2   \u001f\u001f 3:35:42"
+    },
+    {
+      "product_model": "DF90H24R5C",
+      "question": "기본 기능 사용하기 어떻게 하나요?",
+      "keyword": "기본 기능 사용하기",
+      "source_section_title": "기본 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8881,
+      "top_candidate_text": "[건조하면 안되는 의류] 동작 또는 일시정지 등을 위해 버튼을 조작하려면 먼저  잠금 \n기능을 해제해야 합니다.\n•\t 잠금 기능은 전원을 껐다가 켜도 설정 상태가 변경되지 않습니다.\nUntitled-1   36\nUntitled-1   36\n2026-05-22   \u001f\u001f "
+    },
+    {
+      "product_model": "DF90H24R5C",
+      "question": "설치 후 알아두기 어떻게 하나요?",
+      "keyword": "설치 후 알아두기",
+      "source_section_title": "설치 후 알아두기",
+      "keyword_hit": true,
+      "min_distance": 0.767,
+      "top_candidate_text": "[설치 후 알아두기] 한국어 45\n 5단계: 초기 설정하기 \n1.\t 를 눌러 전원을 켜세요.\n2.\t 환영 메시지가 사라지면 언어 설정 화면이 표시됩니다.\n\t-\n 나 \n를 눌러 원하는 언어를 선택하고 \n를 누르세요.\n3.\t 화면 설명에 따라 남은 설정을 진행하세요.\n 설"
+    },
+    {
+      "product_model": "DJ30T9500FE",
+      "question": "전원 관련 어떻게 하나요?",
+      "keyword": "전원 관련",
+      "source_section_title": "전원 관련",
+      "keyword_hit": true,
+      "min_distance": 0.8584,
+      "top_candidate_text": "[전원 관련] 그를 잡고 빼주세요.\n•\t 감전, 화재의 원인이 됩니다.\n전원 플러그는 콘센트 끝까지 확실히 연결하고 손상된 전원 플러그, 전원 코드, 느슨해진 콘센트는 사용하지 마세요.\n•\t 감전, 화재의 원인이 됩니다.\n콘센트에 문어발식(연장선, 멀티탭) 전원 플러그"
+    },
+    {
+      "product_model": "DJ30T9500FE",
+      "question": "폐기 관련 어떻게 하나요?",
+      "keyword": "폐기 관련",
+      "source_section_title": "폐기 관련",
+      "keyword_hit": true,
+      "min_distance": 0.9108,
+      "top_candidate_text": "[폐 전자 제품 처리안내] 설치하기\n41\n폐 전자 제품 처리안내\n환경보호 및 자원 재활용을 위해 폐 전자제품은 다음과 같이 처리하셔야 합니다.\n무료 처리방법\n삼성전자 대리점에서 제품을 새로 구입하고 기존 제품을 버리고자 하는 경우, \n새 제품 배달설치 시 제조사 구분 "
+    },
+    {
+      "product_model": "DJ30T9500FE",
+      "question": "외출 전 코스 어떻게 하나요?",
+      "keyword": "외출 전 코스",
+      "source_section_title": "외출 전 코스",
+      "keyword_hit": true,
+      "min_distance": 0.7851,
+      "top_candidate_text": "[외출 전 코스] 코스 사용하기\n15\n매일케어 코스\n매일케어\n자주 신는 신발을 관리할 때 사용하는 코스 입니다. \n히트펌프 기술을 이용한 저온 섬세 건조와 교체가 필요없는 UV냄새분해필터를 통해  \n신발을 케어할 수 있습니다.\n1.\t [전원] 버튼을 누르세요.\n2.\t "
+    },
+    {
+      "product_model": "DJ30T9500FE",
+      "question": "SmartThings 앱 사용하기 어떻게 하나요?",
+      "keyword": "SmartThings 앱 사용하기",
+      "source_section_title": "SmartThings 앱 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5621,
+      "top_candidate_text": "[SmartThings 앱 사용하기] hings 앱이 지원하지 않는 태블릿 및 권장 \nOS 버전 이하 일부 단말기 경우에는 검색이 되지 않을 \n수 있습니다.\n-\t Android OS 7.0 이상  \n(최소 2 GB RAM 공간) 권장\n•\t 애플 기기일 경우, iPad와"
+    },
+    {
+      "product_model": "DJ30T9500FE",
+      "question": "고장신고 전 확인하기 어떻게 하나요?",
+      "keyword": "고장신고 전 확인하기",
+      "source_section_title": "고장신고 전 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.8439,
+      "top_candidate_text": "[고장신고 전 확인하기] 청소 및 관리 하기\n34\n고장신고 전 확인하기\n점검문자 발생 시 대처하기\n코드\n진단\n해결방법\n문 열림 감지\n•\t 문이 완전히 닫히지 않은 상태에서 동작시키지 않았나요?\n-\t 문을 끝까지 밀어서 닫아주세요.\n물통 확인 필요\n•\t 물통이 장착되어 "
+    },
+    {
+      "product_model": "DJ40CB9600NE",
+      "question": "전원 관련 어떻게 하나요?",
+      "keyword": "전원 관련",
+      "source_section_title": "전원 관련",
+      "keyword_hit": true,
+      "min_distance": 0.8584,
+      "top_candidate_text": "[전원 관련] 그를 잡고 빼주세요.\n•\t 감전, 화재의 원인이 됩니다.\n전원 플러그는 콘센트 끝까지 확실히 연결하고 손상된 전원 플러그, 전원 코드, 느슨해진 콘센트는 사용하지 마세요.\n•\t 감전, 화재의 원인이 됩니다.\n콘센트에 문어발식(연장선, 멀티탭) 전원 플러그"
+    },
+    {
+      "product_model": "DJ40CB9600NE",
+      "question": "증상 확인 어떻게 하나요?",
+      "keyword": "증상 확인",
+      "source_section_title": "증상 확인",
+      "keyword_hit": true,
+      "min_distance": 0.9036,
+      "top_candidate_text": "[증상 확인]  확인\n이러한 증상이 있습니까?\n•\t 전원 코드, 플러그가 몹시 뜨겁거나 파손되었다.\n•\t 슈드레서와 접촉하면 찌릿찌릿한 감전을 느낀다.\n•\t 사용 중 타는 냄새와 연기가 난다.\n•\t 종종 스위치를 켜도 동작하지 않을 때가 있다.\n•\t 수평을 유지했는데도"
+    },
+    {
+      "product_model": "DJ40CB9600NE",
+      "question": "표준케어 어떻게 하나요?",
+      "keyword": "표준케어",
+      "source_section_title": "표준케어",
+      "keyword_hit": true,
+      "min_distance": 0.9025,
+      "top_candidate_text": "[표준케어] 코스 사용하기\n15\n집중케어\n집중케어\n냄새 제거 및 살균 효과에 집중한 건조 코스입니다. \n히트펌프 기술을 이용한 저온 섬세 건조와 교체가 필요없는 UV냄새분해필터를 통해  \n신발을 케어할 수 있습니다.\n1.\t [전원] 버튼을 누르세요.\n2.\t [코스선택]"
+    },
+    {
+      "product_model": "DJ40CB9600NE",
+      "question": "SmartThings 앱 사용하기 어떻게 하나요?",
+      "keyword": "SmartThings 앱 사용하기",
+      "source_section_title": "SmartThings 앱 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5938,
+      "top_candidate_text": "[SmartThings 앱 사용하기] SmartThings 앱 사용하기\n20\nSmartThings 앱 사용하기\nSmartThings 앱을 사용하기 위해서는 아래 순서대로 제품을 네트워크에 연결하세요.\n스마트폰 모델, OS 버전 및 제조사에 따라 제시된 이미지와 다를 수"
+    },
+    {
+      "product_model": "DJ40CB9600NE",
+      "question": "고장신고 전 확인하기 어떻게 하나요?",
+      "keyword": "고장신고 전 확인하기",
+      "source_section_title": "고장신고 전 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.8438,
+      "top_candidate_text": "[고장신고 전 확인하기] 청소 및 관리 하기\n39\n고장신고 전 확인하기\n점검문자 발생 시 대처하기\n코드\n진단\n해결방법\n문 열림 감지\n•\t 문이 완전히 닫히지 않은 상태에서 동작시키지 않았나요?\n-\t 문을 끝까지 밀어서 닫아주세요.\n물통 확인 필요\n•\t 물통이 장착되어 "
+    },
+    {
+      "product_model": "DV17T8520BV",
+      "question": "경고/주의 기호 어떻게 하나요?",
+      "keyword": "경고/주의 기호",
+      "source_section_title": "경고/주의 기호",
+      "keyword_hit": true,
+      "min_distance": 0.7363,
+      "top_candidate_text": "[경고/주의 기호] 4\n주의사항\n경고/주의 기호\n 경 고\n매우 위험하니 꼭 따라야 합니다. \n 주 의\n지키지 않을 경우 상해나 재산 피해가 발생할 수 있습니다.\n 참 고\n제품을 보다 효율적으로 사용할 수 있습니다.\n사용 설명서를 반드시 읽어주세요.\nꞏꞏ손상된 전원 코드"
+    },
+    {
+      "product_model": "DV17T8520BV",
+      "question": "건조 전/후 확인사항 어떻게 하나요?",
+      "keyword": "건조 전/후 확인사항",
+      "source_section_title": "건조 전/후 확인사항",
+      "keyword_hit": true,
+      "min_distance": 0.6828,
+      "top_candidate_text": "[건조 전/후 확인사항] 16\n사용 전 알아두기\n사용 전 알아두기\n건조 전/후 확인사항\n제품의 고장이나 옷감의 손상을 방지하기 위해 다음 사항을 반드시 지켜 주세요.\n구분\n건조 전\n건조 후\n건조기\nꞏꞏ필터가 조립되어 있는지 확인해 주세요.\nꞏꞏ필터 청소 하였는지 확인해"
+    },
+    {
+      "product_model": "DV17T8520BV",
+      "question": "쾌속건조 코스 어떻게 하나요?",
+      "keyword": "쾌속건조 코스",
+      "source_section_title": "쾌속건조 코스",
+      "keyword_hit": true,
+      "min_distance": 0.5994,
+      "top_candidate_text": "[쾌속건조 코스] 29\n건조 코스 살펴보기\n건조제안\n품목( 최대용량 1 . 5 k g )\n설명\n물세탁 가능한 스웨터\n주름이 생기지 않도록 스웨터를 잘 접어 건조 선반 위에 \n평평하게 놓아주세요.\n봉제완구\n(면이나 폴리에스테르로 속을 채운 완구)\n모양을 유지하면서 건조 "
+    },
+    {
+      "product_model": "DV17T8520BV",
+      "question": "리모컨 살펴보기 어떻게 하나요?",
+      "keyword": "리모컨 살펴보기",
+      "source_section_title": "리모컨 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6406,
+      "top_candidate_text": "[리모컨 살펴보기] 44\n리모컨 사용하기 (해당 모델에 한함)\n리모컨 살펴보기\n01\n02\n03\n04\n05\n06\n07\n01\n전원 버튼\n04\n구김방지 버튼 \n07\n드럼라이트 버튼 \n02\n코스선택 버튼\n05\n동작/일시정지 버튼 \n03\n건조정도 조절 버튼 \n06\n시간설정 조절"
+    },
+    {
+      "product_model": "DV17T8520BV",
+      "question": "필터 청소하기 어떻게 하나요?",
+      "keyword": "필터 청소하기",
+      "source_section_title": "필터 청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.584,
+      "top_candidate_text": "[필터 청소하기] 57\n청소 및 관리하기\n필터 청소하기\n한 번 사용할 때마다 필터를 청소하세요.\n1.\t 건조기 문을 열고 필터 주변과 필터 제거후 장착되는 부분의 \n먼지를 먼저 제거하여 주세요.\nꞏꞏ필터주변 및 필터 장착부분의 먼지를 부드러운 천으로 \n제거하여 주세요."
+    },
+    {
+      "product_model": "DV90TA040TE",
+      "question": "경고/주의 기호 어떻게 하나요?",
+      "keyword": "경고/주의 기호",
+      "source_section_title": "경고/주의 기호",
+      "keyword_hit": true,
+      "min_distance": 0.7363,
+      "top_candidate_text": "[경고/주의 기호] 4\n주의사항\n경고/주의 기호\n 경 고\n매우 위험하니 꼭 따라야 합니다. \n 주 의\n지키지 않을 경우 상해나 재산 피해가 발생할 수 있습니다.\n 참 고\n제품을 보다 효율적으로 사용할 수 있습니다.\n사용 설명서를 반드시 읽어주세요.\n\tꞏ손상된 전원 코드"
+    },
+    {
+      "product_model": "DV90TA040TE",
+      "question": "건조기 수평 맞추기 어떻게 하나요?",
+      "keyword": "건조기 수평 맞추기",
+      "source_section_title": "건조기 수평 맞추기",
+      "keyword_hit": true,
+      "min_distance": 0.5115,
+      "top_candidate_text": "[건조기 수평 맞추기] 14\n설치하기\n건조기 수평 맞추기\n1.\t 먼저 설치할 장소로 건조기를 옮기세요.\n2.\t 최적의 건조 성능을 위해서는 수평을 맞춰야 합니다.\n진동, 소음, 원치 않는 제품의 이동을 최소화하려면\n바닥이 견고하면서 완벽하게 평평해야 합니다.\n3.\t 작"
+    },
+    {
+      "product_model": "DV90TA040TE",
+      "question": "이불 코스 어떻게 하나요?",
+      "keyword": "이불 코스",
+      "source_section_title": "이불 코스",
+      "keyword_hit": true,
+      "min_distance": 0.5914,
+      "top_candidate_text": "[이불 코스] 28\n건조 코스 살펴보기\n이불 코스\n이불\n2 kg 이내의 이불, 담요, 침대커버 등을 위한 전용 코스입니다.\n1.\t [전원] 버튼을 누르세요.\n2.\t 코스선택 다이얼을 돌려 [이불] 코스를 선택하세요.\n\tꞏ[건조정도] 버튼을 눌러 희망하는 건조 단계를 선"
+    },
+    {
+      "product_model": "DV90TA040TE",
+      "question": "알림음 끔 어떻게 하나요?",
+      "keyword": "알림음 끔",
+      "source_section_title": "알림음 끔",
+      "keyword_hit": true,
+      "min_distance": 0.5631,
+      "top_candidate_text": "[알림음 끔] 않을 때 사용하세요. 버튼과 다이얼은 음소거 되지 않습니다.\n\tꞏ설정 방법 : [알림음 끔] 버튼을 누르세요.\n\t−[알림음 끔] 버튼을 누르면 설정, 다시 한 번 누르면 해제가 됩니다.\n드럼라이트\n드럼 내부를 조명할 수 있는 기능입니다.\n\tꞏ설정 방법 :"
+    },
+    {
+      "product_model": "DV90TA040TE",
+      "question": "겨울철 건조기 관리하기 어떻게 하나요?",
+      "keyword": "겨울철 건조기 관리하기",
+      "source_section_title": "겨울철 건조기 관리하기",
+      "keyword_hit": true,
+      "min_distance": 0.6211,
+      "top_candidate_text": "[겨울철 건조기 관리하기] 57\n청소 및 관리하기\n 경 고\n\tꞏ건조기에 물을 직접 뿌리는 방식으로 건조기를 청소하지 마세요.\n\tꞏ벤젠, 시너, 알코올, 아세톤으로 건조기를 청소하지 마세요. 변색, 변형, 손상, 감전, 화재의 원인이 됩니다. \n\tꞏ건조기를 청소하기 전에"
+    },
+    {
+      "product_model": "F21VDSK",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.6836,
+      "top_candidate_text": "[제품 사용설명서] 연제 사용하기\n18\n세탁 코스 및 옵션 사용하기\n26\n편리한 기능 사용하기\n관리하기\n28\n제품 청소하기\n30\n제품 관리하기\n31\n겨울철 동결 해결하기\n설치하기\n34\n설치 준비하기\n37\n호스 연결하기\n40\n수평 조절하기 / 미끄럼 방지하기\n고장 신고 "
+    },
+    {
+      "product_model": "F21VDSK",
+      "question": "LG ThinQ와 LG 가전 연결하기 어떻게 하나요?",
+      "keyword": "LG ThinQ와 LG 가전 연결하기",
+      "source_section_title": "LG ThinQ와 LG 가전 연결하기",
+      "keyword_hit": true,
+      "min_distance": 0.6258,
+      "top_candidate_text": "[LG ThinQ와 LG 가전 연결하기] 10\nLG ThinQ 사용하기\nLG ThinQ 사용하기\nLG ThinQ와 LG 가전 연결하기\n앱 설치 및 제품 등록하기\nLG ThinQ 앱을 설치하면 언제 어디서나 편리하게 우리집 \nLG 가전을 관리할 수 있습니다.\nQR 코드가"
+    },
+    {
+      "product_model": "F21VDSK",
+      "question": "세탁 코스 및 옵션 사용하기 어떻게 하나요?",
+      "keyword": "세탁 코스 및 옵션 사용하기",
+      "source_section_title": "세탁 코스 및 옵션 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5902,
+      "top_candidate_text": "[세탁 코스 및 옵션 사용하기] 18\n사용하기\n세탁 코스 및 옵션 사용하기\n기능조작부 사용하기\na 전원 버튼\n• 전원 버튼을 눌러 전원을 켜고 끌 수 있습니다.\n• 제품 동작 중 전원을 끌 때는 1초 이상 누르세요.\nb 코스 선택 버튼\n• 세탁물 유형에 맞는 세탁 코스"
+    },
+    {
+      "product_model": "F21VDSK",
+      "question": "겨울철 동결 해결하기 어떻게 하나요?",
+      "keyword": "겨울철 동결 해결하기",
+      "source_section_title": "겨울철 동결 해결하기",
+      "keyword_hit": true,
+      "min_distance": 0.736,
+      "top_candidate_text": "[겨울철 동결 해결하기] .com) 동영상 가이드 란에서 \n동결 관련 동영상을 확인할 수 있습니다.\n\n33\n관리하기\n- 간편해결 동영상"
+    },
+    {
+      "product_model": "F21VDSK",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": false,
+      "min_distance": 0.9015,
+      "top_candidate_text": "[제품 사용설명서] 연제 사용하기\n18\n세탁 코스 및 옵션 사용하기\n26\n편리한 기능 사용하기\n관리하기\n28\n제품 청소하기\n30\n제품 관리하기\n31\n겨울철 동결 해결하기\n설치하기\n34\n설치 준비하기\n37\n호스 연결하기\n40\n수평 조절하기 / 미끄럼 방지하기\n고장 신고 "
+    },
+    {
+      "product_model": "FA25AJPB",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.747,
+      "top_candidate_text": "[제품 사용설명서] 용하기 - 공통\n15\n기능조작부 사용하기\n16\n설정 사용하기\n사용하기 - 세탁기\n19\n알아두면 좋은 정보\n21\n세탁물 분류하기\n21\n세제 또는 섬유 유연제 사용하기\n25\n세탁 코스 사용하기\n32\n옵션 기능 사용하기\n42\n세탁기 설정 사용하기\n사용하기"
+    },
+    {
+      "product_model": "FA25AJPB",
+      "question": "설정 사용하기 어떻게 하나요?",
+      "keyword": "설정 사용하기",
+      "source_section_title": "설정 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8043,
+      "top_candidate_text": "[설정 사용하기] 16\n사용하기 - 공통\ni 표시창 및 안내 표시등\n• f: 제품에 Wi-Fi가 연결되었을 때 표시됩니다.\n• Â: 원격제어 기능을 설정하면 표시됩니다.\n• Ã: 제품이 작동하여 문이 잠길 때 표시됩니다.\n• D: 자동 세제가 설정되었을 때 표시됩니다."
+    },
+    {
+      "product_model": "FA25AJPB",
+      "question": "옵션 기능 사용하기 어떻게 하나요?",
+      "keyword": "옵션 기능 사용하기",
+      "source_section_title": "[사용하기 - 세탁기] 옵션 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.8177,
+      "top_candidate_text": "[[사용하기 - 건조기] 옵션 기능 사용하기] 드\n기본 설정값 : 자동\n선택 가능 범위 : 모두\n건조정도\n기본 설정값 : 표준\n선택 가능 범위 : 모두\n옵션\n스팀, 구김방지, 다림질알림\n건조 코스\nAI 건조\n절약모드\n기본 설정값 : 자동\n선택 가능 범위 : 자동\n옵션\n"
+    },
+    {
+      "product_model": "FA25AJPB",
+      "question": "건조기 설정 사용하기 어떻게 하나요?",
+      "keyword": "건조기 설정 사용하기",
+      "source_section_title": "건조기 설정 사용하기",
+      "keyword_hit": false,
+      "min_distance": 0.6462,
+      "top_candidate_text": "[건조 코스 사용하기] 하세요.\n주의\n• 운동화, 가죽구두와 같이 열에 약한 재질의 건조물은 건조하지 마세요. 건조물이 건조 열에 의해 변형될 수 있습니다.\n• 과도한 건조는 건조물을 손상시킬 수 있습니다.\n• 세탁기 위에 설치한 경우 세탁기 작동 중에는 선반건조를 사"
+    },
+    {
+      "product_model": "FA25AJPB",
+      "question": "에러 메시지 어떻게 하나요?",
+      "keyword": "에러 메시지",
+      "source_section_title": "[세탁기] 에러 메시지",
+      "keyword_hit": true,
+      "min_distance": 0.8739,
+      "top_candidate_text": "[[세탁기] 에러 메시지] 속되면 LG전자 서비스 센터(1544-7777)에 \n문의하세요.\n증상\n원인 및 해결책"
+    },
+    {
+      "product_model": "FC2521KX6C",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.6653,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.]  설치하지 마세요. 제품 앞에는 \n문을 열 수 있는 공간을 확보해야 합니다.\n준수 사항\n• 제품이 넘어지지 않도록 바닥이 단단하고 수평인 장소에 설치하세요.\n경고\n지시사항을 위반하면 심각한 상해나 사망에 이를 수 있습니다.\n주의\n지"
+    },
+    {
+      "product_model": "FC2521KX6C",
+      "question": "세탁건조기의 모습 살펴보기 어떻게 하나요?",
+      "keyword": "세탁건조기의 모습 살펴보기",
+      "source_section_title": "세탁건조기의 모습 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.639,
+      "top_candidate_text": "[세탁건조기의 모습 살펴보기] 13\n알아보기\n알아보기\n세탁건조기의 모습 살펴보기\n제품이나 구성품의 형상은 구매하신 모델에 따라 달라질 수 있습니다.\n제품 앞면\na 기능조작부\nb 세제함\nc 세탁기 문 (도어)\nd 배수 펌프 마개\ne 잔수 제거용 호스\nf 서비스 커버\ng "
+    },
+    {
+      "product_model": "FC2521KX6C",
+      "question": "설정 사용하기 어떻게 하나요?",
+      "keyword": "설정 사용하기",
+      "source_section_title": "설정 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.7494,
+      "top_candidate_text": "[설정 사용하기] 26\n사용하기\n설정 사용하기\n설정 목록\n전원 - ε (설정) 버튼을 눌러 다양한 기능을 사용할 수 있습니다.\n기본 설정 - 살펴보기\n기타 설정 - 살펴보기\n기본 설정\n용도\nWi-Fi\nWi-Fi 연결을 설정 또는 해제하고 싶을 때 사용하세요.\n자동 세제"
+    },
+    {
+      "product_model": "FC2521KX6C",
+      "question": "설치 준비하기 어떻게 하나요?",
+      "keyword": "설치 준비하기",
+      "source_section_title": "설치 준비하기",
+      "keyword_hit": true,
+      "min_distance": 0.7988,
+      "top_candidate_text": "[설치 준비하기] 68\n설치하기\n설치하기\n설치 준비하기\n옮길 때 알아두기\n제품 설치 장소를 선정하세요.\n• 바닥이 단단하고 고른 장소에 설치하세요.\n- 설치 바닥이 고르지 않으면 진동과 소음의 원인이 \n됩니다.\n• 제품을 옮길 때는 2명 이상이 함께 옮기세요.\n- 제품"
+    },
+    {
+      "product_model": "FC2521KX6C",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": false,
+      "min_distance": 1.0096,
+      "top_candidate_text": "[설정 사용하기] 26\n사용하기\n설정 사용하기\n설정 목록\n전원 - ε (설정) 버튼을 눌러 다양한 기능을 사용할 수 있습니다.\n기본 설정 - 살펴보기\n기타 설정 - 살펴보기\n기본 설정\n용도\nWi-Fi\nWi-Fi 연결을 설정 또는 해제하고 싶을 때 사용하세요.\n자동 세제"
+    },
+    {
+      "product_model": "FC4KC",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.6935,
+      "top_candidate_text": "[제품 사용설명서]  기능 사용하기\n관리하기\n24\n제품 청소하기\n27\n겨울철 동결 해결하기\n설치하기\n29\n설치 준비하기\n32\n호스 연결하기\n35\n수평 조절하기 / 미끄럼 방지하기\n고장 신고 전 확인하기\n36\n고장 진단하기\n37\n문제 해결하기\n제품 보증서 보기\n42\n제품"
+    },
+    {
+      "product_model": "FC4KC",
+      "question": "주의 어떻게 하나요?",
+      "keyword": "주의",
+      "source_section_title": "주의",
+      "keyword_hit": true,
+      "min_distance": 1.1042,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 3\n안전을 위해 주의하기 \n안전을 위해 주의하기\n제품을 사용하기 전에 읽어주세요.\n다음의 ‘안전을 위해 주의하기’는 예상하지 못한 위험이나 손해를 방지하기 위한 것이니 \n반드시 확인해 주세요.\n‘안전을 위해 주의하기’는 ‘경고’와 "
+    },
+    {
+      "product_model": "FC4KC",
+      "question": "세제 또는 섬유 유연제 사용하기 어떻게 하나요?",
+      "keyword": "세제 또는 섬유 유연제 사용하기",
+      "source_section_title": "세제 또는 섬유 유연제 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5156,
+      "top_candidate_text": "[세제 또는 섬유 유연제 사용하기] 연제는 사용하지 \n마세요. 배수부가 막혀 OE 에러가 발생하거나 제품이 \n고장날 수 있습니다.\n• 아기 의류를 위한 전용 세제의 경우 계면활성제 함량이 \n다른 세제에 비해 낮아 세탁 능력이 떨어질 수 있습니다.\n• 아기 분유, 토사물"
+    },
+    {
+      "product_model": "FC4KC",
+      "question": "겨울철 동결 해결하기 어떻게 하나요?",
+      "keyword": "겨울철 동결 해결하기",
+      "source_section_title": "겨울철 동결 해결하기",
+      "keyword_hit": true,
+      "min_distance": 0.6516,
+      "top_candidate_text": "[겨울철 동결 해결하기] 27\n관리하기\n겨울철 동결 해결하기\n얼지 않게 하려면\n1\n수도꼭지를 잠그고 급수 호스를 빼내어 끝부분을 \n아래로 향하게 한 후 호스 속의 물을 제거하세요.\n2\n전원 버튼을 누르세요.\n3\n헹굼+탈수 코스를 선택하세요.\n4\n표시창에 OFF가 나타날"
+    },
+    {
+      "product_model": "FC4KC",
+      "question": "에러 메시지 어떻게 하나요?",
+      "keyword": "에러 메시지",
+      "source_section_title": "에러 메시지",
+      "keyword_hit": true,
+      "min_distance": 0.7873,
+      "top_candidate_text": "[에러 메시지] 업그레이드를 원하지 않으면 아무 버튼을 누르거나 잠깐만 기다리세요. 업그레이드 \n알람이 꺼집니다.\n증상\n원인 및 해결책"
+    },
+    {
+      "product_model": "FH23KN",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.7285,
+      "top_candidate_text": "[제품 사용설명서] 유연제 사용하기\n22\n세탁 코스 및 옵션 사용하기\n40\n편리한 기능 사용하기\n42\n부가 기능 사용하기\n관리하기\n46\n제품 청소하기\n51\n제품 관리하기\n51\n겨울철 동결 해결하기\n설치하기\n54\n설치 준비하기\n57\n호스 연결하기\n60\n수평 조절하기 / "
+    },
+    {
+      "product_model": "FH23KN",
+      "question": "LG ThinQ 앱으로 제품 작동하기 어떻게 하나요?",
+      "keyword": "LG ThinQ 앱으로 제품 작동하기",
+      "source_section_title": "LG ThinQ 앱으로 제품 작동하기",
+      "keyword_hit": true,
+      "min_distance": 0.5972,
+      "top_candidate_text": "[LG ThinQ와 LG 가전 연결하기] 10\nLG ThinQ 사용하기\nLG ThinQ 사용하기\nLG ThinQ와 LG 가전 연결하기\n앱 설치 및 제품 등록하기\nLG ThinQ 앱을 설치하면 언제 어디서나 편리하게 우리집 \nLG 가전을 관리할 수 있습니다.\nQR 코드가"
+    },
+    {
+      "product_model": "FH23KN",
+      "question": "세탁 코스 및 옵션 사용하기 어떻게 하나요?",
+      "keyword": "세탁 코스 및 옵션 사용하기",
+      "source_section_title": "세탁 코스 및 옵션 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5415,
+      "top_candidate_text": "[세탁 코스 및 옵션 사용하기] 킬 수 있습니다. 제품의 조작부는 \n항상 깨끗한 상태로 유지하세요.\n• 세탁 모드의 코스를 연속적으로 사용할 경우, 세탁 후 필터 건조 동작이 진행되어 시간이 증가 됩니다.\n\n30\n사용하기\n코스 목록\n부가기능 - 코스 목록 편집 을 통해"
+    },
+    {
+      "product_model": "FH23KN",
+      "question": "제품 관리하기 어떻게 하나요?",
+      "keyword": "제품 관리하기",
+      "source_section_title": "제품 관리하기",
+      "keyword_hit": true,
+      "min_distance": 0.9968,
+      "top_candidate_text": "[제품 사용설명서] 유연제 사용하기\n22\n세탁 코스 및 옵션 사용하기\n40\n편리한 기능 사용하기\n42\n부가 기능 사용하기\n관리하기\n46\n제품 청소하기\n51\n제품 관리하기\n51\n겨울철 동결 해결하기\n설치하기\n54\n설치 준비하기\n57\n호스 연결하기\n60\n수평 조절하기 / "
+    },
+    {
+      "product_model": "FH23KN",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": false,
+      "min_distance": 0.9189,
+      "top_candidate_text": "[제품 사용설명서] 유연제 사용하기\n22\n세탁 코스 및 옵션 사용하기\n40\n편리한 기능 사용하기\n42\n부가 기능 사용하기\n관리하기\n46\n제품 청소하기\n51\n제품 관리하기\n51\n겨울철 동결 해결하기\n설치하기\n54\n설치 준비하기\n57\n호스 연결하기\n60\n수평 조절하기 / "
+    },
+    {
+      "product_model": "FQ16FV6EDN",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7318,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.]  됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치설"
+    },
+    {
+      "product_model": "FQ16FV6EDN",
+      "question": "LG ThinQ와 LG 가전 연결하기 어떻게 하나요?",
+      "keyword": "LG ThinQ와 LG 가전 연결하기",
+      "source_section_title": "LG ThinQ와 LG 가전 연결하기",
+      "keyword_hit": true,
+      "min_distance": 0.5974,
+      "top_candidate_text": "[LG ThinQ와 LG 가전 연결하기] 11\nLG ThinQ 사용하기\nLG ThinQ 사용하기\nLG ThinQ와 LG 가전 연결하기\n앱 설치 및 제품 등록하기\nLG ThinQ 앱을 설치하면 언제 어디서나 편리하게 우리집 \nLG 가전을 관리할 수 있습니다.\n• 제품에 "
+    },
+    {
+      "product_model": "FQ16FV6EDN",
+      "question": "냉방 기본 기능 작동하기 어떻게 하나요?",
+      "keyword": "냉방 기본 기능 작동하기",
+      "source_section_title": "냉방 기본 기능 작동하기",
+      "keyword_hit": true,
+      "min_distance": 0.5245,
+      "top_candidate_text": "[냉방 기본 기능 작동하기] 26\n리모컨으로 사용하기\n냉방 기본 기능 작동하기\n냉방 기능 사용하기\n제품의 냉방 기능이 작동하면 좌우 토출구에서 차가운 \n바람이 나옵니다.\n냉방 기능은 가장 기본적인 운전 모드이며 리모컨으로 \n쉽게 작동할 수 있습니다.\n1\n리모컨의 전원 "
+    },
+    {
+      "product_model": "FQ16FV6EDN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8239,
+      "top_candidate_text": "[청소하기] 거나 \n제품이 고장 날 수 있습니다.\n• 모델에 따라 제품 형상이 다를 수 있습니다.\n제품 내부 청소하기\n1\n제품의 전원을 끈 다음 전원 플러그를 빼세요.\n\n64\n관리하기\n2\n팬 모듈의 오염 물질은 물을 묻힌 부드러운 천이나 \n물티슈를 사용하여 깨끗이 닦으"
+    },
+    {
+      "product_model": "FQ16FV6EDN",
+      "question": "운전 어떻게 하나요?",
+      "keyword": "운전",
+      "source_section_title": "운전",
+      "keyword_hit": true,
+      "min_distance": 1.0312,
+      "top_candidate_text": "[운전] 73\n고장 신고 전 확인하기\n문제 해결하기\n제품 사용 중 아래의 증상이 나타나면 다시 한번 확인하세요. 고장이 아닐 수 있습니다.\n알아두기\n• 모델에 따라 아래 방법을 사용하지 못할 수 있습니다.\n운전\n증상\n원인 및 해결책\n제품이 켜지지 않아요.\n주 전원 스위"
+    },
+    {
+      "product_model": "FQ17FN5BDN",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7318,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.]  됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치설"
+    },
+    {
+      "product_model": "FQ17FN5BDN",
+      "question": "에어컨의 모습과 기능 살펴보기 어떻게 하나요?",
+      "keyword": "에어컨의 모습과 기능 살펴보기",
+      "source_section_title": "에어컨의 모습과 기능 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6637,
+      "top_candidate_text": "[에어컨의 모습과 기능 살펴보기] 13\n알아보기\n알아보기\n에어컨의 모습과 기능 살펴보기\n알아두기\n• 본 사용설명서의 제품 이미지는 사용자의 이해를 돕기 위한 것으로 실물과 다를 수 있습니다.\n실내기\na 레이다 센서(인체를 감지하는 센서)\n• 사용자의 부재를 감지합니다."
+    },
+    {
+      "product_model": "FQ17FN5BDN",
+      "question": "공기청정 기능 사용하기 어떻게 하나요?",
+      "keyword": "공기청정 기능 사용하기",
+      "source_section_title": "공기청정 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5801,
+      "top_candidate_text": "[공기청정 기능 사용하기] 태에서 전력을 적게 소모하여 \n공기청정 기능을 단독으로 운전할 수 있습니다.\n• 제품의 작동을 멈춘 상태에서 리모컨의 공기청정 버튼을 \n누르세요. 리모컨 표시부에 공기청정이 나타나고 \n공기청정 단독 운전을 시작합니다.\n알아두기\n• 공기청정 단"
+    },
+    {
+      "product_model": "FQ17FN5BDN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8448,
+      "top_candidate_text": "[청소하기] 이 다니는 곳에 전면 패널이나 좌우 \n토출구를 두지 마세요. 전면 패널이나 좌우 토출구가 \n넘어져 사고가 날 수 있습니다.\n• 분리한 전면 패널이나 좌우 토출구가 파손되지 않도록 \n주의하세요. 제품을 조립할 때 고장 날 수 있습니다.\n• 제품에 매달리지 마"
+    },
+    {
+      "product_model": "FQ17FN5BDN",
+      "question": "운전 어떻게 하나요?",
+      "keyword": "운전",
+      "source_section_title": "운전",
+      "keyword_hit": true,
+      "min_distance": 1.0264,
+      "top_candidate_text": "[운전] 77\n고장 신고 전 확인하기\n문제 해결하기\n제품 사용 중 아래의 증상이 나타나면 다시 한번 확인하세요. 고장이 아닐 수 있습니다.\n알아두기\n• 모델에 따라 아래 방법을 사용하지 못할 수 있습니다.\n운전\n증상\n원인 및 해결책\n제품이 켜지지 않아요.\n주 전원 스위"
+    },
+    {
+      "product_model": "FQ18GC1EHN",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.743,
+      "top_candidate_text": "[제품 사용설명서] 제품 사용설명서\n스탠드 에어컨\n모델 : LG 휘센 쿨 에어컨(냉방)\nMFL71898057\nRev.00_040926\n\n본 사용설명서는 공용으로 제작되어 구입한 제품과 다른 이미지나 내용이 포함되어 있을 수 있습니다.\n본 사용설명서는 회사 사정에 따라 "
+    },
+    {
+      "product_model": "FQ18GC1EHN",
+      "question": "만일의 경우를 대비하여 어떻게 하나요?",
+      "keyword": "만일의 경우를 대비하여",
+      "source_section_title": "만일의 경우를 대비하여",
+      "keyword_hit": true,
+      "min_distance": 1.1166,
+      "top_candidate_text": "[만일의 경우를 대비하여] 9\n안전을 위해 주의하기 \nj 준수 사항\n• UV LED를 설치, 수리, 교체가 필요할 때는 아래와 같이 진행하세요.\n- LG전자 서비스 센터에 연락하여 서비스를 받으세요.\n- LG전자에서 제공하는 UV LED 부품을 구매하세요.\n• 의도하지"
+    },
+    {
+      "product_model": "FQ18GC1EHN",
+      "question": "냉방 기본 기능 작동하기 어떻게 하나요?",
+      "keyword": "냉방 기본 기능 작동하기",
+      "source_section_title": "냉방 기본 기능 작동하기",
+      "keyword_hit": true,
+      "min_distance": 0.5223,
+      "top_candidate_text": "[냉방 기본 기능 작동하기] 22\n리모컨으로 사용하기\n냉방 기본 기능 작동하기\n냉방 기능 사용하기\n제품의 냉방 기능이 작동하면 좌우 토출구에서 차가운 \n바람이 나옵니다.\n냉방 기능은 가장 기본적인 운전 모드이며 리모컨으로 \n쉽게 작동할 수 있습니다.\n1\n리모컨의 전원 "
+    },
+    {
+      "product_model": "FQ18GC1EHN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8409,
+      "top_candidate_text": "[청소하기] 을 잡고 앞으로 당겨 빼세요.\n3\n상단 패널을 고정하고 있는 검정 나사 2개를 푸세요.\n4\n상단 패널의 위아래 홈 부분을 잡고 위로 살짝 올린 \n다음 상단 패널을 앞으로 빼세요.\n나사 색상\n이미지\n수량\n검정색\n2개\n\n41\n관리하기\n• 아래 홈의 위치는 상단"
+    },
+    {
+      "product_model": "FQ18GC1EHN",
+      "question": "소음 어떻게 하나요?",
+      "keyword": "소음",
+      "source_section_title": "소음",
+      "keyword_hit": true,
+      "min_distance": 0.9026,
+      "top_candidate_text": "[소음] 망하는 온도가 됐나요?\n• 실내 온도가 희망하는 온도에 가까워지면 효율적으로 팬의 회전수를 조절하여 절전 \n운전을 합니다.\n제품을 사용할 때 좌우 \n토출구에서 소음이 나요.\n아이스 쿨파워 냉방 운전을 사용 중인가요?\n• 아이스 쿨파워 냉방 운전 중에는 팬이 가"
+    },
+    {
+      "product_model": "FQ18GN7BKN",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7318,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.]  됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치설"
+    },
+    {
+      "product_model": "FQ18GN7BKN",
+      "question": "에어컨의 모습과 기능 살펴보기 어떻게 하나요?",
+      "keyword": "에어컨의 모습과 기능 살펴보기",
+      "source_section_title": "에어컨의 모습과 기능 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6531,
+      "top_candidate_text": "[에어컨의 모습과 기능 살펴보기] 13\n알아보기\n알아보기\n에어컨의 모습과 기능 살펴보기\n알아두기\n• 본 사용설명서의 제품 이미지는 사용자의 이해를 돕기 위한 것으로 실물과 다를 수 있습니다.\n실내기\na 레이다 센서(인체를 감지하는 센서)\n• 사용자의 부재를 감지합니다."
+    },
+    {
+      "product_model": "FQ18GN7BKN",
+      "question": "공기청정 기능 사용하기 어떻게 하나요?",
+      "keyword": "공기청정 기능 사용하기",
+      "source_section_title": "공기청정 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5301,
+      "top_candidate_text": "[공기청정 기능 사용하기]  이오나이저와 필터가 실내의 공기를 \n쾌적하게 합니다.\n공기청정 기능 사용하기\n1\n리모컨의 전원 버튼을 눌러 제품을 켜세요.\n2\n리모컨의 공기청정 버튼을 누르세요.\n\n35\n리모컨으로 사용하기\n알아두기\n• 공기청정과 냉방, 제습, 송풍 운전을 "
+    },
+    {
+      "product_model": "FQ18GN7BKN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8556,
+      "top_candidate_text": "[청소하기]  동물이 다니는 곳에 전면 패널이나 좌우 \n토출구를 두지 마세요. 전면 패널이나 좌우 토출구가 \n넘어져 사고가 날 수 있습니다.\n• 분리한 전면 패널이나 좌우 토출구가 파손되지 않도록 \n주의하세요. 제품을 조립할 때 고장 날 수 있습니다.\n• 제품에 매달리"
+    },
+    {
+      "product_model": "FQ18GN7BKN",
+      "question": "운전 어떻게 하나요?",
+      "keyword": "운전",
+      "source_section_title": "운전",
+      "keyword_hit": true,
+      "min_distance": 1.0264,
+      "top_candidate_text": "[운전] 77\n고장 신고 전 확인하기\n문제 해결하기\n제품 사용 중 아래의 증상이 나타나면 다시 한번 확인하세요. 고장이 아닐 수 있습니다.\n알아두기\n• 모델에 따라 아래 방법을 사용하지 못할 수 있습니다.\n운전\n증상\n원인 및 해결책\n제품이 켜지지 않아요.\n주 전원 스위"
+    },
+    {
+      "product_model": "FQ18GU1BHN",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.7704,
+      "top_candidate_text": "[제품 사용설명서] 제품 사용설명서\n스탠드 에어컨\n모델 : LG 휘센 뷰 에어컨(냉방)\nMFL71898056 \nRev.00_033126\n\n본 사용설명서는 공용으로 제작되어 구입한 제품과 다른 이미지나 내용이 포함되어 있을 수 있습니다.\n본 사용설명서는 회사 사정에 따라"
+    },
+    {
+      "product_model": "FQ18GU1BHN",
+      "question": "만일의 경우를 대비하여 어떻게 하나요?",
+      "keyword": "만일의 경우를 대비하여",
+      "source_section_title": "만일의 경우를 대비하여",
+      "keyword_hit": true,
+      "min_distance": 1.1166,
+      "top_candidate_text": "[만일의 경우를 대비하여] 9\n안전을 위해 주의하기 \nj 준수 사항\n• UV LED를 설치, 수리, 교체가 필요할 때는 아래와 같이 진행하세요.\n- LG전자 서비스 센터에 연락하여 서비스를 받으세요.\n- LG전자에서 제공하는 UV LED 부품을 구매하세요.\n• 의도하지"
+    },
+    {
+      "product_model": "FQ18GU1BHN",
+      "question": "냉방 기본 기능 작동하기 어떻게 하나요?",
+      "keyword": "냉방 기본 기능 작동하기",
+      "source_section_title": "냉방 기본 기능 작동하기",
+      "keyword_hit": true,
+      "min_distance": 0.5148,
+      "top_candidate_text": "[냉방 기본 기능 작동하기] 22\n리모컨으로 사용하기\n냉방 기본 기능 작동하기\n냉방 기능 사용하기\n제품의 냉방 기능이 작동하면 좌우 토출구에서 차가운 \n바람이 나옵니다.\n냉방 기능은 가장 기본적인 운전 모드이며 리모컨으로 \n쉽게 작동할 수 있습니다.\n1\n리모컨의 전원 "
+    },
+    {
+      "product_model": "FQ18GU1BHN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8725,
+      "top_candidate_text": "[청소하기] 형상이 다를 수 있습니다.\n필터 분리하기\n1\n리모컨의 전원 버튼을 눌러 전원을 끄세요.\n필터 이름\n이미지\n청소 주기\n극세 필터\n• 물 세척 가능\n• 2주에 한 번 \n권장\n알러지케어 집진 \n필터(옵션)\n• 물 세척 \n불가능\n• 12개월마다 \n필터 교체\n\n40"
+    },
+    {
+      "product_model": "FQ18GU1BHN",
+      "question": "운전 어떻게 하나요?",
+      "keyword": "운전",
+      "source_section_title": "운전",
+      "keyword_hit": true,
+      "min_distance": 1.0351,
+      "top_candidate_text": "[냉방 기본 기능 작동하기] 운전이 \n해제되고 선택한 기능으로 작동합니다.\n제습 기능 사용하기\n습도가 높은 날에 실내의 습기를 제거하여 쾌적하게 \n생활할 수 있습니다.\n1\n리모컨의 전원 버튼을 눌러 제품을 켜세요.\n2\n리모컨의 운전선택 버튼을 반복적으로 눌러 제습을 \n"
+    },
+    {
+      "product_model": "FQ25GN9BKN",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7318,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.]  됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치설"
+    },
+    {
+      "product_model": "FQ25GN9BKN",
+      "question": "에어컨의 모습과 기능 살펴보기 어떻게 하나요?",
+      "keyword": "에어컨의 모습과 기능 살펴보기",
+      "source_section_title": "에어컨의 모습과 기능 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6531,
+      "top_candidate_text": "[에어컨의 모습과 기능 살펴보기] 13\n알아보기\n알아보기\n에어컨의 모습과 기능 살펴보기\n알아두기\n• 본 사용설명서의 제품 이미지는 사용자의 이해를 돕기 위한 것으로 실물과 다를 수 있습니다.\n실내기\na 레이다 센서(인체를 감지하는 센서)\n• 사용자의 부재를 감지합니다."
+    },
+    {
+      "product_model": "FQ25GN9BKN",
+      "question": "공기청정 기능 사용하기 어떻게 하나요?",
+      "keyword": "공기청정 기능 사용하기",
+      "source_section_title": "공기청정 기능 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5301,
+      "top_candidate_text": "[공기청정 기능 사용하기]  이오나이저와 필터가 실내의 공기를 \n쾌적하게 합니다.\n공기청정 기능 사용하기\n1\n리모컨의 전원 버튼을 눌러 제품을 켜세요.\n2\n리모컨의 공기청정 버튼을 누르세요.\n\n35\n리모컨으로 사용하기\n알아두기\n• 공기청정과 냉방, 제습, 송풍 운전을 "
+    },
+    {
+      "product_model": "FQ25GN9BKN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8556,
+      "top_candidate_text": "[청소하기]  동물이 다니는 곳에 전면 패널이나 좌우 \n토출구를 두지 마세요. 전면 패널이나 좌우 토출구가 \n넘어져 사고가 날 수 있습니다.\n• 분리한 전면 패널이나 좌우 토출구가 파손되지 않도록 \n주의하세요. 제품을 조립할 때 고장 날 수 있습니다.\n• 제품에 매달리"
+    },
+    {
+      "product_model": "FQ25GN9BKN",
+      "question": "운전 어떻게 하나요?",
+      "keyword": "운전",
+      "source_section_title": "운전",
+      "keyword_hit": true,
+      "min_distance": 1.0264,
+      "top_candidate_text": "[운전] 77\n고장 신고 전 확인하기\n문제 해결하기\n제품 사용 중 아래의 증상이 나타나면 다시 한번 확인하세요. 고장이 아닐 수 있습니다.\n알아두기\n• 모델에 따라 아래 방법을 사용하지 못할 수 있습니다.\n운전\n증상\n원인 및 해결책\n제품이 켜지지 않아요.\n주 전원 스위"
+    },
+    {
+      "product_model": "GC-B40BSCQ",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.8141,
+      "top_candidate_text": "[제품 사용설명서] 7\n중칸 서랍\n18\n하칸 서랍\n20\n바구니\n20\n아이스 메이커\n20\n매직스페이스\n관리하기\n22\n청소하기\n설치하기\n23\n제품을 옮길 때\n23\n제품을 설치할 때\n23\n제품 수평 및 문 높이 조절할 때\n고장 신고 전 확인하기\n25\n고장 진단하기\n25\n문제"
+    },
+    {
+      "product_model": "GC-B40BSCQ",
+      "question": "냉장고의 모습과 기능 살펴보기 어떻게 하나요?",
+      "keyword": "냉장고의 모습과 기능 살펴보기",
+      "source_section_title": "냉장고의 모습과 기능 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6188,
+      "top_candidate_text": "[냉장고의 모습과 기능 살펴보기] 10\n알아보기\n알아보기\n냉장고의 모습과 기능 살펴보기\n냉장고의 외부와 내부는 모델에 따라 다를 수 있습니다.\n냉장고 내부\n냉장고의 내부는 모델에 따라 다를 수 있습니다.\n유형1\na 상칸 작은 바구니\n작게 포장된 냉장 식품, 음료수, 소"
+    },
+    {
+      "product_model": "GC-B40BSCQ",
+      "question": "제어창 어떻게 하나요?",
+      "keyword": "제어창",
+      "source_section_title": "제어창",
+      "keyword_hit": true,
+      "min_distance": 0.7335,
+      "top_candidate_text": "[제어창] 15\n사용하기\n제어창\n제어창 사용하기\n제어창은 모델에 따라 다를 수 있습니다.\na 상칸\n냉장실 온도를 조절할 수 있습니다.\n상칸 버튼을 한 번씩 누를 때마다 0 7에서 6 7까지 온도를 바꿀 수 있습니다.\n• 처음 설정 온도는 3 7로 맞춰져 있습니다.\n• "
+    },
+    {
+      "product_model": "GC-B40BSCQ",
+      "question": "제품을 설치할 때 어떻게 하나요?",
+      "keyword": "제품을 설치할 때",
+      "source_section_title": "제품을 설치할 때",
+      "keyword_hit": true,
+      "min_distance": 0.8111,
+      "top_candidate_text": "[제품을 설치할 때] 23\n설치하기\n설치하기\n제품을 옮길 때\n옮길 때 알아두기\n• 냉장고 속 식품을 모두 꺼내고, 선반 같이 깨질 위험이 \n있는 부품과 냉장고 문의 손잡이는 움직이지 않게 \n테이프를 붙여서 옮기세요.\n- 냉장고가 부서질 수 있습니다.\n• 냉장고를 옮길 "
+    },
+    {
+      "product_model": "GC-B40BSCQ",
+      "question": "소음 어떻게 하나요?",
+      "keyword": "소음",
+      "source_section_title": "소음",
+      "keyword_hit": true,
+      "min_distance": 0.8897,
+      "top_candidate_text": "[소음] 나요?\n• 냉장고가 작동을 시작하거나 멈출 때 압축기나 팬이 돌아가면서 나는 소리입니다. \n자동차가 시동을 켜거나 끌 때 발생하는 소리와 비슷한 원리입니다.\n“꾸르륵~” 하며 물 흐르는 소리가 들리나요?\n• 냉장실이나 냉동실에서 냉매의 상태가 액체 또는 기체로"
+    },
+    {
+      "product_model": "GC-B414HG7M",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.756,
+      "top_candidate_text": "[제품 사용설명서] 제품 사용설명서\n일반 냉동고\n제품을 안전하고 편리하게 사용하기 위해 반드시 제품을 사용하기 전에 사용설명서를 읽어주세요.\n제품 보증서도 함께 들어있으니 잘 보관하세요.\n본 제품은 가정에서만 사용하는 실내용 기기입니다. 상업용, 실험용, 산업용으로 사"
+    },
+    {
+      "product_model": "GC-B414HG7M",
+      "question": "사용하기 전 알아두기 어떻게 하나요?",
+      "keyword": "사용하기 전 알아두기",
+      "source_section_title": "사용하기 전 알아두기",
+      "keyword_hit": true,
+      "min_distance": 0.9876,
+      "top_candidate_text": "[사용하기 전 알아두기] 15\n사용하기\n사용하기\n알아두면 좋은 정보\n사용하기 전 알아두기\n• 정전이 발생한 경우, 전기 회사에 전화하여 정전 예상 \n시간을 확인하세요. 전원이 꺼져있는 동안에는 문을 \n열지 않는 것이 좋습니다. 전원이 다시 공급되면, 음식 \n상태를 확인"
+    },
+    {
+      "product_model": "GC-B414HG7M",
+      "question": "냉동실 선반 어떻게 하나요?",
+      "keyword": "냉동실 선반",
+      "source_section_title": "냉동실 선반",
+      "keyword_hit": true,
+      "min_distance": 0.7485,
+      "top_candidate_text": "[제품의 모습과 기능 살펴보기] 12\n알아보기\n알아보기\n제품의 모습과 기능 살펴보기\n제품의 외부 및 내부\n제품의 외부 및 내부는 모델에 따라 다를 수 있습니다.\n*1 이 기능이 적용된 모델에만 해당하는 내용입니다.\n유형 1\n유형 2\n\n13\n알아보기\n유형 3\n유형 4\na"
+    },
+    {
+      "product_model": "GC-B414HG7M",
+      "question": "제품을 설치할 때 어떻게 하나요?",
+      "keyword": "제품을 설치할 때",
+      "source_section_title": "제품을 설치할 때",
+      "keyword_hit": true,
+      "min_distance": 0.6385,
+      "top_candidate_text": "[제품을 설치할 때] 26\n설치하기\n설치하기\n제품을 옮길 때\n옮길 때 알아두기\n• 제품 안의 식품을 모두 꺼내고, 서랍 같이 부서질 위험이 \n있는 부품과 냉동고 문의 손잡이는 움직이지 않게 \n테이프를 붙여서 옮기세요.\n- 제품이 부서질 수 있습니다.\n• 제품을 옮길 때"
+    },
+    {
+      "product_model": "GC-B414HG7M",
+      "question": "와이파이 어떻게 하나요?",
+      "keyword": "와이파이",
+      "source_section_title": "와이파이",
+      "keyword_hit": true,
+      "min_distance": 0.8083,
+      "top_candidate_text": "[와이파이] 다. 일정 온도 아래로 내려가면 소리도 작아집니다.\n증상\n원인 및 해결책\n가전제품과 스마트폰을 \n와이파이로 연결할 수 \n없어요.\n스마트폰에 연결된 와이파이 비밀번호가 맞지 않나요?\n• 스마트폰 와이파이 설정 메뉴에서 사용 중인 와이파이 신호를 찾아 ‘네트워"
+    },
+    {
+      "product_model": "J825MEE042",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.7552,
+      "top_candidate_text": "[제품 사용설명서] 메이커\n23\n냉장실 서랍\n24\n냉동실 서랍\n25\n냉장실 선반\n26\n멀티수납 코너\n26\n바구니\n관리하기\n27\n청소하기\n27\n정수 필터\n설치하기\n30\n제품을 옮길 때\n30\n제품을 설치할 때\n31\n제품 수평 및 문 높이 조절할 때\n고장 신고 전 확인하기\n"
+    },
+    {
+      "product_model": "J825MEE042",
+      "question": "사용하기 전 알아두기 어떻게 하나요?",
+      "keyword": "사용하기 전 알아두기",
+      "source_section_title": "사용하기 전 알아두기",
+      "keyword_hit": true,
+      "min_distance": 0.9873,
+      "top_candidate_text": "[사용하기 전 알아두기] 16\n사용하기\n사용하기\n알아두면 좋은 정보\n사용하기 전 알아두기\n• 정전이 발생한 경우, 전기 회사에 전화하여 정전 예상 \n시간을 확인하세요. 전원이 꺼져있는 동안에는 문을 \n열지 않는 것이 좋습니다. 전원이 다시 공급되면, 음식 \n상태를 확인"
+    },
+    {
+      "product_model": "J825MEE042",
+      "question": "얼음 정수기 어떻게 하나요?",
+      "keyword": "얼음 정수기",
+      "source_section_title": "얼음 정수기",
+      "keyword_hit": true,
+      "min_distance": 0.5846,
+      "top_candidate_text": "[얼음 정수기]  가득 차면 더이상 얼음을 만들 수 \n없습니다.\n• 얼음 저장통에 얼음이 떨어질 때 소리는 정상적인 \n소리입니다.\n• 냉장고를 처음 설치한 다음 일정 시간 동안은 냉장고 속 \n온도가 안정되지 않아 얼음이 제대로 만들어지지 않을 \n\n21\n사용하기\n수 있습"
+    },
+    {
+      "product_model": "J825MEE042",
+      "question": "정수 필터 어떻게 하나요?",
+      "keyword": "정수 필터",
+      "source_section_title": "정수 필터",
+      "keyword_hit": true,
+      "min_distance": 0.6277,
+      "top_candidate_text": "[정수 필터] 로 \n하며, 필터의 수명은 수질, 수압, 계절, 지역에 따라 \n차이가 있을 수 있습니다.\n- 필터는 케어 서비스를 통하여 교체하는 것을 \n권장합니다.\n• 단계별 정수 필터\n- 1단계 필터: 중금속9 흡착 필터\n- 2단계 필터: 박테리아 클리어 필터\n- 3"
+    },
+    {
+      "product_model": "J825MEE042",
+      "question": "물 어떻게 하나요?",
+      "keyword": "물",
+      "source_section_title": "물",
+      "keyword_hit": true,
+      "min_distance": 1.0122,
+      "top_candidate_text": "[물] 이 맺힐 수 \n있습니다. 물기가 없는 수건으로 닦으세요.\n냉장고 주위에 물기가 \n있어요.\n냉장고 주위에 물이 흘러나와 있나요?\n• 싱크대나 주변에서 물이 흘러나온 것인지 확인하세요.\n냉장고 바닥에 물기가 있나요?\n• 냉동식품이 녹아서 물이 흘러내리거나 그릇이 깨"
+    },
+    {
+      "product_model": "K135LW123",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.7609,
+      "top_candidate_text": "[제품 사용설명서] 제품 사용설명서\n김치 냉장고\n제품을 안전하고 편리하게 사용하기 위해 반드시 제품을 사용하기 전에 사용설명서를 읽어주세요.\n제품 보증서도 함께 들어있으니 잘 보관하세요.\n본 제품은 가정에서만 사용하는 실내용 기기입니다. 상업용, 실험용, 산업용으로 사"
+    },
+    {
+      "product_model": "K135LW123",
+      "question": "냉장고의 모습과 기능 살펴보기 어떻게 하나요?",
+      "keyword": "냉장고의 모습과 기능 살펴보기",
+      "source_section_title": "냉장고의 모습과 기능 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.5973,
+      "top_candidate_text": "[냉장고의 모습과 기능 살펴보기] 9\n알아보기\n알아보기\n냉장고의 모습과 기능 살펴보기\n냉장고 외부 및 내부\n*1 이 기능이 적용된 모델에만 해당하는 내용입니다.\na 제어창\n온도 조절이나 식품 종류를 선택할 수 있습니다.\nb 탈취제*1\n제품 안의 냄새를 줄여줍니다.\nc "
+    },
+    {
+      "product_model": "K135LW123",
+      "question": "김치에 관한 상식 알아두기 어떻게 하나요?",
+      "keyword": "김치에 관한 상식 알아두기",
+      "source_section_title": "김치에 관한 상식 알아두기",
+      "keyword_hit": true,
+      "min_distance": 0.7715,
+      "top_candidate_text": "[김치에 관한 상식 알아두기]  \n나게 됩니다.\n• 김치 숙성 속도에 영향을 주는 재료를 확인하세요.\n- 마늘, 수산물(굴, 생새우, 조기, 갈치 등), 양파, \n고춧가루, 오이, 실파 등이 많으면 김치의 익는 속도가 \n빠르며, 특히 굴젓, 찹쌀풀과 새우젓 등을 첨가하"
+    },
+    {
+      "product_model": "K135LW123",
+      "question": "제품을 설치할 때 어떻게 하나요?",
+      "keyword": "제품을 설치할 때",
+      "source_section_title": "제품을 설치할 때",
+      "keyword_hit": true,
+      "min_distance": 0.7945,
+      "top_candidate_text": "[제품을 설치할 때] 17\n설치하기\n설치하기\n제품을 옮길 때\n옮길 때 알아두기\n• 냉장고 속 식품을 모두 꺼내고, 깨질 위험이 있는 부품과 \n냉장고 문은 움직이지 않게 테이프를 붙여서 옮기세요.\n- 냉장고가 부서질 수 있습니다.\n• 냉장고를 옮길 때는 2명 이상이 함께"
+    },
+    {
+      "product_model": "K135LW123",
+      "question": "소음 어떻게 하나요?",
+      "keyword": "소음",
+      "source_section_title": "소음",
+      "keyword_hit": true,
+      "min_distance": 0.9273,
+      "top_candidate_text": "[소음] ” “웅~” 같은 소리가 들리나요?\n• 냉장고가 작동을 시작하거나 멈출 때 압축기나 팬이 돌아가면서 나는 소리입니다. \n자동차가 시동을 켜거나 끌 때 발생하는 소리와 비슷한 원리입니다.\n“꾸르륵~” 하며 물 흐르는 소리가 들리나요?\n• 냉장실이나 냉동실에서 냉"
+    },
+    {
+      "product_model": "M402ND",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.7931,
+      "top_candidate_text": "[제품 사용설명서] 스페이스\n20\n제어창\n22\n컨버터블 팬트리\n23\n냉장실 서랍\n24\n냉장실 선반\n24\n자동 문열림\n25\n오토 리프트\n관리하기\n29\n청소하기\n설치하기\n30\n제품을 옮길 때\n30\n제품을 설치할 때\n31\n제품 수평 및 문 높이 조절할 때\n고장 신고 전 확인"
+    },
+    {
+      "product_model": "M402ND",
+      "question": "음성인식 기능 어떻게 하나요?",
+      "keyword": "음성인식 기능",
+      "source_section_title": "음성인식 기능",
+      "keyword_hit": true,
+      "min_distance": 0.6047,
+      "top_candidate_text": "[음성인식 기능] 용할 수 있는 기능은 모델마다 다를 수 있습니다.\n음성인식 기능\n제품의 다양한 기능을 음성으로 편리하게 조작할 수 \n있습니다.\n최적의 음성인식 성능을 위하여 명령어와 알아두기를 \n확인하세요.\n사용하기 전 알아두기\n음성 인식 기능을 사용하기 위해서는 L"
+    },
+    {
+      "product_model": "M402ND",
+      "question": "고장 감지 기능 어떻게 하나요?",
+      "keyword": "고장 감지 기능",
+      "source_section_title": "고장 감지 기능",
+      "keyword_hit": true,
+      "min_distance": 0.7953,
+      "top_candidate_text": "[냉장 & 냉동] 33\n고장 신고 전 확인하기 \n고장 신고 전 확인하기\n고장 진단하기\n제품의 고장 원인을 진단할 수 있는 기능입니다.\n알아두기\n• LG전자의 과실이 아닌 외부 요인(와이파이 사용 \n불가,와이파이 연결 해제, 앱 스토어 정책 변경, 앱 사용 \n불가 등)에"
+    },
+    {
+      "product_model": "M402ND",
+      "question": "오토 리프트 어떻게 하나요?",
+      "keyword": "오토 리프트",
+      "source_section_title": "오토 리프트",
+      "keyword_hit": true,
+      "min_distance": 0.5992,
+      "top_candidate_text": "[오토 리프트] 같이 반사가 심한 물건이 있을 때 DOOR OPEN 표시가 \n켜질 수 있습니다. 하지만 움직임이 없으면 자동으로 \n꺼집니다.\n• 냉장고 앞에 사람이 서 있을 때 아래쪽으로 동물이 \n지나가면 자동 문열림 기능이 작동할 수 있습니다.\n오토 리프트\n오토 리프"
+    },
+    {
+      "product_model": "M402ND",
+      "question": "부품 어떻게 하나요?",
+      "keyword": "부품",
+      "source_section_title": "부품",
+      "keyword_hit": true,
+      "min_distance": 1.148,
+      "top_candidate_text": "[제품 보증서] 에서 사용 등\n• 이 보증서는 재발행되지 않습니다.\n• 별도 계약에 의한 공급(조달, HOST, 단일용품 등)일 경우에는 주계약에 따라 보증 내용을 적용합니다.\n\n모델명:\n• 품질 보증 기간: 1년\n• 정속형 콤프레서(압축기) 품질 보증 기간: 3년\n•"
+    },
+    {
+      "product_model": "RF85B90P1AP",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": true,
+      "min_distance": 0.9819,
+      "top_candidate_text": "[설치 관련]  근처나 습기, 기름, 먼지가 많은 곳, 직사광선 및 물(빗물 등)이 닿는 곳, 혹은 가스가 샐 \n가능성이 있는 곳에 설치하지 마세요.\n•\t 감전, 화재, 고장, 폭발의 위험이 있습니다.\n설치 시 전원 플러그를 꽂은 후 냉장고를 밀어 넣은 경우 전원 코드"
+    },
+    {
+      "product_model": "RF85B90P1AP",
+      "question": "SmartThings 어떻게 하나요?",
+      "keyword": "SmartThings",
+      "source_section_title": "SmartThings",
+      "keyword_hit": true,
+      "min_distance": 0.51,
+      "top_candidate_text": "[SmartThings] 시됩니다."
+    },
+    {
+      "product_model": "RF85B90P1AP",
+      "question": "냉장실 서랍(또는 멀티 팬트리) 어떻게 하나요?",
+      "keyword": "냉장실 서랍(또는 멀티 팬트리)",
+      "source_section_title": "냉장실 서랍(또는 멀티 팬트리)",
+      "keyword_hit": true,
+      "min_distance": 0.5722,
+      "top_candidate_text": "[냉장실 서랍(또는 멀티 팬트리)] 39\n사용하기\n냉장실 서랍(또는 멀티 팬트리)\n냉장실 서랍(또는 멀티 팬트리) 분리하기\n꺼내려는 서랍을 앞으로 당겨, 살짝 들어 올려 빼 주세요.\n•\t 분리/조립하실 때는 서랍 속 식품을 모두 비워 \n주세요.\n냉장실 서랍(또는 멀티 "
+    },
+    {
+      "product_model": "RF85B90P1AP",
+      "question": "제품 관리하기 어떻게 하나요?",
+      "keyword": "제품 관리하기",
+      "source_section_title": "제품 관리하기",
+      "keyword_hit": false,
+      "min_distance": 1.0456,
+      "top_candidate_text": "[SmartThings] 있어, 최신 OS에 맞춰 SmartThings도 지속해서 업데이트하고 있습니다. \n이와 관련한 문의 사항이 있으면 st.service@samsung.com으로 연락해 주시기 바랍니다.\n삼성 계정(어카운트) 로그인\nSmartThings 앱을 사용"
+    },
+    {
+      "product_model": "RF85B90P1AP",
+      "question": "패밀리허브 모델 조작부 고장 신고 전 확인하기 어떻게 하나요?",
+      "keyword": "패밀리허브 모델 조작부 고장 신고 전 확인하기",
+      "source_section_title": "패밀리허브 모델 조작부 고장 신고 전 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.7069,
+      "top_candidate_text": "[패밀리허브 모델 조작부 재시작하기] 사용하기\n62 \n사용하기\n패밀리허브 모델 조작부 재시작하기\n패밀리허브 모델 조작부 터치가 제대로 되지 않거나, 정상적으로 작동하지 않을 때 참고하세요.\nvu\nm\nm\nv\n1.\t 냉장실 오른쪽 문을 열고, 위쪽의 덮개를 누르면서 \n당기"
+    },
+    {
+      "product_model": "RF85DB90B1AP",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": true,
+      "min_distance": 0.9489,
+      "top_candidate_text": "[제품 이동 설치 시 참고 사항]  않으면 진동과 소음 발생 및 문의 수평이 맞지 않는 원인이 되며, 문을 여닫을 때 \n제품이 넘어져 다칠 수 있습니다. \n•\t 식품이 가득 채워진 제품의 무게를 견딜 수 있는 바닥이 단단한 곳이어야 합니다. \n﻿\n﻿ 주위와 적당한 간격"
+    },
+    {
+      "product_model": "RF85DB90B1AP",
+      "question": "냉장고 수평 조정 방법 어떻게 하나요?",
+      "keyword": "냉장고 수평 조정 방법",
+      "source_section_title": "냉장고 수평 조정 방법",
+      "keyword_hit": true,
+      "min_distance": 0.5032,
+      "top_candidate_text": "[냉장고 수평 조정 방법] 이동/설치하기\n22\n﻿\nغΑ\u0003ηǰ\n \n5.\t 상단 덮개의 앞부분을 먼저 끼운 후 뒷부분을 눌러 \n닫은 후 십자(+)드라이버로 나사 3개를 조립하세요. \n\t-\n 문의 조립은 분리의 역순이며, 좌/우 냉장실 문이 \n동일합니다. \n \n 주의 \n•\t"
+    },
+    {
+      "product_model": "RF85DB90B1AP",
+      "question": "조작부 (패밀리허브가 아닌 모델) 어떻게 하나요?",
+      "keyword": "조작부 (패밀리허브가 아닌 모델)",
+      "source_section_title": "조작부 (패밀리허브가 아닌 모델)",
+      "keyword_hit": true,
+      "min_distance": 0.722,
+      "top_candidate_text": "[패밀리허브 모델 조작부 재시작하기] 사용하기\n74\n 패밀리허브 모델 조작부 재시작하기 \n 패밀리허브 모델 조작부 터치가 제대로 되지 않거나, 정상적으로 작동하지 않을 때 참고하세요. \n﻿\nvu\nm\nm\nv\n \n1.\t 냉장실 오른쪽 문을 열고, 위쪽의 덮개를 누르면서 \n"
+    },
+    {
+      "product_model": "RF85DB90B1AP",
+      "question": "아이스 메이커 급수용 물통 (빅 아이스 메이커 전용) 어떻게 하나요?",
+      "keyword": "아이스 메이커 급수용 물통 (빅 아이스 메이커 전용)",
+      "source_section_title": "아이스 메이커 급수용 물통 (빅 아이스 메이커 전용)",
+      "keyword_hit": true,
+      "min_distance": 0.4763,
+      "top_candidate_text": "[아이스 메이커 급수용 물통 (빅 아이스 메이커 전용)] 65\n 아이스 메이커 급수용 물통 (빅 아이스 메이커 전용) \n (본 내용은 해당 모델만 참조하세요.) \n 얼음이 필요할 때, 냉장실에 있는 물통에 직접 물을 넣어 얼음을 만들 수 있습니다. \nܧߩڽԋߩ॔\n\u0003Ի৞"
+    },
+    {
+      "product_model": "RF85DB90B1AP",
+      "question": "빅 아이스메이커 고장 신고 전 확인하기 어떻게 하나요?",
+      "keyword": "빅 아이스메이커 고장 신고 전 확인하기",
+      "source_section_title": "빅 아이스메이커 고장 신고 전 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.7847,
+      "top_candidate_text": "[빅 아이스메이커 고장 신고 전 확인하기] 지 않아요. \n 김치를 담근 직후 바로 낮은 온도에 보관하면 양념이 잘 배지 \n못하므로 김장 후에 냉장고 밖에 두고, 국물에 기포가 뽀글뽀글 \n올라오면 냉장고에 넣어주세요. \n 빅 아이스메이커 고장 신고 전 확인하기 \n (본 "
+    },
+    {
+      "product_model": "RH10VTA",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.6961,
+      "top_candidate_text": "[제품 사용설명서] 제품 청소하기\n29\n제품 관리하기\n31\n겨울철 동결 해결하기\n설치하기\n33\n설치 준비하기\n34\n건조기 설치하기\n35\n수평 조절하기 / 높이 조정판 \n사용하기\n고장 신고 전 확인하기\n37\n고장 진단하기\n38\n문제 해결하기\n제품 보증서 보기\n43\n제품 "
+    },
+    {
+      "product_model": "RH10VTA",
+      "question": "주의 어떻게 하나요?",
+      "keyword": "주의",
+      "source_section_title": "주의",
+      "keyword_hit": true,
+      "min_distance": 1.101,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 3\n안전을 위해 주의하기 \n안전을 위해 주의하기\n제품을 사용하기 전에 읽어주세요.\n다음의 ‘안전을 위해 주의하기’는 예상하지 못한 위험이나 손해를 방지하기 위한 것이니 \n반드시 확인해 주세요.\n‘안전을 위해 주의하기’는 ‘경고’와 "
+    },
+    {
+      "product_model": "RH10VTA",
+      "question": "건조 코스 및 옵션 사용하기 어떻게 하나요?",
+      "keyword": "건조 코스 및 옵션 사용하기",
+      "source_section_title": "건조 코스 및 옵션 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.6312,
+      "top_candidate_text": "[건조 코스 및 옵션 사용하기] 건조를 위해서는 최대용량의 50 ~ 60%를 건조하는 것을 권장합니다.\n• 부피가 큰 건조물은 단독 건조를 권장합니다.\n건조 코스 설정 변경하기\n건조 코스의 기본 설정값을 옷감 종류, 건조 단계를 변경하여 사용할 수 있습니다. 상세한 내"
+    },
+    {
+      "product_model": "RH10VTA",
+      "question": "겨울철 동결 해결하기 어떻게 하나요?",
+      "keyword": "겨울철 동결 해결하기",
+      "source_section_title": "겨울철 동결 해결하기",
+      "keyword_hit": true,
+      "min_distance": 0.7752,
+      "top_candidate_text": "[겨울철 동결 해결하기] 31\n관리하기\n알아두기\n• 환기용 도어 클립을 사용하지 않을 때는 그림과 같이 \n제품에 붙여 보관하세요.\n경고\n• 안전사고 방지를 위해 어린이나 반려동물 등이 건조기 \n안으로 들어가지 않도록 하세요.\n장기간 미사용 시 또는 동결 예방하기\n장기간"
+    },
+    {
+      "product_model": "RH10VTA",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": false,
+      "min_distance": 0.9259,
+      "top_candidate_text": "[제품 사용설명서] 제품 청소하기\n29\n제품 관리하기\n31\n겨울철 동결 해결하기\n설치하기\n33\n설치 준비하기\n34\n건조기 설치하기\n35\n수평 조절하기 / 높이 조정판 \n사용하기\n고장 신고 전 확인하기\n37\n고장 진단하기\n38\n문제 해결하기\n제품 보증서 보기\n43\n제품 "
+    },
+    {
+      "product_model": "RH21E5ATKWP",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.5897,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] .\n주의\n지시사항을 위반하면 경미한 상해가 발생하거나 제품이 손상될 수 \n있습니다.\n제품 사용설명서를 반드시 읽어주세요."
+    },
+    {
+      "product_model": "RH21E5ATKWP",
+      "question": "워시타워의 모습 살펴보기 어떻게 하나요?",
+      "keyword": "워시타워의 모습 살펴보기",
+      "source_section_title": "워시타워의 모습 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.7815,
+      "top_candidate_text": "[워시타워의 모습 살펴보기] 14\n알아보기\n알아보기\n워시타워의 모습 살펴보기\n제품이나 구성품의 모습은 구매하신 모델에 따라 달라질 수 있습니다.\n제품 앞면\na 기능조작부\nb 필터\nc 건조기 드럼\nd 건조기 문 (도어)\ne 건조기 환기용 도어 홀더\nf 세제함\ng 세탁기 "
+    },
+    {
+      "product_model": "RH21E5ATKWP",
+      "question": "알아두면 좋은 정보 어떻게 하나요?",
+      "keyword": "알아두면 좋은 정보",
+      "source_section_title": "[사용하기 - 건조기] 알아두면 좋은 정보",
+      "keyword_hit": true,
+      "min_distance": 1.1893,
+      "top_candidate_text": "[[사용하기 - 건조기] 알아두면 좋은 정보] 29\n사용하기 - 건조기\n사용하기 - 건조기\n알아두면 좋은 정보\n사용하기 전 알아두기\n건조기를 사용하기 전 아래 사항을 확인하세요.\n알아두기\n• 사용 설명서의 내용대로 사용하지 않아 발생하는 사고는 당사가 책임지지 않습니다"
+    },
+    {
+      "product_model": "RH21E5ATKWP",
+      "question": "겨울철 동결 해결하기 어떻게 하나요?",
+      "keyword": "겨울철 동결 해결하기",
+      "source_section_title": "[관리하기 - 세탁기] 겨울철 동결 해결하기",
+      "keyword_hit": true,
+      "min_distance": 0.7788,
+      "top_candidate_text": "[[관리하기 - 건조기] 겨울철 동결 해결하기] 고\n• 안전사고 방지를 위해 어린이나 반려동물 등이 건조기 \n안으로 들어가지 않도록 하세요.\n• 스팀 동작 중에 문을 열면 스팀의 열기에 의해 화상의 \n원인이 될 수 있습니다.\n알아두기\n• 스팀 동작 중에는 문을 열지 마"
+    },
+    {
+      "product_model": "RH21E5ATKWP",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "[세탁기] 사용 관련",
+      "keyword_hit": true,
+      "min_distance": 0.9298,
+      "top_candidate_text": "[[건조기] 사용 관련] 해결책"
+    },
+    {
+      "product_model": "RH82M9152SL",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": true,
+      "min_distance": 0.8603,
+      "top_candidate_text": "[설치 관련] 근처나 습기, 기름, 먼지가 많은 곳, 직사광선 및 물(빗물 등)이 닿는 곳, 혹은 가스가 \n샐 가능성이 있는 곳에 설치하지 마세요.\nꞏꞏ\n감전, 화재, 고장, 폭발의 위험이 있습니다.\n설치 시 전원 플러그를 꽂은 후 냉장고를 밀어 넣은 경우 전원코드가 "
+    },
+    {
+      "product_model": "RH82M9152SL",
+      "question": "설치 및 장소 고르기 어떻게 하나요?",
+      "keyword": "설치 및 장소 고르기",
+      "source_section_title": "설치 및 장소 고르기",
+      "keyword_hit": true,
+      "min_distance": 0.802,
+      "top_candidate_text": "[설치 및 장소 고르기] \n냉매가 샜을 때 고이게 되어 발화 및 폭발의 원인이 됩니다.\n햇볕이 내리쬐는 곳, 열기가 많은 곳, 지나치게 추운 곳은 피해주세요.\nꞏꞏ\n주위 온도가 5 ℃ 이상, 43 ℃ 이하인 곳에 설치하세요.\nꞏꞏ\n설치장소의 온도가 너무 높거나 낮으면 "
+    },
+    {
+      "product_model": "RH82M9152SL",
+      "question": "외부 명칭 (해당 모델만 참조하세요.) 어떻게 하나요?",
+      "keyword": "외부 명칭 (해당 모델만 참조하세요.)",
+      "source_section_title": "외부 명칭 (해당 모델만 참조하세요.)",
+      "keyword_hit": true,
+      "min_distance": 0.9601,
+      "top_candidate_text": "[SmartThings] n receipt of this information.\n\n20\n각 부분의 외부 명칭\n각 부분의 외부 명칭\n외부 명칭\n01\n02\n02\n04\n05\n05\n03\n07\n06\n01\n냉동실 문\n05\n쇼케이스 핸들 (바깥쪽 손잡이)\n02\n냉동실 문 손잡이\n0"
+    },
+    {
+      "product_model": "RH82M9152SL",
+      "question": "테이크 아웃 바스켓(Take-Out Basket) (해당 모델만 참조하세요.) 어떻게 하나요?",
+      "keyword": "테이크 아웃 바스켓(Take-Out Basket) (해당 모델만 참조하세요.)",
+      "source_section_title": "테이크 아웃 바스켓(Take-Out Basket) (해당 모델만 참조하세요.)",
+      "keyword_hit": true,
+      "min_distance": 0.6863,
+      "top_candidate_text": "[테이크 아웃 바스켓(Take-Out Basket) (해당 모델만 참조하세요.)] 42\n사용하기\n야채실/건조실\n분리하기\n1\t 문을 완전히 연 상태에서 꺼내려는 서랍을 \n앞으로 당기면 고정부에 걸리게 됩니다. \n이때, 서랍의 앞부분을 살짝 들어 올린 후 \n앞쪽으로 당겨서"
+    },
+    {
+      "product_model": "RH82M9152SL",
+      "question": "이중접이 선반 어떻게 하나요?",
+      "keyword": "이중접이 선반",
+      "source_section_title": "이중접이 선반",
+      "keyword_hit": true,
+      "min_distance": 0.7615,
+      "top_candidate_text": "[이중접이 선반] 니다.\n−−반드시 한 쪽 문 분리 후 다른 쪽 문을 \n분리하세요.\nꞏꞏ\n커넥터 분리 전에는 꼭 전원이 꺼져있는지 \n확인하세요.\n3\t 고정구를 위로 젖혀주세요.\n 주 의\n고정구를 무리하게 젖히면 고정구가 파손되거나 \n상해의 원인이 됩니다.\n4\t 고정구를"
+    },
+    {
+      "product_model": "RP20C3111S9",
+      "question": "RP20C3111S9 삼성 관련 내용 알려줘",
+      "keyword": "삼성",
+      "source_section_title": "1페이지",
+      "keyword_hit": true,
+      "min_distance": 1.2958,
+      "top_candidate_text": "[37페이지] 사용설명서\n삼성 김치플러스\n※ 제품을 잘 사용하기 위해 제품 사용전 반드시 모든 설명서를 읽어보세요.\n 제품의 외관, 사양 등은 제품 개선을 위해 사전 예고 없이 변경될 수 있습니다.\n 분실하실 경우 따로 구입해야하므로 보관에 주의하세요.\n 공용설명서로 "
+    },
+    {
+      "product_model": "RP20C3111S9",
+      "question": "RP20C3111S9 안전을 관련 내용 알려줘",
+      "keyword": "안전을",
+      "source_section_title": "8페이지",
+      "keyword_hit": true,
+      "min_distance": 1.1111,
+      "top_candidate_text": "[10페이지] 안전을 위한 주의사항\n10\n기타 주의사항\n 경 고\n본 제품의 냉매는 가연성 천연가스인 이소부탄(R-600a)을 사용하였으므로 제품을 이동할 때 \n손상되지 않도록 주의하여 주세요.\n본 제품은 R-600a 또는 R-134a를 냉매로 사용합니다. 구입하신 제품"
+    },
+    {
+      "product_model": "RP20C3111S9",
+      "question": "RP20C3111S9 버튼의 관련 내용 알려줘",
+      "keyword": "버튼의",
+      "source_section_title": "18페이지",
+      "keyword_hit": true,
+      "min_distance": 1.2939,
+      "top_candidate_text": "[18페이지] 18\n버튼의 기능 사용하기\n버튼의 기능 사용하기\n버튼과 표시부\n04\n05\n02\n03\n01\n05\n02\n03\n01\n01\n숙성 버튼\n04\n외부 온도 센서 표시부\n02\n저장 버튼\n05\n잠금/풀림 버튼\n03\n김치저장 표시부\n 참 고\nꞏꞏ\n표시부(디스플레이) 외부온"
+    },
+    {
+      "product_model": "RP20C3111S9",
+      "question": "RP20C3111S9 담근 관련 내용 알려줘",
+      "keyword": "담근",
+      "source_section_title": "24페이지",
+      "keyword_hit": true,
+      "min_distance": 1.2338,
+      "top_candidate_text": "[24페이지] , 담근 후 바로 김치 저장기능을 사용하세요."
+    },
+    {
+      "product_model": "RP20C3111S9",
+      "question": "RP20C3111S9 고장신고 관련 내용 알려줘",
+      "keyword": "고장신고",
+      "source_section_title": "32페이지",
+      "keyword_hit": true,
+      "min_distance": 1.1997,
+      "top_candidate_text": "[10페이지] 안전을 위한 주의사항\n10\n기타 주의사항\n 경 고\n본 제품의 냉매는 가연성 천연가스인 이소부탄(R-600a)을 사용하였으므로 제품을 이동할 때 \n손상되지 않도록 주의하여 주세요.\n본 제품은 R-600a 또는 R-134a를 냉매로 사용합니다. 구입하신 제품"
+    },
+    {
+      "product_model": "RQ49C9002S9",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": true,
+      "min_distance": 0.9028,
+      "top_candidate_text": "[설치 관련] 는 전원코드를 빼기 쉬운 곳에 설치하세요.\nꞏꞏ\n누전에 의한 감전 및 화재의 원인이 됩니다.\n설치 시 제품 뒷면이 노출되지 않도록 주의하세요.\nꞏꞏ\n감전 또는 상해의 원인이 됩니다.\n제품에 과도한 힘을 주어 밀거나 기울여서 움직이지 마세요.\nꞏꞏ\n상해의 "
+    },
+    {
+      "product_model": "RQ49C9002S9",
+      "question": "김치냉장고 도어 판넬 교체하기 (BESPOKE 모델에 한함) 어떻게 하나요?",
+      "keyword": "김치냉장고 도어 판넬 교체하기 (BESPOKE 모델에 한함)",
+      "source_section_title": "김치냉장고 도어 판넬 교체하기 (BESPOKE 모델에 한함)",
+      "keyword_hit": true,
+      "min_distance": 0.5242,
+      "top_candidate_text": "[김치냉장고 도어 판넬 교체하기 (BESPOKE 모델에 한함)] 속도로만 운전하는 반면 \n디지털 인버터 컴프레서는 사용 환경에 따라 전기료를 최소화하도록 회전수를 조절하기 때문에 \n평상시에는 회전수가 낮아 정속형 대비 운전시간이 좀 더 길 수 있습니다.\n식물성 기름(오"
+    },
+    {
+      "product_model": "RQ49C9002S9",
+      "question": "각 버튼의 기능 어떻게 하나요?",
+      "keyword": "각 버튼의 기능",
+      "source_section_title": "각 버튼의 기능",
+      "keyword_hit": true,
+      "min_distance": 0.7049,
+      "top_candidate_text": "[각 버튼의 기능] 버튼의 기능 사용하기\n22\n버튼의 기능 사용하기\n각 버튼의 기능\n 또는 \n 버튼으로 원하는 기능을 확인하고, \n 버튼으로 해당 기능을 선택하거나 확정합니다.\n01\n02\n03\nOK\n01\n 버튼\n(왼쪽으로 이동)\nꞏꞏ\n한 번 누르면(터치/탭하면) 왼쪽에"
+    },
+    {
+      "product_model": "RQ49C9002S9",
+      "question": "곡물 디스펜서 (별매품) 어떻게 하나요?",
+      "keyword": "곡물 디스펜서 (별매품)",
+      "source_section_title": "곡물 디스펜서 (별매품)",
+      "keyword_hit": true,
+      "min_distance": 0.6737,
+      "top_candidate_text": "[곡물 디스펜서 (별매품)] 사용하기\n44\n곡물 디스펜서 (별매품)\n곡물 디스펜서는 삼성 닷컴 또는 삼성 대리점에서 유료로 구입하실 수 있습니다.\n조립 방법\n1\t\n냉장고 오른쪽 문을 열고 하단 도어 빈을 위로 \n올려서 분리해 주세요.\n걸림턱\n2\t\n걸림턱에 맞춰서 곡물 "
+    },
+    {
+      "product_model": "RQ49C9002S9",
+      "question": "김치 저장용기 알아보기 어떻게 하나요?",
+      "keyword": "김치 저장용기 알아보기",
+      "source_section_title": "김치 저장용기 알아보기",
+      "keyword_hit": true,
+      "min_distance": 0.6204,
+      "top_candidate_text": "[김치 저장용기 알아보기] ***\n-\n2\n-\nRQ49C94W***\n-\n2\n-\nRQ49C940***\n-\n2\n-\nRQ49C94Y***\n-\n2\n-\nRQ49C94R***\n-\n2\n-\nRQ49C900***\n-\n2\n-\nRQ49C94S***\n-\n2\n-\nRQ49C90X***\n-\n-\n-"
+    },
+    {
+      "product_model": "RS63R557EB4",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": true,
+      "min_distance": 0.8603,
+      "top_candidate_text": "[설치 관련] 근처나 습기, 기름, 먼지가 많은 곳, 직사광선 및 물(빗물 등)이 닿는 곳, 혹은 가스가 \n샐 가능성이 있는 곳에 설치하지 마세요.\n\tꞏ\n감전, 화재, 고장, 폭발의 위험이 있습니다.\n설치 시 전원 플러그를 꽂은 후 냉장고를 밀어 넣은 경우 전원코드가 "
+    },
+    {
+      "product_model": "RS63R557EB4",
+      "question": "기타 주의사항 어떻게 하나요?",
+      "keyword": "기타 주의사항",
+      "source_section_title": "기타 주의사항",
+      "keyword_hit": true,
+      "min_distance": 0.9531,
+      "top_candidate_text": "[기타 주의사항] 부의 라벨(스티커)을 통해 확인해 주세요.\n냉매 파이프(관)에서 냉매가 샜을 경우 불이 나거나 다칠 수 있습니다.\n\tꞏ\n불꽃이나 불이 붙을 수 있는 물질 등을 멀리 옮긴 후 환기하세요.\n기기 외곽이나 매입형 구조에서 송풍기 구멍을 청결히 유지해 주세요"
+    },
+    {
+      "product_model": "RS63R557EB4",
+      "question": "버튼과 표시부 어떻게 하나요?",
+      "keyword": "버튼과 표시부",
+      "source_section_title": "버튼과 표시부",
+      "keyword_hit": true,
+      "min_distance": 0.6673,
+      "top_candidate_text": "[버튼과 표시부] 14\n버튼의 기능 사용하기\n버튼의 기능 사용하기\n버튼과 표시부\n01\n02\n03\n04\n 참 고\n\tꞏ\n디스플레이(버튼과 표시부) 디자인과 위치는 모델에 따라 다를 수 있습니다.\n\tꞏ\n에너지 절약을 위해 일정 시간 동안 버튼을 누르지 않거나, 냉동실 혹은 "
+    },
+    {
+      "product_model": "RS63R557EB4",
+      "question": "냉동실/냉장실 선반 어떻게 하나요?",
+      "keyword": "냉동실/냉장실 선반",
+      "source_section_title": "냉동실/냉장실 선반",
+      "keyword_hit": true,
+      "min_distance": 0.6486,
+      "top_candidate_text": "[냉동실/냉장실 선반] 28\n사용하기\n냉동실/냉장실 선반\n분리하기\n1\t 문을 완전히 연 상태에서 선반을 앞으로 당긴 후 \n위로 올리면서 빼세요.\n2\t 문을 완전히 열 수 없을 때는 선반을 앞으로 당긴 후 \n위로 들어올리며 기울여 꺼내세요.\n\n29\n사용하기\n조립하기\n1\t"
+    },
+    {
+      "product_model": "RS63R557EB4",
+      "question": "냉동실/냉장실 문 분리하기 어떻게 하나요?",
+      "keyword": "냉동실/냉장실 문 분리하기",
+      "source_section_title": "냉동실/냉장실 문 분리하기",
+      "keyword_hit": true,
+      "min_distance": 0.4646,
+      "top_candidate_text": "[냉동실/냉장실 문 분리하기] 38\n분리/조립하기\n냉동실/냉장실 문 분리하기\n주택 또는 아파트의 현관문보다 냉장고가 큰 경우 이동의 편의를 위한 냉장고 문의 분리/조립 방법입니다.\n 경 고\n반드시 전원 플러그가 분리된 상태에서 문을 분리하세요.\n 참 고\n문의 분리 및 "
+    },
+    {
+      "product_model": "RS84B5041WW",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": true,
+      "min_distance": 0.8603,
+      "top_candidate_text": "[설치 관련] 근처나 습기, 기름, 먼지가 많은 곳, 직사광선 및 물(빗물 등)이 닿는 곳, 혹은 가스가 \n샐 가능성이 있는 곳에 설치하지 마세요.\n\tꞏ\n감전, 화재, 고장, 폭발의 위험이 있습니다.\n설치 시 전원 플러그를 꽂은 후 냉장고를 밀어 넣은 경우 전원코드가 "
+    },
+    {
+      "product_model": "RS84B5041WW",
+      "question": "설치 및 장소 고르기 어떻게 하나요?",
+      "keyword": "설치 및 장소 고르기",
+      "source_section_title": "설치 및 장소 고르기",
+      "keyword_hit": true,
+      "min_distance": 0.802,
+      "top_candidate_text": "[설치 및 장소 고르기] \n냉매가 샜을 때 고이게 되어 발화 및 폭발의 원인이 됩니다.\n햇볕이 내리쬐는 곳, 열기가 많은 곳, 지나치게 추운 곳은 피해주세요.\n\tꞏ\n주위 온도가 5 ℃ 이상, 43 ℃ 이하인 곳에 설치하세요.\n\tꞏ\n설치장소의 온도가 너무 높거나 낮으면 "
+    },
+    {
+      "product_model": "RS84B5041WW",
+      "question": "똑똑한 기능 알아두기 어떻게 하나요?",
+      "keyword": "똑똑한 기능 알아두기",
+      "source_section_title": "똑똑한 기능 알아두기",
+      "keyword_hit": true,
+      "min_distance": 0.8928,
+      "top_candidate_text": "[똑똑한 기능 알아두기] 23\n사용하기\n똑똑한 기능 알아두기\n냉동실 선반\n고기, 생선, 냉동만두, 아이스크림 등 각종 냉동식품을 보관하세요.\n얼음 보관 용기, 슬림 아이스 메이커 (해당 모델만 참조하세요.)\n얼음을 보관하세요. 얼음을 사용하지 않을 경우 냉장고 밖으로 "
+    },
+    {
+      "product_model": "RS84B5041WW",
+      "question": "아이스 메이커 버켓 (Icemaker bucket) (해당 모델만 참조하세요.) 어떻게 하나요?",
+      "keyword": "아이스 메이커 버켓 (Icemaker bucket) (해당 모델만 참조하세요.)",
+      "source_section_title": "아이스 메이커 버켓 (Icemaker bucket) (해당 모델만 참조하세요.)",
+      "keyword_hit": true,
+      "min_distance": 0.7393,
+      "top_candidate_text": "[아이스 메이커 버켓 (Icemaker bucket) (해당 모델만 참조하세요.)] 43\n사용하기\n아이스 메이커 버켓 (Icemaker bucket) (해당 모델만 참조하세요.)\n냉동실에 오래 보관된 얼음은 승화로 인해 작아지고, 뭉칠 수 있습니다. 얼음을 사용하지 않"
+    },
+    {
+      "product_model": "RS84B5041WW",
+      "question": "수평/높이차/간격차 조절방법 어떻게 하나요?",
+      "keyword": "수평/높이차/간격차 조절방법",
+      "source_section_title": "수평/높이차/간격차 조절방법",
+      "keyword_hit": true,
+      "min_distance": 0.6755,
+      "top_candidate_text": "[수평/높이차/간격차 조절방법] 54\n냉장고 관리하기\n수평/높이차/간격차 조절방법\n냉장고 설치 시, 바닥 면이 고르지 않으면 냉장고 수평이 맞지 않을 수 있습니다.\n냉동실 쪽이 낮을 때\n냉동실 문 하단 뒷부분의 수평 조절다리 홈에 일자 (-) \n드라이버를 삽입하여 화살"
+    },
+    {
+      "product_model": "RT42CG6024S9",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": false,
+      "min_distance": 0.965,
+      "top_candidate_text": "[설치 및 장소 고르기] 니다. \n•\t 콘센트에 접지 단자가 없는 경우 접지선을 별도 \n구입하여 접지 선로에 연결하세요. \n \n 주의 \n 가스관, 수도관, 전화선 등에는 접지하지 마세요."
+    },
+    {
+      "product_model": "RT42CG6024S9",
+      "question": "스마트폰을 통한 냉장고 모니터링 및 제어하기 어떻게 하나요?",
+      "keyword": "스마트폰을 통한 냉장고 모니터링 및 제어하기",
+      "source_section_title": "스마트폰을 통한 냉장고 모니터링 및 제어하기",
+      "keyword_hit": true,
+      "min_distance": 0.5458,
+      "top_candidate_text": "[스마트폰을 통한 냉장고 모니터링 및 제어하기] 사용 전 알아두기\n12\n 스마트폰을 통한 냉장고 모니터링 및 제어하기 \n SmartThings 앱 살펴보기 \n•\t 집 안 혹은 집 밖에서 냉장고를 원격 제어하거나 모니터링할 수 있습니다. \n•\t 냉장고에 설정된 기능을 확"
+    },
+    {
+      "product_model": "RT42CG6024S9",
+      "question": "문의 고무 패킹 어떻게 하나요?",
+      "keyword": "문의 고무 패킹",
+      "source_section_title": "문의 고무 패킹",
+      "keyword_hit": true,
+      "min_distance": 0.978,
+      "top_candidate_text": "[문의 고무 패킹] . \n \n 주의 \n 유리 표면에 상처가 남을 수 있으니 강하게 문지르지 마세요. \n 냉장고 외관 \n•\t 손잡이, 냉장고 옆면은 중성 세제로 닦은 후 부드러운 천으로 물기를 닦아 주세요. \n•\t 냉장고 옆면에는 고급스러운 질감 구현을 위해 입자들이 들"
+    },
+    {
+      "product_model": "RT42CG6024S9",
+      "question": "냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요) 어떻게 하나요?",
+      "keyword": "냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요)",
+      "source_section_title": "냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요)",
+      "keyword_hit": true,
+      "min_distance": 0.3722,
+      "top_candidate_text": "[냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요)] 세요. \n 냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요) \n•\t 주위의 온도나 습도가 높거나, 냉장고 문을 장시간 열어 둔 경우, 또는 수분이 많은 식품을 뚜껑 없이 보관했을 \n경우에도 성에나 이슬이 생길 수"
+    },
+    {
+      "product_model": "RT42CG6024S9",
+      "question": "앱 마켓에서 \"SmartThings\" 앱(애플리케이션)이 검색되지 않아요. 어떻게 하나요?",
+      "keyword": "앱 마켓에서 \"SmartThings\" 앱(애플리케이션)이 검색되지 않아요.",
+      "source_section_title": "앱 마켓에서 \"SmartThings\" 앱(애플리케이션)이 검색되지 않아요.",
+      "keyword_hit": true,
+      "min_distance": 0.5202,
+      "top_candidate_text": "[앱 마켓에서 \"SmartThings\" 앱(애플리케이션)이 검색되지 않아요.] 25\n SmartThings 고장 신고 전 확인하기 \n 앱 마켓에서 \"SmartThings\" 앱(애플리케이션)이 검색되지 않아요. \n•\t SmartThings 앱은 제조사에서 제공하는 OS "
+    },
+    {
+      "product_model": "RT53DG7A1CWW",
+      "question": "설치 관련 어떻게 하나요?",
+      "keyword": "설치 관련",
+      "source_section_title": "설치 관련",
+      "keyword_hit": false,
+      "min_distance": 0.9683,
+      "top_candidate_text": "[설치 및 장소 고르기] 센트에 접지 단자가 없는 경우 접지선을 별도 \n구입하여 접지 선로에 연결하세요. \n \n 주의 \n 가스관, 수도관, 전화선 등에는 접지하지 마세요."
+    },
+    {
+      "product_model": "RT53DG7A1CWW",
+      "question": "스마트폰을 통한 냉장고 모니터링 및 제어하기 어떻게 하나요?",
+      "keyword": "스마트폰을 통한 냉장고 모니터링 및 제어하기",
+      "source_section_title": "스마트폰을 통한 냉장고 모니터링 및 제어하기",
+      "keyword_hit": true,
+      "min_distance": 0.5673,
+      "top_candidate_text": "[스마트폰을 통한 냉장고 모니터링 및 제어하기] 13\n 스마트폰을 통한 냉장고 모니터링 및 제어하기 \n SmartThings 앱 살펴보기 \n•\t 집 안 혹은 집 밖에서 냉장고를 원격 제어하거나 모니터링할 수 있습니다. \n•\t 냉장고에 설정된 기능을 확인할 수 있으며, "
+    },
+    {
+      "product_model": "RT53DG7A1CWW",
+      "question": "냉장고 뒷면 어떻게 하나요?",
+      "keyword": "냉장고 뒷면",
+      "source_section_title": "냉장고 뒷면",
+      "keyword_hit": true,
+      "min_distance": 0.5819,
+      "top_candidate_text": "[냉장고 뒷면] \n 유리 표면에 상처가 남을 수 있으니 강하게 문지르지 마세요. \n 냉장고 외관 \n•\t 손잡이, 냉장고 옆면은 중성 세제로 닦은 후 부드러운 천으로 물기를 닦아 주세요. \n•\t 냉장고 옆면에는 고급스러운 질감 구현을 위해 입자들이 들어 있습니다. 손톱으"
+    },
+    {
+      "product_model": "RT53DG7A1CWW",
+      "question": "냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요) 어떻게 하나요?",
+      "keyword": "냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요)",
+      "source_section_title": "냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요)",
+      "keyword_hit": true,
+      "min_distance": 0.4108,
+      "top_candidate_text": "[냉동실에 성에가 생겨요! (냉장실에 이슬이 맺혀요)] 고 문을 장시간 열어 둔 경우, 또는 수분이 많은 식품을 뚜껑 없이 보관했을 \n경우에도 성에나 이슬이 생길 수 있습니다. \n•\t 냉장고를 사용한 후에는 문이 제대로 닫혔는지 확인하세요. \n 냉장고 본체, 냉동실 실"
+    },
+    {
+      "product_model": "RT53DG7A1CWW",
+      "question": "경보음이 울려요. 어떻게 하나요?",
+      "keyword": "경보음이 울려요.",
+      "source_section_title": "경보음이 울려요.",
+      "keyword_hit": true,
+      "min_distance": 0.7274,
+      "top_candidate_text": "[경보음이 울려요.] 표시부의 아무 버튼이나 누르면 경보음은 꺼집니다. \n•\t 경보음을 끄더라도 경보음 발생 원인이 해결되지 않은 상태로 12시간이 지나면 경보음은 다시 울립니다."
+    },
+    {
+      "product_model": "S825AW35",
+      "question": "S825AW35 양문형냉장고 관련 내용 알려줘",
+      "keyword": "양문형냉장고",
+      "source_section_title": "1페이지",
+      "keyword_hit": true,
+      "min_distance": 0.9417,
+      "top_candidate_text": "[1페이지] www.lge.co.kr\n양문형냉장고\n사용설명서\n사용전에안전을위한경고및주의사항을반드시읽고정확하게사용하세요.\n설명서에제품보증서가포함되어있으므로반드시보관바랍니다.\nMFL62093530\nRev.07_051017"
+    },
+    {
+      "product_model": "S825AW35",
+      "question": "S825AW35 안전을위한경고및 관련 내용 알려줘",
+      "keyword": "안전을위한경고및",
+      "source_section_title": "12페이지",
+      "keyword_hit": true,
+      "min_distance": 1.0662,
+      "top_candidate_text": "[3페이지] 주의[ 권장안전사용기간] 7년\n권장안전사용기간을초과하여사용시사용환경및제품노후로인하여안전사고가발생할수\n있습니다. 권장안전사용기간내에안전점검을받을것을권장합니다.\n※ 안전점검은유료서비스입니다.\n차례\n제품의기본이해\n올바른사용방법\n설치및관리요령\n간단한확인조치\n기타사"
+    },
+    {
+      "product_model": "S825AW35",
+      "question": "S825AW35 램프 관련 내용 알려줘",
+      "keyword": "램프",
+      "source_section_title": "20페이지",
+      "keyword_hit": true,
+      "min_distance": 1.1687,
+      "top_candidate_text": "[20페이지] 4. LED 램프(냉동/냉장)\n사용방법\n육류등의식품을최적의조건으로보관하기위해\n빠른속도로급속냉동을원할경우에사용하세요.\n-35℃특냉실\n■육류등의식품을최적의조건으로보관하기위해빠른속도로\n급속냉동을원할경우에사용하세요.\n■별도의서랍으로지정되어식품을빠른속도로급속냉동시"
+    },
+    {
+      "product_model": "S825AW35",
+      "question": "S825AW35 이터전송완료후에는상담원으로부터스마트진단결과에대해설명들으세요 관련 내용 알려줘",
+      "keyword": "이터전송완료후에는상담원으로부터스마트진단결과에대해설명들으세요",
+      "source_section_title": "29페이지",
+      "keyword_hit": true,
+      "min_distance": 0.6991,
+      "top_candidate_text": "[29페이지] 이터전송완료후에는상담원으로부터스마트진단결과에대해설명들으세요.\n사용방법\n스마트진단기능은...\n■지역에따른통화품질차이로인해기능에영향을줄수도있습니다.\n■집전화기를사용하시면통신성능이좋아져훨씬더좋은서비스가가능합니다.\n■통화품질문제로스마트진단데이터전송이원활하지않을수"
+    },
+    {
+      "product_model": "S825AW35",
+      "question": "S825AW35 조절 관련 내용 알려줘",
+      "keyword": "조절",
+      "source_section_title": "40페이지",
+      "keyword_hit": true,
+      "min_distance": 1.083,
+      "top_candidate_text": "[2페이지] 리니어압축기적용으로초절전, 초저소음실현\n최고를위한자신있는선택! \n기존의압축기와는차별화된고효율리니어압축기적용으로소비전력과소음이더욱개선되었으며,\n특급냉동을위한초고속냉각팬과도어아이스메이커에이르기까지공간은더욱넓어지고\n기능은더욱편리해졌습니다.\n▶S825NB35 기준"
+    },
+    {
+      "product_model": "S835S31",
+      "question": "S835S31 양문형냉장고 관련 내용 알려줘",
+      "keyword": "양문형냉장고",
+      "source_section_title": "1페이지",
+      "keyword_hit": true,
+      "min_distance": 0.9438,
+      "top_candidate_text": "[1페이지] www.lge.co.kr\n양문형냉장고\n사용설명서\n사용전에안전을위한경고및주의사항을반드시읽고정확하게사용하세요.\n설명서에제품보증서가포함되어있으므로반드시보관바랍니다."
+    },
+    {
+      "product_model": "S835S31",
+      "question": "S835S31 안전을위한경고및 관련 내용 알려줘",
+      "keyword": "안전을위한경고및",
+      "source_section_title": "12페이지",
+      "keyword_hit": true,
+      "min_distance": 1.1234,
+      "top_candidate_text": "[10페이지] 안전을위한경고및\n주의사항\n선반이떨어져상해의위험이있습니다.\n냉장고선반을뒤집어넣지마세요.\n어린이나인지력이부족한사람의안전한제품사용을위하여보호자의주의가필요합니다.\n머리에쓰면질식의위험이있습니다.\n비닐포장재등은어린이들의손에닿지않는곳에보관또는버려주세요.\n어린이가들어가"
+    },
+    {
+      "product_model": "S835S31",
+      "question": "S835S31 램프 관련 내용 알려줘",
+      "keyword": "램프",
+      "source_section_title": "20페이지",
+      "keyword_hit": true,
+      "min_distance": 1.2018,
+      "top_candidate_text": "[20페이지] 4. LED 램프(냉동/냉장)\n사용방법\n육류등의식품을최적의조건으로보관하기위해\n빠른속도로급속냉동을원할경우에사용하세요.\n-35℃특냉실\n■육류등의식품을최적의조건으로보관하기위해빠른속도로\n급속냉동을원할경우에사용하세요.\n■별도의서랍으로지정되어식품을빠른속도로급속냉동시"
+    },
+    {
+      "product_model": "S835S31",
+      "question": "S835S31 이터전송완료후에는상담원으로부터스마트진단결과에대해설명들으세요 관련 내용 알려줘",
+      "keyword": "이터전송완료후에는상담원으로부터스마트진단결과에대해설명들으세요",
+      "source_section_title": "29페이지",
+      "keyword_hit": true,
+      "min_distance": 0.6713,
+      "top_candidate_text": "[29페이지] 이터전송완료후에는상담원으로부터스마트진단결과에대해설명들으세요.\n사용방법\n스마트진단기능은...\n■지역에따른통화품질차이로인해기능에영향을줄수도있습니다.\n■집전화기를사용하시면통신성능이좋아져훨씬더좋은서비스가가능합니다.\n■통화품질문제로스마트진단데이터전송이원활하지않을수"
+    },
+    {
+      "product_model": "S835S31",
+      "question": "S835S31 조절 관련 내용 알려줘",
+      "keyword": "조절",
+      "source_section_title": "40페이지",
+      "keyword_hit": true,
+      "min_distance": 1.1304,
+      "top_candidate_text": "[2페이지] 리니어압축기적용으로초절전, 초저소음실현\n최고를위한자신있는선택! \n기존의압축기와는차별화된고효율리니어압축기적용으로소비전력과소음이더욱개선되었으며,\n특급냉동을위한초고속냉각팬과도어아이스메이커에이르기까지공간은더욱넓어지고\n기능은더욱편리해졌습니다.\n▶S825NB35 기준"
+    },
+    {
+      "product_model": "SC3GBE50",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.7205,
+      "top_candidate_text": "[제품 사용설명서] 제품 사용설명서\n스타일러\n모델명 : SC3***E5*(*)\n제품을 안전하고 편리하게 사용하기 위해 반드시 제품을 사용하기 전에 사용설명서를 읽어주세요.\n제품 보증서도 함께 들어있으니 잘 보관하세요.\n본 제품은 가정에서만 사용하는 실내용 기기입니다. "
+    },
+    {
+      "product_model": "SC3GBE50",
+      "question": "주의 어떻게 하나요?",
+      "keyword": "주의",
+      "source_section_title": "주의",
+      "keyword_hit": true,
+      "min_distance": 1.1535,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 3\n안전을 위해 주의하기 \n안전을 위해 주의하기\n제품을 사용하기 전에 읽어주세요.\n다음의 ‘안전을 위해 주의하기’는 예상하지 못한 위험이나 손해를 방지하기 위한 것이니 \n반드시 확인해 주세요.\n‘안전을 위해 주의하기’는 ‘경고’와 "
+    },
+    {
+      "product_model": "SC3GBE50",
+      "question": "시작 전 준비하기 어떻게 하나요?",
+      "keyword": "시작 전 준비하기",
+      "source_section_title": "시작 전 준비하기",
+      "keyword_hit": true,
+      "min_distance": 1.005,
+      "top_candidate_text": "[시작 전 준비하기] 21\n사용하기\n시작 전 준비하기\n물통에 물 채우기/비우기\n1\n각 물통의 손잡이를 잡고 앞으로 꺼내세요.\n2\n급수통에 물이 없으면 수돗물을 MAX 표시선까지 \n채우세요.\n주의\n• 급수통에 물 이외의 세제, 섬유 유연제 등 다른 액체를 \n넣을 경우 제"
+    },
+    {
+      "product_model": "SC3GBE50",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.7982,
+      "top_candidate_text": "[청소하기] 31\n관리하기\n관리하기\n주기적으로 스타일러와 구성품들을 청소하여 스타일링 \n효과를 높이세요.\n경고\n• 전원 코드를 반드시 빼고 청소하세요. 그러지 않으면 \n감전 사고가 일어날 수 있습니다.\n청소하기\n외부/내부 청소하기\n• 제품 작동 시 무빙행어를 이용하여 "
+    },
+    {
+      "product_model": "SC3GBE50",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": false,
+      "min_distance": 1.0142,
+      "top_candidate_text": "[제품 사용설명서] 제품 사용설명서\n스타일러\n모델명 : SC3***E5*(*)\n제품을 안전하고 편리하게 사용하기 위해 반드시 제품을 사용하기 전에 사용설명서를 읽어주세요.\n제품 보증서도 함께 들어있으니 잘 보관하세요.\n본 제품은 가정에서만 사용하는 실내용 기기입니다. "
+    },
+    {
+      "product_model": "SQ06EJ1WAJ",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7318,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.]  됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치설"
+    },
+    {
+      "product_model": "SQ06EJ1WAJ",
+      "question": "주의 어떻게 하나요?",
+      "keyword": "주의",
+      "source_section_title": "주의",
+      "keyword_hit": true,
+      "min_distance": 1.1454,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 4\n안전을 위해 주의하기\n안전을 위해 주의하기\n제품을 사용하기 전에 읽어주세요.\n다음의 '안전을 위해 주의하기'는 예상하지 못한 위험이나 손해를 방지하기 위한 것이니 \n확인하세요.\n'안전을 위해 주의하기'는 ‘경고’와 ‘주의’ 두 "
+    },
+    {
+      "product_model": "SQ06EJ1WAJ",
+      "question": "냉방 기본 기능 작동하기 어떻게 하나요?",
+      "keyword": "냉방 기본 기능 작동하기",
+      "source_section_title": "냉방 기본 기능 작동하기",
+      "keyword_hit": true,
+      "min_distance": 0.5181,
+      "top_candidate_text": "[냉방 기본 기능 작동하기] 26\n사용하기\n냉방 기본 기능 작동하기\n냉방 기능 사용하기\n제품의 냉방 기능이 작동하면 공기 토출구에서 차가운 \n바람이 나옵니다.\n냉방 기능은 가장 기본적인 운전 모드이며 리모컨으로 \n쉽게 작동할 수 있습니다.\n1\n리모컨의 전원 버튼을 눌러"
+    },
+    {
+      "product_model": "SQ06EJ1WAJ",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8525,
+      "top_candidate_text": "[청소하기]  청소할 때 극세 필터의 망이 찢어지는 등 \n손상되지 않도록 주의하세요. 극세 필터가 손상되면 \n이물질이 들어가 제품이 고장 날 수 있습니다.\n필터 끼우기\n1\n공기청정 모델은 극세 필터의 형상에 맞추어 플러스 \n필터를 넣은 다음 후크를 홈에 끼워서 극세 필"
+    },
+    {
+      "product_model": "SQ06EJ1WAJ",
+      "question": "운전 어떻게 하나요?",
+      "keyword": "운전",
+      "source_section_title": "운전",
+      "keyword_hit": true,
+      "min_distance": 1.0341,
+      "top_candidate_text": "[운전] 56\n고장 신고 전 확인하기\n문제 해결하기\n제품 사용 중 아래의 증상이 나타나면 다시 한번 확인하세요. 고장이 아닐 수 있습니다.\n알아두기\n• 모델에 따라 아래 방법을 사용하지 못할 수 있습니다.\n운전\n증상\n원인 및 해결책\n제품이 켜지지 않아요.\n주 전원 스위"
+    },
+    {
+      "product_model": "SQ07GA3WBN",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7032,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 이 됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치"
+    },
+    {
+      "product_model": "SQ07GA3WBN",
+      "question": "만일의 경우를 대비하여 어떻게 하나요?",
+      "keyword": "만일의 경우를 대비하여",
+      "source_section_title": "만일의 경우를 대비하여",
+      "keyword_hit": true,
+      "min_distance": 1.1148,
+      "top_candidate_text": "[만일의 경우를 대비하여] 9\n안전을 위해 주의하기\nj 준수 사항\n• UV LED를 설치, 수리, 교체가 필요할 때는 아래와 같이 진행하세요.\n- LG전자 서비스 센터에 연락하여 서비스를 받으세요.\n- LG전자에서 제공하는 UV LED 부품을 구매하세요.\n• 의도하지 "
+    },
+    {
+      "product_model": "SQ07GA3WBN",
+      "question": "리모컨 살펴보기 어떻게 하나요?",
+      "keyword": "리모컨 살펴보기",
+      "source_section_title": "리모컨 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6906,
+      "top_candidate_text": "[리모컨 살펴보기] 부 방향으로 \n향하게 하세요.\n• 삼파장 형광등이나 네온사인같이 강한 빛이 발생하는 \n곳에서는 리모컨 수신이 잘 안 될 수 있습니다. 이런 \n경우에는 리모컨 수신부 바로 앞에서 리모컨을 \n사용하세요.\n• 리모컨을 잃어버렸을 때는 가까운 LG전자 서비"
+    },
+    {
+      "product_model": "SQ07GA3WBN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8686,
+      "top_candidate_text": "[청소하기] 은 환경에서 제품을 사용할 때는 \n필터를 정해진 주기보다 자주 청소하세요.\n• 먼지 같은 오염 물질이 많거나 필터가 손상된 경우 새 \n필터로 교체하세요.\n• 필터 교체가 필요할 때는 LG전자 서비스 센터로 \n연락하세요. LG전자 서비스 센터를 통해 필터를 "
+    },
+    {
+      "product_model": "SQ07GA3WBN",
+      "question": "소음 어떻게 하나요?",
+      "keyword": "소음",
+      "source_section_title": "소음",
+      "keyword_hit": true,
+      "min_distance": 0.9848,
+      "top_candidate_text": "[소음] 46\n고장 신고 전 확인하기\n소음\n와이파이\n실내기 표시부에 'NO'가 \n나타나거나 표시등이 \n깜빡인 채 제품이 작동하지 \n않아요\n제품을 처음 설치한 다음 시운전을 진행했나요?\n• 시운전을 진행하지 않았다면 설치 기사 또는 제품을 구매한 대리점으로 연락하세요.\n"
+    },
+    {
+      "product_model": "SQ07GJ1WEN",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7032,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 이 됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치"
+    },
+    {
+      "product_model": "SQ07GJ1WEN",
+      "question": "만일의 경우를 대비하여 어떻게 하나요?",
+      "keyword": "만일의 경우를 대비하여",
+      "source_section_title": "만일의 경우를 대비하여",
+      "keyword_hit": true,
+      "min_distance": 1.1148,
+      "top_candidate_text": "[만일의 경우를 대비하여] 9\n안전을 위해 주의하기\nj 준수 사항\n• UV LED를 설치, 수리, 교체가 필요할 때는 아래와 같이 진행하세요.\n- LG전자 서비스 센터에 연락하여 서비스를 받으세요.\n- LG전자에서 제공하는 UV LED 부품을 구매하세요.\n• 의도하지 "
+    },
+    {
+      "product_model": "SQ07GJ1WEN",
+      "question": "리모컨 살펴보기 어떻게 하나요?",
+      "keyword": "리모컨 살펴보기",
+      "source_section_title": "리모컨 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6906,
+      "top_candidate_text": "[리모컨 살펴보기] 부 방향으로 \n향하게 하세요.\n• 삼파장 형광등이나 네온사인같이 강한 빛이 발생하는 \n곳에서는 리모컨 수신이 잘 안 될 수 있습니다. 이런 \n경우에는 리모컨 수신부 바로 앞에서 리모컨을 \n사용하세요.\n• 리모컨을 잃어버렸을 때는 가까운 LG전자 서비"
+    },
+    {
+      "product_model": "SQ07GJ1WEN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8686,
+      "top_candidate_text": "[청소하기] 은 환경에서 제품을 사용할 때는 \n필터를 정해진 주기보다 자주 청소하세요.\n• 먼지 같은 오염 물질이 많거나 필터가 손상된 경우 새 \n필터로 교체하세요.\n• 필터 교체가 필요할 때는 LG전자 서비스 센터로 \n연락하세요. LG전자 서비스 센터를 통해 필터를 "
+    },
+    {
+      "product_model": "SQ07GJ1WEN",
+      "question": "소음 어떻게 하나요?",
+      "keyword": "소음",
+      "source_section_title": "소음",
+      "keyword_hit": true,
+      "min_distance": 0.9848,
+      "top_candidate_text": "[소음] 46\n고장 신고 전 확인하기\n소음\n와이파이\n실내기 표시부에 'NO'가 \n나타나거나 표시등이 \n깜빡인 채 제품이 작동하지 \n않아요\n제품을 처음 설치한 다음 시운전을 진행했나요?\n• 시운전을 진행하지 않았다면 설치 기사 또는 제품을 구매한 대리점으로 연락하세요.\n"
+    },
+    {
+      "product_model": "SQ09GK1WEN",
+      "question": "제품을 사용하기 전에 읽어주세요. 어떻게 하나요?",
+      "keyword": "제품을 사용하기 전에 읽어주세요.",
+      "source_section_title": "제품을 사용하기 전에 읽어주세요.",
+      "keyword_hit": true,
+      "min_distance": 0.7032,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 이 됩니다.\n이 그림 기호는 사용설명서를 주의 깊게 읽어야 함을 나타내는 기호입니다.\n이 그림 기호는 서비스 센터의 수리 기사가 설치설명서를 참조하여 제품을 \n취급해야 함을 나타내는 기호입니다.\n이 그림 기호는 사용설명서 또는 설치"
+    },
+    {
+      "product_model": "SQ09GK1WEN",
+      "question": "만일의 경우를 대비하여 어떻게 하나요?",
+      "keyword": "만일의 경우를 대비하여",
+      "source_section_title": "만일의 경우를 대비하여",
+      "keyword_hit": true,
+      "min_distance": 1.1148,
+      "top_candidate_text": "[만일의 경우를 대비하여] 9\n안전을 위해 주의하기\nj 준수 사항\n• UV LED를 설치, 수리, 교체가 필요할 때는 아래와 같이 진행하세요.\n- LG전자 서비스 센터에 연락하여 서비스를 받으세요.\n- LG전자에서 제공하는 UV LED 부품을 구매하세요.\n• 의도하지 "
+    },
+    {
+      "product_model": "SQ09GK1WEN",
+      "question": "리모컨 살펴보기 어떻게 하나요?",
+      "keyword": "리모컨 살펴보기",
+      "source_section_title": "리모컨 살펴보기",
+      "keyword_hit": true,
+      "min_distance": 0.6897,
+      "top_candidate_text": "[리모컨 살펴보기] 부 방향으로 \n향하게 하세요.\n• 삼파장 형광등이나 네온사인같이 강한 빛이 발생하는 \n곳에서는 리모컨 수신이 잘 안 될 수 있습니다. 이런 \n경우에는 리모컨 수신부 바로 앞에서 리모컨을 \n사용하세요.\n• 리모컨을 잃어버렸을 때는 가까운 LG전자 서비"
+    },
+    {
+      "product_model": "SQ09GK1WEN",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.8547,
+      "top_candidate_text": "[청소하기] 변형되거나 변색될 수 있습니다.\n• 세제가 남아 있지 않도록 깨끗한 물로 충분히 헹구세요. \n세제가 남아 있으면 필터 수명이 짧아지고 제품이 고장 \n날 수 있습니다.\n• 극세 필터를 청소할 때 극세 필터의 망이 찢어지는 등 \n손상되지 않도록 주의하세요. 극"
+    },
+    {
+      "product_model": "SQ09GK1WEN",
+      "question": "와이파이 어떻게 하나요?",
+      "keyword": "와이파이",
+      "source_section_title": "와이파이",
+      "keyword_hit": true,
+      "min_distance": 0.5731,
+      "top_candidate_text": "[와이파이]  해결책"
+    },
+    {
+      "product_model": "SRS705IC",
+      "question": "SRS705IC 안전을위한주의사항 관련 내용 알려줘",
+      "keyword": "안전을위한주의사항",
+      "source_section_title": "2페이지",
+      "keyword_hit": false,
+      "min_distance": 1.082,
+      "top_candidate_text": "[15페이지] 33\n제\n품\n규\n격\n기타편\n27\nSRS705\n704ℓ\n274ℓ\n430ℓ\n122㎏\n908x1771x884.5mm\nAC 220V/60Hz\n전체용량\n용\n량\n냉동\n실\n냉장\n실\n본\n체\n무\n게\n제품크기(가로×높이×깊이)\n정격전압/ 주파수\n모\n델\n명\n▶디자인및제품사양"
+    },
+    {
+      "product_model": "SRS705IC",
+      "question": "SRS705IC 준비편 관련 내용 알려줘",
+      "keyword": "준비편",
+      "source_section_title": "5페이지",
+      "keyword_hit": true,
+      "min_distance": 1.1201,
+      "top_candidate_text": "[15페이지] 33\n제\n품\n규\n격\n기타편\n27\nSRS705\n704ℓ\n274ℓ\n430ℓ\n122㎏\n908x1771x884.5mm\nAC 220V/60Hz\n전체용량\n용\n량\n냉동\n실\n냉장\n실\n본\n체\n무\n게\n제품크기(가로×높이×깊이)\n정격전압/ 주파수\n모\n델\n명\n▶디자인및제품사양"
+    },
+    {
+      "product_model": "SRS705IC",
+      "question": "SRS705IC 저온용기 관련 내용 알려줘",
+      "keyword": "저온용기",
+      "source_section_title": "8페이지",
+      "keyword_hit": false,
+      "min_distance": 1.0116,
+      "top_candidate_text": "[15페이지] 33\n제\n품\n규\n격\n기타편\n27\nSRS705\n704ℓ\n274ℓ\n430ℓ\n122㎏\n908x1771x884.5mm\nAC 220V/60Hz\n전체용량\n용\n량\n냉동\n실\n냉장\n실\n본\n체\n무\n게\n제품크기(가로×높이×깊이)\n정격전압/ 주파수\n모\n델\n명\n▶디자인및제품사양"
+    },
+    {
+      "product_model": "SRS705IC",
+      "question": "SRS705IC 기타편 관련 내용 알려줘",
+      "keyword": "기타편",
+      "source_section_title": "10페이지",
+      "keyword_hit": true,
+      "min_distance": 1.0537,
+      "top_candidate_text": "[15페이지] 33\n제\n품\n규\n격\n기타편\n27\nSRS705\n704ℓ\n274ℓ\n430ℓ\n122㎏\n908x1771x884.5mm\nAC 220V/60Hz\n전체용량\n용\n량\n냉동\n실\n냉장\n실\n본\n체\n무\n게\n제품크기(가로×높이×깊이)\n정격전압/ 주파수\n모\n델\n명\n▶디자인및제품사양"
+    },
+    {
+      "product_model": "SRS705IC",
+      "question": "SRS705IC 기타편 관련 내용 알려줘",
+      "keyword": "기타편",
+      "source_section_title": "13페이지",
+      "keyword_hit": true,
+      "min_distance": 1.0537,
+      "top_candidate_text": "[15페이지] 33\n제\n품\n규\n격\n기타편\n27\nSRS705\n704ℓ\n274ℓ\n430ℓ\n122㎏\n908x1771x884.5mm\nAC 220V/60Hz\n전체용량\n용\n량\n냉동\n실\n냉장\n실\n본\n체\n무\n게\n제품크기(가로×높이×깊이)\n정격전압/ 주파수\n모\n델\n명\n▶디자인및제품사양"
+    },
+    {
+      "product_model": "T17J4EFNTX",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.6776,
+      "top_candidate_text": "[제품을 설치할 때] 거나 제품이 손상될 수 \n있습니다.\n제품 사용설명서를 반드시 읽어주세요."
+    },
+    {
+      "product_model": "T17J4EFNTX",
+      "question": "LG ThinQ와 LG 가전 연결하기 어떻게 하나요?",
+      "keyword": "LG ThinQ와 LG 가전 연결하기",
+      "source_section_title": "LG ThinQ와 LG 가전 연결하기",
+      "keyword_hit": true,
+      "min_distance": 0.6272,
+      "top_candidate_text": "[LG ThinQ와 LG 가전 연결하기] 10\nLG ThinQ 사용하기\nLG ThinQ 사용하기\nLG ThinQ와 LG 가전 연결하기\n앱 설치 및 제품 등록하기\nLG ThinQ 앱을 설치하면 언제 어디서나 편리하게 우리집 \nLG 가전을 관리할 수 있습니다.\nQR 코드가"
+    },
+    {
+      "product_model": "T17J4EFNTX",
+      "question": "세탁 코스 및 옵션 사용하기 어떻게 하나요?",
+      "keyword": "세탁 코스 및 옵션 사용하기",
+      "source_section_title": "세탁 코스 및 옵션 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5588,
+      "top_candidate_text": "[세탁 코스 및 옵션 사용하기] 기 문을 열고 세탁물을 넣으세요.\n주의\n• 세탁물을 세탁통 안으로 완전히 밀어 넣지 않으면 세탁물이 찢어질 수 있습니다.\n\n25\n사용하기\n3\n세탁량에 맞게 세제와 유연제를 넣고 세제함을 닫으세요.\n4\n전원 버튼을 누르세요.\n• 전원을 켜"
+    },
+    {
+      "product_model": "T17J4EFNTX",
+      "question": "겨울철 동결 해결하기 어떻게 하나요?",
+      "keyword": "겨울철 동결 해결하기",
+      "source_section_title": "겨울철 동결 해결하기",
+      "keyword_hit": true,
+      "min_distance": 0.7448,
+      "top_candidate_text": "[겨울철 동결 해결하기] 36\n관리하기\n1\n수도꼭지를 잠근 후 제품 뒤쪽에 연결된 급수 호스를 \n분리하세요.\n2\n거름망을 손 또는 집게로 잡아 빼낸 후 칫솔 같은 \n도구를 사용하여 오물을 제거하세요.\n알아두기\n• 급수구 거름망이 오물로 막히지 않도록 주기적으로 \n청소하"
+    },
+    {
+      "product_model": "T17J4EFNTX",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": false,
+      "min_distance": 0.9268,
+      "top_candidate_text": "[제품 사용설명서] 탁 코스 및 옵션 사용하기\n31\n편리한 기능 사용하기\n관리하기\n33\n제품 청소하기\n36\n겨울철 동결 해결하기\n설치하기\n38\n설치 준비하기\n40\n호스 연결하기\n42\n수평 조절하기 / 미끄럼 방지하기\n고장 신고 전 확인하기\n44\n고장 진단하기\n45\n문제"
+    },
+    {
+      "product_model": "TR16MV6",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.6776,
+      "top_candidate_text": "[제품을 설치할 때] 거나 제품이 손상될 수 \n있습니다.\n제품 사용설명서를 반드시 읽어주세요."
+    },
+    {
+      "product_model": "TR16MV6",
+      "question": "주의 어떻게 하나요?",
+      "keyword": "주의",
+      "source_section_title": "주의",
+      "keyword_hit": true,
+      "min_distance": 1.0691,
+      "top_candidate_text": "[제품을 사용하기 전에 읽어주세요.] 3\n안전을 위해 주의하기 \n안전을 위해 주의하기\n제품을 사용하기 전에 읽어주세요.\n다음의 ‘안전을 위해 주의하기’는 예상하지 못한 위험이나 손해를 방지하기 위한 것이니 \n반드시 확인해 주세요.\n‘안전을 위해 주의하기’는 ‘경고’와 "
+    },
+    {
+      "product_model": "TR16MV6",
+      "question": "세탁 코스 및 옵션 사용하기 어떻게 하나요?",
+      "keyword": "세탁 코스 및 옵션 사용하기",
+      "source_section_title": "세탁 코스 및 옵션 사용하기",
+      "keyword_hit": true,
+      "min_distance": 0.5557,
+      "top_candidate_text": "[세탁 코스 및 옵션 사용하기] 을 변경할 수 있습니다.\n• 옵션 버튼을 눌러 추가 옵션도 선택할 수 있습니다.\n6\n동작/일시정지 버튼을 누르세요.\n세탁 코스 자세히 알아보기\n세탁물의 종류와 오염 상태에 따라 세탁 코스를 선택할 수 있습니다. 세탁 코스별 설명을 읽고 "
+    },
+    {
+      "product_model": "TR16MV6",
+      "question": "설치 준비하기 어떻게 하나요?",
+      "keyword": "설치 준비하기",
+      "source_section_title": "설치 준비하기",
+      "keyword_hit": true,
+      "min_distance": 0.7801,
+      "top_candidate_text": "[설치 준비하기] 28\n설치하기\n설치하기\n설치 준비하기\n옮길 때 알아두기\n제품 설치 장소를 선정하세요.\n• 바닥이 단단하고 고른 장소에 설치하세요.\n- 설치 바닥이 고르지 않으면 진동과 소음의 원인이 \n됩니다.\n• 제품을 옮길 때는 2명 이상이 함께 옮기세요.\n- 제품"
+    },
+    {
+      "product_model": "TR16MV6",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": false,
+      "min_distance": 0.9158,
+      "top_candidate_text": "[제품 사용설명서] \n세탁 코스 및 옵션 사용하기\n23\n편리한 기능 사용하기\n관리하기\n24\n제품 청소하기\n27\n겨울철 동결 해결하기\n설치하기\n28\n설치 준비하기\n30\n호스 연결하기\n32\n수평 조절하기 / 미끄럼 방지하기\n고장 신고 전 확인하기\n34\n고장 진단하기\n35\n"
+    },
+    {
+      "product_model": "W826AAA492",
+      "question": "제품 사용설명서 어떻게 하나요?",
+      "keyword": "제품 사용설명서",
+      "source_section_title": "제품 사용설명서",
+      "keyword_hit": true,
+      "min_distance": 0.7897,
+      "top_candidate_text": "[제품 사용설명서] 27\n냉동실 아이스 메이커\n29\n냉장실 서랍\n31\n신선플러스 트레이\n31\n냉동실 서랍\n31\n냉장실 선반\n32\n멀티수납 코너\n32\n바구니\n관리하기\n34\n청소하기\n34\n정수 필터\n설치하기\n36\n제품을 옮길 때\n36\n제품을 설치할 때\n37\n제품 수평 및 "
+    },
+    {
+      "product_model": "W826AAA492",
+      "question": "사용하기 전 알아두기 어떻게 하나요?",
+      "keyword": "사용하기 전 알아두기",
+      "source_section_title": "사용하기 전 알아두기",
+      "keyword_hit": true,
+      "min_distance": 0.9734,
+      "top_candidate_text": "[음성인식 기능] 11\nLG ThinQ 사용하기 \n\n*1 이 기능이 적용된 모델에만 해당하는 내용입니다.\n음성인식 기능\n이 기능이 적용된 모델에만 해당하는 내용입니다.\n제품의 다양한 기능을 음성으로 편리하게 조작할 수 \n있습니다.\n최적의 음성인식 성능을 위하여 명령어와"
+    },
+    {
+      "product_model": "W826AAA492",
+      "question": "제어창 어떻게 하나요?",
+      "keyword": "제어창",
+      "source_section_title": "제어창",
+      "keyword_hit": true,
+      "min_distance": 0.7407,
+      "top_candidate_text": "[제어창] 19\n사용하기\n제어창\n제어창 사용하기\n정수기 제어창 사용하기\na 정수\n1 k 아이콘을 누르세요.\n2\n컵을 들고 레버를 누르세요.\n알아두기\n• 레버에서 컵을 떼면 급수가 중지됩니다.\nb 얼음\n1\n원하는 얼음 종류(각얼음 j , 조각얼음 l )의 아이콘을 누르세"
+    },
+    {
+      "product_model": "W826AAA492",
+      "question": "청소하기 어떻게 하나요?",
+      "keyword": "청소하기",
+      "source_section_title": "청소하기",
+      "keyword_hit": true,
+      "min_distance": 0.7994,
+      "top_candidate_text": "[청소하기] 34\n관리하기\n관리하기\n청소하기\n청소할 때 알아두기\n• 제품 밖 또는 안을 청소할 때 거친 솔, 치약, 락스, 가연성 \n물질, 염화물 등으로 닦지마세요. 가연성 물질 또는 \n염화물이 포함된 세척제나 물티슈는 사용하지 마세요. \n제품의 색이 변하거나 제품이 "
+    },
+    {
+      "product_model": "W826AAA492",
+      "question": "물 어떻게 하나요?",
+      "keyword": "물",
+      "source_section_title": "물",
+      "keyword_hit": true,
+      "min_distance": 0.9775,
+      "top_candidate_text": "[물]  1분이 지나면 여세요."
+    },
+    {
+      "product_model": "WA19CG6745BV",
+      "question": "경고/주의 기호 어떻게 하나요?",
+      "keyword": "경고/주의 기호",
+      "source_section_title": "경고/주의 기호",
+      "keyword_hit": true,
+      "min_distance": 0.7702,
+      "top_candidate_text": "[경고/주의 기호] 한국어 3\n 주의사항 \n﻿ 제품의 외관 및 규격은 제품 개선을 위해 예고 없이 변경될 수 있습니다. \n 경고/주의 기호 \n﻿\n경고 \n 매우 위험하니 꼭 따라야 합니다.\n \n주의 \n 지키지 않을 경우 상해나 재산 피해가 발생할 수 있습니다.\n \n참고 "
+    },
+    {
+      "product_model": "WA19CG6745BV",
+      "question": "세탁기 수평 맞추기 어떻게 하나요?",
+      "keyword": "세탁기 수평 맞추기",
+      "source_section_title": "세탁기 수평 맞추기",
+      "keyword_hit": true,
+      "min_distance": 0.5173,
+      "top_candidate_text": "[세탁기 수평 맞추기] 한국어 9\n 설치하기 \n 세탁기 수평 맞추기 \n﻿\n참고 \n•\t 제품이 출시될 때 수평 조절 다리는 시계 방향으로 잠겨 있으며, 높이 조절이 필요한 경우 반시계 방향으로 돌리면 \n풀립니다.\n•\t 구입하신 해당 제품과는 내용이 다를 수 있습니다.\n1"
+    },
+    {
+      "product_model": "WA19CG6745BV",
+      "question": "각 부분의 이름 어떻게 하나요?",
+      "keyword": "각 부분의 이름",
+      "source_section_title": "각 부분의 이름",
+      "keyword_hit": true,
+      "min_distance": 0.7593,
+      "top_candidate_text": "[각 부분의 이름] 한국어 23\n 제품 사용하기 \n 각 부분의 이름 \n01\n06\n07\n08\n09\n10\n03\n04\n05\n02\n﻿\n01\t 세탁기 문 \n02\t 버블 키트 \n03\t 세제함 \n04\t 표백제 투입구 \n05\t 필터 \n06\t 수평 조절 다리 \n07\t 버튼과 표시부 \n"
+    },
+    {
+      "product_model": "WA19CG6745BV",
+      "question": "세탁 코스 이용하기 어떻게 하나요?",
+      "keyword": "세탁 코스 이용하기",
+      "source_section_title": "세탁 코스 이용하기",
+      "keyword_hit": true,
+      "min_distance": 0.7065,
+      "top_candidate_text": "[세탁 코스 이용하기] 원 버튼을 눌러주세요.\n3.\t 코스 선택 다이얼을 돌려 원하는 세탁 코스를 선택하세요.\n\t-\n 물높이,  세탁시간,  헹굼횟수,  탈수세기 버튼을 눌러 각각의 기본 설정값을 변경할 수 있습니다.\n\t-\n 코스에 따라  제트샷,  찌든때불림,  종료"
+    },
+    {
+      "product_model": "WA19CG6745BV",
+      "question": "점검 문자 발생 시 대처하기 어떻게 하나요?",
+      "keyword": "점검 문자 발생 시 대처하기",
+      "source_section_title": "점검 문자 발생 시 대처하기",
+      "keyword_hit": true,
+      "min_distance": 0.6944,
+      "top_candidate_text": "[점검 문자 발생 시 대처하기] 한국어\n46\n 고장 신고 전 확인하기 \n 점검 문자 발생 시 대처하기 \n﻿ 코드 \n﻿ 진단 \n﻿ 해결방법 \n﻿\n﻿ 수위 센서가 제대로 작동하지 않습니다. \n•\t 수위 센서 전기 배선을 확인하세요.\n•\t 정보 코드가 계속 표시되면 고객 서"
+    },
+    {
+      "product_model": "WA80F19E8W",
+      "question": "경고/주의 기호 어떻게 하나요?",
+      "keyword": "경고/주의 기호",
+      "source_section_title": "경고/주의 기호",
+      "keyword_hit": true,
+      "min_distance": 0.7702,
+      "top_candidate_text": "[경고/주의 기호] 한국어 3\n 주의사항 \n﻿ 제품의 외관 및 규격은 제품 개선을 위해 예고 없이 변경될 수 있습니다. \n 경고/주의 기호 \n﻿\n경고 \n 매우 위험하니 꼭 따라야 합니다.\n \n주의 \n 지키지 않을 경우 상해나 재산 피해가 발생할 수 있습니다.\n \n참고 "
+    },
+    {
+      "product_model": "WA80F19E8W",
+      "question": "설치 후 확인하기 어떻게 하나요?",
+      "keyword": "설치 후 확인하기",
+      "source_section_title": "설치 후 확인하기",
+      "keyword_hit": true,
+      "min_distance": 0.9175,
+      "top_candidate_text": "[설치 후 확인하기] 설치하기\n한국어\n18\n 설치 후 확인하기 \n 무게 보정 기능 (해당 모델에 한함) \n 삼성 세탁기는 자동으로 세탁물 무게를 감지합니다.\n 좀 더 정밀한 무게 감지를 위해 세탁기 설치 시 무게 보정 기능을 실행하세요.\n 무게 보정 기능의 수행을 위해"
+    },
+    {
+      "product_model": "WA80F19E8W",
+      "question": "세탁 코스 이용하기 어떻게 하나요?",
+      "keyword": "세탁 코스 이용하기",
+      "source_section_title": "세탁 코스 이용하기",
+      "keyword_hit": true,
+      "min_distance": 0.6179,
+      "top_candidate_text": "[세탁 코스 이용하기] 제품 사용하기\n한국어\n32\n 세탁 코스 이용하기 \n 세탁하기 \n 원하는 세탁 코스 및 부가기능을 선택하여 세탁할 수 있습니다.\n1.\t 빨랫감을 분류하여 세탁기에 넣고, 세탁기 문을 닫아 주세요.\n\t-\n 세탁 전 주머니 및 기타 이물질을 확인해 주"
+    },
+    {
+      "product_model": "WA80F19E8W",
+      "question": "세탁용량 : 21 kg, 23 kg, 25 kg / 물높이 10단 적용 모델 어떻게 하나요?",
+      "keyword": "세탁용량 : 21 kg, 23 kg, 25 kg / 물높이 10단 적용 모델",
+      "source_section_title": "세탁용량 : 21 kg, 23 kg, 25 kg / 물높이 10단 적용 모델",
+      "keyword_hit": true,
+      "min_distance": 0.3547,
+      "top_candidate_text": "[세탁용량 : 21 kg, 23 kg, 25 kg / 물높이 10단 적용 모델] 제품 사용하기\n한국어\n26\n 세탁용량 : 14 kg, 15 kg, 16 kg, 18 kg, 19 kg / 물높이 10단 적용 모델 \n﻿ 물높이 \n﻿ 세탁량 \n﻿ 세탁수량 (L) \n﻿ 세제량"
+    },
+    {
+      "product_model": "WA80F19E8W",
+      "question": "SmartThings 앱과 제품 연결하기 어떻게 하나요?",
+      "keyword": "SmartThings 앱과 제품 연결하기",
+      "source_section_title": "SmartThings 앱과 제품 연결하기",
+      "keyword_hit": true,
+      "min_distance": 0.4382,
+      "top_candidate_text": "[SmartThings 앱과 제품 연결하기]  제품을 선택하세요.\n4.\t 스마트폰의 안내에 따라 SmartThings 앱과 제품을 연결하세요."
+    },
+    {
+      "product_model": "WF17M9100KG",
+      "question": "경고/주의 기호 어떻게 하나요?",
+      "keyword": "경고/주의 기호",
+      "source_section_title": "경고/주의 기호",
+      "keyword_hit": true,
+      "min_distance": 0.8291,
+      "top_candidate_text": "[경고/주의 기호] 3\n주의사항\n경고/주의 기호\n 경 고\n매우 위험하니 꼭 따라야 합니다. \n 주 의\n지키지 않을 경우 상해나 재산 피해가 발생할 수 있습니다.\n 참 고\n제품을 보다 효율적으로 사용할 수 있습니다.\n사용 설명서를 반드시 읽어주세요.\n설치 관련\n 경 고\n"
+    },
+    {
+      "product_model": "WF17M9100KG",
+      "question": "사용 관련 어떻게 하나요?",
+      "keyword": "사용 관련",
+      "source_section_title": "사용 관련",
+      "keyword_hit": true,
+      "min_distance": 0.9701,
+      "top_candidate_text": "[사용 관련] 점검, 수리를 받은 후 \n사용하세요. \nꞏꞏ\n제품 내부의 부품 등이 파손된 경우가 있어 그대로 사용하는 경우 제품 이상 및 발화, 감전 상해의 위험이 \n있습니다."
+    },
+    {
+      "product_model": "WF17M9100KG",
+      "question": "급수호스 연결하기 어떻게 하나요?",
+      "keyword": "급수호스 연결하기",
+      "source_section_title": "급수호스 연결하기",
+      "keyword_hit": true,
+      "min_distance": 0.5374,
+      "top_candidate_text": "[급수호스 연결하기] 14\n설치하기\n급수호스 연결하기\n수도꼭지 연결 방법\n1\t 연결기의 4 개의 나사를 모두 풀어주세요.\n2\t 연결기를 수도꼭지 끝까지 밀어 올리세요.\n3\t 어댑터를 수도꼭지 끝까지 밀어올려 4 개의 나사를 \n체결하세요.\n 참 고\n육각 볼트 2 개는 수"
+    },
+    {
+      "product_model": "WF17M9100KG",
+      "question": "찌든 때 제거방법 어떻게 하나요?",
+      "keyword": "찌든 때 제거방법",
+      "source_section_title": "찌든 때 제거방법",
+      "keyword_hit": true,
+      "min_distance": 0.6261,
+      "top_candidate_text": "[찌든 때 제거방법] 24\n사용 전 알아두기\n찌든 때 제거방법\n유형\n원인/ 해결방안\n파운데이션\nꞏꞏ\n비눗물로 씻게 되면 파운데이션 얼룩이 번져 깨끗하게 제거할 수 없습니다.\nꞏꞏ\n알코올이 함유된 화장수로 얼룩을 톡톡 두드리면 파운데이션 얼룩을 쉽게 \n뺄 수 있습니다.\n"
+    },
+    {
+      "product_model": "WF17M9100KG",
+      "question": "배수필터 청소/잔수 제거하기 어떻게 하나요?",
+      "keyword": "배수필터 청소/잔수 제거하기",
+      "source_section_title": "배수필터 청소/잔수 제거하기",
+      "keyword_hit": true,
+      "min_distance": 0.4828,
+      "top_candidate_text": "[배수필터 청소/잔수 제거하기] 35\n청소하기\n배수필터 청소/잔수 제거하기\n 주 의\nꞏꞏ\n세탁조 내부에 물이 남아 있을 경우 배수필터를 열면 전면으로 물이 넘칠 수 있습니다.  \n(물이 완전히 배수되었나 확인하세요.)\nꞏꞏ\n배수필터를 잘못 조립하거나 누락하시면 누수 및"
+    },
+    {
+      "product_model": "WF21T6500KW",
+      "question": "WF21T6500KW 삼성 관련 내용 알려줘",
+      "keyword": "삼성",
+      "source_section_title": "1페이지",
+      "keyword_hit": true,
+      "min_distance": 0.9824,
+      "top_candidate_text": "[78페이지] 78\n제품규격\n표기 세탁물 용량은 건조된 세탁물 기준입니다.\n모델명\nWF21T6500K*\n종 류\n드럼 세탁기\n세탁용량\n21.0 kg\n전 원\n단상교류 220 V/60 Hz\n제품중량\n93.0 kg\n사용수압\n0.05 ~ 0.78 MPa \n(0.5 ~ 8.0 k"
+    },
+    {
+      "product_model": "WF21T6500KW",
+      "question": "WF21T6500KW 설치하기 관련 내용 알려줘",
+      "keyword": "설치하기",
+      "source_section_title": "16페이지",
+      "keyword_hit": true,
+      "min_distance": 1.0792,
+      "top_candidate_text": "[78페이지] 78\n제품규격\n표기 세탁물 용량은 건조된 세탁물 기준입니다.\n모델명\nWF21T6500K*\n종 류\n드럼 세탁기\n세탁용량\n21.0 kg\n전 원\n단상교류 220 V/60 Hz\n제품중량\n93.0 kg\n사용수압\n0.05 ~ 0.78 MPa \n(0.5 ~ 8.0 k"
+    },
+    {
+      "product_model": "WF21T6500KW",
+      "question": "WF21T6500KW 조작부 관련 내용 알려줘",
+      "keyword": "조작부",
+      "source_section_title": "35페이지",
+      "keyword_hit": true,
+      "min_distance": 1.0762,
+      "top_candidate_text": "[78페이지] 78\n제품규격\n표기 세탁물 용량은 건조된 세탁물 기준입니다.\n모델명\nWF21T6500K*\n종 류\n드럼 세탁기\n세탁용량\n21.0 kg\n전 원\n단상교류 220 V/60 Hz\n제품중량\n93.0 kg\n사용수압\n0.05 ~ 0.78 MPa \n(0.5 ~ 8.0 k"
+    },
+    {
+      "product_model": "WF21T6500KW",
+      "question": "WF21T6500KW 세탁 관련 내용 알려줘",
+      "keyword": "세탁",
+      "source_section_title": "53페이지",
+      "keyword_hit": true,
+      "min_distance": 0.735,
+      "top_candidate_text": "[78페이지] 78\n제품규격\n표기 세탁물 용량은 건조된 세탁물 기준입니다.\n모델명\nWF21T6500K*\n종 류\n드럼 세탁기\n세탁용량\n21.0 kg\n전 원\n단상교류 220 V/60 Hz\n제품중량\n93.0 kg\n사용수압\n0.05 ~ 0.78 MPa \n(0.5 ~ 8.0 k"
+    },
+    {
+      "product_model": "WF21T6500KW",
+      "question": "WF21T6500KW 청소하기 관련 내용 알려줘",
+      "keyword": "청소하기",
+      "source_section_title": "67페이지",
+      "keyword_hit": true,
+      "min_distance": 1.0288,
+      "top_candidate_text": "[78페이지] 78\n제품규격\n표기 세탁물 용량은 건조된 세탁물 기준입니다.\n모델명\nWF21T6500K*\n종 류\n드럼 세탁기\n세탁용량\n21.0 kg\n전 원\n단상교류 220 V/60 Hz\n제품중량\n93.0 kg\n사용수압\n0.05 ~ 0.78 MPa \n(0.5 ~ 8.0 k"
+    }
+  ]
+}

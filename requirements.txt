@@ -1,6 +1,7 @@
 # 기본(무료/로컬) 구성에 필요한 패키지
 chromadb>=0.5
 python-dotenv>=1.0
+openai>=1.0  # template_exp.py의 gpt-4o-mini 호출에 필요 (누락돼 있었음)
 sentence-transformers>=3.0
 transformers>=4.45
 torch>=2.2

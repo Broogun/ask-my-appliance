@@ -58,3 +58,6 @@ web/static/img/models/auto/sheet.png
 experiments/siyeon/LG_images/
 experiments/siyeon/chunk_questions_v1.json
 web/static/img/models/auto/
+
+# 로컬 전용 메모/정리 문서 (커밋 안 함)
+NOTES_ARCHITECTURE.md

@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "FQ16FV6EDN 에어컨 예약 기능 사용법 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.6475805691698775
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 취침 모드 어떻게 설정해",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6527048923222056
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5976577066101552
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 전력 소비량이 궁금해",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5985668999544944
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6691988493435284
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 예약 기능 사용법 알려줘",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.6528974770405429
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 취침 모드 어떻게 설정해",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.6444685554586013
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 전력 소비량이 궁금해",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5822119150673141
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6614820552032515
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 예약 기능 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 취침 모드 어떻게 설정해",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6653207888443954
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.5540649062569113
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 전력 소비량이 궁금해",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.6015006232206854
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7100629795785207
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 예약 기능 사용법 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.6442358451088203
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 취침 모드 어떻게 설정해",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.7142857142857143,
+    "answer_relevancy": 0.6641170348855232
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5981009271104376
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 전력 소비량이 궁금해",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.5812479976648158
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.6835652219287148
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 예약 기능 사용법 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6159237114029937
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 취침 모드 어떻게 설정해",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.6596623414352164
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6272361432633702
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 전력 소비량이 궁금해",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.5498753264603262
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.695010428836301
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 예약 기능 사용법 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.637024036801057
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 취침 모드 어떻게 설정해",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6544072822910177
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6116034954087994
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 전력 소비량이 궁금해",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.5820604384495112
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6781943188592128
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 예약 기능 사용법 알려줘",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.5972182271190498
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 취침 모드 어떻게 설정해",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5758770829966033
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 전력 소비량이 궁금해",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 설치할 때 주의사항 알려줘",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6203919181696756
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 예약 기능 사용법 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.517033278925666
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 취침 모드 어떻게 설정해",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.617360098941047
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6140733734219608
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 전력 소비량이 궁금해",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6650057791759375
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 예약 기능 사용법 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5039349201800924
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 취침 모드 어떻게 설정해",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.6063761394604951
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6069173892199955
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 전력 소비량이 궁금해",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6484025911580679
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 예약 기능 사용법 알려줘",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4875216909869888
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 취침 모드 어떻게 설정해",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5831741153499567
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 전력 소비량이 궁금해",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.5723284297146675
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.643676759991048
+  },
+  {
+    "question": "B242S32 냉장고 급속 냉동 기능이 뭐야",
+    "model": "B242S32",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "B242S32 냉장고 문 열림 알람 기능 알려줘",
+    "model": "B242S32",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.646977370971618
+  },
+  {
+    "question": "B242S32 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "model": "B242S32",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "B242S32 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "B242S32",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "B242S32 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "CA-H17DC 냉장고 급속 냉동 기능이 뭐야",
+    "model": "CA-H17DC",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6865072895341183
+  },
+  {
+    "question": "CA-H17DC 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "CA-H17DC 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "model": "CA-H17DC",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "CA-H17DC 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "CA-H17DC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "CA-H17DC 냉장고 설치할 때 주의사항 알려줘",
+    "model": "CA-H17DC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7389733582155097
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 급속 냉동 기능이 뭐야",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 설치할 때 주의사항 알려줘",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.7743408315038185
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 급속 냉동 기능이 뭐야",
+    "model": "GC-B414HG7M",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6447917299002235
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 문 열림 알람 기능 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.60061275447711
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.569767473897573
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 설치할 때 주의사항 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.7696335074732781
+  },
+  {
+    "question": "J825MEE042 냉장고 급속 냉동 기능이 뭐야",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6715453393755532
+  },
+  {
+    "question": "J825MEE042 냉장고 문 열림 알람 기능 알려줘",
+    "model": "J825MEE042",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.596080392588775
+  },
+  {
+    "question": "J825MEE042 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "J825MEE042 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "J825MEE042",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "J825MEE042 냉장고 설치할 때 주의사항 알려줘",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7577974792230404
+  },
+  {
+    "question": "M402ND 냉장고 급속 냉동 기능이 뭐야",
+    "model": "M402ND",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.6539661021438525
+  },
+  {
+    "question": "M402ND 냉장고 문 열림 알람 기능 알려줘",
+    "model": "M402ND",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.6602598245908802
+  },
+  {
+    "question": "M402ND 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "model": "M402ND",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.7189335310084989
+  },
+  {
+    "question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "M402ND",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "M402ND 냉장고 설치할 때 주의사항 알려줘",
+    "model": "M402ND",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.7495394023888977
+  },
+  {
+    "question": "S825AW35 냉장고 급속 냉동 기능이 뭐야",
+    "model": "S825AW35",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6347648767774711
+  },
+  {
+    "question": "S825AW35 냉장고 문 열림 알람 기능 알려줘",
+    "model": "S825AW35",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.6337284964384102
+  },
+  {
+    "question": "S825AW35 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "model": "S825AW35",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "S825AW35 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "S825AW35",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "S825AW35 냉장고 설치할 때 주의사항 알려줘",
+    "model": "S825AW35",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7682629536062587
+  },
+  {
+    "question": "S835S31 냉장고 급속 냉동 기능이 뭐야",
+    "model": "S835S31",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6617460976230999
+  },
+  {
+    "question": "S835S31 냉장고 문 열림 알람 기능 알려줘",
+    "model": "S835S31",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.6070990258279682
+  },
+  {
+    "question": "S835S31 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "model": "S835S31",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "S835S31 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "S835S31",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "S835S31 냉장고 설치할 때 주의사항 알려줘",
+    "model": "S835S31",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7720442781631977
+  },
+  {
+    "question": "W826AAA492 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "W826AAA492 냉장고 문 열림 알람 기능 알려줘",
+    "model": "W826AAA492",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.5617482783981644
+  },
+  {
+    "question": "W826AAA492 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "model": "W826AAA492",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.7062156022393606
+  },
+  {
+    "question": "W826AAA492 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "model": "W826AAA492",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "W826AAA492 냉장고 설치할 때 주의사항 알려줘",
+    "model": "W826AAA492",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7407430542635207
+  },
+  {
+    "question": "K135LW123 김치냉장고 김치 발효 코스 자세히 알려줘",
+    "model": "K135LW123",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5089132373847358
+  },
+  {
+    "question": "K135LW123 김치냉장고 스마트폰 앱 연동 방법 알려줘",
+    "model": "K135LW123",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "K135LW123 김치냉장고 정기 점검은 얼마나 자주 해야 해",
+    "model": "K135LW123",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.595371325678659
+  },
+  {
+    "question": "K135LW123 김치냉장고 전력 소비량이 궁금해",
+    "model": "K135LW123",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "K135LW123 김치냉장고 설치할 때 주의사항 알려줘",
+    "model": "K135LW123",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.7402213849464292
+  },
+  {
+    "question": "F21VDSK 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "F21VDSK",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.7086012548147447
+  },
+  {
+    "question": "F21VDSK 세탁기 물 온도 설정 방법 알려줘",
+    "model": "F21VDSK",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.6974021761857304
+  },
+  {
+    "question": "F21VDSK 세탁기 소음을 줄이는 방법 알려줘",
+    "model": "F21VDSK",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.7016962991167183
+  },
+  {
+    "question": "F21VDSK 세탁기 전기/수도 사용량이 궁금해",
+    "model": "F21VDSK",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "F21VDSK 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "model": "F21VDSK",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.6331170537679764
+  },
+  {
+    "question": "FC4KC 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FC4KC",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6136375199437538
+  },
+  {
+    "question": "FC4KC 세탁기 물 온도 설정 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FC4KC 세탁기 소음을 줄이는 방법 알려줘",
+    "model": "FC4KC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3228014817910728
+  },
+  {
+    "question": "FC4KC 세탁기 전기/수도 사용량이 궁금해",
+    "model": "FC4KC",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FC4KC 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "model": "FC4KC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5756934764310967
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "T17J4EFNTX",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.6538134948101704
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 물 온도 설정 방법 알려줘",
+    "model": "T17J4EFNTX",
+    "faithfulness": 0.5555555555555556,
+    "answer_relevancy": 0.6758132757625904
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 소음을 줄이는 방법 알려줘",
+    "model": "T17J4EFNTX",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6636059369616407
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 전기/수도 사용량이 궁금해",
+    "model": "T17J4EFNTX",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "model": "T17J4EFNTX",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5963816659704362
+  },
+  {
+    "question": "TR16MV6 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "TR16MV6",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "TR16MV6 세탁기 물 온도 설정 방법 알려줘",
+    "model": "TR16MV6",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6911194922665533
+  },
+  {
+    "question": "TR16MV6 세탁기 소음을 줄이는 방법 알려줘",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6872830400487345
+  },
+  {
+    "question": "TR16MV6 세탁기 전기/수도 사용량이 궁금해",
+    "model": "TR16MV6",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "TR16MV6 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6237661925225375
+  },
+  {
+    "question": "RH10VTA 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "RH10VTA",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5516202428660485
+  },
+  {
+    "question": "RH10VTA 건조기 자동 건조 센서가 뭐야",
+    "model": "RH10VTA",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.569928095074731
+  },
+  {
+    "question": "RH10VTA 건조기 전력 소비량이 궁금해",
+    "model": "RH10VTA",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RH10VTA 건조기 설치할 때 환기구 주의사항 알려줘",
+    "model": "RH10VTA",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RH10VTA 건조기 정기 점검은 얼마나 자주 해야 해",
+    "model": "RH10VTA",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.618148018503466
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 물 온도 설정 방법 알려줘",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.681433589733002
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 전기/수도 사용량이 궁금해",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 설치할 때 주의사항 알려줘",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.728840220705601
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 정기 점검은 얼마나 자주 해야 해",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FA25AJPB",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6407811654117497
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 물 온도 설정 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 전기/수도 사용량이 궁금해",
+    "model": "FA25AJPB",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 설치할 때 주의사항 알려줘",
+    "model": "FA25AJPB",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7066645694895637
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 정기 점검은 얼마나 자주 해야 해",
+    "model": "FA25AJPB",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "FC2521KX6C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6097984460709684
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 물 온도 설정 방법 알려줘",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.4,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 전기/수도 사용량이 궁금해",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.4,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 설치할 때 주의사항 알려줘",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6748243449274245
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 정기 점검은 얼마나 자주 해야 해",
+    "model": "FC2521KX6C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "FH23KN 세탁건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FH23KN 세탁건조기 물 온도 설정 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FH23KN 세탁건조기 전기/수도 사용량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FH23KN 세탁건조기 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "FH23KN 세탁건조기 정기 점검은 얼마나 자주 해야 해",
+    "model": "FH23KN",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SC3GBE50 스타일러 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "SC3GBE50",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6341321420075183
+  },
+  {
+    "question": "SC3GBE50 스타일러 항균 기능이 뭐야",
+    "model": "SC3GBE50",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5085270007743741
+  },
+  {
+    "question": "SC3GBE50 스타일러 전력 소비량이 궁금해",
+    "model": "SC3GBE50",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.6736985679338251
+  },
+  {
+    "question": "SC3GBE50 스타일러 설치할 때 주의사항 알려줘",
+    "model": "SC3GBE50",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7297492067149829
+  },
+  {
+    "question": "SC3GBE50 스타일러 정기 점검은 얼마나 자주 해야 해",
+    "model": "SC3GBE50",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 예약 기능 사용법 알려줘",
+    "model": "AF17B6474WSN",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.6332808015262827
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 취침 모드 어떻게 설정해",
+    "model": "AF17B6474WSN",
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.6263722626038788
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "AF17B6474WSN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5944308102865847
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 전력 소비량이 궁금해",
+    "model": "AF17B6474WSN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5516705164324327
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "AF17B6474WSN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6468075664336366
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 예약 기능 사용법 알려줘",
+    "model": "AF17B7538TZN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.6336682196524284
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 취침 모드 어떻게 설정해",
+    "model": "AF17B7538TZN",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.5980218421629186
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 전력 소비량이 궁금해",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5292976838408436
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6553033733228938
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 예약 기능 사용법 알려줘",
+    "model": "AF18RX975CAN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6175166026013384
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 취침 모드 어떻게 설정해",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.2222222222222222,
+    "answer_relevancy": 0.6416091753787996
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6268126779922213
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 전력 소비량이 궁금해",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 설치할 때 주의사항 알려줘",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.6893253394517452
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 예약 기능 사용법 알려줘",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 0.7857142857142857,
+    "answer_relevancy": 0.6371838814644859
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 취침 모드 어떻게 설정해",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 0.2,
+    "answer_relevancy": 0.6161298098947804
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 전력 소비량이 궁금해",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 설치할 때 주의사항 알려줘",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6542443715787469
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 예약 기능 사용법 알려줘",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.125,
+    "answer_relevancy": 0.6390515727263064
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 취침 모드 어떻게 설정해",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 전력 소비량이 궁금해",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 설치할 때 주의사항 알려줘",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6557300264388024
+  },
+  {
+    "question": "AR-EH05 에어컨 예약 기능 사용법 알려줘",
+    "model": "AR-EH05",
+    "faithfulness": 0.7647058823529411,
+    "answer_relevancy": 0.6876609102281729
+  },
+  {
+    "question": "AR-EH05 에어컨 취침 모드 어떻게 설정해",
+    "model": "AR-EH05",
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.664483990307669
+  },
+  {
+    "question": "AR-EH05 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "AR-EH05",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR-EH05 에어컨 전력 소비량이 궁금해",
+    "model": "AR-EH05",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR-EH05 에어컨 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 예약 기능 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 취침 모드 어떻게 설정해",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.6795365434976851
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 0.5384615384615384,
+    "answer_relevancy": 0.6358093342371325
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 전력 소비량이 궁금해",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 예약 기능 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 취침 모드 어떻게 설정해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 예약 기능 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 취침 모드 어떻게 설정해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 예약 기능 사용법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 취침 모드 어떻게 설정해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH82M9152SL 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH82M9152SL 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH82M9152SL 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH82M9152SL 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RH82M9152SL 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS63R557EB4 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS63R557EB4 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS63R557EB4 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS63R557EB4 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS63R557EB4 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS84B5041WW 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS84B5041WW 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS84B5041WW 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS84B5041WW 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RS84B5041WW 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SRS705IC 냉장고 급속 냉동 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SRS705IC 냉장고 문 열림 알람 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SRS705IC 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SRS705IC 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "SRS705IC 냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 김치 발효 코스 자세히 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 스마트폰 앱 연동 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 김치 발효 코스 자세히 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 스마트폰 앱 연동 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 물 온도 설정 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 소음을 줄이는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 전기/수도 사용량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA80F19E8W 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA80F19E8W 세탁기 물 온도 설정 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA80F19E8W 세탁기 소음을 줄이는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA80F19E8W 세탁기 전기/수도 사용량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WA80F19E8W 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF17M9100KG 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF17M9100KG 세탁기 물 온도 설정 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF17M9100KG 세탁기 소음을 줄이는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF17M9100KG 세탁기 전기/수도 사용량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF17M9100KG 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF21T6500KW 세탁기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF21T6500KW 세탁기 물 온도 설정 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF21T6500KW 세탁기 소음을 줄이는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF21T6500KW 세탁기 전기/수도 사용량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "WF21T6500KW 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV17T8520BV 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV17T8520BV 건조기 자동 건조 센서가 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV17T8520BV 건조기 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV17T8520BV 건조기 설치할 때 환기구 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV17T8520BV 건조기 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV90TA040TE 건조기 자동 건조 센서가 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV90TA040TE 건조기 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV90TA040TE 건조기 설치할 때 환기구 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DV90TA040TE 건조기 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF60R8300WG 스타일러 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF60R8300WG 스타일러 항균 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF60R8300WG 스타일러 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF60R8300WG 스타일러 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF60R8300WG 스타일러 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF90H24R5C 스타일러 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF90H24R5C 스타일러 항균 기능이 뭐야",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF90H24R5C 스타일러 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF90H24R5C 스타일러 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DF90H24R5C 스타일러 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 자외선 살균 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 스마트폰 앱으로 제어하는 방법 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 자외선 살균 기능 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 전력 소비량이 궁금해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 설치할 때 주의사항 알려줘",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 정기 점검은 얼마나 자주 해야 해",
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "skipped": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on requests per day (RPD): Limit 10000, Used 10000, Requested 1. Please try again in 8.64s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  }
+]

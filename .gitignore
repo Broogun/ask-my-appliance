@@ -35,3 +35,6 @@ notebooks/.ipynb_checkpoints/
 # OS
 .DS_Store
 Thumbs.db
+
+# 로컬 전용 메모/정리 문서 (커밋 안 함)
+NOTES_ARCHITECTURE.md

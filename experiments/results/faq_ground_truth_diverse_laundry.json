@@ -1,0 +1,73 @@
+[
+  {"question": "에어드레서에 아로마 시트는 어떻게 넣어요", "model": "DF60R8300WG", "source_chunk_id": "DF60R8300WG_43_1", "source_section_title": "아로마시트 케이스", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "옷 살균하는데 시간이 얼마나 걸리나요", "model": "DF60R8300WG", "source_chunk_id": "DF60R8300WG_13_0", "source_section_title": "살균 코스", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "물통에 물이 부족하면 어떻게 되나요", "model": "DF60R8300WG", "source_chunk_id": "DF60R8300WG_42_0", "source_section_title": "물보충통 및 물비움통", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "에어드레서 설치할 때 주의할 점이 있나요", "model": "DF60R8300WG", "source_chunk_id": "DF60R8300WG_47_0", "source_section_title": "설치 및 장소 정하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "정기적으로 청소해야 하는 부분이 있나요", "model": "DF60R8300WG", "source_chunk_id": "DF60R8300WG_41_0", "source_section_title": "외관", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "부츠도 넣을 수 있나요", "model": "DJ40CB9600NE", "source_chunk_id": "DJ40CB9600NE_19_0", "source_section_title": "부츠 전용 슈트리(Boots ShoeTree) 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "신발 살균하는데 얼마나 걸려요", "model": "DJ40CB9600NE", "source_chunk_id": "DJ40CB9600NE_10_0", "source_section_title": "표준케어", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "SmartThings 앱으로 뭘 할 수 있나요", "model": "DJ40CB9600NE", "source_chunk_id": "DJ40CB9600NE_16_0", "source_section_title": "SmartThings 앱 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "신발 넣는 방향이 정해져 있나요", "model": "DJ40CB9600NE", "source_chunk_id": "DJ40CB9600NE_16_9", "source_section_title": "SmartThings 앱 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "먼지 필터는 어디 있어요", "model": "DJ40CB9600NE", "source_chunk_id": "DJ40CB9600NE_24_0", "source_section_title": "먼지 필터", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "건조 다 됐는데 옷에서 냄새가 나요", "model": "DV17T8520BV", "source_chunk_id": "DV17T8520BV_12_1", "source_section_title": "건조 시 Tip", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "섬유유연제 시트는 어디에 넣나요", "model": "DV17T8520BV", "source_chunk_id": null, "source_section_title": null, "note": "no_answer_in_doc", "relabel_source": "claude_diverse_20260918"},
+  {"question": "천둥 번개 칠 때 사용해도 되나요", "model": "DV17T8520BV", "source_chunk_id": "DV17T8520BV_2_1", "source_section_title": "전원 관련", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "제품 밑면이 물에 잠겼는데 그냥 써도 되나요", "model": "DV17T8520BV", "source_chunk_id": "DV17T8520BV_3_1", "source_section_title": "사용 관련", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "건조 시간을 줄이는 방법이 있나요", "model": "DV17T8520BV", "source_chunk_id": "DV17T8520BV_22_0", "source_section_title": "시간건조 코스", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "LG ThinQ 앱에 제품이 안 잡혀요", "model": "RH10VTA", "source_chunk_id": "RH10VTA_9_0", "source_section_title": "LG ThinQ 와 LG 가전 연결하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "설치할 때 수평을 어떻게 맞추나요", "model": "RH10VTA", "source_chunk_id": "RH10VTA_20_1", "source_section_title": "수평 조절하기 / 높이 조정판 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "고장 신고 전에 뭘 확인해야 하나요", "model": "RH10VTA", "source_chunk_id": "RH10VTA_21_0", "source_section_title": "LG ThinQ로 고장 진단하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "필터 청소는 얼마나 자주 해야 하나요", "model": "RH10VTA", "source_chunk_id": "RH10VTA_15_1", "source_section_title": "제품 청소하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "무선 공유기 비밀번호를 바꿨는데 앱 연결이 끊겼어요", "model": "RH10VTA", "source_chunk_id": "RH10VTA_25_2", "source_section_title": "와이파이", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "버튼을 눌러도 반응이 없어요", "model": "RH21E5ATKWP", "source_chunk_id": "RH21E5ATKWP_36_1", "source_section_title": "[건조기] 사용 관련", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "버튼잠금 기능은 어떻게 풀어요", "model": "RH21E5ATKWP", "source_chunk_id": "RH21E5ATKWP_16_5", "source_section_title": "[사용하기 - 세탁기] 옵션 기능 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "여닫이문 앞에 설치해도 되나요", "model": "RH21E5ATKWP", "source_chunk_id": "RH21E5ATKWP_2_0", "source_section_title": "전원 플러그나 전원선을 다룰 때", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "필터 안 넣고 돌리면 어떻게 되나요", "model": "RH21E5ATKWP", "source_chunk_id": "RH21E5ATKWP_26_0", "source_section_title": "[관리하기 - 건조기] 제품 관리하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "설치 공간이 얼마나 필요한가요", "model": "RH21E5ATKWP", "source_chunk_id": "RH21E5ATKWP_28_0", "source_section_title": "일체형 세탁건조기 설치하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "겨울에 세탁기가 얼었어요 어떻게 해요", "model": "F21VDSK", "source_chunk_id": "F21VDSK_18_1", "source_section_title": "겨울철 동결 해결하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "호스 연결은 어떻게 하나요", "model": "F21VDSK", "source_chunk_id": "F21VDSK_20_3", "source_section_title": "호스 연결하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "섬유유연제 자동으로 나오나요", "model": "F21VDSK", "source_chunk_id": "F21VDSK_13_6", "source_section_title": "세제 또는 섬유 유연제 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "세탁 코스는 몇 가지가 있나요", "model": "F21VDSK", "source_chunk_id": "F21VDSK_14_2", "source_section_title": "세탁 코스 및 옵션 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "제품 청소는 어떻게 하나요", "model": "F21VDSK", "source_chunk_id": "F21VDSK_16_0", "source_section_title": "제품 청소하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "LG ThinQ 앱으로 원격으로 시작할 수 있나요", "model": "FA25AJPB", "source_chunk_id": "FA25AJPB_10_3", "source_section_title": "LG ThinQ 앱으로 제품 작동하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "세탁이랑 건조를 한번에 할 수 있나요", "model": "FA25AJPB", "source_chunk_id": "FA25AJPB_14_0", "source_section_title": "[사용하기 - 세탁기] 알아두면 좋은 정보", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "설정 메뉴에서 뭘 바꿀 수 있나요", "model": "FA25AJPB", "source_chunk_id": "FA25AJPB_13_4", "source_section_title": "설정 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "기능조작부 사용법 알려줘", "model": "FA25AJPB", "source_chunk_id": "FA25AJPB_12_0", "source_section_title": "기능조작부 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "세제는 어디다 넣어요", "model": "FA25AJPB", "source_chunk_id": "FA25AJPB_16_6", "source_section_title": "세제 또는 섬유 유연제 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "겨울철에 얼었을 때 어떻게 하나요", "model": "FH23KN", "source_chunk_id": "FH23KN_19_5", "source_section_title": "겨울철 동결 해결하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "부가 기능에는 뭐가 있나요", "model": "FH23KN", "source_chunk_id": "FH23KN_16_0", "source_section_title": "부가 기능 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "설치 준비할 때 뭘 확인해야 하나요", "model": "FH23KN", "source_chunk_id": "FH23KN_20_0", "source_section_title": "설치 준비하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "제품 관리는 얼마나 자주 해줘야 하나요", "model": "FH23KN", "source_chunk_id": "FH23KN_18_2", "source_section_title": "제품 관리하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "섬유유연제 넣는 법 알려줘", "model": "FH23KN", "source_chunk_id": "FH23KN_13_1", "source_section_title": "세제 또는 섬유 유연제 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "미니워시는 어떤 빨래에 쓰는 게 좋아요", "model": "FC4KC", "source_chunk_id": null, "source_section_title": null, "note": "no_answer_in_doc", "relabel_source": "claude_diverse_20260918"},
+  {"question": "고장 신고 전에 확인할 사항이 있나요", "model": "FC4KC", "source_chunk_id": "FC4KC_21_0", "source_section_title": "LG ThinQ로 고장 진단하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "설치할 때 수평 맞추는 방법 알려줘", "model": "FC4KC", "source_chunk_id": "FC4KC_20_0", "source_section_title": "수평 조절하기 / 미끄럼 방지하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "겨울에 얼었을 때 조치법이 있나요", "model": "FC4KC", "source_chunk_id": "FC4KC_17_0", "source_section_title": "겨울철 동결 해결하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "호스는 어떻게 연결하나요", "model": "FC4KC", "source_chunk_id": "FC4KC_19_2", "source_section_title": "호스 연결하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "전자동 세탁기 처음 쓰는데 뭘 조심해야 하나요", "model": "T17J4EFNTX", "source_chunk_id": "T17J4EFNTX_12_0", "source_section_title": "알아두면 좋은 정보", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "설치할 때 주의할 점 있나요", "model": "T17J4EFNTX", "source_chunk_id": "T17J4EFNTX_18_0", "source_section_title": "설치 준비하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "세탁 코스 종류가 어떻게 되나요", "model": "T17J4EFNTX", "source_chunk_id": "T17J4EFNTX_14_4", "source_section_title": "세탁 코스 및 옵션 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "표백제도 같이 넣을 수 있나요", "model": "T17J4EFNTX", "source_chunk_id": null, "source_section_title": null, "note": "no_answer_in_doc", "relabel_source": "claude_diverse_20260918"},
+  {"question": "청소는 어떻게 하나요", "model": "T17J4EFNTX", "source_chunk_id": "T17J4EFNTX_16_0", "source_section_title": "제품 청소하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "액체 표백제 넣는 법 알려줘", "model": "WA19CG6745BV", "source_chunk_id": "WA19CG6745BV_17_0", "source_section_title": "표백제 넣고 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "아이가 세탁기를 혼자 만지면 위험한가요", "model": "WA19CG6745BV", "source_chunk_id": "WA19CG6745BV_2_0", "source_section_title": "사용 관련", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "제품 보증 기간이 어떻게 되나요", "model": "WA19CG6745BV", "source_chunk_id": "WA19CG6745BV_31_0", "source_section_title": "제품보증서", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "세탁물 넣는 양은 어느 정도가 적당해요", "model": "WA19CG6745BV", "source_chunk_id": "WA19CG6745BV_15_2", "source_section_title": "세제 넣고 사용하기", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "이 제품 해외에서도 쓸 수 있나요", "model": "WA19CG6745BV", "source_chunk_id": "WA19CG6745BV_31_0", "source_section_title": "제품보증서", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+
+  {"question": "세제가 겔 타입인데 넣어도 되나요", "model": "WA80F19E8W", "source_chunk_id": null, "source_section_title": null, "note": "no_answer_in_doc", "relabel_source": "claude_diverse_20260918"},
+  {"question": "대용량이라 세탁물 넣는 양 기준이 다른가요", "model": "WA80F19E8W", "source_chunk_id": "WA80F19E8W_27_1", "source_section_title": "세탁용량 : 14 kg, 15 kg, 16 kg, 18 kg, 19 kg / 물높이 10단 적용 모델", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "아이 혼자 쓰면 위험한가요", "model": "WA80F19E8W", "source_chunk_id": "WA80F19E8W_2_0", "source_section_title": "사용 관련", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "보증서 내용이 어떻게 되나요", "model": "WA80F19E8W", "source_chunk_id": "WA80F19E8W_44_3", "source_section_title": "제품 보증서", "note": "labeled", "relabel_source": "claude_diverse_20260918"},
+  {"question": "물높이 조절은 어떻게 하나요", "model": "WA80F19E8W", "source_chunk_id": "WA80F19E8W_28_6", "source_section_title": "세탁용량 : 21 kg, 23 kg, 25 kg / 물높이 10단 적용 모델", "note": "labeled", "relabel_source": "claude_diverse_20260918"}
+]

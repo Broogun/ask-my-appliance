@@ -1,11 +1,15 @@
 # 기본(무료/로컬) 구성에 필요한 패키지
 chromadb>=0.5
 python-dotenv>=1.0
+openai>=1.0  # template_exp.py의 gpt-4o-mini 호출에 필요 (누락돼 있었음)
 sentence-transformers>=3.0
 transformers>=4.45
 torch>=2.2
 accelerate>=0.34
 requests>=2.31
+
+# siyeon 청킹: 띄어쓰기 없는 구형 PDF의 공백 복원 (experiments/siyeon/rag/chunking_lg.py parse_pdf_legacy)
+kiwipiepy>=0.20
 
 # PDF 청킹 (pipeline/pdf_chunker.py) + 그림 추출/OCR (pipeline/figure_extractor.py)
 pymupdf>=1.24
@@ -20,3 +24,15 @@ pytesseract>=0.3.13
 
 # TODO: 가전제품 설명서 데이터 수집 방식(PDF 파싱 vs 웹 스크래핑 등)이 정해지면
 # 그에 맞는 패키지(pypdf, playwright 등)를 추가할 것.
+
+# siyeon 검색기 (experiments/siyeon/rag) + 웹 앱 (web/) + Streamlit 실험 GUI
+openai>=1.50
+langchain-core>=0.3
+langchain-chroma>=0.2
+langchain-huggingface>=0.1
+numpy>=1.26
+fastapi>=0.110
+uvicorn>=0.29
+sqlalchemy>=2.0
+streamlit>=1.35
+# GPU가 있으면 CPU 전용 torch 대신 CUDA 빌드를 설치하면 리랭커가 질문당 3초 → 0.3초 (SETUP.md "GPU" 항목 참고)

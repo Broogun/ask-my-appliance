@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "필터에 곰팡이가 핀 것 같은데 어떻게 없애야 해?",
+    "model": "FQ16FV6EDN",
+    "source_chunk_id": "FQ16FV6EDN_18_5",
+    "source_section_title": "청소하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "리모컨 배터리는 어떤 걸 써야 하나요?",
+    "model": "FQ16FV6EDN",
+    "source_chunk_id": "FQ16FV6EDN_12_0",
+    "source_section_title": "리모컨 살펴보기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치할 때 벽에서 얼마나 띄워야 하나요?",
+    "model": "FQ16FV6EDN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "타이머 켜놓고 자도 되나요?",
+    "model": "FQ16FV6EDN",
+    "source_chunk_id": "FQ16FV6EDN_15_9",
+    "source_section_title": "[리모컨으로 사용하기] 추가 기능 및 설정하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실외기에서 물 떨어지는 소리가 계속 나요",
+    "model": "FQ16FV6EDN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제습 기능이랑 냉방 기능 뭐가 달라?",
+    "model": "FQ17FN5BDN",
+    "source_chunk_id": "FQ17FN5BDN_13_8",
+    "source_section_title": "냉방 기본 기능 작동하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "리모컨이 반응을 안 해요",
+    "model": "FQ17FN5BDN",
+    "source_chunk_id": "FQ17FN5BDN_23_2",
+    "source_section_title": "운전",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "겨울에 안 쓸 때 실외기 커버 씌워야 하나요?",
+    "model": "FQ17FN5BDN",
+    "source_chunk_id": "FQ17FN5BDN_20_1",
+    "source_section_title": "보관하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "청소 알림이 계속 떠요, 어떻게 꺼요",
+    "model": "FQ17FN5BDN",
+    "source_chunk_id": "FQ17FN5BDN_18_16",
+    "source_section_title": "청소하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "바람 방향 조절이 안 돼요",
+    "model": "FQ17FN5BDN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "와이파이 연결이 자꾸 끊겨요",
+    "model": "FQ25GN9BKN",
+    "source_chunk_id": "FQ25GN9BKN_27_0",
+    "source_section_title": "와이파이",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실내기에서 삐- 소리가 나요",
+    "model": "FQ25GN9BKN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "인공지능 절전 기능이 뭔가요",
+    "model": "FQ25GN9BKN",
+    "source_chunk_id": "FQ25GN9BKN_13_4",
+    "source_section_title": "냉방 기본 기능 작동하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "커버 벗기고 청소해도 되나요",
+    "model": "FQ25GN9BKN",
+    "source_chunk_id": "FQ25GN9BKN_18_13",
+    "source_section_title": "청소하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "이사할 때 어떻게 옮겨야 하나요",
+    "model": "FQ25GN9BKN",
+    "source_chunk_id": "FQ25GN9BKN_8_1",
+    "source_section_title": "만일의 경우를 대비하여",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "전원 켰는데 아무 반응이 없어요",
+    "model": "SQ06EJ1WAJ",
+    "source_chunk_id": "SQ06EJ1WAJ_22_0",
+    "source_section_title": "운전",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "공기청정 기능 따로 켤 수 있나요",
+    "model": "SQ06EJ1WAJ",
+    "source_chunk_id": "SQ06EJ1WAJ_15_1",
+    "source_section_title": "공기청정 기능 사용하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "필터 교체 주기가 어떻게 되나요",
+    "model": "SQ06EJ1WAJ",
+    "source_chunk_id": "SQ06EJ1WAJ_17_3",
+    "source_section_title": "청소하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "잠잘 때 좋은 모드가 있나요",
+    "model": "SQ06EJ1WAJ",
+    "source_chunk_id": "SQ06EJ1WAJ_16_2",
+    "source_section_title": "추가 기능 및 설정하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실외기 소음이 너무 커요",
+    "model": "SQ06EJ1WAJ",
+    "source_chunk_id": "SQ06EJ1WAJ_23_0",
+    "source_section_title": "소음",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "습도가 너무 높은데 뭘 눌러야 하나요",
+    "model": "SQ07GA3WBN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "리모컨 액정에 아무것도 안 떠요",
+    "model": "SQ07GA3WBN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치 후 첫 사용 시 주의할 점 있나요",
+    "model": "SQ07GA3WBN",
+    "source_chunk_id": "SQ07GA3WBN_1_0",
+    "source_section_title": "제품을 설치할 때",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "정기점검은 얼마 만에 받아야 하나요",
+    "model": "SQ07GA3WBN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실내기에서 하얀 연기 같은 게 나와요",
+    "model": "SQ07GA3WBN",
+    "source_chunk_id": "SQ07GA3WBN_20_3",
+    "source_section_title": "운전",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉방 모드로 안 바뀌어요",
+    "model": "SQ09GK1WEN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "빨래 건조할 때도 쓸 수 있나요",
+    "model": "SQ09GK1WEN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "필터 청소 안 하면 어떻게 되나요",
+    "model": "SQ09GK1WEN",
+    "source_chunk_id": "SQ09GK1WEN_16_3",
+    "source_section_title": "청소하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "예약 기능 어떻게 취소해요",
+    "model": "SQ09GK1WEN",
+    "source_chunk_id": "SQ09GK1WEN_13_5",
+    "source_section_title": "리모컨 살펴보기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실외기 위에 뭘 올려놔도 되나요",
+    "model": "SQ09GK1WEN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "무풍 기능 켰는데 그대로 시원한데 원래 그런가요",
+    "model": "AR06A9170HNQ",
+    "source_chunk_id": "AR06A9170HNQ_3_2",
+    "source_section_title": "간편하게 조절하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "리모컨 신호가 잘 안 잡혀요",
+    "model": "AR06A9170HNQ",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "에어컨 냄새가 나요, 관리 어떻게 하나요",
+    "model": "AR06A9170HNQ",
+    "source_chunk_id": "AR06A9170HNQ_15_0",
+    "source_section_title": "냄새",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치 위치 바꿔도 되나요",
+    "model": "AR06A9170HNQ",
+    "source_chunk_id": "AR06A9170HNQ_19_4",
+    "source_section_title": "안전을 위한 주의 사항",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "정기적으로 뭘 점검해야 하나요",
+    "model": "AR06A9170HNQ",
+    "source_chunk_id": "AR06A9170HNQ_21_5",
+    "source_section_title": "제품보증서",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "취침모드 켜면 온도가 자동으로 바뀌나요",
+    "model": "AR06R1130HZN",
+    "source_chunk_id": "AR06R1130HZN_6_1",
+    "source_section_title": "알뜰하게 사용하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실외기에서 진동이 심해요",
+    "model": "AR06R1130HZN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "필터 표시등이 계속 켜져 있어요",
+    "model": "AR06R1130HZN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "빠른 냉방 어떻게 켜요",
+    "model": "AR06R1130HZN",
+    "source_chunk_id": "AR06R1130HZN_3_0",
+    "source_section_title": "무더운 여름철, 에어컨으로 사용하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치 기사 없이 직접 설치해도 되나요",
+    "model": "AR06R1130HZN",
+    "source_chunk_id": "AR06R1130HZN_21_3",
+    "source_section_title": "제품보증서",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제습 모드 켰는데 바람이 안 나와요",
+    "model": "AR09T9170HCN",
+    "source_chunk_id": "AR09T9170HCN_14_0",
+    "source_section_title": "작동법",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "리모컨 잃어버렸는데 어떻게 조작해요",
+    "model": "AR09T9170HCN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실내기 청소 주기가 어떻게 되나요",
+    "model": "AR09T9170HCN",
+    "source_chunk_id": "AR09T9170HCN_10_0",
+    "source_section_title": "필터 청소하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "에너지 절약 모드는 어떻게 켜요",
+    "model": "AR09T9170HCN",
+    "source_chunk_id": "AR09T9170HCN_7_0",
+    "source_section_title": "어디서나, SmartThings 앱으로 스마트하게 사용하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "타이머 예약이 자꾸 풀려요",
+    "model": "AR09T9170HCN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "전원 코드를 뽑아놨다가 다시 꽂으면 뭐 해줘야 하나요",
+    "model": "AR11B9150HZT",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실외기 배수가 잘 안 되는 것 같아요",
+    "model": "AR11B9150HZT",
+    "source_chunk_id": "AR11B9150HZT_12_7",
+    "source_section_title": "서비스를 요청하기 전에",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "와이파이로 제어하려면 뭐가 필요한가요",
+    "model": "AR11B9150HZT",
+    "source_chunk_id": "AR11B9150HZT_6_4",
+    "source_section_title": "부가 기능 사용하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "바람이 너무 세게 나와요, 줄이는 법",
+    "model": "AR11B9150HZT",
+    "source_chunk_id": "AR11B9150HZT_4_1",
+    "source_section_title": "간편하게 조절하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냄새 제거 기능이 따로 있나요",
+    "model": "AR11B9150HZT",
+    "source_chunk_id": "AR11B9150HZT_12_5",
+    "source_section_title": "서비스를 요청하기 전에",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실외기 팬이 안 돌아가는 것 같아요",
+    "model": "AF17B6474WSN",
+    "source_chunk_id": "AF17B6474WSN_12_12",
+    "source_section_title": "서비스를 요청하기 전에",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "습도 조절 기능이 있나요",
+    "model": "AF17B6474WSN",
+    "source_chunk_id": "AF17B6474WSN_5_1",
+    "source_section_title": "기본 기능 사용하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "필터 어디서 사나요",
+    "model": "AF17B6474WSN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제품 보증 기간이 얼마나 되나요",
+    "model": "AF17B6474WSN",
+    "source_chunk_id": "AF17B6474WSN_15_4",
+    "source_section_title": "제품보증서",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "이상한 진동이 느껴져요",
+    "model": "AF17B6474WSN",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "찬바람이 약하게 나와요",
+    "model": "AF19TX978MZ3N",
+    "source_chunk_id": "AF19TX978MZ3N_18_0",
+    "source_section_title": "[부록 > 서비스를 요청하기 전에] 냉방 안됨",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "리모컨 버튼이 눌리지가 않아요",
+    "model": "AF19TX978MZ3N",
+    "source_chunk_id": "AF19TX978MZ3N_3_1",
+    "source_section_title": "리모컨 살펴보기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "실내기에서 물이 새요",
+    "model": "AF19TX978MZ3N",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "정기적으로 청소해야 할 부분이 어디인가요",
+    "model": "AF19TX978MZ3N",
+    "source_chunk_id": "AF19TX978MZ3N_31_0",
+    "source_section_title": "[FAC006-03_IB_AF9900T TIME1_KR_KO_200422_38page.pdf] 제품 청소하기",
+    "note": "labeled",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "여러 대를 하나의 리모컨으로 조작할 수 있나요",
+    "model": "AF19TX978MZ3N",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "round": "diverse_aircon",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장고에서 문 열어놓으면 경고음 나는 기능 있나요",
+    "model": "B242S32",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉동실 서리가 계속 생기는데 정상인가요",
+    "model": "B242S32",
+    "source_chunk_id": "B242S32_17_0",
+    "source_section_title": "얼음",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장고 소음이 갑자기 심해졌어요",
+    "model": "B242S32",
+    "source_chunk_id": "B242S32_19_2",
+    "source_section_title": "소음",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "선반 위치를 옮길 수 있나요",
+    "model": "B242S32",
+    "source_chunk_id": "B242S32_3_0",
+    "source_section_title": "냉장고의 모습과 기능 살펴보기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "고장 감지 기능이 뭔가요",
+    "model": "B242S32",
+    "source_chunk_id": "B242S32_8_3",
+    "source_section_title": "고장 감지 기능",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장고에서 이상한 냄새가 나는데 확인할 방법 있나요",
+    "model": "CA-H17DC",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제품 규격이 어떻게 되나요",
+    "model": "CA-H17DC",
+    "source_chunk_id": "CA-H17DC_12_1",
+    "source_section_title": "제품규격",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치할 때 벽에서 얼마나 떨어뜨려야 하나요",
+    "model": "CA-H17DC",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "식품 보관할 때 주의할 점이 있나요",
+    "model": "CA-H17DC",
+    "source_chunk_id": "CA-H17DC_5_0",
+    "source_section_title": "식품저장방법",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장고 이상 증상은 어디서 확인해요",
+    "model": "CA-H17DC",
+    "source_chunk_id": "CA-H17DC_9_3",
+    "source_section_title": "냉장고의 이상 증상 점검",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "앱으로 냉장고 온도 확인할 수 있나요",
+    "model": "GC-B40BSCQ",
+    "source_chunk_id": "GC-B40BSCQ_5_2",
+    "source_section_title": "LG ThinQ 앱으로 냉장고 작동하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "매직스페이스가 정확히 뭔가요",
+    "model": "GC-B40BSCQ",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "메모리 기능은 어떻게 쓰나요",
+    "model": "GC-B40BSCQ",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "문 열림 경보 설정 방법 알려줘",
+    "model": "GC-B40BSCQ",
+    "source_chunk_id": "GC-B40BSCQ_9_3",
+    "source_section_title": "문 열림 경보",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "고장났는지 앱으로 진단할 수 있나요",
+    "model": "GC-B40BSCQ",
+    "source_chunk_id": "GC-B40BSCQ_25_0",
+    "source_section_title": "스마트 진단 기능 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉동고를 앱으로 제어할 수 있나요",
+    "model": "GC-B414HG7M",
+    "source_chunk_id": "GC-B414HG7M_5_0",
+    "source_section_title": "LG ThinQ 앱으로 냉동고 작동하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉동실 서랍은 어떻게 청소해요",
+    "model": "GC-B414HG7M",
+    "source_chunk_id": "GC-B414HG7M_18_1",
+    "source_section_title": "청소하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "문 열림 알림이 안 울려요",
+    "model": "GC-B414HG7M",
+    "source_chunk_id": "GC-B414HG7M_9_2",
+    "source_section_title": "문 열림 알림",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉기 보존 덮개는 왜 필요해요",
+    "model": "GC-B414HG7M",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "고장 원인을 스스로 진단할 수 있나요",
+    "model": "GC-B414HG7M",
+    "source_chunk_id": "GC-B414HG7M_23_0",
+    "source_section_title": "신호음으로 고장의 원인 진단하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제빙기에서 얼음이 잘 안 나와요",
+    "model": "J825MEE042",
+    "source_chunk_id": "J825MEE042_29_1",
+    "source_section_title": "얼음",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장실 선반 위치 조정 되나요",
+    "model": "J825MEE042",
+    "source_chunk_id": "J825MEE042_19_0",
+    "source_section_title": "냉장실 선반",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "앱이랑 연결이 안 될 때는 어떻게 해요",
+    "model": "J825MEE042",
+    "source_chunk_id": "J825MEE042_35_2",
+    "source_section_title": "와이파이",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장고에서 곰팡이 냄새 나는 것 같아요",
+    "model": "J825MEE042",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉동실 서랍 분리하는 방법 알려줘",
+    "model": "J825MEE042",
+    "source_chunk_id": "J825MEE042_18_1",
+    "source_section_title": "냉동실 서랍",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치 용기는 어떻게 꺼내나요",
+    "model": "K135LW123",
+    "source_chunk_id": "K135LW123_3_2",
+    "source_section_title": "주의",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치냉장고에서 소음이 심하게 나요",
+    "model": "K135LW123",
+    "source_chunk_id": "K135LW123_17_0",
+    "source_section_title": "소음",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "신호음으로 고장 확인하는 방법 있나요",
+    "model": "K135LW123",
+    "source_chunk_id": "K135LW123_14_0",
+    "source_section_title": "신호음으로 고장의 원인 진단하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치 보관할 때 알아두면 좋은 팁 있나요",
+    "model": "K135LW123",
+    "source_chunk_id": "K135LW123_8_3",
+    "source_section_title": "김치에 관한 상식 알아두기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장/냉동 겸용으로도 쓸 수 있나요",
+    "model": "K135LW123",
+    "source_chunk_id": "K135LW123_8_1",
+    "source_section_title": "김치에 관한 상식 알아두기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "빅스비로 냉장고 제어할 수 있나요",
+    "model": "RF85B90P1AP",
+    "source_chunk_id": "RF85B90P1AP_16_1",
+    "source_section_title": "조작부 (패밀리허브 모델)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치 기능에 문제 생기면 어떻게 확인해요",
+    "model": "RF85B90P1AP",
+    "source_chunk_id": "RF85B90P1AP_35_1",
+    "source_section_title": "김치 기능 고장 신고 전 확인하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장고 문 높이가 안 맞는 것 같은데 조절 되나요",
+    "model": "RF85B90P1AP",
+    "source_chunk_id": "RF85B90P1AP_43_0",
+    "source_section_title": "냉장고 문 높이 차 조정 방법",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "도어 패널 교체할 수 있나요",
+    "model": "RF85B90P1AP",
+    "source_chunk_id": "RF85B90P1AP_9_1",
+    "source_section_title": "냉장고 도어 패널 교체하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "문 앞뒤 간격 조절하는 방법 알려줘",
+    "model": "RF85B90P1AP",
+    "source_chunk_id": "RF85B90P1AP_44_0",
+    "source_section_title": "냉장고 문 앞/뒤 간격 차 조절 방법",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "AI Vision Inside가 뭐하는 기능이에요",
+    "model": "RF85DB90B1AP",
+    "source_chunk_id": "RF85DB90B1AP_29_0",
+    "source_section_title": "AI Vision Inside",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "와이파이 연결이 안 돼요",
+    "model": "RF85DB90B1AP",
+    "source_chunk_id": "RF85DB90B1AP_16_2",
+    "source_section_title": "Wi-Fi 연결하기 (Wi-Fi 기능 켜기)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "스마트싱스 앱 어디서 다운받아요",
+    "model": "RF85DB90B1AP",
+    "source_chunk_id": "RF85DB90B1AP_17_0",
+    "source_section_title": "SmartThings 앱 다운로드",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉동실 박스는 어떻게 분리해요",
+    "model": "RF85DB90B1AP",
+    "source_chunk_id": "RF85DB90B1AP_40_0",
+    "source_section_title": "냉동/맞춤보관실 박스",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제품 등록은 어떻게 하나요",
+    "model": "RF85DB90B1AP",
+    "source_chunk_id": "RF85DB90B1AP_19_1",
+    "source_section_title": "SmartThings 서비스에 제품 등록하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치서랍 기능이 있는 모델인가요",
+    "model": "RH82M9152SL",
+    "source_chunk_id": "RH82M9152SL_26_0",
+    "source_section_title": "김치 서랍 (해당 모델만 참조하세요.)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장실 문 분리하는 방법 알려줘",
+    "model": "RH82M9152SL",
+    "source_chunk_id": "RH82M9152SL_29_6",
+    "source_section_title": "슬림 아이스 메이커(Slim Ice Maker) (해당 모델만 참조하세요.)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "다용도 칸은 어떻게 활용해요",
+    "model": "RH82M9152SL",
+    "source_chunk_id": "RH82M9152SL_21_0",
+    "source_section_title": "냉장실/냉동실 다용도 칸",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치할 때 필요한 공간이 얼마나 돼요",
+    "model": "RH82M9152SL",
+    "source_chunk_id": "RH82M9152SL_34_0",
+    "source_section_title": "안심하세요! 고장이 아닙니다",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치 기능 고장 신고 전에 확인할 게 있나요",
+    "model": "RH82M9152SL",
+    "source_chunk_id": "RH82M9152SL_36_0",
+    "source_section_title": "김치 기능 고장신고 전 확인하기 (해당 모델만 참조하세요.)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "곡물 디스펜서는 별도로 사야 하나요",
+    "model": "RQ49C9002S9",
+    "source_chunk_id": "RQ49C9002S9_19_0",
+    "source_section_title": "곡물 디스펜서 (별매품)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치 숙성 단계별로 설정하는 방법 알려줘",
+    "model": "RQ49C9002S9",
+    "source_chunk_id": "RQ49C9002S9_12_0",
+    "source_section_title": "김치 숙성 기능 사용 방법 (상/중/하칸)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치 저장 용기는 따로 파나요",
+    "model": "RQ49C9002S9",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "각 버튼 기능이 헷갈리는데 설명해줘",
+    "model": "RQ49C9002S9",
+    "source_chunk_id": "RQ49C9002S9_11_0",
+    "source_section_title": "각 버튼의 기능",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "김치 맛있게 숙성하는 팁 있나요",
+    "model": "RQ49C9002S9",
+    "source_chunk_id": "RQ49C9002S9_13_0",
+    "source_section_title": "김치 맛있게 숙성하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "정수기 연결하는 급수관 설치는 어떻게 해요",
+    "model": "RS84B5041WW",
+    "source_chunk_id": "RS84B5041WW_30_0",
+    "source_section_title": "급수관 설치하기 (해당 모델만 참조하세요.)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉동실 선반 위치 바꿀 수 있나요",
+    "model": "RS84B5041WW",
+    "source_chunk_id": "RS84B5041WW_21_0",
+    "source_section_title": "냉동실/냉장실 선반",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "스마트싱스로 고장 신고 되나요",
+    "model": "RS84B5041WW",
+    "source_chunk_id": "RS84B5041WW_28_0",
+    "source_section_title": "SmartThings 고장신고 전 확인하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장실 문 분리하려면 어떻게 해요",
+    "model": "RS84B5041WW",
+    "source_chunk_id": "RS84B5041WW_31_1",
+    "source_section_title": "냉동실/냉장실 문 분리하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "다용도 칸 활용법 알려줘",
+    "model": "RS84B5041WW",
+    "source_chunk_id": "RS84B5041WW_20_0",
+    "source_section_title": "냉동실/냉장실 다용도 칸",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "이상한 소리가 웅웅거리면서 나요",
+    "model": "RT42CG6024S9",
+    "source_chunk_id": "RT42CG6024S9_32_0",
+    "source_section_title": "'웅~', '웽~', '드르륵', '덜컥'하는 소리가 나요!",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "스마트싱스 앱 연결이 계속 실패해요",
+    "model": "RT42CG6024S9",
+    "source_chunk_id": "RT42CG6024S9_48_1",
+    "source_section_title": "앱 마켓에서 \"SmartThings\" 앱을 다운로드 받았는데 작동이 안 돼요.",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "AI절약운전이 뭔가요",
+    "model": "RT42CG6024S9",
+    "source_chunk_id": "RT42CG6024S9_11_1",
+    "source_section_title": "스마트폰을 통한 냉장고 모니터링 및 제어하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "냉장실 온도는 어떻게 설정해요",
+    "model": "RT42CG6024S9",
+    "source_chunk_id": "RT42CG6024S9_18_1",
+    "source_section_title": "냉장실 온도 조절 하기 (해당 모델에 한함)",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "급속냉장 기능 어떻게 켜요",
+    "model": "RT42CG6024S9",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "에어드레서에 아로마 시트는 어떻게 넣어요",
+    "model": "DF60R8300WG",
+    "source_chunk_id": "DF60R8300WG_43_1",
+    "source_section_title": "아로마시트 케이스",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "옷 살균하는데 시간이 얼마나 걸리나요",
+    "model": "DF60R8300WG",
+    "source_chunk_id": "DF60R8300WG_13_0",
+    "source_section_title": "살균 코스",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "물통에 물이 부족하면 어떻게 되나요",
+    "model": "DF60R8300WG",
+    "source_chunk_id": "DF60R8300WG_42_0",
+    "source_section_title": "물보충통 및 물비움통",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "에어드레서 설치할 때 주의할 점이 있나요",
+    "model": "DF60R8300WG",
+    "source_chunk_id": "DF60R8300WG_47_0",
+    "source_section_title": "설치 및 장소 정하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "정기적으로 청소해야 하는 부분이 있나요",
+    "model": "DF60R8300WG",
+    "source_chunk_id": "DF60R8300WG_41_0",
+    "source_section_title": "외관",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "부츠도 넣을 수 있나요",
+    "model": "DJ40CB9600NE",
+    "source_chunk_id": "DJ40CB9600NE_19_0",
+    "source_section_title": "부츠 전용 슈트리(Boots ShoeTree) 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "신발 살균하는데 얼마나 걸려요",
+    "model": "DJ40CB9600NE",
+    "source_chunk_id": "DJ40CB9600NE_10_0",
+    "source_section_title": "표준케어",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "SmartThings 앱으로 뭘 할 수 있나요",
+    "model": "DJ40CB9600NE",
+    "source_chunk_id": "DJ40CB9600NE_16_0",
+    "source_section_title": "SmartThings 앱 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "신발 넣는 방향이 정해져 있나요",
+    "model": "DJ40CB9600NE",
+    "source_chunk_id": "DJ40CB9600NE_16_9",
+    "source_section_title": "SmartThings 앱 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "먼지 필터는 어디 있어요",
+    "model": "DJ40CB9600NE",
+    "source_chunk_id": "DJ40CB9600NE_24_0",
+    "source_section_title": "먼지 필터",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "건조 다 됐는데 옷에서 냄새가 나요",
+    "model": "DV17T8520BV",
+    "source_chunk_id": "DV17T8520BV_12_1",
+    "source_section_title": "건조 시 Tip",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "섬유유연제 시트는 어디에 넣나요",
+    "model": "DV17T8520BV",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "천둥 번개 칠 때 사용해도 되나요",
+    "model": "DV17T8520BV",
+    "source_chunk_id": "DV17T8520BV_2_1",
+    "source_section_title": "전원 관련",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제품 밑면이 물에 잠겼는데 그냥 써도 되나요",
+    "model": "DV17T8520BV",
+    "source_chunk_id": "DV17T8520BV_3_1",
+    "source_section_title": "사용 관련",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "건조 시간을 줄이는 방법이 있나요",
+    "model": "DV17T8520BV",
+    "source_chunk_id": "DV17T8520BV_22_0",
+    "source_section_title": "시간건조 코스",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "LG ThinQ 앱에 제품이 안 잡혀요",
+    "model": "RH10VTA",
+    "source_chunk_id": "RH10VTA_9_0",
+    "source_section_title": "LG ThinQ 와 LG 가전 연결하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치할 때 수평을 어떻게 맞추나요",
+    "model": "RH10VTA",
+    "source_chunk_id": "RH10VTA_20_1",
+    "source_section_title": "수평 조절하기 / 높이 조정판 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "고장 신고 전에 뭘 확인해야 하나요",
+    "model": "RH10VTA",
+    "source_chunk_id": "RH10VTA_21_0",
+    "source_section_title": "LG ThinQ로 고장 진단하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "필터 청소는 얼마나 자주 해야 하나요",
+    "model": "RH10VTA",
+    "source_chunk_id": "RH10VTA_15_1",
+    "source_section_title": "제품 청소하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "무선 공유기 비밀번호를 바꿨는데 앱 연결이 끊겼어요",
+    "model": "RH10VTA",
+    "source_chunk_id": "RH10VTA_25_2",
+    "source_section_title": "와이파이",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "버튼을 눌러도 반응이 없어요",
+    "model": "RH21E5ATKWP",
+    "source_chunk_id": "RH21E5ATKWP_36_1",
+    "source_section_title": "[건조기] 사용 관련",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "버튼잠금 기능은 어떻게 풀어요",
+    "model": "RH21E5ATKWP",
+    "source_chunk_id": "RH21E5ATKWP_16_5",
+    "source_section_title": "[사용하기 - 세탁기] 옵션 기능 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "여닫이문 앞에 설치해도 되나요",
+    "model": "RH21E5ATKWP",
+    "source_chunk_id": "RH21E5ATKWP_2_0",
+    "source_section_title": "전원 플러그나 전원선을 다룰 때",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "필터 안 넣고 돌리면 어떻게 되나요",
+    "model": "RH21E5ATKWP",
+    "source_chunk_id": "RH21E5ATKWP_26_0",
+    "source_section_title": "[관리하기 - 건조기] 제품 관리하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치 공간이 얼마나 필요한가요",
+    "model": "RH21E5ATKWP",
+    "source_chunk_id": "RH21E5ATKWP_28_0",
+    "source_section_title": "일체형 세탁건조기 설치하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "겨울에 세탁기가 얼었어요 어떻게 해요",
+    "model": "F21VDSK",
+    "source_chunk_id": "F21VDSK_18_1",
+    "source_section_title": "겨울철 동결 해결하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "호스 연결은 어떻게 하나요",
+    "model": "F21VDSK",
+    "source_chunk_id": "F21VDSK_20_3",
+    "source_section_title": "호스 연결하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "섬유유연제 자동으로 나오나요",
+    "model": "F21VDSK",
+    "source_chunk_id": "F21VDSK_13_6",
+    "source_section_title": "세제 또는 섬유 유연제 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "세탁 코스는 몇 가지가 있나요",
+    "model": "F21VDSK",
+    "source_chunk_id": "F21VDSK_14_2",
+    "source_section_title": "세탁 코스 및 옵션 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제품 청소는 어떻게 하나요",
+    "model": "F21VDSK",
+    "source_chunk_id": "F21VDSK_16_0",
+    "source_section_title": "제품 청소하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "LG ThinQ 앱으로 원격으로 시작할 수 있나요",
+    "model": "FA25AJPB",
+    "source_chunk_id": "FA25AJPB_10_3",
+    "source_section_title": "LG ThinQ 앱으로 제품 작동하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "세탁이랑 건조를 한번에 할 수 있나요",
+    "model": "FA25AJPB",
+    "source_chunk_id": "FA25AJPB_14_0",
+    "source_section_title": "[사용하기 - 세탁기] 알아두면 좋은 정보",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설정 메뉴에서 뭘 바꿀 수 있나요",
+    "model": "FA25AJPB",
+    "source_chunk_id": "FA25AJPB_13_4",
+    "source_section_title": "설정 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "기능조작부 사용법 알려줘",
+    "model": "FA25AJPB",
+    "source_chunk_id": "FA25AJPB_12_0",
+    "source_section_title": "기능조작부 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "세제는 어디다 넣어요",
+    "model": "FA25AJPB",
+    "source_chunk_id": "FA25AJPB_16_6",
+    "source_section_title": "세제 또는 섬유 유연제 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "겨울철에 얼었을 때 어떻게 하나요",
+    "model": "FH23KN",
+    "source_chunk_id": "FH23KN_19_5",
+    "source_section_title": "겨울철 동결 해결하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "부가 기능에는 뭐가 있나요",
+    "model": "FH23KN",
+    "source_chunk_id": "FH23KN_16_0",
+    "source_section_title": "부가 기능 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치 준비할 때 뭘 확인해야 하나요",
+    "model": "FH23KN",
+    "source_chunk_id": "FH23KN_20_0",
+    "source_section_title": "설치 준비하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제품 관리는 얼마나 자주 해줘야 하나요",
+    "model": "FH23KN",
+    "source_chunk_id": "FH23KN_18_2",
+    "source_section_title": "제품 관리하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "섬유유연제 넣는 법 알려줘",
+    "model": "FH23KN",
+    "source_chunk_id": "FH23KN_13_1",
+    "source_section_title": "세제 또는 섬유 유연제 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "미니워시는 어떤 빨래에 쓰는 게 좋아요",
+    "model": "FC4KC",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "고장 신고 전에 확인할 사항이 있나요",
+    "model": "FC4KC",
+    "source_chunk_id": "FC4KC_21_0",
+    "source_section_title": "LG ThinQ로 고장 진단하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치할 때 수평 맞추는 방법 알려줘",
+    "model": "FC4KC",
+    "source_chunk_id": "FC4KC_20_0",
+    "source_section_title": "수평 조절하기 / 미끄럼 방지하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "겨울에 얼었을 때 조치법이 있나요",
+    "model": "FC4KC",
+    "source_chunk_id": "FC4KC_17_0",
+    "source_section_title": "겨울철 동결 해결하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "호스는 어떻게 연결하나요",
+    "model": "FC4KC",
+    "source_chunk_id": "FC4KC_19_2",
+    "source_section_title": "호스 연결하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "전자동 세탁기 처음 쓰는데 뭘 조심해야 하나요",
+    "model": "T17J4EFNTX",
+    "source_chunk_id": "T17J4EFNTX_12_0",
+    "source_section_title": "알아두면 좋은 정보",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "설치할 때 주의할 점 있나요",
+    "model": "T17J4EFNTX",
+    "source_chunk_id": "T17J4EFNTX_18_0",
+    "source_section_title": "설치 준비하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "세탁 코스 종류가 어떻게 되나요",
+    "model": "T17J4EFNTX",
+    "source_chunk_id": "T17J4EFNTX_14_4",
+    "source_section_title": "세탁 코스 및 옵션 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "표백제도 같이 넣을 수 있나요",
+    "model": "T17J4EFNTX",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "청소는 어떻게 하나요",
+    "model": "T17J4EFNTX",
+    "source_chunk_id": "T17J4EFNTX_16_0",
+    "source_section_title": "제품 청소하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "액체 표백제 넣는 법 알려줘",
+    "model": "WA19CG6745BV",
+    "source_chunk_id": "WA19CG6745BV_17_0",
+    "source_section_title": "표백제 넣고 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "아이가 세탁기를 혼자 만지면 위험한가요",
+    "model": "WA19CG6745BV",
+    "source_chunk_id": "WA19CG6745BV_2_0",
+    "source_section_title": "사용 관련",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "제품 보증 기간이 어떻게 되나요",
+    "model": "WA19CG6745BV",
+    "source_chunk_id": "WA19CG6745BV_31_0",
+    "source_section_title": "제품보증서",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "세탁물 넣는 양은 어느 정도가 적당해요",
+    "model": "WA19CG6745BV",
+    "source_chunk_id": "WA19CG6745BV_15_2",
+    "source_section_title": "세제 넣고 사용하기",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "이 제품 해외에서도 쓸 수 있나요",
+    "model": "WA19CG6745BV",
+    "source_chunk_id": "WA19CG6745BV_31_0",
+    "source_section_title": "제품보증서",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "세제가 겔 타입인데 넣어도 되나요",
+    "model": "WA80F19E8W",
+    "source_chunk_id": null,
+    "source_section_title": null,
+    "note": "no_answer_in_doc",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "대용량이라 세탁물 넣는 양 기준이 다른가요",
+    "model": "WA80F19E8W",
+    "source_chunk_id": "WA80F19E8W_27_1",
+    "source_section_title": "세탁용량 : 14 kg, 15 kg, 16 kg, 18 kg, 19 kg / 물높이 10단 적용 모델",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "아이 혼자 쓰면 위험한가요",
+    "model": "WA80F19E8W",
+    "source_chunk_id": "WA80F19E8W_2_0",
+    "source_section_title": "사용 관련",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "보증서 내용이 어떻게 되나요",
+    "model": "WA80F19E8W",
+    "source_chunk_id": "WA80F19E8W_44_3",
+    "source_section_title": "제품 보증서",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  },
+  {
+    "question": "물높이 조절은 어떻게 하나요",
+    "model": "WA80F19E8W",
+    "source_chunk_id": "WA80F19E8W_28_6",
+    "source_section_title": "세탁용량 : 21 kg, 23 kg, 25 kg / 물높이 10단 적용 모델",
+    "note": "labeled",
+    "relabel_source": "claude_diverse_20260918"
+  }
+]

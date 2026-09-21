@@ -1,0 +1,23 @@
+{
+  "cps=20, FAQ끔": {
+    "hits": 206,
+    "total": 300,
+    "elapsed": 454.65826535224915,
+    "n_miss": 94,
+    "zero_hit_models": 1
+  },
+  "cps=40, FAQ끔": {
+    "hits": 215,
+    "total": 300,
+    "elapsed": 707.0594854354858,
+    "n_miss": 85,
+    "zero_hit_models": 1
+  },
+  "cps=40, FAQ켬": {
+    "hits": 215,
+    "total": 300,
+    "elapsed": 707.0808959007263,
+    "n_miss": 85,
+    "zero_hit_models": 1
+  }
+}

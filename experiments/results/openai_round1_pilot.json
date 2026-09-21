@@ -1,0 +1,2418 @@
+{
+  "results": [
+    {
+      "question": "FQ16FV6EDN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "FQ16FV6EDN",
+      "description": "LG 에어컨 FQ16FV6EDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.01
+    },
+    {
+      "question": "FQ16FV6EDN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "FQ16FV6EDN",
+      "description": "LG 에어컨 FQ16FV6EDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.41
+    },
+    {
+      "question": "FQ17FN5BDN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "FQ17FN5BDN",
+      "description": "LG 에어컨 FQ17FN5BDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.52
+    },
+    {
+      "question": "FQ18GC1EHN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "FQ18GC1EHN",
+      "description": "LG 에어컨 FQ18GC1EHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.59
+    },
+    {
+      "question": "FQ18GC1EHN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FQ18GC1EHN",
+      "description": "LG 에어컨 FQ18GC1EHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.68
+    },
+    {
+      "question": "FQ17FN5BDN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "FQ17FN5BDN",
+      "description": "LG 에어컨 FQ17FN5BDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.72
+    },
+    {
+      "question": "FQ18GC1EHN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "FQ18GC1EHN",
+      "description": "LG 에어컨 FQ18GC1EHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.77
+    },
+    {
+      "question": "FQ16FV6EDN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "FQ16FV6EDN",
+      "description": "LG 에어컨 FQ16FV6EDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.82
+    },
+    {
+      "question": "FQ17FN5BDN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "FQ17FN5BDN",
+      "description": "LG 에어컨 FQ17FN5BDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.86
+    },
+    {
+      "question": "FQ17FN5BDN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "FQ17FN5BDN",
+      "description": "LG 에어컨 FQ17FN5BDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.89
+    },
+    {
+      "question": "FQ18GC1EHN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "FQ18GC1EHN",
+      "description": "LG 에어컨 FQ18GC1EHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.88
+    },
+    {
+      "question": "FQ16FV6EDN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "FQ16FV6EDN",
+      "description": "LG 에어컨 FQ16FV6EDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.91
+    },
+    {
+      "question": "FQ17FN5BDN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FQ17FN5BDN",
+      "description": "LG 에어컨 FQ17FN5BDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 7.81
+    },
+    {
+      "question": "FQ18GC1EHN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "FQ18GC1EHN",
+      "description": "LG 에어컨 FQ18GC1EHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 8.72
+    },
+    {
+      "question": "FQ16FV6EDN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FQ16FV6EDN",
+      "description": "LG 에어컨 FQ16FV6EDN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 9.75
+    },
+    {
+      "question": "FQ18GN7BKN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FQ18GN7BKN",
+      "description": "LG 에어컨 FQ18GN7BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.24
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "FQ18GU1BHN",
+      "description": "LG 에어컨 FQ18GU1BHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.2
+    },
+    {
+      "question": "FQ25GN9BKN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FQ25GN9BKN",
+      "description": "LG 에어컨 FQ25GN9BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.42
+    },
+    {
+      "question": "FQ18GN7BKN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "FQ18GN7BKN",
+      "description": "LG 에어컨 FQ18GN7BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.03
+    },
+    {
+      "question": "FQ25GN9BKN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "FQ25GN9BKN",
+      "description": "LG 에어컨 FQ25GN9BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.94
+    },
+    {
+      "question": "FQ18GN7BKN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "FQ18GN7BKN",
+      "description": "LG 에어컨 FQ18GN7BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.16
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FQ18GU1BHN",
+      "description": "LG 에어컨 FQ18GU1BHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.07
+    },
+    {
+      "question": "FQ18GN7BKN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "FQ18GN7BKN",
+      "description": "LG 에어컨 FQ18GN7BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.13
+    },
+    {
+      "question": "FQ18GN7BKN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "FQ18GN7BKN",
+      "description": "LG 에어컨 FQ18GN7BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.43
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "FQ18GU1BHN",
+      "description": "LG 에어컨 FQ18GU1BHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.16
+    },
+    {
+      "question": "FQ25GN9BKN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "FQ25GN9BKN",
+      "description": "LG 에어컨 FQ25GN9BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.17
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "FQ18GU1BHN",
+      "description": "LG 에어컨 FQ18GU1BHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.31
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "FQ18GU1BHN",
+      "description": "LG 에어컨 FQ18GU1BHN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.5
+    },
+    {
+      "question": "FQ25GN9BKN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "FQ25GN9BKN",
+      "description": "LG 에어컨 FQ25GN9BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.82
+    },
+    {
+      "question": "FQ25GN9BKN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "FQ25GN9BKN",
+      "description": "LG 에어컨 FQ25GN9BKN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.31
+    },
+    {
+      "question": "SQ06EJ1WAJ 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "SQ06EJ1WAJ",
+      "description": "LG 에어컨 SQ06EJ1WAJ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.73
+    },
+    {
+      "question": "SQ06EJ1WAJ 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "SQ06EJ1WAJ",
+      "description": "LG 에어컨 SQ06EJ1WAJ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.2
+    },
+    {
+      "question": "SQ06EJ1WAJ 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "SQ06EJ1WAJ",
+      "description": "LG 에어컨 SQ06EJ1WAJ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.28
+    },
+    {
+      "question": "SQ07GA3WBN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "SQ07GA3WBN",
+      "description": "LG 에어컨 SQ07GA3WBN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.37
+    },
+    {
+      "question": "SQ06EJ1WAJ 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "SQ06EJ1WAJ",
+      "description": "LG 에어컨 SQ06EJ1WAJ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.15
+    },
+    {
+      "question": "SQ07GA3WBN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "SQ07GA3WBN",
+      "description": "LG 에어컨 SQ07GA3WBN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.74
+    },
+    {
+      "question": "SQ07GA3WBN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "SQ07GA3WBN",
+      "description": "LG 에어컨 SQ07GA3WBN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.96
+    },
+    {
+      "question": "SQ07GJ1WEN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "SQ07GJ1WEN",
+      "description": "LG 에어컨 SQ07GJ1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.93
+    },
+    {
+      "question": "SQ07GA3WBN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "SQ07GA3WBN",
+      "description": "LG 에어컨 SQ07GA3WBN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.54
+    },
+    {
+      "question": "SQ06EJ1WAJ 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "SQ06EJ1WAJ",
+      "description": "LG 에어컨 SQ06EJ1WAJ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.24
+    },
+    {
+      "question": "SQ07GJ1WEN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "SQ07GJ1WEN",
+      "description": "LG 에어컨 SQ07GJ1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.14
+    },
+    {
+      "question": "SQ07GJ1WEN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "SQ07GJ1WEN",
+      "description": "LG 에어컨 SQ07GJ1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.75
+    },
+    {
+      "question": "SQ07GJ1WEN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "SQ07GJ1WEN",
+      "description": "LG 에어컨 SQ07GJ1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.21
+    },
+    {
+      "question": "SQ07GA3WBN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "SQ07GA3WBN",
+      "description": "LG 에어컨 SQ07GA3WBN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.3
+    },
+    {
+      "question": "SQ07GJ1WEN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "SQ07GJ1WEN",
+      "description": "LG 에어컨 SQ07GJ1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.08
+    },
+    {
+      "question": "SQ09GK1WEN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "SQ09GK1WEN",
+      "description": "LG 에어컨 SQ09GK1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.57
+    },
+    {
+      "question": "SQ09GK1WEN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "SQ09GK1WEN",
+      "description": "LG 에어컨 SQ09GK1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.87
+    },
+    {
+      "question": "SQ09GK1WEN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "SQ09GK1WEN",
+      "description": "LG 에어컨 SQ09GK1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.99
+    },
+    {
+      "question": "B242S32 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "B242S32",
+      "description": "LG 냉장고 B242S32 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.29
+    },
+    {
+      "question": "B242S32 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "B242S32",
+      "description": "LG 냉장고 B242S32 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.36
+    },
+    {
+      "question": "CA-H17DC 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "CA-H17DC",
+      "description": "LG 냉장고 CA-H17DC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.82
+    },
+    {
+      "question": "SQ09GK1WEN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "SQ09GK1WEN",
+      "description": "LG 에어컨 SQ09GK1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.41
+    },
+    {
+      "question": "CA-H17DC 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "CA-H17DC",
+      "description": "LG 냉장고 CA-H17DC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.52
+    },
+    {
+      "question": "SQ09GK1WEN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "SQ09GK1WEN",
+      "description": "LG 에어컨 SQ09GK1WEN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.94
+    },
+    {
+      "question": "B242S32 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "B242S32",
+      "description": "LG 냉장고 B242S32 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.85
+    },
+    {
+      "question": "CA-H17DC 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "CA-H17DC",
+      "description": "LG 냉장고 CA-H17DC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.1
+    },
+    {
+      "question": "GC-B40BSCQ 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "GC-B40BSCQ",
+      "description": "LG 냉장고 GC-B40BSCQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.82
+    },
+    {
+      "question": "GC-B40BSCQ 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "GC-B40BSCQ",
+      "description": "LG 냉장고 GC-B40BSCQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.53
+    },
+    {
+      "question": "B242S32 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "B242S32",
+      "description": "LG 냉장고 B242S32 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.88
+    },
+    {
+      "question": "GC-B414HG7M 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "GC-B414HG7M",
+      "description": "LG 냉장고 GC-B414HG7M [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.36
+    },
+    {
+      "question": "GC-B40BSCQ 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "GC-B40BSCQ",
+      "description": "LG 냉장고 GC-B40BSCQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.29
+    },
+    {
+      "question": "B242S32 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "B242S32",
+      "description": "LG 냉장고 B242S32 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.06
+    },
+    {
+      "question": "GC-B414HG7M 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "GC-B414HG7M",
+      "description": "LG 냉장고 GC-B414HG7M [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.44
+    },
+    {
+      "question": "CA-H17DC 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "CA-H17DC",
+      "description": "LG 냉장고 CA-H17DC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.22
+    },
+    {
+      "question": "CA-H17DC 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "CA-H17DC",
+      "description": "LG 냉장고 CA-H17DC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.88
+    },
+    {
+      "question": "GC-B40BSCQ 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "GC-B40BSCQ",
+      "description": "LG 냉장고 GC-B40BSCQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.03
+    },
+    {
+      "question": "J825MEE042 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "J825MEE042",
+      "description": "LG 냉장고 J825MEE042 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.4
+    },
+    {
+      "question": "J825MEE042 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "J825MEE042",
+      "description": "LG 냉장고 J825MEE042 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.14
+    },
+    {
+      "question": "GC-B414HG7M 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "GC-B414HG7M",
+      "description": "LG 냉장고 GC-B414HG7M [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.44
+    },
+    {
+      "question": "J825MEE042 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "J825MEE042",
+      "description": "LG 냉장고 J825MEE042 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.84
+    },
+    {
+      "question": "GC-B414HG7M 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "GC-B414HG7M",
+      "description": "LG 냉장고 GC-B414HG7M [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.29
+    },
+    {
+      "question": "M402ND 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "M402ND",
+      "description": "LG 냉장고 M402ND [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.05
+    },
+    {
+      "question": "M402ND 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "M402ND",
+      "description": "LG 냉장고 M402ND [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.26
+    },
+    {
+      "question": "GC-B40BSCQ 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "GC-B40BSCQ",
+      "description": "LG 냉장고 GC-B40BSCQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 7.1
+    },
+    {
+      "question": "M402ND 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "M402ND",
+      "description": "LG 냉장고 M402ND [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.6
+    },
+    {
+      "question": "S825AW35 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "S825AW35",
+      "description": "LG 냉장고 S825AW35 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.33
+    },
+    {
+      "question": "S825AW35 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "S825AW35",
+      "description": "LG 냉장고 S825AW35 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.68
+    },
+    {
+      "question": "J825MEE042 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "J825MEE042",
+      "description": "LG 냉장고 J825MEE042 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.99
+    },
+    {
+      "question": "M402ND 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "M402ND",
+      "description": "LG 냉장고 M402ND [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.66
+    },
+    {
+      "question": "S825AW35 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "S825AW35",
+      "description": "LG 냉장고 S825AW35 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.2
+    },
+    {
+      "question": "S835S31 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "S835S31",
+      "description": "LG 냉장고 S835S31 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.69
+    },
+    {
+      "question": "J825MEE042 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "J825MEE042",
+      "description": "LG 냉장고 J825MEE042 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 7.73
+    },
+    {
+      "question": "S835S31 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "S835S31",
+      "description": "LG 냉장고 S835S31 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.2
+    },
+    {
+      "question": "S835S31 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "S835S31",
+      "description": "LG 냉장고 S835S31 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.5
+    },
+    {
+      "question": "GC-B414HG7M 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "GC-B414HG7M",
+      "description": "LG 냉장고 GC-B414HG7M [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 9.58
+    },
+    {
+      "question": "M402ND 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "M402ND",
+      "description": "LG 냉장고 M402ND [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.94
+    },
+    {
+      "question": "W826AAA492 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "W826AAA492",
+      "description": "LG 냉장고 W826AAA492 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.66
+    },
+    {
+      "question": "S835S31 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "S835S31",
+      "description": "LG 냉장고 S835S31 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.35
+    },
+    {
+      "question": "S825AW35 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "S825AW35",
+      "description": "LG 냉장고 S825AW35 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.51
+    },
+    {
+      "question": "S835S31 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "S835S31",
+      "description": "LG 냉장고 S835S31 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.58
+    },
+    {
+      "question": "W826AAA492 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "W826AAA492",
+      "description": "LG 냉장고 W826AAA492 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.22
+    },
+    {
+      "question": "K135LW123 김치냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "K135LW123",
+      "description": "LG 김치냉장고 K135LW123 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.11
+    },
+    {
+      "question": "S825AW35 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "S825AW35",
+      "description": "LG 냉장고 S825AW35 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.66
+    },
+    {
+      "question": "K135LW123 김치냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "K135LW123",
+      "description": "LG 김치냉장고 K135LW123 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.21
+    },
+    {
+      "question": "K135LW123 김치냉장고에서 냄새가 나요",
+      "keyword": "냄새",
+      "model": "K135LW123",
+      "description": "LG 김치냉장고 K135LW123 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.96
+    },
+    {
+      "question": "K135LW123 김치냉장고 발효 기능이 뭐야",
+      "keyword": "발효",
+      "model": "K135LW123",
+      "description": "LG 김치냉장고 K135LW123 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.11
+    },
+    {
+      "question": "W826AAA492 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "W826AAA492",
+      "description": "LG 냉장고 W826AAA492 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.65
+    },
+    {
+      "question": "W826AAA492 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "W826AAA492",
+      "description": "LG 냉장고 W826AAA492 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.49
+    },
+    {
+      "question": "F21VDSK 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "F21VDSK",
+      "description": "LG 세탁기 F21VDSK [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.78
+    },
+    {
+      "question": "F21VDSK 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "F21VDSK",
+      "description": "LG 세탁기 F21VDSK [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.95
+    },
+    {
+      "question": "F21VDSK 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "F21VDSK",
+      "description": "LG 세탁기 F21VDSK [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.85
+    },
+    {
+      "question": "K135LW123 김치냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "K135LW123",
+      "description": "LG 김치냉장고 K135LW123 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.45
+    },
+    {
+      "question": "W826AAA492 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "W826AAA492",
+      "description": "LG 냉장고 W826AAA492 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.59
+    },
+    {
+      "question": "FC4KC 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FC4KC",
+      "description": "LG 세탁기 FC4KC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.49
+    },
+    {
+      "question": "FC4KC 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "FC4KC",
+      "description": "LG 세탁기 FC4KC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.91
+    },
+    {
+      "question": "FC4KC 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "FC4KC",
+      "description": "LG 세탁기 FC4KC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.46
+    },
+    {
+      "question": "FC4KC 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "FC4KC",
+      "description": "LG 세탁기 FC4KC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.12
+    },
+    {
+      "question": "T17J4EFNTX 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "T17J4EFNTX",
+      "description": "LG 세탁기 T17J4EFNTX [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.66
+    },
+    {
+      "question": "FC4KC 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "FC4KC",
+      "description": "LG 세탁기 FC4KC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.22
+    },
+    {
+      "question": "F21VDSK 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "F21VDSK",
+      "description": "LG 세탁기 F21VDSK [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.82
+    },
+    {
+      "question": "T17J4EFNTX 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "T17J4EFNTX",
+      "description": "LG 세탁기 T17J4EFNTX [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.32
+    },
+    {
+      "question": "T17J4EFNTX 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "T17J4EFNTX",
+      "description": "LG 세탁기 T17J4EFNTX [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.76
+    },
+    {
+      "question": "T17J4EFNTX 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "T17J4EFNTX",
+      "description": "LG 세탁기 T17J4EFNTX [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.05
+    },
+    {
+      "question": "F21VDSK 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "F21VDSK",
+      "description": "LG 세탁기 F21VDSK [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 7.74
+    },
+    {
+      "question": "TR16MV6 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "TR16MV6",
+      "description": "LG 세탁기 TR16MV6 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.39
+    },
+    {
+      "question": "T17J4EFNTX 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "T17J4EFNTX",
+      "description": "LG 세탁기 T17J4EFNTX [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.59
+    },
+    {
+      "question": "TR16MV6 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "TR16MV6",
+      "description": "LG 세탁기 TR16MV6 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.81
+    },
+    {
+      "question": "TR16MV6 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "TR16MV6",
+      "description": "LG 세탁기 TR16MV6 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.78
+    },
+    {
+      "question": "TR16MV6 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "TR16MV6",
+      "description": "LG 세탁기 TR16MV6 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.34
+    },
+    {
+      "question": "TR16MV6 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "TR16MV6",
+      "description": "LG 세탁기 TR16MV6 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.57
+    },
+    {
+      "question": "RH10VTA 건조기 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "RH10VTA",
+      "description": "LG 건조기 RH10VTA [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.67
+    },
+    {
+      "question": "RH10VTA 건조기 먼지 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "RH10VTA",
+      "description": "LG 건조기 RH10VTA [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.51
+    },
+    {
+      "question": "RH10VTA 건조기 건조 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "RH10VTA",
+      "description": "LG 건조기 RH10VTA [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.2
+    },
+    {
+      "question": "RH10VTA 건조기에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RH10VTA",
+      "description": "LG 건조기 RH10VTA [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.92
+    },
+    {
+      "question": "RH21E5ATKWP 세탁건조기 건조 기능은 어떻게 써",
+      "keyword": "건조",
+      "model": "RH21E5ATKWP",
+      "description": "LG 세탁건조기 RH21E5ATKWP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.16
+    },
+    {
+      "question": "RH21E5ATKWP 세탁건조기 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "RH21E5ATKWP",
+      "description": "LG 세탁건조기 RH21E5ATKWP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.31
+    },
+    {
+      "question": "RH21E5ATKWP 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "RH21E5ATKWP",
+      "description": "LG 세탁건조기 RH21E5ATKWP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.03
+    },
+    {
+      "question": "RH10VTA 건조기 건조 시간이 너무 오래 걸려요",
+      "keyword": "시간",
+      "model": "RH10VTA",
+      "description": "LG 건조기 RH10VTA [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.75
+    },
+    {
+      "question": "RH21E5ATKWP 세탁건조기 문이 안 열려요",
+      "keyword": "문",
+      "model": "RH21E5ATKWP",
+      "description": "LG 세탁건조기 RH21E5ATKWP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.32
+    },
+    {
+      "question": "RH21E5ATKWP 세탁건조기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "RH21E5ATKWP",
+      "description": "LG 세탁건조기 RH21E5ATKWP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.22
+    },
+    {
+      "question": "FA25AJPB 세탁건조기 건조 기능은 어떻게 써",
+      "keyword": "건조",
+      "model": "FA25AJPB",
+      "description": "LG 세탁건조기 FA25AJPB [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.41
+    },
+    {
+      "question": "FA25AJPB 세탁건조기 문이 안 열려요",
+      "keyword": "문",
+      "model": "FA25AJPB",
+      "description": "LG 세탁건조기 FA25AJPB [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.54
+    },
+    {
+      "question": "FA25AJPB 세탁건조기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FA25AJPB",
+      "description": "LG 세탁건조기 FA25AJPB [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.9
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "FC2521KX6C",
+      "description": "LG 세탁건조기 FC2521KX6C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.65
+    },
+    {
+      "question": "FA25AJPB 세탁건조기 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "FA25AJPB",
+      "description": "LG 세탁건조기 FA25AJPB [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.34
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "FC2521KX6C",
+      "description": "LG 세탁건조기 FC2521KX6C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.01
+    },
+    {
+      "question": "FA25AJPB 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "FA25AJPB",
+      "description": "LG 세탁건조기 FA25AJPB [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.0
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 건조 기능은 어떻게 써",
+      "keyword": "건조",
+      "model": "FC2521KX6C",
+      "description": "LG 세탁건조기 FC2521KX6C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.05
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FC2521KX6C",
+      "description": "LG 세탁건조기 FC2521KX6C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.78
+    },
+    {
+      "question": "FH23KN 세탁건조기 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "FH23KN",
+      "description": "LG 세탁건조기 FH23KN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.7
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 문이 안 열려요",
+      "keyword": "문",
+      "model": "FC2521KX6C",
+      "description": "LG 세탁건조기 FC2521KX6C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.96
+    },
+    {
+      "question": "SC3GBE50 스타일러 냄새 제거 기능이 뭐야",
+      "keyword": "냄새",
+      "model": "SC3GBE50",
+      "description": "LG 스타일러 SC3GBE50 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.46
+    },
+    {
+      "question": "FH23KN 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "FH23KN",
+      "description": "LG 세탁건조기 FH23KN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.2
+    },
+    {
+      "question": "FH23KN 세탁건조기 문이 안 열려요",
+      "keyword": "문",
+      "model": "FH23KN",
+      "description": "LG 세탁건조기 FH23KN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.62
+    },
+    {
+      "question": "FH23KN 세탁건조기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "FH23KN",
+      "description": "LG 세탁건조기 FH23KN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.4
+    },
+    {
+      "question": "SC3GBE50 스타일러 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "SC3GBE50",
+      "description": "LG 스타일러 SC3GBE50 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.08
+    },
+    {
+      "question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+      "keyword": "트리트먼트",
+      "model": "SC3GBE50",
+      "description": "LG 스타일러 SC3GBE50 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.09
+    },
+    {
+      "question": "AF17B6474WSN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AF17B6474WSN",
+      "description": "삼성 에어컨 AF17B6474WSN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.05
+    },
+    {
+      "question": "SC3GBE50 스타일러 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "SC3GBE50",
+      "description": "LG 스타일러 SC3GBE50 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.79
+    },
+    {
+      "question": "FH23KN 세탁건조기 건조 기능은 어떻게 써",
+      "keyword": "건조",
+      "model": "FH23KN",
+      "description": "LG 세탁건조기 FH23KN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.06
+    },
+    {
+      "question": "SC3GBE50 스타일러 문이 안 열려요",
+      "keyword": "문",
+      "model": "SC3GBE50",
+      "description": "LG 스타일러 SC3GBE50 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.5
+    },
+    {
+      "question": "AF17B6474WSN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AF17B6474WSN",
+      "description": "삼성 에어컨 AF17B6474WSN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.59
+    },
+    {
+      "question": "AF17B6474WSN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AF17B6474WSN",
+      "description": "삼성 에어컨 AF17B6474WSN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.15
+    },
+    {
+      "question": "AF17B6474WSN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AF17B6474WSN",
+      "description": "삼성 에어컨 AF17B6474WSN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.36
+    },
+    {
+      "question": "AF17B7538TZN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AF17B7538TZN",
+      "description": "삼성 에어컨 AF17B7538TZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.26
+    },
+    {
+      "question": "AF17B7538TZN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AF17B7538TZN",
+      "description": "삼성 에어컨 AF17B7538TZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.08
+    },
+    {
+      "question": "AF17B7538TZN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AF17B7538TZN",
+      "description": "삼성 에어컨 AF17B7538TZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.29
+    },
+    {
+      "question": "AF17B7538TZN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AF17B7538TZN",
+      "description": "삼성 에어컨 AF17B7538TZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.77
+    },
+    {
+      "question": "AF17B7538TZN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AF17B7538TZN",
+      "description": "삼성 에어컨 AF17B7538TZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.68
+    },
+    {
+      "question": "AF17B6474WSN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AF17B6474WSN",
+      "description": "삼성 에어컨 AF17B6474WSN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.06
+    },
+    {
+      "question": "AF18RX975CAN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AF18RX975CAN",
+      "description": "삼성 에어컨 AF18RX975CAN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.51
+    },
+    {
+      "question": "AF18RX975CAN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AF18RX975CAN",
+      "description": "삼성 에어컨 AF18RX975CAN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.53
+    },
+    {
+      "question": "AF18RX975CAN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AF18RX975CAN",
+      "description": "삼성 에어컨 AF18RX975CAN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.27
+    },
+    {
+      "question": "AF19TX978MZ3N 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AF19TX978MZ3N",
+      "description": "삼성 에어컨 AF19TX978MZ3N [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.56
+    },
+    {
+      "question": "AF18RX975CAN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AF18RX975CAN",
+      "description": "삼성 에어컨 AF18RX975CAN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.94
+    },
+    {
+      "question": "AF18RX975CAN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AF18RX975CAN",
+      "description": "삼성 에어컨 AF18RX975CAN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.89
+    },
+    {
+      "question": "AF19TX978MZ3N 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AF19TX978MZ3N",
+      "description": "삼성 에어컨 AF19TX978MZ3N [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.74
+    },
+    {
+      "question": "AF19TX978MZ3N 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AF19TX978MZ3N",
+      "description": "삼성 에어컨 AF19TX978MZ3N [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.85
+    },
+    {
+      "question": "AF19TX978MZ3N 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AF19TX978MZ3N",
+      "description": "삼성 에어컨 AF19TX978MZ3N [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.43
+    },
+    {
+      "question": "AM145JNPDBH1 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AM145JNPDBH1",
+      "description": "삼성 에어컨 AM145JNPDBH1 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.82
+    },
+    {
+      "question": "AM145JNPDBH1 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AM145JNPDBH1",
+      "description": "삼성 에어컨 AM145JNPDBH1 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.22
+    },
+    {
+      "question": "AM145JNPDBH1 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AM145JNPDBH1",
+      "description": "삼성 에어컨 AM145JNPDBH1 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.14
+    },
+    {
+      "question": "AR-EH05 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AR-EH05",
+      "description": "삼성 에어컨 AR-EH05 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.89
+    },
+    {
+      "question": "AM145JNPDBH1 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AM145JNPDBH1",
+      "description": "삼성 에어컨 AM145JNPDBH1 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.91
+    },
+    {
+      "question": "AM145JNPDBH1 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AM145JNPDBH1",
+      "description": "삼성 에어컨 AM145JNPDBH1 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.49
+    },
+    {
+      "question": "AR-EH05 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AR-EH05",
+      "description": "삼성 에어컨 AR-EH05 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.87
+    },
+    {
+      "question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AR-EH05",
+      "description": "삼성 에어컨 AR-EH05 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.04
+    },
+    {
+      "question": "AR-EH05 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AR-EH05",
+      "description": "삼성 에어컨 AR-EH05 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.63
+    },
+    {
+      "question": "AR-EH05 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AR-EH05",
+      "description": "삼성 에어컨 AR-EH05 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.45
+    },
+    {
+      "question": "AR06A9170HNQ 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AR06A9170HNQ",
+      "description": "삼성 에어컨 AR06A9170HNQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.93
+    },
+    {
+      "question": "AR06A9170HNQ 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AR06A9170HNQ",
+      "description": "삼성 에어컨 AR06A9170HNQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.99
+    },
+    {
+      "question": "AR06A9170HNQ 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AR06A9170HNQ",
+      "description": "삼성 에어컨 AR06A9170HNQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.65
+    },
+    {
+      "question": "AF19TX978MZ3N 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AF19TX978MZ3N",
+      "description": "삼성 에어컨 AF19TX978MZ3N [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.71
+    },
+    {
+      "question": "AR06R1130HZN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AR06R1130HZN",
+      "description": "삼성 에어컨 AR06R1130HZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.29
+    },
+    {
+      "question": "AR06R1130HZN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AR06R1130HZN",
+      "description": "삼성 에어컨 AR06R1130HZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.87
+    },
+    {
+      "question": "AR06A9170HNQ 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AR06A9170HNQ",
+      "description": "삼성 에어컨 AR06A9170HNQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.43
+    },
+    {
+      "question": "AR06R1130HZN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AR06R1130HZN",
+      "description": "삼성 에어컨 AR06R1130HZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.49
+    },
+    {
+      "question": "AR09T9170HCN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AR09T9170HCN",
+      "description": "삼성 에어컨 AR09T9170HCN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.98
+    },
+    {
+      "question": "AR06R1130HZN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AR06R1130HZN",
+      "description": "삼성 에어컨 AR06R1130HZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.65
+    },
+    {
+      "question": "AR06R1130HZN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AR06R1130HZN",
+      "description": "삼성 에어컨 AR06R1130HZN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.18
+    },
+    {
+      "question": "AR09T9170HCN 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AR09T9170HCN",
+      "description": "삼성 에어컨 AR09T9170HCN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.77
+    },
+    {
+      "question": "AR06A9170HNQ 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AR06A9170HNQ",
+      "description": "삼성 에어컨 AR06A9170HNQ [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.81
+    },
+    {
+      "question": "AR09T9170HCN 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AR09T9170HCN",
+      "description": "삼성 에어컨 AR09T9170HCN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.65
+    },
+    {
+      "question": "AR11B9150HZT 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러",
+      "model": "AR11B9150HZT",
+      "description": "삼성 에어컨 AR11B9150HZT [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.44
+    },
+    {
+      "question": "AR11B9150HZT 에어컨에서 이상한 소리가 나요",
+      "keyword": "소리",
+      "model": "AR11B9150HZT",
+      "description": "삼성 에어컨 AR11B9150HZT [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.05
+    },
+    {
+      "question": "AR09T9170HCN 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AR09T9170HCN",
+      "description": "삼성 에어컨 AR09T9170HCN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.04
+    },
+    {
+      "question": "RF85B90P1AP 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RF85B90P1AP",
+      "description": "삼성 냉장고 RF85B90P1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.23
+    },
+    {
+      "question": "AR11B9150HZT 에어컨이 냉방이 잘 안 돼요",
+      "keyword": "냉방",
+      "model": "AR11B9150HZT",
+      "description": "삼성 에어컨 AR11B9150HZT [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.46
+    },
+    {
+      "question": "AR09T9170HCN 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AR09T9170HCN",
+      "description": "삼성 에어컨 AR09T9170HCN [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.32
+    },
+    {
+      "question": "RF85B90P1AP 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RF85B90P1AP",
+      "description": "삼성 냉장고 RF85B90P1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.55
+    },
+    {
+      "question": "AR11B9150HZT 에어컨 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "AR11B9150HZT",
+      "description": "삼성 에어컨 AR11B9150HZT [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.26
+    },
+    {
+      "question": "AR11B9150HZT 에어컨 실외기 관리하는 방법 알려줘",
+      "keyword": "실외기",
+      "model": "AR11B9150HZT",
+      "description": "삼성 에어컨 AR11B9150HZT [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.29
+    },
+    {
+      "question": "RF85B90P1AP 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "RF85B90P1AP",
+      "description": "삼성 냉장고 RF85B90P1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.13
+    },
+    {
+      "question": "RF85DB90B1AP 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "RF85DB90B1AP",
+      "description": "삼성 냉장고 RF85DB90B1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.92
+    },
+    {
+      "question": "RF85DB90B1AP 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RF85DB90B1AP",
+      "description": "삼성 냉장고 RF85DB90B1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.68
+    },
+    {
+      "question": "RF85DB90B1AP 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RF85DB90B1AP",
+      "description": "삼성 냉장고 RF85DB90B1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.49
+    },
+    {
+      "question": "RS63R557EB4 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "RS63R557EB4",
+      "description": "삼성 냉장고 RS63R557EB4 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.28
+    },
+    {
+      "question": "RH82M9152SL 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RH82M9152SL",
+      "description": "삼성 냉장고 RH82M9152SL [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.23
+    },
+    {
+      "question": "RH82M9152SL 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "RH82M9152SL",
+      "description": "삼성 냉장고 RH82M9152SL [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.53
+    },
+    {
+      "question": "RH82M9152SL 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RH82M9152SL",
+      "description": "삼성 냉장고 RH82M9152SL [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.48
+    },
+    {
+      "question": "RF85B90P1AP 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RF85B90P1AP",
+      "description": "삼성 냉장고 RF85B90P1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.48
+    },
+    {
+      "question": "RS63R557EB4 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RS63R557EB4",
+      "description": "삼성 냉장고 RS63R557EB4 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.15
+    },
+    {
+      "question": "RF85B90P1AP 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RF85B90P1AP",
+      "description": "삼성 냉장고 RF85B90P1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 6.4
+    },
+    {
+      "question": "RS63R557EB4 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RS63R557EB4",
+      "description": "삼성 냉장고 RS63R557EB4 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.84
+    },
+    {
+      "question": "RF85DB90B1AP 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RF85DB90B1AP",
+      "description": "삼성 냉장고 RF85DB90B1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.48
+    },
+    {
+      "question": "RH82M9152SL 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RH82M9152SL",
+      "description": "삼성 냉장고 RH82M9152SL [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.92
+    },
+    {
+      "question": "RS84B5041WW 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "RS84B5041WW",
+      "description": "삼성 냉장고 RS84B5041WW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.53
+    },
+    {
+      "question": "RS84B5041WW 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RS84B5041WW",
+      "description": "삼성 냉장고 RS84B5041WW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.72
+    },
+    {
+      "question": "RS63R557EB4 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RS63R557EB4",
+      "description": "삼성 냉장고 RS63R557EB4 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.12
+    },
+    {
+      "question": "RH82M9152SL 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RH82M9152SL",
+      "description": "삼성 냉장고 RH82M9152SL [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.98
+    },
+    {
+      "question": "RF85DB90B1AP 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RF85DB90B1AP",
+      "description": "삼성 냉장고 RF85DB90B1AP [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 7.47
+    },
+    {
+      "question": "RS63R557EB4 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RS63R557EB4",
+      "description": "삼성 냉장고 RS63R557EB4 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.05
+    },
+    {
+      "question": "RT42CG6024S9 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RT42CG6024S9",
+      "description": "삼성 냉장고 RT42CG6024S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.12
+    },
+    {
+      "question": "RT53DG7A1CWW 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RT53DG7A1CWW",
+      "description": "삼성 냉장고 RT53DG7A1CWW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.57
+    },
+    {
+      "question": "RT42CG6024S9 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RT42CG6024S9",
+      "description": "삼성 냉장고 RT42CG6024S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.51
+    },
+    {
+      "question": "RT53DG7A1CWW 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "RT53DG7A1CWW",
+      "description": "삼성 냉장고 RT53DG7A1CWW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.73
+    },
+    {
+      "question": "RS84B5041WW 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RS84B5041WW",
+      "description": "삼성 냉장고 RS84B5041WW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.12
+    },
+    {
+      "question": "RT42CG6024S9 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RT42CG6024S9",
+      "description": "삼성 냉장고 RT42CG6024S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.0
+    },
+    {
+      "question": "RT42CG6024S9 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "RT42CG6024S9",
+      "description": "삼성 냉장고 RT42CG6024S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.12
+    },
+    {
+      "question": "RS84B5041WW 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RS84B5041WW",
+      "description": "삼성 냉장고 RS84B5041WW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.42
+    },
+    {
+      "question": "SRS705IC 냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "SRS705IC",
+      "description": "삼성 냉장고 SRS705IC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.94
+    },
+    {
+      "question": "RS84B5041WW 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RS84B5041WW",
+      "description": "삼성 냉장고 RS84B5041WW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.95
+    },
+    {
+      "question": "RT53DG7A1CWW 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RT53DG7A1CWW",
+      "description": "삼성 냉장고 RT53DG7A1CWW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.48
+    },
+    {
+      "question": "SRS705IC 냉장고에 성에가 계속 생겨요",
+      "keyword": "성에",
+      "model": "SRS705IC",
+      "description": "삼성 냉장고 SRS705IC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.66
+    },
+    {
+      "question": "RT42CG6024S9 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RT42CG6024S9",
+      "description": "삼성 냉장고 RT42CG6024S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.16
+    },
+    {
+      "question": "SRS705IC 냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "SRS705IC",
+      "description": "삼성 냉장고 SRS705IC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.71
+    },
+    {
+      "question": "RT53DG7A1CWW 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RT53DG7A1CWW",
+      "description": "삼성 냉장고 RT53DG7A1CWW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.88
+    },
+    {
+      "question": "RT53DG7A1CWW 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "RT53DG7A1CWW",
+      "description": "삼성 냉장고 RT53DG7A1CWW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.47
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RP20C3111S9",
+      "description": "삼성 김치냉장고 RP20C3111S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.98
+    },
+    {
+      "question": "SRS705IC 냉장고에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "SRS705IC",
+      "description": "삼성 냉장고 SRS705IC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.59
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 발효 기능이 뭐야",
+      "keyword": "발효",
+      "model": "RP20C3111S9",
+      "description": "삼성 김치냉장고 RP20C3111S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.56
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고에서 냄새가 나요",
+      "keyword": "냄새",
+      "model": "RP20C3111S9",
+      "description": "삼성 김치냉장고 RP20C3111S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.68
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RP20C3111S9",
+      "description": "삼성 김치냉장고 RP20C3111S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.83
+    },
+    {
+      "question": "RQ49C9002S9 김치냉장고 온도 설정 방법 알려줘",
+      "keyword": "온도",
+      "model": "RQ49C9002S9",
+      "description": "삼성 김치냉장고 RQ49C9002S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.83
+    },
+    {
+      "question": "RQ49C9002S9 김치냉장고에서 냄새가 나요",
+      "keyword": "냄새",
+      "model": "RQ49C9002S9",
+      "description": "삼성 김치냉장고 RQ49C9002S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.68
+    },
+    {
+      "question": "RQ49C9002S9 김치냉장고 문이 잘 안 닫혀요",
+      "keyword": "문",
+      "model": "RQ49C9002S9",
+      "description": "삼성 김치냉장고 RQ49C9002S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.71
+    },
+    {
+      "question": "SRS705IC 냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "SRS705IC",
+      "description": "삼성 냉장고 SRS705IC [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.83
+    },
+    {
+      "question": "RQ49C9002S9 김치냉장고 발효 기능이 뭐야",
+      "keyword": "발효",
+      "model": "RQ49C9002S9",
+      "description": "삼성 김치냉장고 RQ49C9002S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.07
+    },
+    {
+      "question": "WA19CG6745BV 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "WA19CG6745BV",
+      "description": "삼성 세탁기 WA19CG6745BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.25
+    },
+    {
+      "question": "WA19CG6745BV 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "WA19CG6745BV",
+      "description": "삼성 세탁기 WA19CG6745BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.81
+    },
+    {
+      "question": "WA19CG6745BV 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "WA19CG6745BV",
+      "description": "삼성 세탁기 WA19CG6745BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.39
+    },
+    {
+      "question": "WA19CG6745BV 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "WA19CG6745BV",
+      "description": "삼성 세탁기 WA19CG6745BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.96
+    },
+    {
+      "question": "WA19CG6745BV 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "WA19CG6745BV",
+      "description": "삼성 세탁기 WA19CG6745BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.41
+    },
+    {
+      "question": "WA80F19E8W 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "WA80F19E8W",
+      "description": "삼성 세탁기 WA80F19E8W [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.39
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RP20C3111S9",
+      "description": "삼성 김치냉장고 RP20C3111S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 7.06
+    },
+    {
+      "question": "RQ49C9002S9 김치냉장고 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "RQ49C9002S9",
+      "description": "삼성 김치냉장고 RQ49C9002S9 [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 5.95
+    },
+    {
+      "question": "WA80F19E8W 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "WA80F19E8W",
+      "description": "삼성 세탁기 WA80F19E8W [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.37
+    },
+    {
+      "question": "WA80F19E8W 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "WA80F19E8W",
+      "description": "삼성 세탁기 WA80F19E8W [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.24
+    },
+    {
+      "question": "WA80F19E8W 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "WA80F19E8W",
+      "description": "삼성 세탁기 WA80F19E8W [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.54
+    },
+    {
+      "question": "WA80F19E8W 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "WA80F19E8W",
+      "description": "삼성 세탁기 WA80F19E8W [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.98
+    },
+    {
+      "question": "WF17M9100KG 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "WF17M9100KG",
+      "description": "삼성 세탁기 WF17M9100KG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.98
+    },
+    {
+      "question": "WF17M9100KG 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "WF17M9100KG",
+      "description": "삼성 세탁기 WF17M9100KG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.32
+    },
+    {
+      "question": "WF17M9100KG 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "WF17M9100KG",
+      "description": "삼성 세탁기 WF17M9100KG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.45
+    },
+    {
+      "question": "WF17M9100KG 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "WF17M9100KG",
+      "description": "삼성 세탁기 WF17M9100KG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.55
+    },
+    {
+      "question": "WF21T6500KW 세탁기 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "WF21T6500KW",
+      "description": "삼성 세탁기 WF21T6500KW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.53
+    },
+    {
+      "question": "WF17M9100KG 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "WF17M9100KG",
+      "description": "삼성 세탁기 WF17M9100KG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.45
+    },
+    {
+      "question": "WF21T6500KW 세탁기 탈수할 때 소음이 심해요",
+      "keyword": "탈수",
+      "model": "WF21T6500KW",
+      "description": "삼성 세탁기 WF21T6500KW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.84
+    },
+    {
+      "question": "WF21T6500KW 세탁기 배수가 안 돼요",
+      "keyword": "배수",
+      "model": "WF21T6500KW",
+      "description": "삼성 세탁기 WF21T6500KW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.52
+    },
+    {
+      "question": "WF21T6500KW 세탁기 문이 안 열려요",
+      "keyword": "문",
+      "model": "WF21T6500KW",
+      "description": "삼성 세탁기 WF21T6500KW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.01
+    },
+    {
+      "question": "DV17T8520BV 건조기 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "DV17T8520BV",
+      "description": "삼성 건조기 DV17T8520BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.72
+    },
+    {
+      "question": "DV17T8520BV 건조기 먼지 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "DV17T8520BV",
+      "description": "삼성 건조기 DV17T8520BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.9
+    },
+    {
+      "question": "DV90TA040TE 건조기 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "DV90TA040TE",
+      "description": "삼성 건조기 DV90TA040TE [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.64
+    },
+    {
+      "question": "DV17T8520BV 건조기 건조 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "DV17T8520BV",
+      "description": "삼성 건조기 DV17T8520BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.26
+    },
+    {
+      "question": "WF21T6500KW 세탁 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "WF21T6500KW",
+      "description": "삼성 세탁기 WF21T6500KW [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.62
+    },
+    {
+      "question": "DV17T8520BV 건조기에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "DV17T8520BV",
+      "description": "삼성 건조기 DV17T8520BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.66
+    },
+    {
+      "question": "DV17T8520BV 건조기 건조 시간이 너무 오래 걸려요",
+      "keyword": "시간",
+      "model": "DV17T8520BV",
+      "description": "삼성 건조기 DV17T8520BV [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.79
+    },
+    {
+      "question": "DV90TA040TE 건조기에서 소음이 나는데 왜 그래요",
+      "keyword": "소음",
+      "model": "DV90TA040TE",
+      "description": "삼성 건조기 DV90TA040TE [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.55
+    },
+    {
+      "question": "DV90TA040TE 건조기 먼지 필터 청소 방법 알려줘",
+      "keyword": "필터",
+      "model": "DV90TA040TE",
+      "description": "삼성 건조기 DV90TA040TE [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.76
+    },
+    {
+      "question": "DF60R8300WG 스타일러 트리트먼트 기능 알려줘",
+      "keyword": "트리트먼트",
+      "model": "DF60R8300WG",
+      "description": "삼성 스타일러 DF60R8300WG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.22
+    },
+    {
+      "question": "DF60R8300WG 스타일러 냄새 제거 기능이 뭐야",
+      "keyword": "냄새",
+      "model": "DF60R8300WG",
+      "description": "삼성 스타일러 DF60R8300WG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.71
+    },
+    {
+      "question": "DF60R8300WG 스타일러 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "DF60R8300WG",
+      "description": "삼성 스타일러 DF60R8300WG [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 1.89
+    },
+    {
+      "question": "DV90TA040TE 건조기 건조 코스 선택하는 방법 알려줘",
+      "keyword": "코스",
+      "model": "DV90TA040TE",
+      "description": "삼성 건조기 DV90TA040TE [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.7
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "DJ30T9500FE",
+      "description": "삼성 슈드레서 DJ30T9500FE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 0.71
+    },
+    {
+      "question": "DF60R8300WG 스타일러 문이 안 열려요",
+      "keyword": "문",
+      "model": "DF60R8300WG",
+      "description": "삼성 스타일러 DF60R8300WG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.09
+    },
+    {
+      "question": "DF60R8300WG 스타일러 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "DF60R8300WG",
+      "description": "삼성 스타일러 DF60R8300WG [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.62
+    },
+    {
+      "question": "DJ40CB9600NE 슈드레서 냄새 제거는 어떻게 해",
+      "keyword": "냄새",
+      "model": "DJ40CB9600NE",
+      "description": "삼성 슈드레서 DJ40CB9600NE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 0.68
+    },
+    {
+      "question": "DV90TA040TE 건조기 건조 시간이 너무 오래 걸려요",
+      "keyword": "시간",
+      "model": "DV90TA040TE",
+      "description": "삼성 건조기 DV90TA040TE [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.98
+    },
+    {
+      "question": "DF90H24R5C 스타일러 냄새 제거 기능이 뭐야",
+      "keyword": "냄새",
+      "model": "DF90H24R5C",
+      "description": "삼성 스타일러 DF90H24R5C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 2.56
+    },
+    {
+      "question": "DJ40CB9600NE 슈드레서 건조 기능 알려줘",
+      "keyword": "건조",
+      "model": "DJ40CB9600NE",
+      "description": "삼성 슈드레서 DJ40CB9600NE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 0.91
+    },
+    {
+      "question": "DJ40CB9600NE 슈드레서 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "DJ40CB9600NE",
+      "description": "삼성 슈드레서 DJ40CB9600NE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 0.68
+    },
+    {
+      "question": "DF90H24R5C 스타일러 문이 안 열려요",
+      "keyword": "문",
+      "model": "DF90H24R5C",
+      "description": "삼성 스타일러 DF90H24R5C [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 2.89
+    },
+    {
+      "question": "DF90H24R5C 스타일러 청소하는 방법 알려줘",
+      "keyword": "청소",
+      "model": "DF90H24R5C",
+      "description": "삼성 스타일러 DF90H24R5C [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 2.84
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 신발 살균 기능이 뭐야",
+      "keyword": "살균",
+      "model": "DJ30T9500FE",
+      "description": "삼성 슈드레서 DJ30T9500FE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 2.86
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 문이 안 열려요",
+      "keyword": "문",
+      "model": "DJ30T9500FE",
+      "description": "삼성 슈드레서 DJ30T9500FE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 2.49
+    },
+    {
+      "question": "DF90H24R5C 스타일러 트리트먼트 기능 알려줘",
+      "keyword": "트리트먼트",
+      "model": "DF90H24R5C",
+      "description": "삼성 스타일러 DF90H24R5C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.52
+    },
+    {
+      "question": "DF90H24R5C 스타일러 에러 코드는 어디서 확인해",
+      "keyword": "에러",
+      "model": "DF90H24R5C",
+      "description": "삼성 스타일러 DF90H24R5C [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.28
+    },
+    {
+      "question": "DJ40CB9600NE 슈드레서 신발 살균 기능이 뭐야",
+      "keyword": "살균",
+      "model": "DJ40CB9600NE",
+      "description": "삼성 슈드레서 DJ40CB9600NE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 2.73
+    },
+    {
+      "question": "DJ40CB9600NE 슈드레서 문이 안 열려요",
+      "keyword": "문",
+      "model": "DJ40CB9600NE",
+      "description": "삼성 슈드레서 DJ40CB9600NE [round1]",
+      "keyword_hit": false,
+      "elapsed_sec": 1.88
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 냄새 제거는 어떻게 해",
+      "keyword": "냄새",
+      "model": "DJ30T9500FE",
+      "description": "삼성 슈드레서 DJ30T9500FE [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 3.94
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+      "keyword": "건조",
+      "model": "DJ30T9500FE",
+      "description": "삼성 슈드레서 DJ30T9500FE [round1]",
+      "keyword_hit": true,
+      "elapsed_sec": 4.2
+    }
+  ],
+  "summary": {
+    "hit_rate": 0.9633333333333334,
+    "avg_time": 4.165866666666667,
+    "total_elapsed": 85.1390392780304,
+    "models_tested": 60,
+    "zero_hit_models": [
+      "DJ40CB9600NE"
+    ],
+    "usage": {
+      "prompt_tokens": 379563,
+      "completion_tokens": 89471
+    },
+    "cost_usd": 0.11061705
+  }
+}

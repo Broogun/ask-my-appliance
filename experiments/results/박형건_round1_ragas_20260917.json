@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "FQ16FV6EDN 에어컨 필터 청소 방법 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6120618204766197
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨에서 이상한 소리가 나요",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.5668543983442154
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨이 냉방이 잘 안 돼요",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5282895138539675
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.6816898276912106
+  },
+  {
+    "question": "FQ16FV6EDN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "FQ16FV6EDN",
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.4907094294129211
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 필터 청소 방법 알려줘",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6103165518129446
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨에서 이상한 소리가 나요",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3191684606960736
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨이 냉방이 잘 안 돼요",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5268908941136883
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.6732249793472841
+  },
+  {
+    "question": "FQ17FN5BDN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "FQ17FN5BDN",
+    "faithfulness": 0.6923076923076923,
+    "answer_relevancy": 0.3660276010022491
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 필터 청소 방법 알려줘",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.6365279026273409
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨에서 이상한 소리가 나요",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.582480233533517
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨이 냉방이 잘 안 돼요",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5227817502141703
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.6996692540272386
+  },
+  {
+    "question": "FQ18GC1EHN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "FQ18GC1EHN",
+    "faithfulness": 0.9444444444444444,
+    "answer_relevancy": 0.6014858227965734
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 필터 청소 방법 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.6381215366412166
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨에서 이상한 소리가 나요",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5739158226857219
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨이 냉방이 잘 안 돼요",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5215307513011064
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 0.6363636363636364,
+    "answer_relevancy": 0.6893040146283395
+  },
+  {
+    "question": "FQ18GN7BKN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "FQ18GN7BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.533251104698271
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 필터 청소 방법 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.6311136875818015
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨에서 이상한 소리가 나요",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5791340935335945
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨이 냉방이 잘 안 돼요",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5208461203203636
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.375,
+    "answer_relevancy": 0.7007968715427205
+  },
+  {
+    "question": "FQ18GU1BHN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "FQ18GU1BHN",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.5598063329297085
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 필터 청소 방법 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.8823529411764706,
+    "answer_relevancy": 0.6224506067871569
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨에서 이상한 소리가 나요",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5707350592172298
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨이 냉방이 잘 안 돼요",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5251280168092468
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.5988343323177275
+  },
+  {
+    "question": "FQ25GN9BKN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "FQ25GN9BKN",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.550354530299391
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 필터 청소 방법 알려줘",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5587665223302727
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨에서 이상한 소리가 나요",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3399625252354271
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨이 냉방이 잘 안 돼요",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.47834303260167793
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.6226338048647967
+  },
+  {
+    "question": "SQ06EJ1WAJ 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "SQ06EJ1WAJ",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.4413005519270834
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 필터 청소 방법 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5917398105209111
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨에서 이상한 소리가 나요",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5346695252208984
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨이 냉방이 잘 안 돼요",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5164794169622996
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 0.625,
+    "answer_relevancy": 0.6661217464496045
+  },
+  {
+    "question": "SQ07GA3WBN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "SQ07GA3WBN",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.5077559055802439
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 필터 청소 방법 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.5766505516470751
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨에서 이상한 소리가 나요",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.5222431840702073
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨이 냉방이 잘 안 돼요",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4906017658515134
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6630770841230695
+  },
+  {
+    "question": "SQ07GJ1WEN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "SQ07GJ1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4819718769101095
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 필터 청소 방법 알려줘",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.5653427361597707
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨에서 이상한 소리가 나요",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.490093424535287
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨이 냉방이 잘 안 돼요",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4792974465437496
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.6363636363636364,
+    "answer_relevancy": 0.6433971696408399
+  },
+  {
+    "question": "SQ09GK1WEN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "SQ09GK1WEN",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.4807609513667001
+  },
+  {
+    "question": "B242S32 냉장고 온도 설정 방법 알려줘",
+    "model": "B242S32",
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.7338162343995273
+  },
+  {
+    "question": "B242S32 냉장고에 성에가 계속 생겨요",
+    "model": "B242S32",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5459756262106715
+  },
+  {
+    "question": "B242S32 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "B242S32",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6955926219101916
+  },
+  {
+    "question": "B242S32 냉장고 문이 잘 안 닫혀요",
+    "model": "B242S32",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6259898100479279
+  },
+  {
+    "question": "B242S32 냉장고 청소하는 방법 알려줘",
+    "model": "B242S32",
+    "faithfulness": 0.9444444444444444,
+    "answer_relevancy": 0.6473544938707341
+  },
+  {
+    "question": "CA-H17DC 냉장고 온도 설정 방법 알려줘",
+    "model": "CA-H17DC",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.7273815921558795
+  },
+  {
+    "question": "CA-H17DC 냉장고에 성에가 계속 생겨요",
+    "model": "CA-H17DC",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.565038618069716
+  },
+  {
+    "question": "CA-H17DC 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "CA-H17DC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4691375295778617
+  },
+  {
+    "question": "CA-H17DC 냉장고 문이 잘 안 닫혀요",
+    "model": "CA-H17DC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5861026068626664
+  },
+  {
+    "question": "CA-H17DC 냉장고 청소하는 방법 알려줘",
+    "model": "CA-H17DC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6763351583094502
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 온도 설정 방법 알려줘",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.7465279076035165
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고에 성에가 계속 생겨요",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.5372719897402363
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6891053840443843
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 문이 잘 안 닫혀요",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.4036132186608769
+  },
+  {
+    "question": "GC-B40BSCQ 냉장고 청소하는 방법 알려줘",
+    "model": "GC-B40BSCQ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7012609133097835
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 온도 설정 방법 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.740848989080066
+  },
+  {
+    "question": "GC-B414HG7M 냉장고에 성에가 계속 생겨요",
+    "model": "GC-B414HG7M",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5957043221660423
+  },
+  {
+    "question": "GC-B414HG7M 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "GC-B414HG7M",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.713111557548855
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 문이 잘 안 닫혀요",
+    "model": "GC-B414HG7M",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4374349615458778
+  },
+  {
+    "question": "GC-B414HG7M 냉장고 청소하는 방법 알려줘",
+    "model": "GC-B414HG7M",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6928333946053357
+  },
+  {
+    "question": "J825MEE042 냉장고 온도 설정 방법 알려줘",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7415003691311668
+  },
+  {
+    "question": "J825MEE042 냉장고에 성에가 계속 생겨요",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.34220102504024347
+  },
+  {
+    "question": "J825MEE042 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5224030453035287
+  },
+  {
+    "question": "J825MEE042 냉장고 문이 잘 안 닫혀요",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.45174056292741277
+  },
+  {
+    "question": "J825MEE042 냉장고 청소하는 방법 알려줘",
+    "model": "J825MEE042",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6520492575628902
+  },
+  {
+    "question": "M402ND 냉장고 온도 설정 방법 알려줘",
+    "model": "M402ND",
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.7522756738262824
+  },
+  {
+    "question": "M402ND 냉장고에 성에가 계속 생겨요",
+    "model": "M402ND",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.546954086077652
+  },
+  {
+    "question": "M402ND 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "M402ND",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7233630645605582
+  },
+  {
+    "question": "M402ND 냉장고 문이 잘 안 닫혀요",
+    "model": "M402ND",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6505159578890172
+  },
+  {
+    "question": "M402ND 냉장고 청소하는 방법 알려줘",
+    "model": "M402ND",
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.6786904609337752
+  },
+  {
+    "question": "S825AW35 냉장고 온도 설정 방법 알려줘",
+    "model": "S825AW35",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.7498962255735462
+  },
+  {
+    "question": "S825AW35 냉장고에 성에가 계속 생겨요",
+    "model": "S825AW35",
+    "faithfulness": 0.7692307692307693,
+    "answer_relevancy": 0.5681893340286811
+  },
+  {
+    "question": "S825AW35 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "S825AW35",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7167123457466589
+  },
+  {
+    "question": "S825AW35 냉장고 문이 잘 안 닫혀요",
+    "model": "S825AW35",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4651690142760391
+  },
+  {
+    "question": "S825AW35 냉장고 청소하는 방법 알려줘",
+    "model": "S825AW35",
+    "faithfulness": 0.6153846153846154,
+    "answer_relevancy": 0.6700923020596847
+  },
+  {
+    "question": "S835S31 냉장고 온도 설정 방법 알려줘",
+    "model": "S835S31",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.7490494359868891
+  },
+  {
+    "question": "S835S31 냉장고에 성에가 계속 생겨요",
+    "model": "S835S31",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.5796152292362788
+  },
+  {
+    "question": "S835S31 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "S835S31",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.7371539468929272
+  },
+  {
+    "question": "S835S31 냉장고 문이 잘 안 닫혀요",
+    "model": "S835S31",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.6430822672569839
+  },
+  {
+    "question": "S835S31 냉장고 청소하는 방법 알려줘",
+    "model": "S835S31",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.6703253461749863
+  },
+  {
+    "question": "W826AAA492 냉장고 온도 설정 방법 알려줘",
+    "model": "W826AAA492",
+    "faithfulness": 0.625,
+    "answer_relevancy": 0.731056920047551
+  },
+  {
+    "question": "W826AAA492 냉장고에 성에가 계속 생겨요",
+    "model": "W826AAA492",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.32927630337932967
+  },
+  {
+    "question": "W826AAA492 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "W826AAA492",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6796217947328197
+  },
+  {
+    "question": "W826AAA492 냉장고 문이 잘 안 닫혀요",
+    "model": "W826AAA492",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.45043458394914204
+  },
+  {
+    "question": "W826AAA492 냉장고 청소하는 방법 알려줘",
+    "model": "W826AAA492",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.46829114511032943
+  },
+  {
+    "question": "K135LW123 김치냉장고 온도 설정 방법 알려줘",
+    "model": "K135LW123",
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.7467976085890504
+  },
+  {
+    "question": "K135LW123 김치냉장고 발효 기능이 뭐야",
+    "model": "K135LW123",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6534163940230502
+  },
+  {
+    "question": "K135LW123 김치냉장고에서 냄새가 나요",
+    "model": "K135LW123",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6317701324538811
+  },
+  {
+    "question": "K135LW123 김치냉장고 문이 잘 안 닫혀요",
+    "model": "K135LW123",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6838795208298678
+  },
+  {
+    "question": "K135LW123 김치냉장고 청소하는 방법 알려줘",
+    "model": "K135LW123",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7053950146282846
+  },
+  {
+    "question": "F21VDSK 세탁기 필터 청소 방법 알려줘",
+    "model": "F21VDSK",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "F21VDSK 세탁기 탈수할 때 소음이 심해요",
+    "model": "F21VDSK",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.628108606771101
+  },
+  {
+    "question": "F21VDSK 세탁기 문이 안 열려요",
+    "model": "F21VDSK",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.42320212874929547
+  },
+  {
+    "question": "F21VDSK 세탁기 배수가 안 돼요",
+    "model": "F21VDSK",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5548744860957745
+  },
+  {
+    "question": "F21VDSK 세탁 코스 선택하는 방법 알려줘",
+    "model": "F21VDSK",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.614480704024131
+  },
+  {
+    "question": "FC4KC 세탁기 필터 청소 방법 알려줘",
+    "model": "FC4KC",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.6776577982741026
+  },
+  {
+    "question": "FC4KC 세탁기 탈수할 때 소음이 심해요",
+    "model": "FC4KC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.38960954529798136
+  },
+  {
+    "question": "FC4KC 세탁기 문이 안 열려요",
+    "model": "FC4KC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3929355411249806
+  },
+  {
+    "question": "FC4KC 세탁기 배수가 안 돼요",
+    "model": "FC4KC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.29266191902701566
+  },
+  {
+    "question": "FC4KC 세탁 코스 선택하는 방법 알려줘",
+    "model": "FC4KC",
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.5633886216435059
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 필터 청소 방법 알려줘",
+    "model": "T17J4EFNTX",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6899346637878904
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 탈수할 때 소음이 심해요",
+    "model": "T17J4EFNTX",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.42029114569078635
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 문이 안 열려요",
+    "model": "T17J4EFNTX",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.44380082987026204
+  },
+  {
+    "question": "T17J4EFNTX 세탁기 배수가 안 돼요",
+    "model": "T17J4EFNTX",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5654752256082075
+  },
+  {
+    "question": "T17J4EFNTX 세탁 코스 선택하는 방법 알려줘",
+    "model": "T17J4EFNTX",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6232235128081685
+  },
+  {
+    "question": "TR16MV6 세탁기 필터 청소 방법 알려줘",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.694027038527104
+  },
+  {
+    "question": "TR16MV6 세탁기 탈수할 때 소음이 심해요",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4429595374718052
+  },
+  {
+    "question": "TR16MV6 세탁기 문이 안 열려요",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.646592456231676
+  },
+  {
+    "question": "TR16MV6 세탁기 배수가 안 돼요",
+    "model": "TR16MV6",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5568092156893686
+  },
+  {
+    "question": "TR16MV6 세탁 코스 선택하는 방법 알려줘",
+    "model": "TR16MV6",
+    "faithfulness": 0.7,
+    "answer_relevancy": 0.6266735253634317
+  },
+  {
+    "question": "RH10VTA 건조기 건조 코스 선택하는 방법 알려줘",
+    "model": "RH10VTA",
+    "faithfulness": 0.8421052631578947,
+    "answer_relevancy": 0.49812924401192854
+  },
+  {
+    "question": "RH10VTA 건조기 먼지 필터 청소 방법 알려줘",
+    "model": "RH10VTA",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6007218502749224
+  },
+  {
+    "question": "RH10VTA 건조기 건조 시간이 너무 오래 걸려요",
+    "model": "RH10VTA",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5351487944472693
+  },
+  {
+    "question": "RH10VTA 건조기에서 소음이 나는데 왜 그래요",
+    "model": "RH10VTA",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.35578080134279866
+  },
+  {
+    "question": "RH10VTA 건조기 에러 코드는 어디서 확인해",
+    "model": "RH10VTA",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6995205789579145
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6531846062756421
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 건조 기능은 어떻게 써",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.6621460251218335
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 필터 청소 방법 알려줘",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6875974825498999
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 문이 안 열려요",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4675112347061666
+  },
+  {
+    "question": "RH21E5ATKWP 세탁건조기 에러 코드는 어디서 확인해",
+    "model": "RH21E5ATKWP",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.7545479665810477
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+    "model": "FA25AJPB",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5759728731530382
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 건조 기능은 어떻게 써",
+    "model": "FA25AJPB",
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.6429600272154593
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 필터 청소 방법 알려줘",
+    "model": "FA25AJPB",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6875928386124565
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 문이 안 열려요",
+    "model": "FA25AJPB",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4717984170690873
+  },
+  {
+    "question": "FA25AJPB 세탁건조기 에러 코드는 어디서 확인해",
+    "model": "FA25AJPB",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7410245108680777
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.6094394510374601
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 건조 기능은 어떻게 써",
+    "model": "FC2521KX6C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5836252164938995
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 필터 청소 방법 알려줘",
+    "model": "FC2521KX6C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6762839744038283
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 문이 안 열려요",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.7857142857142857,
+    "answer_relevancy": 0.47531281094014016
+  },
+  {
+    "question": "FC2521KX6C 세탁건조기 에러 코드는 어디서 확인해",
+    "model": "FC2521KX6C",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.7117361452959042
+  },
+  {
+    "question": "FH23KN 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+    "model": "FH23KN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6000523441884476
+  },
+  {
+    "question": "FH23KN 세탁건조기 건조 기능은 어떻게 써",
+    "model": "FH23KN",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.6199703633221381
+  },
+  {
+    "question": "FH23KN 세탁건조기 필터 청소 방법 알려줘",
+    "model": "FH23KN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6937697498525788
+  },
+  {
+    "question": "FH23KN 세탁건조기 문이 안 열려요",
+    "model": "FH23KN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.575660064954844
+  },
+  {
+    "question": "FH23KN 세탁건조기 에러 코드는 어디서 확인해",
+    "model": "FH23KN",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.7520828233524172
+  },
+  {
+    "question": "SC3GBE50 스타일러 냄새 제거 기능이 뭐야",
+    "model": "SC3GBE50",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5211816719120268
+  },
+  {
+    "question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+    "model": "SC3GBE50",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "SC3GBE50 스타일러 문이 안 열려요",
+    "model": "SC3GBE50",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.34959309076111267
+  },
+  {
+    "question": "SC3GBE50 스타일러 청소하는 방법 알려줘",
+    "model": "SC3GBE50",
+    "faithfulness": 0.9411764705882353,
+    "answer_relevancy": 0.7138646789208167
+  },
+  {
+    "question": "SC3GBE50 스타일러 에러 코드는 어디서 확인해",
+    "model": "SC3GBE50",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.7568275707123734
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 필터 청소 방법 알려줘",
+    "model": "AF17B6474WSN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6287841597508343
+  },
+  {
+    "question": "AF17B6474WSN 에어컨에서 이상한 소리가 나요",
+    "model": "AF17B6474WSN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3229612128845627
+  },
+  {
+    "question": "AF17B6474WSN 에어컨이 냉방이 잘 안 돼요",
+    "model": "AF17B6474WSN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5144293926041548
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AF17B6474WSN",
+    "faithfulness": 0.5555555555555556,
+    "answer_relevancy": 0.6725375732215095
+  },
+  {
+    "question": "AF17B6474WSN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AF17B6474WSN",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.5115015906569775
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 필터 청소 방법 알려줘",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6173380729373528
+  },
+  {
+    "question": "AF17B7538TZN 에어컨에서 이상한 소리가 나요",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6117089832057837
+  },
+  {
+    "question": "AF17B7538TZN 에어컨이 냉방이 잘 안 돼요",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5320640516725706
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6496292787921095
+  },
+  {
+    "question": "AF17B7538TZN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AF17B7538TZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5473452782458028
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 필터 청소 방법 알려줘",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.6357142948352349
+  },
+  {
+    "question": "AF18RX975CAN 에어컨에서 이상한 소리가 나요",
+    "model": "AF18RX975CAN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5527856394731742
+  },
+  {
+    "question": "AF18RX975CAN 에어컨이 냉방이 잘 안 돼요",
+    "model": "AF18RX975CAN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5097400843581967
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.8461538461538461,
+    "answer_relevancy": 0.7062570412232787
+  },
+  {
+    "question": "AF18RX975CAN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AF18RX975CAN",
+    "faithfulness": 0.6363636363636364,
+    "answer_relevancy": 0.544868434310979
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 필터 청소 방법 알려줘",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 0.7857142857142857,
+    "answer_relevancy": 0.6004632692376523
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨에서 이상한 소리가 나요",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5538472782316881
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨이 냉방이 잘 안 돼요",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.507823538334206
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6682923610716285
+  },
+  {
+    "question": "AF19TX978MZ3N 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AF19TX978MZ3N",
+    "faithfulness": 0.4444444444444444,
+    "answer_relevancy": 0.5194498310836967
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 필터 청소 방법 알려줘",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.5676013443306068
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨에서 이상한 소리가 나요",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3746209319148447
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨이 냉방이 잘 안 돼요",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.5008660746187789
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.2857142857142857,
+    "answer_relevancy": 0.6663688427736382
+  },
+  {
+    "question": "AM145JNPDBH1 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AM145JNPDBH1",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.5421491168883176
+  },
+  {
+    "question": "AR-EH05 에어컨 필터 청소 방법 알려줘",
+    "model": "AR-EH05",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR-EH05 에어컨에서 이상한 소리가 나요",
+    "model": "AR-EH05",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.6204920054789372
+  },
+  {
+    "question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+    "model": "AR-EH05",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5386108134589559
+  },
+  {
+    "question": "AR-EH05 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AR-EH05",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR-EH05 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AR-EH05",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 필터 청소 방법 알려줘",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.629969728496912
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨에서 이상한 소리가 나요",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5949966415224361
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨이 냉방이 잘 안 돼요",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5515948796439835
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 0.42857142857142855,
+    "answer_relevancy": 0.7216070152742604
+  },
+  {
+    "question": "AR06A9170HNQ 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AR06A9170HNQ",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.5799537225045029
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 필터 청소 방법 알려줘",
+    "model": "AR06R1130HZN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6242755653311318
+  },
+  {
+    "question": "AR06R1130HZN 에어컨에서 이상한 소리가 나요",
+    "model": "AR06R1130HZN",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.6338271195288373
+  },
+  {
+    "question": "AR06R1130HZN 에어컨이 냉방이 잘 안 돼요",
+    "model": "AR06R1130HZN",
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.5552215412833483
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AR06R1130HZN",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "AR06R1130HZN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AR06R1130HZN",
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.5392506436228967
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 필터 청소 방법 알려줘",
+    "model": "AR09T9170HCN",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.6332231459393906
+  },
+  {
+    "question": "AR09T9170HCN 에어컨에서 이상한 소리가 나요",
+    "model": "AR09T9170HCN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.649758893895902
+  },
+  {
+    "question": "AR09T9170HCN 에어컨이 냉방이 잘 안 돼요",
+    "model": "AR09T9170HCN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5627701746392285
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AR09T9170HCN",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.7334895183153397
+  },
+  {
+    "question": "AR09T9170HCN 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AR09T9170HCN",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5314917548600525
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 필터 청소 방법 알려줘",
+    "model": "AR11B9150HZT",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.6137660318237976
+  },
+  {
+    "question": "AR11B9150HZT 에어컨에서 이상한 소리가 나요",
+    "model": "AR11B9150HZT",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.39033057267343796
+  },
+  {
+    "question": "AR11B9150HZT 에어컨이 냉방이 잘 안 돼요",
+    "model": "AR11B9150HZT",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5268206916210262
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 에러 메시지 확인하는 방법 알려줘",
+    "model": "AR11B9150HZT",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.6934776592469147
+  },
+  {
+    "question": "AR11B9150HZT 에어컨 실외기 관리하는 방법 알려줘",
+    "model": "AR11B9150HZT",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5079130694014719
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 온도 설정 방법 알려줘",
+    "model": "RF85B90P1AP",
+    "faithfulness": 0.3,
+    "answer_relevancy": 0.7374373181920628
+  },
+  {
+    "question": "RF85B90P1AP 냉장고에 성에가 계속 생겨요",
+    "model": "RF85B90P1AP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3160463610617074
+  },
+  {
+    "question": "RF85B90P1AP 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "RF85B90P1AP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5536552178443261
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 문이 잘 안 닫혀요",
+    "model": "RF85B90P1AP",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4632645749109121
+  },
+  {
+    "question": "RF85B90P1AP 냉장고 청소하는 방법 알려줘",
+    "model": "RF85B90P1AP",
+    "faithfulness": 0.9473684210526315,
+    "answer_relevancy": 0.6369685569248039
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 온도 설정 방법 알려줘",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.7242974274929173
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고에 성에가 계속 생겨요",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.6153846153846154,
+    "answer_relevancy": 0.3815793673210479
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.7170049310037419
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 문이 잘 안 닫혀요",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.4869054840191117
+  },
+  {
+    "question": "RF85DB90B1AP 냉장고 청소하는 방법 알려줘",
+    "model": "RF85DB90B1AP",
+    "faithfulness": 0.8461538461538461,
+    "answer_relevancy": 0.6328334712565815
+  },
+  {
+    "question": "RH82M9152SL 냉장고 온도 설정 방법 알려줘",
+    "model": "RH82M9152SL",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.7304268722504031
+  },
+  {
+    "question": "RH82M9152SL 냉장고에 성에가 계속 생겨요",
+    "model": "RH82M9152SL",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.2954333730105712
+  },
+  {
+    "question": "RH82M9152SL 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "RH82M9152SL",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.7210041915893831
+  },
+  {
+    "question": "RH82M9152SL 냉장고 문이 잘 안 닫혀요",
+    "model": "RH82M9152SL",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6096000550540378
+  },
+  {
+    "question": "RH82M9152SL 냉장고 청소하는 방법 알려줘",
+    "model": "RH82M9152SL",
+    "faithfulness": 0.8947368421052632,
+    "answer_relevancy": 0.6729035842372959
+  },
+  {
+    "question": "RS63R557EB4 냉장고 온도 설정 방법 알려줘",
+    "model": "RS63R557EB4",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.7220952516000919
+  },
+  {
+    "question": "RS63R557EB4 냉장고에 성에가 계속 생겨요",
+    "model": "RS63R557EB4",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3637917596596997
+  },
+  {
+    "question": "RS63R557EB4 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "RS63R557EB4",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5223762787745148
+  },
+  {
+    "question": "RS63R557EB4 냉장고 문이 잘 안 닫혀요",
+    "model": "RS63R557EB4",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.44968678326193073
+  },
+  {
+    "question": "RS63R557EB4 냉장고 청소하는 방법 알려줘",
+    "model": "RS63R557EB4",
+    "faithfulness": 0.9375,
+    "answer_relevancy": 0.6272643551584564
+  },
+  {
+    "question": "RS84B5041WW 냉장고 온도 설정 방법 알려줘",
+    "model": "RS84B5041WW",
+    "faithfulness": 0.6428571428571429,
+    "answer_relevancy": 0.7167890358786383
+  },
+  {
+    "question": "RS84B5041WW 냉장고에 성에가 계속 생겨요",
+    "model": "RS84B5041WW",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.3260574016520716
+  },
+  {
+    "question": "RS84B5041WW 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "RS84B5041WW",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5037604641253793
+  },
+  {
+    "question": "RS84B5041WW 냉장고 문이 잘 안 닫혀요",
+    "model": "RS84B5041WW",
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.45079311345761275
+  },
+  {
+    "question": "RS84B5041WW 냉장고 청소하는 방법 알려줘",
+    "model": "RS84B5041WW",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.6505528533766404
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 온도 설정 방법 알려줘",
+    "model": "RT42CG6024S9",
+    "faithfulness": 0.6363636363636364,
+    "answer_relevancy": 0.6983366560523522
+  },
+  {
+    "question": "RT42CG6024S9 냉장고에 성에가 계속 생겨요",
+    "model": "RT42CG6024S9",
+    "faithfulness": 0.5714285714285714,
+    "answer_relevancy": 0.5042670140862676
+  },
+  {
+    "question": "RT42CG6024S9 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "RT42CG6024S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6609746175592403
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 문이 잘 안 닫혀요",
+    "model": "RT42CG6024S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5922676873183371
+  },
+  {
+    "question": "RT42CG6024S9 냉장고 청소하는 방법 알려줘",
+    "model": "RT42CG6024S9",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6083216437670094
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 온도 설정 방법 알려줘",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.09090909090909091,
+    "answer_relevancy": 0.6888657287699869
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고에 성에가 계속 생겨요",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.7777777777777778,
+    "answer_relevancy": 0.5313694695583453
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6246302360000613
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 문이 잘 안 닫혀요",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.4404836376784165
+  },
+  {
+    "question": "RT53DG7A1CWW 냉장고 청소하는 방법 알려줘",
+    "model": "RT53DG7A1CWW",
+    "faithfulness": 0.9285714285714286,
+    "answer_relevancy": 0.585902212860578
+  },
+  {
+    "question": "SRS705IC 냉장고 온도 설정 방법 알려줘",
+    "model": "SRS705IC",
+    "faithfulness": 0.9444444444444444,
+    "answer_relevancy": 0.7642510373054083
+  },
+  {
+    "question": "SRS705IC 냉장고에 성에가 계속 생겨요",
+    "model": "SRS705IC",
+    "faithfulness": 0.7272727272727273,
+    "answer_relevancy": 0.6228973997372909
+  },
+  {
+    "question": "SRS705IC 냉장고에서 소음이 나는데 왜 그래요",
+    "model": "SRS705IC",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.7309491907361779
+  },
+  {
+    "question": "SRS705IC 냉장고 문이 잘 안 닫혀요",
+    "model": "SRS705IC",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6688168406952059
+  },
+  {
+    "question": "SRS705IC 냉장고 청소하는 방법 알려줘",
+    "model": "SRS705IC",
+    "faithfulness": 0.6363636363636364,
+    "answer_relevancy": 0.7066859882161958
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 온도 설정 방법 알려줘",
+    "model": "RP20C3111S9",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.6970848499894264
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 발효 기능이 뭐야",
+    "model": "RP20C3111S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6710423986561758
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고에서 냄새가 나요",
+    "model": "RP20C3111S9",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.47376233766051207
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 문이 잘 안 닫혀요",
+    "model": "RP20C3111S9",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.6219925223505102
+  },
+  {
+    "question": "RP20C3111S9 김치냉장고 청소하는 방법 알려줘",
+    "model": "RP20C3111S9",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.6568242517831152
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 온도 설정 방법 알려줘",
+    "model": "RQ49C9002S9",
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.7070273593666652
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 발효 기능이 뭐야",
+    "model": "RQ49C9002S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.654443271890199
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고에서 냄새가 나요",
+    "model": "RQ49C9002S9",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4787767750622753
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 문이 잘 안 닫혀요",
+    "model": "RQ49C9002S9",
+    "faithfulness": 0.7142857142857143,
+    "answer_relevancy": 0.4981177515600433
+  },
+  {
+    "question": "RQ49C9002S9 김치냉장고 청소하는 방법 알려줘",
+    "model": "RQ49C9002S9",
+    "faithfulness": 0.8947368421052632,
+    "answer_relevancy": 0.6605174568221148
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 필터 청소 방법 알려줘",
+    "model": "WA19CG6745BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6871284239301175
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 탈수할 때 소음이 심해요",
+    "model": "WA19CG6745BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5093518797072933
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 문이 안 열려요",
+    "model": "WA19CG6745BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4903417266307354
+  },
+  {
+    "question": "WA19CG6745BV 세탁기 배수가 안 돼요",
+    "model": "WA19CG6745BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5536592326408302
+  },
+  {
+    "question": "WA19CG6745BV 세탁 코스 선택하는 방법 알려줘",
+    "model": "WA19CG6745BV",
+    "faithfulness": 0.9,
+    "answer_relevancy": 0.6014443417363811
+  },
+  {
+    "question": "WA80F19E8W 세탁기 필터 청소 방법 알려줘",
+    "model": "WA80F19E8W",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6924904657898614
+  },
+  {
+    "question": "WA80F19E8W 세탁기 탈수할 때 소음이 심해요",
+    "model": "WA80F19E8W",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6282791015687303
+  },
+  {
+    "question": "WA80F19E8W 세탁기 문이 안 열려요",
+    "model": "WA80F19E8W",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.4745258460829625
+  },
+  {
+    "question": "WA80F19E8W 세탁기 배수가 안 돼요",
+    "model": "WA80F19E8W",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.556742921363868
+  },
+  {
+    "question": "WA80F19E8W 세탁 코스 선택하는 방법 알려줘",
+    "model": "WA80F19E8W",
+    "faithfulness": 0.9473684210526315,
+    "answer_relevancy": 0.653003894917096
+  },
+  {
+    "question": "WF17M9100KG 세탁기 필터 청소 방법 알려줘",
+    "model": "WF17M9100KG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6280700848718132
+  },
+  {
+    "question": "WF17M9100KG 세탁기 탈수할 때 소음이 심해요",
+    "model": "WF17M9100KG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6373364144323841
+  },
+  {
+    "question": "WF17M9100KG 세탁기 문이 안 열려요",
+    "model": "WF17M9100KG",
+    "faithfulness": 0.875,
+    "answer_relevancy": 0.6201116808021091
+  },
+  {
+    "question": "WF17M9100KG 세탁기 배수가 안 돼요",
+    "model": "WF17M9100KG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5680352691124196
+  },
+  {
+    "question": "WF17M9100KG 세탁 코스 선택하는 방법 알려줘",
+    "model": "WF17M9100KG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.676201747257915
+  },
+  {
+    "question": "WF21T6500KW 세탁기 필터 청소 방법 알려줘",
+    "model": "WF21T6500KW",
+    "faithfulness": 0.9230769230769231,
+    "answer_relevancy": 0.6798892931837319
+  },
+  {
+    "question": "WF21T6500KW 세탁기 탈수할 때 소음이 심해요",
+    "model": "WF21T6500KW",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6176945377034476
+  },
+  {
+    "question": "WF21T6500KW 세탁기 문이 안 열려요",
+    "model": "WF21T6500KW",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6144557397839384
+  },
+  {
+    "question": "WF21T6500KW 세탁기 배수가 안 돼요",
+    "model": "WF21T6500KW",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5404382132554579
+  },
+  {
+    "question": "WF21T6500KW 세탁 코스 선택하는 방법 알려줘",
+    "model": "WF21T6500KW",
+    "faithfulness": 0.9166666666666666,
+    "answer_relevancy": 0.6895377977622805
+  },
+  {
+    "question": "DV17T8520BV 건조기 건조 코스 선택하는 방법 알려줘",
+    "model": "DV17T8520BV",
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.6287180594213193
+  },
+  {
+    "question": "DV17T8520BV 건조기 먼지 필터 청소 방법 알려줘",
+    "model": "DV17T8520BV",
+    "faithfulness": 0.8666666666666667,
+    "answer_relevancy": 0.6502172719507954
+  },
+  {
+    "question": "DV17T8520BV 건조기 건조 시간이 너무 오래 걸려요",
+    "model": "DV17T8520BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.29153111010980204
+  },
+  {
+    "question": "DV17T8520BV 건조기에서 소음이 나는데 왜 그래요",
+    "model": "DV17T8520BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6614802757093505
+  },
+  {
+    "question": "DV17T8520BV 건조기 에러 코드는 어디서 확인해",
+    "model": "DV17T8520BV",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7177842665955287
+  },
+  {
+    "question": "DV90TA040TE 건조기 건조 코스 선택하는 방법 알려줘",
+    "model": "DV90TA040TE",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.5787221341460124
+  },
+  {
+    "question": "DV90TA040TE 건조기 먼지 필터 청소 방법 알려줘",
+    "model": "DV90TA040TE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6434524731136688
+  },
+  {
+    "question": "DV90TA040TE 건조기 건조 시간이 너무 오래 걸려요",
+    "model": "DV90TA040TE",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.39480992468205856
+  },
+  {
+    "question": "DV90TA040TE 건조기에서 소음이 나는데 왜 그래요",
+    "model": "DV90TA040TE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6428376463878521
+  },
+  {
+    "question": "DV90TA040TE 건조기 에러 코드는 어디서 확인해",
+    "model": "DV90TA040TE",
+    "faithfulness": 0.6,
+    "answer_relevancy": 0.7304070780445245
+  },
+  {
+    "question": "DF60R8300WG 스타일러 냄새 제거 기능이 뭐야",
+    "model": "DF60R8300WG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5668010163403991
+  },
+  {
+    "question": "DF60R8300WG 스타일러 트리트먼트 기능 알려줘",
+    "model": "DF60R8300WG",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "DF60R8300WG 스타일러 문이 안 열려요",
+    "model": "DF60R8300WG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5586866365194207
+  },
+  {
+    "question": "DF60R8300WG 스타일러 청소하는 방법 알려줘",
+    "model": "DF60R8300WG",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7471412960826668
+  },
+  {
+    "question": "DF60R8300WG 스타일러 에러 코드는 어디서 확인해",
+    "model": "DF60R8300WG",
+    "faithfulness": 0.4,
+    "answer_relevancy": 0.8100999769823575
+  },
+  {
+    "question": "DF90H24R5C 스타일러 냄새 제거 기능이 뭐야",
+    "model": "DF90H24R5C",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.5672941268066141
+  },
+  {
+    "question": "DF90H24R5C 스타일러 트리트먼트 기능 알려줘",
+    "model": "DF90H24R5C",
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.5089808895251112
+  },
+  {
+    "question": "DF90H24R5C 스타일러 문이 안 열려요",
+    "model": "DF90H24R5C",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5570535720428068
+  },
+  {
+    "question": "DF90H24R5C 스타일러 청소하는 방법 알려줘",
+    "model": "DF90H24R5C",
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.0
+  },
+  {
+    "question": "DF90H24R5C 스타일러 에러 코드는 어디서 확인해",
+    "model": "DF90H24R5C",
+    "faithfulness": 0.3333333333333333,
+    "answer_relevancy": 0.8162159474821213
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 신발 살균 기능이 뭐야",
+    "model": "DJ30T9500FE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5708439729831855
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 냄새 제거는 어떻게 해",
+    "model": "DJ30T9500FE",
+    "faithfulness": 0.9090909090909091,
+    "answer_relevancy": 0.7163698011749763
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+    "model": "DJ30T9500FE",
+    "faithfulness": 0.8461538461538461,
+    "answer_relevancy": 0.6756574827747698
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 문이 안 열려요",
+    "model": "DJ30T9500FE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.49893250147386126
+  },
+  {
+    "question": "DJ30T9500FE 슈드레서 청소하는 방법 알려줘",
+    "model": "DJ30T9500FE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7656935460593549
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 신발 살균 기능이 뭐야",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5548241436789959
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 냄새 제거는 어떻게 해",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 0.8,
+    "answer_relevancy": 0.6823128594485736
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 건조 기능 알려줘",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6156071685329731
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 문이 안 열려요",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5143279167179265
+  },
+  {
+    "question": "DJ40CB9600NE 슈드레서 청소하는 방법 알려줘",
+    "model": "DJ40CB9600NE",
+    "faithfulness": 0.9333333333333333,
+    "answer_relevancy": 0.7318751519054659
+  }
+]

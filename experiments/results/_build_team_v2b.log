@@ -1,0 +1,67 @@
+임베딩 device: cuda
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:   3%|▎         | 12/391 [00:00<00:03, 99.79it/s]Loading weights:   8%|▊         | 33/391 [00:00<00:02, 159.43it/s]Loading weights:  13%|█▎        | 50/391 [00:00<00:02, 159.53it/s]Loading weights:  17%|█▋        | 67/391 [00:00<00:02, 150.74it/s]Loading weights:  21%|██        | 83/391 [00:00<00:02, 126.93it/s]Loading weights:  27%|██▋       | 105/391 [00:00<00:01, 151.13it/s]Loading weights:  33%|███▎      | 129/391 [00:00<00:01, 158.89it/s]Loading weights:  37%|███▋      | 146/391 [00:01<00:01, 133.62it/s]Loading weights:  41%|████      | 161/391 [00:01<00:01, 117.11it/s]Loading weights: 100%|██████████| 391/391 [00:01<00:00, 309.74it/s]
+AC_FQ16FV6EDN.pdf      청크 109개
+AC_FQ17FN5BDN.pdf      청크 117개
+AC_FQ18GC1EHN.pdf      청크 92개
+AC_FQ18GN7BKN.pdf      청크 117개
+AC_FQ18GU1BHN.pdf      청크 98개
+AC_FQ25GN9BKN.pdf      청크 117개
+AC_SQ06EJ1WAJ.pdf      청크 89개
+AC_SQ07GA3WBN.pdf      청크 79개
+AC_SQ07GJ1WEN.pdf      청크 79개
+AC_SQ09GK1WEN.pdf      청크 82개
+RF_B242S32.pdf         청크 58개
+RF_CA-H17DC.pdf        청크 34개
+RF_GC-B40BSCQ.pdf      청크 95개
+RF_GC-B414HG7M.pdf     청크 85개
+RF_J825MEE042.pdf      청크 112개
+RF_K135LW123.pdf       청크 59개
+RF_M402ND.pdf          청크 98개
+RF_S825AW35.pdf        [TOC없음-기존재사용] 174개
+RF_S835S31.pdf         [TOC없음-기존재사용] 167개
+RF_W826AAA492.pdf      청크 127개
+DR_RH10VTA.pdf         청크 88개
+DR_RH21E5ATKWP.pdf     청크 126개
+ST_SC3GBE50.pdf        청크 72개
+WM_F21VDSK.pdf         청크 97개
+WM_FA25AJPB.pdf        청크 157개
+WM_FC2521KX6C.pdf      청크 117개
+WM_FC4KC.pdf           청크 84개
+WM_FH23KN.pdf          청크 120개
+WM_T17J4EFNTX.pdf      청크 95개
+WM_TR16MV6.pdf         청크 78개
+AC_AF17B6474WSN.pdf    청크 58개
+AC_AF17B7538TZN.pdf    청크 61개
+AC_AF18RX975CAN.pdf    청크 80개
+AC_AF19TX978MZ3N.pdf   청크 148개
+AC_AM145JNPDBH1.pdf    청크 28개
+AC_AR-EH05.pdf         청크 22개
+AC_AR06A9170HNQ.pdf    청크 50개
+AC_AR06R1130HZN.pdf    청크 38개
+AC_AR09T9170HCN.pdf    청크 58개
+AC_AR11B9150HZT.pdf    청크 53개
+RF_RF85B90P1AP.pdf     청크 126개
+RF_RF85DB90B1AP.pdf    청크 145개
+RF_RH82M9152SL.pdf     청크 88개
+RF_RP20C3111S9.pdf     [TOC없음-기존재사용] 54개
+RF_RQ49C9002S9.pdf     청크 87개
+RF_RS63R557EB4.pdf     청크 55개
+RF_RS84B5041WW.pdf     청크 79개
+RF_RT42CG6024S9.pdf    청크 114개
+RF_RT53DG7A1CWW.pdf    청크 125개
+RF_SRS705IC.pdf        [TOC없음-기존재사용] 77개
+DR_DV17T8520BV.pdf     청크 104개
+DR_DV90TA040TE.pdf     청크 106개
+ST_DF60R8300WG.pdf     청크 93개
+ST_DF90H24R5C.pdf      청크 112개
+ST_DJ30T9500FE.pdf     청크 73개
+ST_DJ40CB9600NE.pdf    청크 74개
+WM_WA19CG6745BV.pdf    청크 80개
+WM_WA80F19E8W.pdf      청크 127개
+WM_WF17M9100KG.pdf     청크 63개
+WM_WF21T6500KW.pdf     [TOC없음-기존재사용] 136개
+
+재청킹: 4928개, 기존재사용(TOC없음): 608개
+컬렉션 전체: 5536개, 소요 시간: 187.1초
+저장 경로: C:\Users\Admin\Desktop\broogun_rag_experiments\chroma_db_team_v2b

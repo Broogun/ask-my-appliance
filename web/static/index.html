@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>가전 도우미 — 로그인</title>
+<link rel="stylesheet" href="/static/css/base.css">
+</head>
+<body>
+<div class="login-split">
+  <div class="login-brand">
+    <div class="logo-mark">🔧</div>
+    <h2>우리 집 가전,<br>설명서째로 물어보세요</h2>
+    <p>보유하신 제품의 사용법과 문제 해결 방법을 실제 설명서 근거와 함께 바로 안내해드립니다.</p>
+    <div class="brand-mock">
+      <div class="q">에어컨에서 이상한 냄새가 나요</div>
+      <div class="a">에어컨은 실내 공기를 흡입해 순환시키므로 실내 냄새가 배어 나올 수 있어요. 필터를 청소하고 자동 건조 기능을 켜 두세요.</div>
+      <div class="src">📄 참고: 사용설명서 › 문제해결 › 냄새 › 이상한 냄새가 나요</div>
+    </div>
+  </div>
+  <div class="login-form-side">
+    <form class="login-form-box" id="loginForm">
+      <h3>로그인</h3>
+      <div class="sub">계정으로 로그인하고 내 제품 정보를 불러오세요</div>
+      <div class="field"><label>아이디</label><input class="input" id="username" value="admin1" autocomplete="username"></div>
+      <div class="field"><label>비밀번호</label><input class="input" id="password" type="password" value="1234" autocomplete="current-password"></div>
+      <button class="btn" type="submit" id="loginBtn">로그인</button>
+      <div class="error-text" id="err"></div>
+    </form>
+  </div>
+</div>
+<script src="/static/js/api.js"></script>
+<script>
+if (API.token()) { API.get('/api/appliances').then(list => location.href = list.length ? '/app' : '/onboarding').catch(() => {}); }
+document.getElementById('loginForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById('loginBtn'); btn.disabled = true; document.getElementById('err').textContent = '';
+  try {
+    const r = await API.post('/api/auth/login', { username: username.value.trim(), password: password.value });
+    localStorage.setItem('token', r.token); localStorage.setItem('username', r.user.username);
+    const list = await API.get('/api/appliances');
+    location.href = list.length ? '/app' : '/onboarding';
+  } catch (ex) { document.getElementById('err').textContent = ex.message; btn.disabled = false; }
+});
+</script>
+</body>
+</html>

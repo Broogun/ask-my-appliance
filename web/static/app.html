@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>가전 도우미</title>
+<link rel="stylesheet" href="/static/css/base.css">
+</head>
+<body>
+<div class="app-shell">
+  <!-- 사이드바 -->
+  <aside class="sidebar">
+    <div class="brand-row"><div class="mark">🔧</div><span>가전 도우미</span></div>
+    <div class="nav-group-label">메뉴</div>
+    <button class="nav-item" data-view="history">🗂 대화 기록</button>
+    <button class="nav-item" data-view="products">🏠 내 제품</button>
+    <button class="new-chat-btn" id="newChat">+ 새 대화 시작</button>
+    <div class="nav-group-label">최근 대화</div>
+    <div class="recent-list" id="recentList"></div>
+    <div class="sidebar-footer"><div class="avatar-sm" id="avatar">A</div><span id="whoami">admin1</span><button class="link-btn" id="logout" style="margin-left:auto">로그아웃</button></div>
+  </aside>
+
+  <main class="main-col">
+    <div class="topbar"><div id="topbarLeft" class="title">새 대화</div><div id="topbarRight"></div></div>
+
+    <!-- 뷰: 제품 선택 (새 대화) -->
+    <section class="view hidden" id="view-picker">
+      <div class="picker-wrap"><div class="picker-card">
+        <h3>어떤 제품에 대해 질문하시나요?</h3>
+        <div class="sub">선택한 제품의 설명서를 기준으로 답변해드려요.</div>
+        <div id="pickerList"></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:22px;">
+          <button class="link-btn" id="pickerAdd">+ 다른 제품 등록하기</button>
+          <button class="btn" id="pickerGo" disabled style="width:220px">선택하고 대화 시작하기</button>
+        </div>
+      </div></div>
+    </section>
+
+    <!-- 뷰: 채팅 -->
+    <section class="view hidden" id="view-chat">
+      <div class="chat-main">
+        <div class="conversation-col" id="conv"></div>
+        <aside class="sources-panel" id="sources"><h4>참고한 설명서 / 출처</h4><div class="sources-empty">질문하면 참고한 설명서 조각이 여기 표시돼요</div></aside>
+      </div>
+      <div class="input-bar"><form class="input-bar-inner" id="askForm">
+        <input id="askInput" placeholder="질문을 자유롭게 입력하세요" autocomplete="off">
+        <button class="send-btn" id="askBtn" type="submit">↑</button></form></div>
+    </section>
+
+    <!-- 뷰: 대화 기록 -->
+    <section class="view hidden" id="view-history"><div class="page-main" id="historyMain"></div></section>
+
+    <!-- 뷰: 내 제품 -->
+    <section class="view hidden" id="view-products"><div class="page-main" id="productsMain"></div></section>
+  </main>
+</div>
+
+<!-- 모달: 제품 추가 (등록 플로우 재사용) -->
+<div class="modal-backdrop hidden" id="modalAdd"><div class="modal-box">
+  <div class="modal-header"><span>제품 등록</span><button class="close-x" data-close="modalAdd">✕</button></div>
+  <div class="modal-body" id="modalAddBody"></div>
+</div></div>
+
+<!-- 모달: 제품 수정 -->
+<div class="modal-backdrop hidden" id="modalEdit"><div class="modal-box">
+  <div class="modal-header"><span>제품 정보 수정</span><button class="close-x" data-close="modalEdit">✕</button></div>
+  <div class="modal-body" id="modalEditBody"></div>
+  <div class="modal-footer"><button class="link-btn" data-close="modalEdit">취소</button><button class="btn" id="editSave" style="width:160px">저장하기</button></div>
+</div></div>
+
+<!-- 모달: 출처 자세히 (설명서 조각 전문 + PDF 해당 페이지) -->
+<div class="modal-backdrop hidden" id="modalSource"><div class="modal-box wide">
+  <div class="modal-header"><span id="srcTitle">참고한 설명서</span><button class="close-x" data-close="modalSource">✕</button></div>
+  <div class="modal-body" id="modalSourceBody"></div>
+</div></div>
+
+<script src="/static/js/api.js"></script>
+<script src="/static/js/register.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

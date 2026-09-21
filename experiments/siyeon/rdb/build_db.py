@@ -57,7 +57,7 @@ FEATURE_IMPLIED_BY = {"먼지통": "클린봇"}
 # 질문/제목에서 코드로 볼 토큰: 영문 1~3자 + 숫자 0~3자 (CH05, E0, C101, FF, dE1, 1E, 5C, tCL)
 CODE_TOKEN_RE = re.compile(r"(?<![A-Za-z0-9])([A-Za-z]{1,3}\s?-?\d{0,3}|\d[A-Za-z]{1,2})(?![A-Za-z0-9])")
 # 질문에서 "코드 질문"으로 판단할 최소 조건: 영문+숫자 조합 또는 대문자 2~3자 코드 (FF, UE, IE, dE)
-QUERY_CODE_RE = re.compile(r"(?<![A-Za-z0-9가-힣])(?:[A-Za-z]{1,3}\s?-?\d{1,3}|\d[A-Za-z]{1,2}|[A-Z][A-Za-z]{1,2})(?![A-Za-z0-9])")
+QUERY_CODE_RE = re.compile(r"(?<![A-Za-z0-9가-힣])(?:[A-Za-z]{1,3}\s?-?\d{1,3}|\d[A-Za-z]{1,2}|[A-Z][A-Za-z]{1,2}|[a-z][A-Z]{1,2})(?![A-Za-z0-9])")   # 마지막 대안: dE, tE, dH, rF 처럼 소문자로 시작하는 LG 코드(2026-09-22)
 CONFUSABLE = {"O": "0", "0": "O", "I": "1", "1": "I", "S": "5", "5": "S", "B": "8", "8": "B"}
 
 

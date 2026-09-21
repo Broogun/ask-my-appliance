@@ -22,9 +22,10 @@ sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(ROOT / "experiments"))
 from dotenv import load_dotenv  # noqa: E402
 load_dotenv(ROOT / ".env")
 
-from siyeon.rag.retrieval import CONTEXT_CUTOFF, LGAirconRetriever, RetrievalResult, appliance_label  # noqa: E402
+from siyeon.rag.retrieval import CONTEXT_CUTOFF, RetrievalResult, appliance_label  # noqa: E402
 from siyeon.rag.understand import Understanding, understand  # noqa: E402
-from .rag_listwise import ListwiseRetriever  # noqa: E402
+from . import rag_myretriever  # noqa: E402
+import 박형건_exp02 as exp02  # noqa: E402
 
 SUPPORT = {   # 고객센터 연결 버튼 (브랜드별)
     "lg":      {"name": "LG전자 고객센터", "phone": "1544-7777", "url": "https://www.lge.co.kr/support"},
@@ -52,31 +53,33 @@ WEB_SYSTEM_PROMPT = """당신은 사용자가 등록한 가전제품의 사용�
 5. 형식: 첫 줄에 결론 한 문장 → 확인·조치를 설명서 순서대로 번호 목록. 증상·고장 질문이면 마지막에 "그래도 해결되지 않으면
    고객센터에 문의하세요" 한 줄을 붙이고, 사용법·기능 유무·설명서에 없는 내용 답변에는 붙이지 않습니다.
    전체 5~10줄. 각 단계는 설명서의 표현을 살려 구체적으로 (예: "리모컨의 밝기 버튼을 누를 때마다 ON/OFF로 바뀝니다").
-6. 화재·감전·연기·타는 냄새·가스처럼 안전과 관련된 질문이면 첫 줄에 사용 중지와 전원 차단(플러그 분리)을 먼저 안내합니다.
+6. "사용 중지와 전원 차단(플러그 분리)을 먼저 하세요" 같은 안전 경고 문구는 당신이 쓰지 않습니다 - 시스템이
+   필요할 때 답변 앞에 자동으로 붙입니다. 질문이나 근거가 얼마나 심각하게 들리든(소음이 심하다, 잠을 못 잔다 등)
+   당신은 이 문구를 절대 스스로 만들어 붙이지 말고, 바로 확인 사항/조치 목록부터 시작하세요.
 7. 이전 대화가 있으면 그 맥락을 반영합니다. 이미 안내한 내용은 반복하지 말고 새로 물은 것에만 답하고, 사용자의 상황 진술
    ("건전지는 새로 갈았어요", "그래도 안 돼요")은 그 항목을 이미 확인한 것으로 보고 다음 확인 사항으로 넘어갑니다.
    단, 질문이 새 증상·새 주제면 이전 대화와 섞지 말고 그 질문에만 답합니다.
 8. 존댓말, 간결하게. 인사말·사족 없이 바로 답합니다."""
 
-_retriever: LGAirconRetriever | None = None
+_retriever: dict | None = None
 _lock = threading.Lock()
 
 
-def get_retriever() -> LGAirconRetriever:
-    """첫 호출 때 로딩(임베딩 모델·인덕스, GPU 기준 ~50초). 이후 재사용.
+def get_retriever() -> dict:
+    """첫 호출 때 로딩(exp02 임베딩 모델, GPU 기준 ~1분). 이후 재사용.
 
-    ListwiseRetriever(rag_listwise.py) - CrossEncoder 리랭킹을 listwise LLM
-    리랭킹으로 교체한 버전. CrossEncoder를 더 이상 안 써서 그 모델 로딩/워밍업이
-    필요 없다(첫 질문 응답 시 gpt-4o-mini 호출로 자연히 워밍업됨)."""
+    2026-09-21 검색 엔진을 exp02(청킹+벡터검색+listwise 리랭킹, rag_myretriever.py)로
+    교체 - 실사용 로그 감사 중 시연님 RRF 파이프라인(n_candidates=8)이 실제 정답
+    청크를 놓치는 사례(세탁기 탈수 소음 질문)를 발견했고, 같은 질문을 exp02로
+    돌리면 바로 잡아왔다. RDB(에러코드/모델매핑/기능유무)는 시연님 것을 그대로
+    쓴다(rag_myretriever.py가 SQLite만 가볍게 재사용 - 시연님의 무거운
+    LGAirconRetriever는 이제 안 씀. CrossEncoder/expected-question 인덕스 로딩이
+    전부 필요 없어져서 로딩 자체도 이전보다 가벼워짐)."""
     global _retriever
     if _retriever is None:
         with _lock:
             if _retriever is None:
-                from siyeon.rag.chunking_lg import build_all_chunks
-                from siyeon.rag.chunking_samsung import build_samsung_chunks
-                _retriever = ListwiseRetriever(
-                    build_all_chunks() + build_samsung_chunks(), verbose=False, use_reranker=False,
-                )
+                _retriever = exp02._load_state()
     return _retriever
 
 
@@ -101,7 +104,8 @@ def understand_query(query: str, appliance) -> Understanding:
 
 
 def retrieve(query: str, manual_id: str, feature: str | None = None, top_k: int = 3) -> RetrievalResult:
-    return get_retriever().retrieve(query, doc_id=manual_id, top_k=top_k, context_cutoff=CONTEXT_CUTOFF, feature=feature)
+    get_retriever()  # exp02 임베딩 모델 워밍업 보장(최초 호출 시 로딩)
+    return rag_myretriever.retrieve(query, manual_id=manual_id, top_k=top_k, feature=feature)
 
 
 def manual_pdf_path(doc_id: str) -> Path | None:
@@ -147,18 +151,40 @@ def build_web_context(res: RetrievalResult) -> str:
     for i, (c, _) in enumerate(res.used, 1):
         title, body = _title_and_body(c)
         src = "오류코드 표" if c.get("source") == "rdb" else "설명서"
-        parts.append(f"[근거 {i}] ({src}) {title}\n{body}")
+        # 청킹 단계에서 "안전을 위해 주의하기" 챕터는 tag="safety"로 이미 구조적으로
+        # 표시돼 있다(chunking_lg.py/chunking_samsung.py) - 질문 문구만 보고 LLM이
+        # "이게 위험 상황인가"를 매번 판단하게 하면 "소음"류 무해한 질문에도 안전
+        # 경고를 잘못 붙이는 오탐이 실제로 발생함(실측 확인, 2026-09-21). 안전 경고를
+        # 붙일지 여부는 실제로 안전 챕터가 검색됐는지로 결정론적으로 표시해준다.
+        tag_mark = "[⚠ 안전 경고 챕터] " if c.get("tag") == "safety" else ""
+        parts.append(f"[근거 {i}] ({src}) {tag_mark}{title}\n{body}")
     return head + "\n\n" + "\n\n".join(parts)
 
 
+SAFETY_WARNING_LINE = "사용 중지와 전원 차단(플러그 분리)을 먼저 하세요.\n\n"
+
+
 def stream_answer(query: str, res: RetrievalResult, history: list[dict] | None = None):
-    """gpt-4o-mini 스트리밍. history = 최근 메시지 [{role, content}]를 그대로 messages에 넣는다."""
+    """gpt-4o-mini 스트리밍. history = 최근 메시지 [{role, content}]를 그대로 messages에 넣는다.
+
+    안전 경고 문구는 프롬프트 지시로 LLM에게 맡기지 않고 코드가 직접 붙인다 -
+    "[⚠ 안전 경고 챕터]" 마커를 컨텍스트에 넣고 규칙으로 지시해도(마커 있을 때만
+    붙여라/절대 자체 판단하지 마라를 3차례 다르게 시도), "소음" 같은 무해한 증상
+    질문에도 LLM이 자체적으로 안전 경고를 계속 붙이는 걸 반복 확인함(2026-09-21) -
+    온도(0.2) 샘플링 편향인지 모델의 학습된 습관인지는 불명확하지만, 어느 쪽이든
+    프롬프트 지시로는 못 이김. _page_citation()과 같은 이유(LLM 신뢰 못 함)로
+    코드가 결정론적으로 처리 - 실제 안전 챕터(tag=="safety")가 검색됐을 때만
+    앞에 붙이고, LLM에게는 이 문구를 스스로 만들지 말라고만 지시한다."""
     from openai import OpenAI
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
     messages = [{"role": "system", "content": WEB_SYSTEM_PROMPT}]
     for m in (history or [])[-HISTORY_MESSAGES:]:
         messages.append({"role": m["role"], "content": m["content"][:800]})
     messages.append({"role": "user", "content": f"{build_web_context(res)}\n\n[질문]\n{query}"})
+
+    if any(c.get("tag") == "safety" for c, _ in res.used):
+        yield SAFETY_WARNING_LINE
+
     stream = client.chat.completions.create(model=ANSWER_MODEL, temperature=ANSWER_TEMPERATURE, messages=messages, stream=True)
     for chunk in stream:
         delta = chunk.choices[0].delta.content

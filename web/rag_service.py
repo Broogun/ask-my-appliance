@@ -52,9 +52,24 @@ WEB_SYSTEM_PROMPT = """당신은 사용자가 등록한 가전제품의 사용�
    여러 모델 공용 설명서라 값이 여러 개면 스스로 고르지 말고 모델별로 나열합니다.
 5. 형식: 첫 줄에 결론 한 문장 → 확인·조치를 설명서 순서대로 번호 목록. 증상·고장 질문이면 마지막에 "그래도 해결되지 않으면
    고객센터에 문의하세요" 한 줄을 붙이고, 사용법·기능 유무·설명서에 없는 내용 답변에는 붙이지 않습니다.
-   길이는 고정하지 않습니다 - [근거]에 실제로 담긴 내용만큼 씁니다. 근거가 하나뿐이면 5줄 안팎으로 짧게, 근거 여러 개에
-   각각 구체적인 원인·수치·예시가 있으면 그만큼 풀어서 답합니다(항목마다 왜 그런지 이유를 한 줄 덧붙이고, 근거에 실제
-   나열된 예시가 있으면 그 예시도 같이 적으세요 - 없는 예시를 지어내지는 마세요). 각 단계는 설명서의 표현을 살려
+   길이는 고정하지 않습니다 - [근거]에 실제로 담긴 내용만큼 씁니다. [근거]에 원인이 서로 다른 확인 항목이 여러 개
+   있으면(예: 근거 안에 "세탁물이 치우쳤나요?"/"양이 적나요?"/"분류를 안 했나요?"처럼 별개의 하위 증상이 나열돼
+   있으면) 그걸 하나로 뭉뚱그리지 말고 각각 번호를 따로 매겨서, 항목마다 "왜 그런지" 이유를 한 줄 덧붙이세요.
+   아래 두 예시를 비교하세요 - 왼쪽처럼 뭉뚱그리지 말고 오른쪽처럼 [근거]에 있는 항목 수만큼 풀어 쓰세요:
+   나쁜 예(항목을 하나로 뭉침):
+     "탈수가 안 되는 원인은 세탁물이 치우쳐서입니다.
+     1. 세탁물을 고르게 펴주세요.
+     2. 종류별로 나누어 탈수하세요."
+   좋은 예(근거에 있는 항목 수만큼, 이유 포함):
+     "탈수 시 소음이 크고 잘 안 도는 건 대부분 세탁물 무게가 한쪽으로 쏠려서입니다.
+     1. 세탁물이 한쪽으로 치우쳤나요? 치우치면 소음·진동이 커져 자동으로 회전수를 낮추므로 탈수가 덜 될 수
+        있습니다. 세탁물을 고르게 펴서 한 번 더 탈수하세요.
+     2. 세탁물 양이 너무 적나요? 양이 적으면 세탁물이 한쪽으로 뭉쳐 같은 문제가 생깁니다. 세탁물 몇 개를
+        더 모아 탈수하세요.
+     3. 세탁물을 종류별로 나누지 않았나요? 종류가 섞이면 무게 불균형이 커집니다. 종류별로 나누어 탈수하세요."
+   근거가 하나뿐이거나 정말 단순한 질문(사용법 한 단계 등)이면 짧게 답해도 됩니다 - 위 규칙은 "근거에 있는 내용을
+   누락하지 말라"는 뜻이지 "무조건 길게 쓰라"는 뜻이 아닙니다. 근거에 실제로 나열된 예시(구체적 물건 이름, 수치
+   등)가 있으면 그 예시도 같이 적으세요 - 근거에 없는 예시를 지어내지는 마세요. 각 단계는 설명서의 표현을 살려
    구체적으로 (예: "리모컨의 밝기 버튼을 누를 때마다 ON/OFF로 바뀝니다").
 6. "사용 중지와 전원 차단(플러그 분리)을 먼저 하세요" 같은 안전 경고 문구는 당신이 쓰지 않습니다 - 시스템이
    필요할 때 답변 앞에 자동으로 붙입니다. 질문이나 근거가 얼마나 심각하게 들리든(소음이 심하다, 잠을 못 잔다 등)
@@ -166,6 +181,14 @@ def build_web_context(res: RetrievalResult) -> str:
 
 SAFETY_WARNING_LINE = "사용 중지와 전원 차단(플러그 분리)을 먼저 하세요.\n\n"
 
+# LLM이 규칙 6(안전 경고 문구를 스스로 만들지 말 것)을 무시하고 첫 문장에
+# 이 문구를 또 만들어내는 걸 반복 확인함(2026-09-21, 마커+명시적 금지 지시
+# 3차례 시도 후에도 재발 - 같은 질문 4회 연속 재현에서 후보 선정은 완전히
+# 동일했는데도 생성 답변에만 등장한 걸로 봐서 검색/코드 문제가 아니라 생성
+# 단계에서 LLM이 규칙을 어기는 것으로 확정). 프롬프트로 더 못 이기므로 생성된
+# 첫 문장을 코드로 검사해서, 진짜 안전 챕터가 없는데 이 패턴이 나오면 잘라낸다.
+_SAFETY_PHRASE_RE = re.compile(r"전원\s*(을|를)?\s*(차단|끄|뽑)|사용\s*(을|를)?\s*중지|플러그\s*(를|을)?\s*(뽑|분리)")
+
 
 def stream_answer(query: str, res: RetrievalResult, history: list[dict] | None = None):
     """gpt-4o-mini 스트리밍. history = 최근 메시지 [{role, content}]를 그대로 messages에 넣는다.
@@ -174,10 +197,8 @@ def stream_answer(query: str, res: RetrievalResult, history: list[dict] | None =
     "[⚠ 안전 경고 챕터]" 마커를 컨텍스트에 넣고 규칙으로 지시해도(마커 있을 때만
     붙여라/절대 자체 판단하지 마라를 3차례 다르게 시도), "소음" 같은 무해한 증상
     질문에도 LLM이 자체적으로 안전 경고를 계속 붙이는 걸 반복 확인함(2026-09-21) -
-    온도(0.2) 샘플링 편향인지 모델의 학습된 습관인지는 불명확하지만, 어느 쪽이든
-    프롬프트 지시로는 못 이김. _page_citation()과 같은 이유(LLM 신뢰 못 함)로
-    코드가 결정론적으로 처리 - 실제 안전 챕터(tag=="safety")가 검색됐을 때만
-    앞에 붙이고, LLM에게는 이 문구를 스스로 만들지 말라고만 지시한다."""
+    실제 안전 챕터(tag=="safety")가 검색됐을 때만 앞에 붙이고, LLM 자체 생성분의
+    첫 문장도 같은 패턴이면 코드로 잘라낸다(아래 _SAFETY_PHRASE_RE)."""
     from openai import OpenAI
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
     messages = [{"role": "system", "content": WEB_SYSTEM_PROMPT}]
@@ -185,11 +206,25 @@ def stream_answer(query: str, res: RetrievalResult, history: list[dict] | None =
         messages.append({"role": m["role"], "content": m["content"][:800]})
     messages.append({"role": "user", "content": f"{build_web_context(res)}\n\n[질문]\n{query}"})
 
-    if any(c.get("tag") == "safety" for c, _ in res.used):
+    is_safety = any(c.get("tag") == "safety" for c, _ in res.used)
+    if is_safety:
         yield SAFETY_WARNING_LINE
 
     stream = client.chat.completions.create(model=ANSWER_MODEL, temperature=ANSWER_TEMPERATURE, messages=messages, stream=True)
+    buf, checked = "", False
     for chunk in stream:
         delta = chunk.choices[0].delta.content
-        if delta:
+        if not delta:
+            continue
+        if checked:
             yield delta
+            continue
+        buf += delta
+        m = re.search(r"[.!?。]\s*|\n", buf)
+        if m is None and len(buf) < 80:
+            continue  # 첫 문장이 끝나거나 80자 넘을 때까지 계속 버퍼링
+        checked = True
+        if m and not is_safety and _SAFETY_PHRASE_RE.search(buf[:m.end()]):
+            buf = buf[m.end():].lstrip()  # 규칙 위반 문장 통째로 삭제
+        if buf:
+            yield buf

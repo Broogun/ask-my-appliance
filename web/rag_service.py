@@ -24,6 +24,7 @@ load_dotenv(ROOT / ".env")
 
 from siyeon.rag.retrieval import CONTEXT_CUTOFF, LGAirconRetriever, RetrievalResult, appliance_label  # noqa: E402
 from siyeon.rag.understand import Understanding, understand  # noqa: E402
+from .rag_listwise import ListwiseRetriever  # noqa: E402
 
 SUPPORT = {   # 고객센터 연결 버튼 (브랜드별)
     "lg":      {"name": "LG전자 고객센터", "phone": "1544-7777", "url": "https://www.lge.co.kr/support"},
@@ -62,16 +63,20 @@ _lock = threading.Lock()
 
 
 def get_retriever() -> LGAirconRetriever:
-    """첫 호출 때 로딩(임베딩 모델·리랭커·인덕스, GPU 기준 ~50초). 이후 재사용."""
+    """첫 호출 때 로딩(임베딩 모델·인덕스, GPU 기준 ~50초). 이후 재사용.
+
+    ListwiseRetriever(rag_listwise.py) - CrossEncoder 리랭킹을 listwise LLM
+    리랭킹으로 교체한 버전. CrossEncoder를 더 이상 안 써서 그 모델 로딩/워밍업이
+    필요 없다(첫 질문 응답 시 gpt-4o-mini 호출로 자연히 워밍업됨)."""
     global _retriever
     if _retriever is None:
         with _lock:
             if _retriever is None:
                 from siyeon.rag.chunking_lg import build_all_chunks
                 from siyeon.rag.chunking_samsung import build_samsung_chunks
-                r = LGAirconRetriever(build_all_chunks() + build_samsung_chunks(), verbose=False)
-                r.reranker.predict([("워밍업", "리랭커 로딩")])
-                _retriever = r
+                _retriever = ListwiseRetriever(
+                    build_all_chunks() + build_samsung_chunks(), verbose=False, use_reranker=False,
+                )
     return _retriever
 
 

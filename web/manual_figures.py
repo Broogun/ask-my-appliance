@@ -32,6 +32,8 @@ LEGEND_MIN_LINES, LEGEND_MAX_AVG_LEN = 3, 18                   # 범례로 볼 �
 LINE_KINDS = ("beside", "near", "head", "above", "near_below", "head_far")   # 답변의 한 줄과 비교하는 이름표 종류(구체적인 것부터). 소제목은 그림별 글 다음 - 한 소제목 아래 그림이 많으면 한 줄에 몰린다
 SEM_MIN_SIM, SEM_MARGIN, SEM_MIN_CHARS = 0.80, 0.15, 12   # 의미 유사도 보조 단계: 글자 매칭이 실패한 그림만, 아주 엄격하게
 EXT_SEM_MIN_SIM, EXT_SEM_MARGIN = 0.50, 0.05               # 제조사 사진(항목에 이미 묶임)의 자리 고르기: 사진 설명('~하는 모습')은 안내문과 문체가 달라 유사도가 낮다
+WIDE_MIN_SIM, WIDE_MIN_SHARED, WIDE_MAX, WIDE_TIE = 0.78, 3, 2, 0.03
+SAME_PICTURE_DIFF = 6.0         # 24x24 회색조 평균 차이(0~255)가 이보다 작으면 같은 그림(반복 수록). 엄격하게 - 애매하면 다른 그림으로 본다
 SEM_KINDS = ("beside", "near", "above", "near_below")
 CROP_PAD, CROP_ZOOM = 2, 2.0
 # 임베딩은 동작의 방향(끄기/켜기, 넣기/꺼내기)을 구분하지 못해서, 반대 동작 쌍이 그림 글과 답변 줄에 엇갈려 나오면 거부한다
@@ -300,6 +302,83 @@ def _external_figures(sources: list[dict], lines: list[str], line_grams: list[se
     return out
 
 
+@lru_cache(maxsize=1024)
+def _signature(path: str, page_no: int, k: int):
+    """그림 내용 비교용 24x24 회색조 썸네일 - 같은 그림이 여러 페이지에 반복 수록되는지 판별한다."""
+    figs = analyze_page(path, page_no)
+    x0, y0, x1, y1 = figs[k]["box"]
+    with pymupdf.open(path) as doc:
+        pix = doc[page_no - 1].get_pixmap(matrix=pymupdf.Matrix(0.6, 0.6), clip=pymupdf.Rect(x0, y0, x1, y1), colorspace=pymupdf.csGRAY)
+    a = np.frombuffer(pix.samples, np.uint8).reshape(pix.h, pix.w).astype(np.float32)
+    ys = np.linspace(0, pix.h - 1, 24).astype(int)
+    xs = np.linspace(0, pix.w - 1, 24).astype(int)
+    return a[np.ix_(ys, xs)]
+
+
+def _same_picture(path: str, a: tuple, b: tuple) -> bool:
+    return float(np.abs(_signature(path, *a) - _signature(path, *b)).mean()) < SAME_PICTURE_DIFF
+
+
+_wide_cache: dict[str, tuple] = {}
+
+
+def _doc_labels(path: str, embed):
+    """매뉴얼 전체의 그림 이름표 [(쪽, k, 이름표)]와 그 임베딩 - 매뉴얼마다 한 번만 계산해서 메모리에 둔다."""
+    if path not in _wide_cache:
+        with pymupdf.open(path) as d:
+            n_pages = len(d)
+        entries = []
+        for pg in range(1, n_pages + 1):
+            for k, f in enumerate(analyze_page(path, pg)):
+                for kind, t in f["labels"]:
+                    ct = _clean(t)
+                    if kind in SEM_KINDS and len(ct) >= SEM_MIN_CHARS:
+                        entries.append((pg, k, ct))
+        vecs = embed([t for *_, t in entries]) if entries else None
+        _wide_cache[path] = (entries, vecs)
+    return _wide_cache[path]
+
+
+def _wide_hits(path: str, doc_id: str, lines: list[str], skip_lines: set[int], skip_pages: set[int], embed) -> list[tuple]:
+    """근거 페이지 밖의 같은 매뉴얼 그림 중 답변 줄과 아주 강하게 맞는 것 -> [(줄, doc_id, 쪽, k, 캡션, kind, 이름표)]."""
+    entries, vecs = _doc_labels(path, embed)
+    cand = [(i, _clean(l)) for i, l in enumerate(lines) if i not in skip_lines and len(_clean(l)) >= SEM_MIN_CHARS]
+    if not entries or not cand:
+        return []
+    S = embed([t for _, t in cand]) @ vecs.T
+    out = []
+    for r, (li, lt) in enumerate(cand):
+        best: dict[tuple, tuple] = {}                       # 그림별로 이름표 후보 중 최고
+        for j, (pg, k, lab) in enumerate(entries):
+            if pg in skip_pages:
+                continue
+            sim = float(S[r, j])
+            if sim > best.get((pg, k), (0.0, ""))[0]:
+                best[(pg, k)] = (sim, lab)
+        ranked = sorted(best.items(), key=lambda kv: -kv[1][0])
+        if not ranked or ranked[0][1][0] < WIDE_MIN_SIM:
+            continue
+        top = ranked[0][1][0]
+        lg = _grams(lt)
+        picks = []
+        for (pg, k), (sim, lab) in ranked[:WIDE_MAX + 2]:
+            if sim < WIDE_MIN_SIM or sim < top - WIDE_TIE:
+                break
+            if len(lg & _grams(lab)) < WIDE_MIN_SHARED or _opposed(lab, lt):
+                continue
+            picks.append((pg, k, lab))
+        # 같은 양식 문구를 공유하는 동점 후보: 같은 그림의 반복 수록이면 하나만, 서로 다른 그림이면 어느 쪽이 맞는지 알 수 없으니 둘 다 뺀다
+        groups: dict[str, list[tuple]] = {}
+        for pick in picks:
+            groups.setdefault(_norm(pick[2])[:16], []).append(pick)
+        for members in groups.values():
+            first = members[0]
+            if any(not _same_picture(path, (first[0], first[1]), (m[0], m[1])) for m in members[1:]):
+                continue
+            out.append((li, doc_id, first[0], first[1], "", "wide-sem", first[2]))
+    return out[:]
+
+
 def figures_for_answer(content: str, sources: list[dict], pdf_path_of, debug: bool = False, embed=None) -> list[dict]:
     """[{line, figures:[{url, caption}]}]. 근거로 쓰인 페이지의 그림 중 이름표가 답변의 한 줄과 겹치는 것만."""
     lines = split_lines(content)
@@ -359,6 +438,15 @@ def figures_for_answer(content: str, sources: list[dict], pdf_path_of, debug: bo
             hit = _semantic_hit(f["labels"], lines, embed)
         if hit:
             scored.append((hit[0], doc_id, n, k, hit[1], hit[2], hit[3]))
+    if embed is not None:                           # 근거 페이지 밖의 같은 매뉴얼 그림(아주 엄격하게)
+        taken = {t[0] for t in scored}
+        pdf_docs = {s.get("doc_id"): pdf_path_of(s["doc_id"]) for s in sources if s.get("doc_id") and s.get("pdf_url")}
+        for doc_id, path in pdf_docs.items():
+            if path is None:
+                continue
+            skip_pages = {n for d, n in seen if d == doc_id}
+            for hit in _wide_hits(str(path), doc_id, lines, taken, skip_pages, embed):
+                scored.append(hit)
     by_line: dict[int, list[dict]] = {}
     total = 0
     for i, doc_id, n, k, label, kind, full in sorted(scored):

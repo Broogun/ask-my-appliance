@@ -111,10 +111,30 @@ def embed_texts(texts: list[str]):
     return exp02._load_state()["embed_model"].encode(texts, normalize_embeddings=True, show_progress_bar=False)
 
 
+def prewarm_figures() -> None:
+    """등록된 가전의 매뉴얼 그림 이름표+임베딩을 미리 계산 - 답변 그림의 매뉴얼 전체 보조 검색이 첫 대화에서 매뉴얼당 ~4초 걸리는 걸 없앤다."""
+    try:
+        import sqlite3
+        from .manual_figures import _doc_labels
+        con = sqlite3.connect(str(ROOT / "data" / "app.sqlite"))
+        for (mid,) in con.execute("SELECT DISTINCT manual_id FROM user_appliances").fetchall():
+            path = manual_pdf_path(mid)
+            if path is not None:
+                _doc_labels(str(path), embed_texts)
+        con.close()
+    except Exception as e:  # 미리 계산은 최적화일 뿐 - 실패해도 서비스는 그대로
+        print(f"[prewarm_figures] 건너뜀: {type(e).__name__}: {e}")
+
+
+def _warm() -> None:
+    get_retriever()
+    prewarm_figures()
+
+
 def warm_in_background() -> None:
     """서버 시작 직후 호출 — 사용자가 채팅 화면에 도달하기 전에 로딩을 시작한다."""
     if _retriever is None:
-        threading.Thread(target=get_retriever, name="rag-warmup", daemon=True).start()
+        threading.Thread(target=_warm, name="rag-warmup", daemon=True).start()
 
 
 def appliance_dict(a) -> dict:

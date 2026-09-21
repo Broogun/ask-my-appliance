@@ -133,7 +133,7 @@ def _translate_chunk(c: dict, manual_id: str) -> dict:
     }
 
 
-def retrieve(query: str, manual_id: str | None = None, top_k: int = 3, feature: str | None = None,
+def retrieve(query: str, manual_id: str | None = None, top_k: int = 5, feature: str | None = None,
              appliance: dict | None = None) -> RetrievalResult:
     """rag_service.retrieve()가 그대로 호출할 수 있는 형태 - ① RDB 에러코드
     → ② 기능유무 표 → ③ exp02 벡터검색+listwise 리랭킹, 순서와 의미는 시연님

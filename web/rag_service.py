@@ -52,7 +52,10 @@ WEB_SYSTEM_PROMPT = """당신은 사용자가 등록한 가전제품의 사용�
    여러 모델 공용 설명서라 값이 여러 개면 스스로 고르지 말고 모델별로 나열합니다.
 5. 형식: 첫 줄에 결론 한 문장 → 확인·조치를 설명서 순서대로 번호 목록. 증상·고장 질문이면 마지막에 "그래도 해결되지 않으면
    고객센터에 문의하세요" 한 줄을 붙이고, 사용법·기능 유무·설명서에 없는 내용 답변에는 붙이지 않습니다.
-   전체 5~10줄. 각 단계는 설명서의 표현을 살려 구체적으로 (예: "리모컨의 밝기 버튼을 누를 때마다 ON/OFF로 바뀝니다").
+   길이는 고정하지 않습니다 - [근거]에 실제로 담긴 내용만큼 씁니다. 근거가 하나뿐이면 5줄 안팎으로 짧게, 근거 여러 개에
+   각각 구체적인 원인·수치·예시가 있으면 그만큼 풀어서 답합니다(항목마다 왜 그런지 이유를 한 줄 덧붙이고, 근거에 실제
+   나열된 예시가 있으면 그 예시도 같이 적으세요 - 없는 예시를 지어내지는 마세요). 각 단계는 설명서의 표현을 살려
+   구체적으로 (예: "리모컨의 밝기 버튼을 누를 때마다 ON/OFF로 바뀝니다").
 6. "사용 중지와 전원 차단(플러그 분리)을 먼저 하세요" 같은 안전 경고 문구는 당신이 쓰지 않습니다 - 시스템이
    필요할 때 답변 앞에 자동으로 붙입니다. 질문이나 근거가 얼마나 심각하게 들리든(소음이 심하다, 잠을 못 잔다 등)
    당신은 이 문구를 절대 스스로 만들어 붙이지 말고, 바로 확인 사항/조치 목록부터 시작하세요.
@@ -103,7 +106,7 @@ def understand_query(query: str, appliance) -> Understanding:
     return understand(query, appliance_dict(appliance))
 
 
-def retrieve(query: str, manual_id: str, feature: str | None = None, top_k: int = 3) -> RetrievalResult:
+def retrieve(query: str, manual_id: str, feature: str | None = None, top_k: int = 5) -> RetrievalResult:
     get_retriever()  # exp02 임베딩 모델 워밍업 보장(최초 호출 시 로딩)
     return rag_myretriever.retrieve(query, manual_id=manual_id, top_k=top_k, feature=feature)
 

@@ -30,7 +30,7 @@ const RegisterFlow = {
           <div style="display:flex;gap:8px;"><input class="input" id="rf-q" placeholder="모델명 일부를 입력 (예: FQ18, WA19)" style="flex:1"><button class="btn" id="rf-search" style="width:72px">검색</button></div></div>
         <div class="field"><label>검색 결과 <span class="muted small" id="rf-count"></span></label><div id="rf-results"><div class="empty-note">카테고리·제조사를 고르거나 모델명을 입력해 검색하세요</div></div></div>
         <div class="cart"><div class="head"><b>담긴 제품 (<span id="rf-cartn">${st.cart.length}</span>)</b><span class="muted">계속 검색해서 추가할 수 있어요</span></div><div id="rf-cart"></div></div>
-        <div class="onboard-actions" style="justify-content:${opts.onCancel ? 'space-between' : 'flex-end'}">
+        <div class="onboard-actions${opts.onCancel ? '' : ' end'}">
           ${opts.onCancel ? '<button class="link-btn" id="rf-cancel">닫으면 담은 내용은 저장되지 않아요 · 취소</button>' : ''}
           <button class="btn" id="rf-next" ${st.cart.length ? '' : 'disabled'}>담은 제품 확인하러 가기 (${st.cart.length})</button></div>`;
       const search = async () => {
@@ -67,11 +67,11 @@ const RegisterFlow = {
         <h3>이 제품들이 맞는지 확인해주세요</h3>
         <div class="sub">담은 제품마다 구분할 별칭을 정해주세요.</div>
         ${st.cart.map((c, i) => `<div class="confirm-card">
-          <div class="product-card" style="border:none;padding:0;margin-bottom:14px;">${thumbHTML(c.manual_id, c.product_type, 'product-thumb lg')}
-            <div class="meta"><div class="name">${esc(c.model)}</div><div class="model">${esc(c.manual_id)}</div></div><span class="tag">${esc(c.product_type)} · ${esc(c.brand_name)}</span></div>
+          <div class="product-card flat">${thumbHTML(c.manual_id, c.product_type, 'product-thumb lg')}
+            <div class="meta"><div class="name">${esc(c.model)}</div><div class="model">${esc(c.manual_id)}</div></div><span class="tag">${esc(c.product_type)}</span><span class="tag">${esc(c.brand_name)}</span></div>
           <div class="row-2">
-            <div class="field" style="margin:0"><label>제품 별칭</label><input class="input" data-nick="${i}" value="${esc(c.nickname)}" placeholder="예: 거실 에어컨"></div>
-            <div class="field" style="margin:0"><label>설치 위치 (선택)</label><select class="select" data-loc="${i}">${LOCATIONS.map(l => `<option value="${l}" ${l === c.location ? 'selected' : ''}>${l || '선택 안 함'}</option>`).join('')}</select></div>
+            <div class="field tight"><label>제품 별칭</label><input class="input" data-nick="${i}" value="${esc(c.nickname)}" placeholder="예: 거실 에어컨"></div>
+            <div class="field tight"><label>설치 위치 (선택)</label><select class="select" data-loc="${i}">${LOCATIONS.map(l => `<option value="${l}" ${l === c.location ? 'selected' : ''}>${l || '선택 안 함'}</option>`).join('')}</select></div>
           </div></div>`).join('')}
         <div class="onboard-actions"><button class="link-btn" id="rf-back">← 이전으로 (제품 더 찾기)</button><button class="btn" id="rf-submit">확인하고 등록하기</button></div>
         <div class="error-text" id="rf-err"></div>`;
@@ -90,10 +90,10 @@ const RegisterFlow = {
     /* ── 3/3 완료 ──────────────────────────────────────────────── */
     const renderDone = () => {
       el.innerHTML = `${stepTrack()}
-        <div style="text-align:center;padding:10px 0 26px;"><div style="width:56px;height:56px;border-radius:50%;background:#eefaf2;color:var(--ok);margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:24px;">✓</div>
-          <h3 style="margin-bottom:6px">등록이 완료됐어요</h3><div class="sub" style="margin:0">등록한 제품으로 바로 질문할 수 있어요</div></div>
+        <div class="done-hero"><div class="done-character">${CHARACTER_MARK}</div>
+          <h3>등록이 완료됐어요</h3><div class="sub">등록한 제품으로 바로 질문할 수 있어요</div></div>
         <div class="field"><label>등록된 제품 (${st.created.length})</label>
-          ${st.created.map(a => `<div class="product-card">${thumbHTML(a.manual_id, a.product_type)}<div class="meta"><div class="name">${esc(a.nickname)}</div><div class="model">${esc(a.model)} · ${esc(a.brand_name)}${a.location ? ' · ' + esc(a.location) : ''}</div></div><span class="tag">${esc(a.product_type)}</span></div>`).join('')}</div>
+          ${st.created.map(a => `<div class="product-card">${thumbHTML(a.manual_id, a.product_type)}<div class="meta"><div class="name">${esc(a.nickname)}</div><div class="model"><span class="nameplate">${esc(a.model)}</span> ${esc(a.brand_name)}${a.location ? ` <span class="tag loc-tag">📍 ${esc(a.location)}</span>` : ''}</div></div><span class="tag">${esc(a.product_type)}</span></div>`).join('')}</div>
         <div class="onboard-actions"><button class="btn outline" id="rf-more">제품 더 등록하기</button><button class="btn" id="rf-done">${opts.doneLabel || '질문하러 가기'}</button></div>`;
       el.oninput = null; el.onclick = null;
       q('#rf-more').onclick = () => { st.step = 1; st.cart = []; render(); };

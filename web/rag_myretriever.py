@@ -16,6 +16,7 @@ exp02로 교체한다. RDB는 시연님의 무거운 LGAirconRetriever(임베딩
 """
 from __future__ import annotations
 
+import json
 import sqlite3
 import sys
 from pathlib import Path
@@ -27,6 +28,7 @@ sys.path.insert(0, str(ROOT / "experiments" / "siyeon" / "rdb"))
 
 from build_db import FEATURE_IMPLIED_BY, code_variants, extract_query_codes  # noqa: E402
 from siyeon.rag.retrieval import CONTEXT_CUTOFF, RetrievalResult, apply_cutoff  # noqa: E402
+from .manual_pages import locate_pages  # noqa: E402
 import 박형건_exp02 as exp02  # noqa: E402
 
 DB_PATH = ROOT / "data" / "appliance.sqlite"
@@ -87,7 +89,32 @@ def feature_available(appliance: dict, feature: str) -> bool | None:
     return None if row is None else bool(row["has"])
 
 
-def _error_entry_as_chunk(e: dict) -> dict:
+_ERROR_IMG_INDEX = ROOT / "data" / "error_images" / "index.json"
+
+
+def _wanted_variants(appliance: dict | None) -> set[str] | None:
+    """LG 세탁기 에러코드 페이지는 드럼/통돌이가 따로다 - 통돌이 모델명은 T로 시작한다(T17J4EFNTX, TR16MV6 등)."""
+    if appliance and appliance.get("brand") == "lg" and appliance.get("category") == "washer":
+        return {"top"} if (appliance.get("model") or "").upper().startswith("T") else {"drum"}
+    return None
+
+
+def _error_images(chunk_id: str | None, appliance: dict | None = None) -> list[dict]:
+    """scripts/crawl_error_images.py 가 받아 둔 제조사 고객지원 페이지 사진(없으면 빈 목록)."""
+    if not chunk_id or not _ERROR_IMG_INDEX.exists():
+        return []
+    try:
+        index = json.loads(_ERROR_IMG_INDEX.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    want = _wanted_variants(appliance)
+    return [{"url": f"/api/error-images/{i['file']}", "alt": i.get("alt", ""), "role": i.get("role", "body"),
+             "page": i.get("page"), "credit": i.get("credit")}
+            for i in index.get(chunk_id, [])
+            if i.get("file") and not (want and i.get("variant") in ("drum", "top") and i["variant"] not in want)]
+
+
+def _error_entry_as_chunk(e: dict, appliance: dict | None = None) -> dict:
     """시연님 _error_entry_as_chunk()의 폴백 경로(RDB 원문 그대로 사용) - exp02엔
     시연님 chunk_by_id가 없어 원본 청크 대조는 생략, RDB 내용만으로 구성해도
     정확도는 동일하다(에러코드 조회는 RDB가 곧 정답)."""
@@ -96,6 +123,7 @@ def _error_entry_as_chunk(e: dict) -> dict:
         "id": e["chunk_id"] or f"rdb_error_{e['entry_id']}", "doc_id": "RDB", "section": label,
         "subsection": e["title"], "page_start": None, "page_end": None, "tag": "error_code",
         "body": e["content"], "text": f"{label} > {e['title']}\n{e['content']}", "source": "rdb",
+        "images": _error_images(e.get("chunk_id"), appliance),
     }
 
 
@@ -127,9 +155,10 @@ def _translate_chunk(c: dict, manual_id: str) -> dict:
         tag = "symptom"
     else:
         tag = "howto"
+    page_start, page_end = locate_pages(manual_id, body, page)   # 메타데이터 page는 섹션 시작 쪽이라 1~5쪽 앞을 가리키는 경우가 31%
     return {
         "id": c["id"], "doc_id": manual_id, "section": heading, "subsection": "",
-        "tag": tag, "page_start": page, "page_end": page, "body": body, "text": c["text"],
+        "tag": tag, "page_start": page_start, "page_end": page_end, "body": body, "text": c["text"],
     }
 
 
@@ -144,7 +173,7 @@ def retrieve(query: str, manual_id: str | None = None, top_k: int = 5, feature: 
     if appliance:
         entries = lookup_error_codes(appliance["brand"], appliance["category"], query)
         if entries:
-            hits = [(_error_entry_as_chunk(e), 0.0) for e in entries[:top_k]]
+            hits = [(_error_entry_as_chunk(e, appliance), 0.0) for e in entries[:top_k]]
             return RetrievalResult(hits=hits, route="error_code", used=apply_cutoff(hits), appliance=appliance)
 
         if feature and manual_id and feature_available(appliance, feature) is False:

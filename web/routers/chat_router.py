@@ -10,6 +10,7 @@ POST /api/conversations 는 저장 없이 초안(id=null)만 돌려주고, 첫 �
     {"type":"status",  "text": "…"}                      (검색기 로딩 중일 때만)
     {"type":"sources", "route": "...", "sources":[...], "unregistered": "전자레인지"|null}
     {"type":"token", "text": "..."}   ×N
+    {"type":"figures", "items":[{"line": 2, "figures":[{"url": "...", "caption": "..."}]}]}   (매칭되는 설명서 그림이 있을 때만)
     {"type":"done", "message_id": 12}
 """
 from __future__ import annotations
@@ -23,7 +24,9 @@ from sqlalchemy.orm import Session
 
 from ..auth import current_user
 from ..db import Appliance, Conversation, Message, SessionLocal, User, get_db, iso_kst, now_kst
-from ..rag_service import get_retriever, is_ready, retrieve, sources_of, stream_answer, understand_query
+from ..manual_figures import figures_for_answer
+from ..manual_pages import locate_pages
+from ..rag_service import embed_texts, get_retriever, is_ready, manual_pdf_path, retrieve, sources_of, stream_answer, understand_query
 from .appliance_router import _dump as dump_appliance
 
 router = APIRouter(prefix="/api/conversations", tags=["chat"])
@@ -56,12 +59,40 @@ def _appliance(db: Session, aid: int, user: User) -> Appliance:
     return a
 
 
+def _fix_pages(sources: list | None) -> list:
+    """예전에 저장된 출처는 청크 메타데이터의 (틀린) 페이지가 들어 있다 - 열 때 본문 위치로 다시 보정한다(이미 보정된 값은 그대로)."""
+    out = []
+    for s in sources or []:
+        s = dict(s)
+        try:
+            if s.get("doc_id") and s.get("page_start"):
+                s["page_start"], s["page_end"] = locate_pages(s["doc_id"], s.get("body", ""), s["page_start"])
+        except Exception:
+            pass
+        out.append(s)
+    return out
+
+
+def _figures(content: str, sources: list | None) -> list:
+    """답변 줄 사이에 끼울 설명서 그림. 결정론이라 저장하지 않고 열 때마다 계산한다(페이지 분석은 캐시). 실패해도 대화는 계속.
+    검색 엔진이 아직 로딩 중이면 의미 유사도 보조 단계는 건너뛴다(로딩을 기다리지 않게)."""
+    try:
+        return figures_for_answer(content, sources or [], manual_pdf_path, embed=embed_texts if is_ready() else None) if sources else []
+    except Exception:
+        return []
+
+
 def _dump_conv(c: Conversation, with_messages=False) -> dict:
     d = {"id": c.id, "title": c.title or "새 대화", "appliance": dump_appliance(c.appliance),
          "created_at": iso_kst(c.created_at), "updated_at": iso_kst(c.updated_at), "message_count": len(c.messages)}
     if with_messages:
-        d["messages"] = [{"id": m.id, "role": m.role, "content": m.content, "route": m.route, "sources": m.sources,
-                          "created_at": iso_kst(m.created_at)} for m in c.messages]
+        msgs = []
+        for m in c.messages:
+            srcs = _fix_pages(m.sources) if m.role == "assistant" else m.sources
+            msgs.append({"id": m.id, "role": m.role, "content": m.content, "route": m.route, "sources": srcs,
+                         "figures": _figures(m.content, srcs) if m.role == "assistant" else [],
+                         "created_at": iso_kst(m.created_at)})
+        d["messages"] = msgs
     return d
 
 
@@ -150,7 +181,11 @@ def _respond(db: Session, conv: Conversation, query: str, first_line: dict | Non
         except Exception as e:  # API 한도·네트워크 — 근거는 이미 보냈으니 오류만 알린다
             err = f"답변 생성 중 오류가 났어요 ({type(e).__name__}). 오른쪽 출처 패널의 설명서 내용을 참고해 주세요."
             buf.append(err); yield line({"type": "token", "text": err})
-        mid = _save(conv_id, "".join(buf), res.route, sources)
+        text = "".join(buf)
+        mid = _save(conv_id, text, res.route, sources)
+        figs = _figures(text, sources)
+        if figs:
+            yield line({"type": "figures", "items": figs})
         yield line({"type": "done", "message_id": mid})
 
     return StreamingResponse(gen(), media_type="application/x-ndjson")

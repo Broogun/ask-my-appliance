@@ -24,6 +24,7 @@ app = FastAPI(title="가전 도우미")
 for r in (auth_router, catalog_router, appliance_router, chat_router):
     app.include_router(r.router)
 app.include_router(catalog_router.manuals_router)   # /api/manuals/{doc_id}/pdf
+app.include_router(catalog_router.error_images_router)   # /api/error-images/{folder}/{name}  제조사 에러코드 페이지 사진
 
 
 from .rag_service import is_ready, warm_in_background  # noqa: E402

@@ -25,6 +25,7 @@ load_dotenv(ROOT / ".env")
 from siyeon.rag.retrieval import CONTEXT_CUTOFF, RetrievalResult, appliance_label  # noqa: E402
 from siyeon.rag.understand import Understanding, understand  # noqa: E402
 from . import rag_myretriever  # noqa: E402
+from .manual_pages import manual_pdf_path  # noqa: E402,F401  (라우터들이 여기서 import)
 import 박형건_exp02 as exp02  # noqa: E402
 
 SUPPORT = {   # 고객센터 연결 버튼 (브랜드별)
@@ -105,6 +106,11 @@ def is_ready() -> bool:
     return _retriever is not None
 
 
+def embed_texts(texts: list[str]):
+    """답변 그림 매칭의 의미 유사도 보조 단계용 - 검색에 쓰는 것과 같은 로컬 임베딩 모델(정규화된 벡터)."""
+    return exp02._load_state()["embed_model"].encode(texts, normalize_embeddings=True, show_progress_bar=False)
+
+
 def warm_in_background() -> None:
     """서버 시작 직후 호출 — 사용자가 채팅 화면에 도달하기 전에 로딩을 시작한다."""
     if _retriever is None:
@@ -124,13 +130,6 @@ def understand_query(query: str, appliance) -> Understanding:
 def retrieve(query: str, manual_id: str, feature: str | None = None, top_k: int = 5) -> RetrievalResult:
     get_retriever()  # exp02 임베딩 모델 워밍업 보장(최초 호출 시 로딩)
     return rag_myretriever.retrieve(query, manual_id=manual_id, top_k=top_k, feature=feature)
-
-
-def manual_pdf_path(doc_id: str) -> Path | None:
-    """doc_id(PDF 파일명 stem) → data/{brand}/{category}/{doc_id}.pdf. 에러코드 공통 문서('LG-AC-COMMON')는 None."""
-    if not re.fullmatch(r"[A-Za-z0-9_\-]+", doc_id) or doc_id.endswith("-COMMON"):
-        return None
-    return next(iter((ROOT / "data").glob(f"*/*/{doc_id}.pdf")), None)
 
 
 def _title_and_body(c: dict) -> tuple[str, str]:
@@ -154,7 +153,8 @@ def sources_of(res: RetrievalResult) -> list[dict]:
         out.append({"title": title or doc_id, "snippet": c["body"][:220], "body": c["body"], "tag": tag, "doc_id": doc_id,
                     "distance": round(float(d), 3), "chunk_id": c.get("id", ""),
                     "page_start": c.get("page_start"), "page_end": c.get("page_end"),
-                    "pdf_url": f"/api/manuals/{doc_id}/pdf" if manual_pdf_path(doc_id) else None})
+                    "pdf_url": f"/api/manuals/{doc_id}/pdf" if manual_pdf_path(doc_id) else None,
+                    "images": c.get("images") or []})   # 에러코드 항목에 연결된 제조사 사진(있을 때만)
     return out
 
 
@@ -189,6 +189,23 @@ SAFETY_WARNING_LINE = "사용 중지와 전원 차단(플러그 분리)을 먼�
 # 첫 문장을 코드로 검사해서, 진짜 안전 챕터가 없는데 이 패턴이 나오면 잘라낸다.
 _SAFETY_PHRASE_RE = re.compile(r"전원\s*(을|를)?\s*(차단|끄|뽑)|사용\s*(을|를)?\s*중지|플러그\s*(를|을)?\s*(뽑|분리)")
 
+# 경고 줄은 "지금 사용자 상황이 위험하니 멈추라"는 지시라서, 근거 청크에 '화재/감전' 같은
+# 단어가 있다는 것만으로는 부족하다 - 300문항 baseline에서 그 기준이었더니 청소/필터/냉방
+# 같은 무해한 질문의 47%(141/300)에 붙었다(2026-09-21). 질문 자체에 위험 신호가 있을
+# 때만 붙인다. '불이 안 켜져요'(표시등)는 위험이 아니라서 '불이 나/났'만 잡는다.
+_HAZARD_QUERY_RE = re.compile(
+    r"타는|탄\s*내|연기|불꽃|불이\s*(나|났|붙)|불나|화재|발화|스파크|폭발|과열|"
+    r"감전|찌릿|누전|합선|"
+    r"(가스|냉매)\s*(냄새|샌|새|누출)|"
+    r"젖은|물이\s*(들어|튀|닿|샜|새)|침수|물에\s*(젖|잠)|"
+    r"(전원선|전원\s*코드|플러그)[^.?!]{0,8}(손상|벗겨|녹|뜨겁|뜨거|피복)"
+)
+
+
+def needs_safety_warning(query: str, res: RetrievalResult) -> bool:
+    """근거에 안전 챕터가 있고(매뉴얼이 뒷받침) + 질문에 위험 신호가 있을 때만."""
+    return any(c.get("tag") == "safety" for c, _ in res.used) and bool(_HAZARD_QUERY_RE.search(query))
+
 
 def stream_answer(query: str, res: RetrievalResult, history: list[dict] | None = None):
     """gpt-4o-mini 스트리밍. history = 최근 메시지 [{role, content}]를 그대로 messages에 넣는다.
@@ -206,7 +223,7 @@ def stream_answer(query: str, res: RetrievalResult, history: list[dict] | None =
         messages.append({"role": m["role"], "content": m["content"][:800]})
     messages.append({"role": "user", "content": f"{build_web_context(res)}\n\n[질문]\n{query}"})
 
-    is_safety = any(c.get("tag") == "safety" for c, _ in res.used)
+    is_safety = needs_safety_warning(query, res)
     if is_safety:
         yield SAFETY_WARNING_LINE
 

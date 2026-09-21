@@ -7,6 +7,7 @@ transformers>=4.45
 torch>=2.2
 accelerate>=0.34
 requests>=2.31
+beautifulsoup4>=4.12   # scripts/crawl_error_images.py
 
 # siyeon 청킹: 띄어쓰기 없는 구형 PDF의 공백 복원 (experiments/siyeon/rag/chunking_lg.py parse_pdf_legacy)
 kiwipiepy>=0.20
@@ -31,6 +32,7 @@ langchain-core>=0.3
 langchain-chroma>=0.2
 langchain-huggingface>=0.1
 numpy>=1.26
+scipy>=1.11          # web/manual_figures.py 그림 영역 검출(ndimage)
 fastapi>=0.110
 uvicorn>=0.29
 sqlalchemy>=2.0

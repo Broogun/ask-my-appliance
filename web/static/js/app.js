@@ -89,11 +89,24 @@ function appendMessage(m) {
   }
   conv.scrollTop = conv.scrollHeight;
 }
+// 답변을 줄 단위로 렌더링하고(**굵게** 포함), 서버가 매칭한 설명서 그림(figures: [{line, figures:[{url, caption}]}])을 해당 줄 바로 뒤에 끼운다.
+// 줄 나누기는 서버 manual_figures.split_lines 와 같은 규칙(split('\n'))이어야 번호가 맞는다.
+function renderAnswerHtml(content, figures) {
+  const figsByLine = {}; (figures || []).forEach(f => { figsByLine[f.line] = f.figures; });
+  return (content || '').split('\n').map((p, i) => {
+    const text = `<div class="ans-p">${esc(p).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>') || '&nbsp;'}</div>`;
+    const figs = figsByLine[i];
+    const credit = figs && (figs.find(f => f.credit) || {}).credit;   // 제조사 사이트 사진이면 출처 표시
+    return text + (figs && figs.length ? `<div class="ans-figs">${figs.map(f =>
+      `<a class="ans-fig" href="${f.url}" target="_blank" rel="noopener" title="${esc(f.caption)} - 클릭하면 크게 볼 수 있어요"><img src="${f.url}" alt="" loading="lazy" onerror="this.closest('.ans-fig').remove()"></a>`).join('')}</div>`
+      + (credit ? `<div class="ans-credit">이미지 출처: ${credit.url ? `<a href="${esc(credit.url)}" target="_blank" rel="noopener">${esc(credit.text)}</a>` : esc(credit.text)}</div>` : '') : '');
+  }).join('');
+}
 function setAnswer(el, m) {
   const body = el.querySelector('.answer-body'), meta = el.querySelector('.answer-meta');
   if (m.route === 'unregistered') {
     body.innerHTML = `<div class="register-prompt"><div class="msg">${esc(m.content)}</div><button class="btn sm" data-register="1">이 제품 등록하기</button></div>`;
-  } else body.textContent = m.content;
+  } else body.innerHTML = renderAnswerHtml(m.content, m.figures);
   const [label, cls] = ROUTE_LABEL[m.route] || ['', ''];
   meta.innerHTML = label ? `<span class="tag ${cls}">${label}</span>` : '';
 }
@@ -101,11 +114,21 @@ function renderSources(sources, route) {
   const p = $('#sources');
   if (route === 'unregistered') { p.innerHTML = `<h4>참고한 설명서 / 출처</h4><div class="sources-empty">등록된 제품이 아니라서<br>연결된 설명서가 없어요</div>`; return; }
   if (!sources || !sources.length) { p.innerHTML = `<h4>참고한 설명서 / 출처</h4><div class="sources-empty">${route === 'none' ? '이 질문과 관련된 설명서 내용을<br>찾지 못했어요' : '질문하면 참고한 설명서 조각이<br>여기 표시돼요'}</div>`; return; }
+  const seenPages = new Set();
   p.innerHTML = `<h4>참고한 설명서 / 출처 ${sources.length}건</h4>` + sources.map((s, i) => `<div class="source-card clickable" data-src="${i}" title="클릭하면 전문과 PDF 페이지를 볼 수 있어요">
     <div class="top-row"><div class="s-title">${esc(s.title)}</div><span class="tag">${esc(s.tag)}</span></div>
     <div class="s-snippet">${esc(s.snippet)}</div>
+    ${thumbHtml(s, seenPages)}
     <div class="s-doc">${esc(s.doc_id)}${pageLabel(s) ? ` · <b>${pageLabel(s)}</b>` : ''} · 관련도 ${Math.round((1 - s.distance) * 100)}%</div></div>`).join('');
   p.querySelectorAll('[data-src]').forEach(el => el.onclick = () => openSource(sources[+el.dataset.src]));
+}
+// 청크가 실린 PDF 페이지의 렌더링 이미지(GET /api/manuals/{doc_id}/page/{n}.png). 같은 페이지의 출처가 여럿이면 첫 카드에만 보여준다
+function thumbHtml(s, seen) {
+  if (!s.pdf_url || !s.page_start) return '';
+  const src = `${s.pdf_url.replace(/\/pdf$/, '')}/page/${s.page_start}.png`;
+  if (seen.has(src)) return '';
+  seen.add(src);
+  return `<img class="s-thumb" src="${src}" alt="설명서 ${pageLabel(s)}" loading="lazy" onerror="this.remove()">`;
 }
 // 청크가 실린 PDF 페이지 (assign_pages). 에러코드 청크나 예전 대화(페이지 정보 없이 저장된 것)는 빈 문자열
 function pageLabel(s) {
@@ -121,7 +144,7 @@ function openSource(s) {
     <div class="src-meta"><span class="tag">${esc(s.tag)}</span> <span>${esc(s.doc_id)}</span>${pageLabel(s) ? ` <span>· ${pageLabel(s)}</span>` : ''}
       ${pdfHref ? ` <a class="src-open" href="${pdfHref}" target="_blank" rel="noopener">새 탭에서 PDF 열기 ↗</a>` : ''}</div>
     <pre class="src-body">${esc(s.body || s.snippet)}</pre>
-    ${pdfHref ? `<iframe class="src-pdf" src="${pdfHref}" title="설명서 PDF"></iframe>` : `<div class="sources-empty">이 출처는 PDF 설명서가 아니라 제조사 에러코드 표에서 가져온 내용이에요</div>`}`;
+    ${pdfHref ? `<iframe class="src-pdf" src="${pdfHref}" title="설명서 PDF"></iframe>` : `<div class="sources-empty">이 출처는 PDF 설명서가 아니라 제조사 에러코드 표에서 가져온 내용이에요${(() => { const pg = (s.images || []).find(i => i.page); return pg ? `<br><a href="${esc(pg.page)}" target="_blank" rel="noopener">${esc(pg.credit || '제조사')} 원문 보기 ↗</a>` : ''; })()}</div>`}`;
   $('#modalSource').classList.remove('hidden');
 }
 function renderSourcesLoading() { $('#sources').innerHTML = `<h4>참고한 설명서 / 출처</h4>` + [1, 2].map(() => `<div class="source-card"><div class="skeleton" style="width:60%"></div><div class="skeleton"></div><div class="skeleton" style="width:80%"></div></div>`).join(''); }
@@ -134,7 +157,7 @@ async function ask(text) {
   const el = document.createElement('div'); el.className = 'answer-block';
   el.innerHTML = `<div class="bot-avatar">🔧</div><div style="flex:1;min-width:0"><div class="answer-body"><span class="typing-dots"><span></span><span></span><span></span></span> <span class="muted small">관련 설명서를 찾고 답변을 준비하고 있어요…</span></div><div class="answer-meta"></div></div>`;
   $('#conv').appendChild(el); $('#conv').scrollTop = $('#conv').scrollHeight; renderSourcesLoading();
-  const body = el.querySelector('.answer-body'); let acc = '', route = 'vector', first = true;
+  const body = el.querySelector('.answer-body'); let acc = '', route = 'vector', first = true, figures = [];
   // 첫 질문이면(초안, id=null) /start 가 대화 행을 만들고 스트림 첫 줄(conv)로 알려준다 — 질문 없이 나간 대화는 기록에 안 남는다
   const url = S.conv.id ? `/api/conversations/${S.conv.id}/messages` : '/api/conversations/start';
   const payload = S.conv.id ? { content: text } : { appliance_id: S.conv.appliance.id, content: text };
@@ -144,7 +167,8 @@ async function ask(text) {
       else if (ev.type === 'status') { body.innerHTML = `<span class="typing-dots"><span></span><span></span><span></span></span> <span class="muted small">${esc(ev.text)}</span>`; }
       else if (ev.type === 'sources') { route = ev.route; renderSources(ev.sources, ev.route); }
       else if (ev.type === 'token') { if (first) { body.textContent = ''; first = false; } acc += ev.text; if (route !== 'unregistered') body.textContent = acc; $('#conv').scrollTop = $('#conv').scrollHeight; }
-      else if (ev.type === 'done') { setAnswer(el, { content: acc, route }); el.dataset.mid = ev.message_id; }
+      else if (ev.type === 'figures') { figures = ev.items; }
+      else if (ev.type === 'done') { setAnswer(el, { content: acc, route, figures }); el.dataset.mid = ev.message_id; }
     });
   } catch (ex) { body.textContent = '오류: ' + ex.message; }
   S.streaming = false; $('#askInput').disabled = false; $('#askBtn').disabled = false; $('#askInput').placeholder = '추가로 궁금한 점을 입력하세요'; $('#askInput').focus();

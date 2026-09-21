@@ -39,7 +39,7 @@ web/
   rag_service.py       ★ RAG 연결 지점 — understand_query / retrieve / stream_answer / sources_of + WEB_SYSTEM_PROMPT
   routers/
     auth_router.py     POST /api/auth/login · /logout · GET /me
-    catalog_router.py  GET /api/catalog/options · /models?product_type&brand&q · /support/{brand} · GET /api/manuals/{doc_id}/pdf
+    catalog_router.py  GET /api/catalog/options · /models?product_type&brand&q · /support/{brand} · GET /api/manuals/{doc_id}/pdf · GET /api/manuals/{doc_id}/page/{n}.png
     appliance_router.py GET/POST/PATCH/DELETE /api/appliances
     chat_router.py     GET /api/conversations · POST /api/conversations/start(첫 질문) · POST /api/conversations/{id}/messages (NDJSON 스트리밍)
   tools/make_thumbs.py 설명서 PDF 제품 선화 → 썸네일 (실제 사진이 없을 때 대체)
@@ -75,7 +75,18 @@ LangChain으로 옮길 때: `retrieve` = `BaseRetriever` 어댑터 한 장, `str
 {"type":"done","message_id":12}
 ```
 
-출처 카드: `page_start/page_end`로 `p.21` 표시, 클릭하면 조각 전문 + `GET /api/manuals/{doc_id}/pdf#page=21` iframe.
+출처 카드: `page_start/page_end`로 `p.21` 표시, 클릭하면 조각 전문 + `GET /api/manuals/{doc_id}/pdf#page=21` iframe. 카드에는 그 페이지의 렌더링 썸네일(`/page/21.png`, PyMuPDF로 렌더링해 `data/page_images/`에 캐시 — 벡터 그림 포함)이 붙고, 같은 페이지 출처는 첫 카드에만 표시.
+
+**답변 속 설명서 그림** (`manual_figures.py`, LLM 없이 결정론): 답변 스트림이 끝나면 `{"type":"figures","items":[{"line":i,"figures":[{url,caption}]}]}` 를 보내고, 프런트가 답변의 i번째 줄 바로 뒤에 그림을 끼운다(`renderAnswerHtml`). 저장하지 않고 대화를 열 때마다 다시 계산한다(`chat_router._figures`).
+- 그림 검출: 페이지를 렌더링해 글자를 지우고 남은 덩어리(표·구분선·글상자 제외). 드로잉 사각형 방식은 마스크 도형 때문에 이웃 그림과 합쳐져서 못 씀. 크롭은 `GET /api/manuals/{doc_id}/page/{n}/fig/{k}.png`.
+- 그림↔답변 매칭: 그림마다 이름표 후보(2단 페이지는 앞 소제목 / 그림 바로 위 2줄 / 위 전체 / 좌우 같은 높이 글 / 아래 범례)를 만들고, 답변의 한 줄(범례는 목록 블록 전체)과 글자 4-gram이 충분히 겹칠 때만 붙인다. 못 찾으면 안 붙인다.
+- `manual_pages.locate_pages`: 청크 메타데이터 page는 섹션 시작 쪽이라 31%가 1~5쪽 앞을 가리켜서, 조회 시점에 본문을 PDF 텍스트에서 찾아 보정한다(출처 카드 p.N과 PDF 링크도 이 값).
+- 의미 유사도 보조 단계: 글자 매칭이 실패한 그림에 한해 로컬 임베딩(BGE-m3-ko)으로 답변 줄과 비교한다. 임베딩은 동작 방향(끄기/켜기, 넣기/꺼내기, 분리/조립)을 구분 못 해서 유사도 0.80↑ + 2위와 격차 0.15↑ + 반대 동작 쌍 충돌 시 거부의 세 조건을 모두 통과할 때만 붙인다(300문항 baseline에서 +10장, 눈으로 전부 맞음). 검색 엔진 로딩 중에는 건너뛴다.
+- 예전 대화: 저장된 출처의 틀린 페이지는 열 때 `chat_router._fix_pages` 로 다시 보정한다(DB는 그대로).
+- 측정(300문항 baseline 답변에 적용, API 비용 없음): 그림이 붙은 답변 116/300(39%). 그림 후보가 있는 페이지를 근거로 쓴 답변 223개 중 116개. 무작위 28쌍 눈 검수에서 26~27쌍이 맞음(약 93~96%), 확실한 오류 1건은 그림 위 글 수집이 문단 경계를 넘던 문제로 수정.
+- 에러코드 사진: `scripts/crawl_error_images.py` 가 제조사 고객지원 페이지의 사진을 `data/error_images/`(gitignore, 저작권 때문에 저장소에 안 올림)에 받아 `error_entries.chunk_id` 에 연결한다(현재 LG 에어컨·세탁기(드럼/통돌이)·냉장고·김치냉장고 5개 페이지 → 26개 항목·사진 110장. 세탁기는 드럼/통돌이 페이지가 따로라 `variant` 로 기록하고 사용자 모델명(T로 시작=통돌이)으로 걸러 쓴다. 냉장고는 코드 표시부 사진만. 삼성 에러 안내 페이지는 확인한 범위에서 텍스트뿐이라 받을 사진이 없다). 대표 사진(표시부)은 답변 첫 본문 줄 뒤, 본문 사진은 설명(alt)이 답변 줄과 글자/의미로 맞을 때만 붙고, 화면에 "이미지 출처: LG전자 고객지원" 링크를 항상 표시한다. 서빙은 `GET /api/error-images/{folder}/{name}`.
+- 한계: 옅은 색·조각난 그림(예: 구성품 사진 일부)은 놓치거나 일부만 잡힌다. 설명이 그림 위/아래 어느 쪽인지는 페이지 배치에 따라 다른데 위쪽 글을 우선한다(그림에 글이 없는 단계 사이의 그림은 다음 단계 것일 수 있음). 그림 수는 답변당 24장, 한 줄당 6장까지.
+
 대화 행은 첫 질문을 보낼 때(`/start`) 만들어지므로 질문 없이 나간 대화는 기록에 안 남습니다. 시각은 KST.
 
 ## 답변 품질

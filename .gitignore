@@ -11,6 +11,9 @@ data/samsung/
 # 그림 추출 결과 (ingest 시 자동 생성)
 data/manual_figures/
 
+# 출처 카드 썸네일 캐시 (요청 시 PDF에서 렌더링)
+data/page_images/
+
 # 에러코드 SQLite DB (seed_error_codes.py로 재생성)
 data/error_codes.db
 
@@ -61,3 +64,6 @@ web/static/img/models/auto/
 
 # 로컬 전용 메모/정리 문서 (커밋 안 함)
 NOTES_ARCHITECTURE.md
+
+# 제조사 에러코드 페이지 사진 로컬 캐시(저작권: 저장소에 올리지 않음, scripts/crawl_error_images.py 로 받는다)
+data/error_images/

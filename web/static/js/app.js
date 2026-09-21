@@ -3,7 +3,7 @@ requireLogin();
 const S = { appliances: [], conversations: [], conv: null, picked: null, streaming: false };
 const $ = (sel) => document.querySelector(sel);
 const ROUTE_LABEL = {
-  error_code: ['오류코드 안내', 'ok'], feature_absent: ['이 모델에 없는 기능', 'warn'], vector: ['설명서 근거', 'accent'],
+  error_code: ['⚠️ 오류코드 안내', 'ok mono-tag'], feature_absent: ['이 모델에 없는 기능', 'warn'], vector: ['설명서 근거', 'accent'],
   none: ['설명서에 없는 내용', ''], unregistered: ['미등록 제품', 'warn'], sibling: ['다른 모델 설명서 기준', 'warn'],
   followup: ['이전 답변에 이어서', 'accent'],
 };
@@ -44,7 +44,7 @@ function renderPicker() {
   S.picked = null; $('#pickerGo').disabled = true;
   $('#pickerList').innerHTML = S.appliances.map(a => `<button class="picker-option" data-aid="${a.id}">
     <div class="radio"></div>${thumbHTML(a.manual_id, a.product_type)}
-    <div><div class="p-name">${esc(a.nickname)}</div><div class="p-model">${esc(a.model)} · ${esc(a.brand_name)}${a.location ? ' · ' + esc(a.location) : ''}</div></div></button>`).join('')
+    <div><div class="p-name">${esc(a.nickname)}</div><div class="p-model"><span class="nameplate">${esc(a.model)}</span>${brandTag(a.brand, a.brand_name)}${a.location ? `<span class="tag loc-tag">📍 ${esc(a.location)}</span>` : ''}</div></div></button>`).join('')
     || '<div class="empty-note">등록된 제품이 없어요. 아래에서 먼저 등록해 주세요.</div>';
   show('picker');
 }
@@ -60,8 +60,8 @@ $('#pickerAdd').onclick = () => openAddModal();
 function openConversation(c) {
   S.conv = c; show('chat');
   const a = c.appliance;
-  $('#topbarLeft').innerHTML = `<div class="context-label">${thumbHTML(a.manual_id, a.product_type, 'context-thumb')}<b>${esc(a.nickname)}</b><span class="muted">기준으로 답변 중 · ${esc(a.brand_name)} ${esc(a.model)}</span></div>`;
-  $('#topbarRight').innerHTML = `<button class="btn ghost sm" id="supportBtn">📞 고객센터 연결</button>`;
+  $('#topbarLeft').innerHTML = `<div class="context-label">${thumbHTML(a.manual_id, a.product_type, 'context-thumb')}<b>${esc(a.nickname)}</b>${brandTag(a.brand, a.brand_name)}<span class="nameplate">${esc(a.model)}</span><span class="muted">기준으로 답변 중</span></div>`;
+  $('#topbarRight').innerHTML = `<button class="btn ghost sm" id="supportBtn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 고객센터 연결</button>`;
   $('#supportBtn').onclick = async () => { const s = await API.get('/api/catalog/support/' + a.brand); if (confirm(`${s.name} ${s.phone}\n홈페이지로 이동할까요?`)) window.open(s.url, '_blank'); };
   const conv = $('#conv'); conv.innerHTML = '';
   if (!c.messages.length) {
@@ -79,12 +79,31 @@ function openConversation(c) {
 }
 $('#conv').addEventListener('click', (e) => { const chip = e.target.closest('[data-q]'); if (chip) ask(chip.dataset.q); const reg = e.target.closest('[data-register]'); if (reg) openAddModal(); });
 
+// 라이브러리 없이 답변에 자주 나오는 서식만 처리 - 번호목록/불릿/굵게, 나머지는 문단
+function renderAnswer(text) {
+  const inline = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  let html = '', listType = null, para = [];
+  const flushPara = () => { if (para.length) { html += `<p>${para.join('<br>')}</p>`; para = []; } };
+  const closeList = () => { if (listType) { html += `</${listType}>`; listType = null; } };
+  for (const raw of String(text ?? '').split('\n')) {
+    const line = raw.trim();
+    if (!line) { closeList(); flushPara(); continue; }
+    const ol = line.match(/^(\d+)[.)]\s+(.*)/);
+    const ul = line.match(/^[-*·]\s+(.*)/);
+    if (ol) { flushPara(); if (listType !== 'ol') { closeList(); html += '<ol>'; listType = 'ol'; } html += `<li>${inline(ol[2])}</li>`; }
+    else if (ul) { flushPara(); if (listType !== 'ul') { closeList(); html += '<ul>'; listType = 'ul'; } html += `<li>${inline(ul[1])}</li>`; }
+    else { closeList(); para.push(inline(line)); }
+  }
+  closeList(); flushPara();
+  return html;
+}
+
 function appendMessage(m) {
   const conv = $('#conv'); conv.querySelector('.chat-empty')?.remove();
   if (m.role === 'user') { conv.insertAdjacentHTML('beforeend', `<div class="bubble-user">${esc(m.content)}</div>`); }
   else {
     const el = document.createElement('div'); el.className = 'answer-block'; el.dataset.mid = m.id || '';
-    el.innerHTML = `<div class="bot-avatar">🔧</div><div style="flex:1;min-width:0"><div class="answer-body"></div><div class="answer-meta"></div></div>`;
+    el.innerHTML = `<div class="bot-avatar">${BRAND_MARK}</div><div style="flex:1;min-width:0"><div class="answer-body"></div><div class="answer-meta"></div></div>`;
     conv.appendChild(el); setAnswer(el, m);
   }
   conv.scrollTop = conv.scrollHeight;
@@ -93,18 +112,33 @@ function setAnswer(el, m) {
   const body = el.querySelector('.answer-body'), meta = el.querySelector('.answer-meta');
   if (m.route === 'unregistered') {
     body.innerHTML = `<div class="register-prompt"><div class="msg">${esc(m.content)}</div><button class="btn sm" data-register="1">이 제품 등록하기</button></div>`;
-  } else body.textContent = m.content;
+  } else body.innerHTML = renderAnswer(m.content);
   const [label, cls] = ROUTE_LABEL[m.route] || ['', ''];
   meta.innerHTML = label ? `<span class="tag ${cls}">${label}</span>` : '';
+}
+const ROUTE_ICON = { error_code: '⚠️', feature_absent: '🚫', vector: '📄', sibling: '📎', followup: '↪️' };
+// LG/삼성 CI 컬러를 옅게 우려서 "어느 회사 설명서 기준인지"만 표시 — 서비스 자체가 특정 브랜드 소속처럼 보이지 않도록 배지 하나로만 씀
+function brandTag(brand, brandName) { return brand ? `<span class="tag brand-${esc(brand)}">${esc(brandName)}</span>` : ''; }
+// 거리값을 관련도 %로 바꾸고, 구간별로 배지 색을 다르게 (80%+ 초록 / 50~80% 노랑 / 그 미만 무채색)
+function relevanceBadge(distance) {
+  const pct = Math.round((1 - distance) * 100);
+  const cls = pct >= 80 ? 'ok' : pct >= 50 ? 'warn' : '';
+  return `<span class="tag ${cls}">관련도 ${pct}%</span>`;
 }
 function renderSources(sources, route) {
   const p = $('#sources');
   if (route === 'unregistered') { p.innerHTML = `<h4>참고한 설명서 / 출처</h4><div class="sources-empty">등록된 제품이 아니라서<br>연결된 설명서가 없어요</div>`; return; }
-  if (!sources || !sources.length) { p.innerHTML = `<h4>참고한 설명서 / 출처</h4><div class="sources-empty">${route === 'none' ? '이 질문과 관련된 설명서 내용을<br>찾지 못했어요' : '질문하면 참고한 설명서 조각이<br>여기 표시돼요'}</div>`; return; }
-  p.innerHTML = `<h4>참고한 설명서 / 출처 ${sources.length}건</h4>` + sources.map((s, i) => `<div class="source-card clickable" data-src="${i}" title="클릭하면 전문과 PDF 페이지를 볼 수 있어요">
+  if (!sources || !sources.length) {
+    p.innerHTML = `<h4>참고한 설명서 / 출처</h4><div class="sources-empty">${route === 'none'
+      ? `<div class="empty-character">${CHARACTER_MARK}</div>이 질문과 관련된 설명서 내용을<br>찾지 못했어요`
+      : '질문하면 참고한 설명서 조각이<br>여기 표시돼요'}</div>`;
+    return;
+  }
+  const a = S.conv?.appliance;
+  p.innerHTML = `<h4>${ROUTE_ICON[route] || '📄'} 참고한 설명서 / 출처 ${sources.length}건 ${a ? brandTag(a.brand, a.brand_name) : ''}</h4>` + sources.map((s, i) => `<div class="source-card clickable" data-src="${i}" title="클릭하면 전문과 PDF 페이지를 볼 수 있어요">
     <div class="top-row"><div class="s-title">${esc(s.title)}</div><span class="tag">${esc(s.tag)}</span></div>
     <div class="s-snippet">${esc(s.snippet)}</div>
-    <div class="s-doc">${esc(s.doc_id)}${pageLabel(s) ? ` · <b>${pageLabel(s)}</b>` : ''} · 관련도 ${Math.round((1 - s.distance) * 100)}%</div></div>`).join('');
+    <div class="s-doc"><span>${esc(s.doc_id)}${pageLabel(s) ? ` · <b>${pageLabel(s)}</b>` : ''}</span>${relevanceBadge(s.distance)}</div></div>`).join('');
   p.querySelectorAll('[data-src]').forEach(el => el.onclick = () => openSource(sources[+el.dataset.src]));
 }
 // 청크가 실린 PDF 페이지 (assign_pages). 에러코드 청크나 예전 대화(페이지 정보 없이 저장된 것)는 빈 문자열
@@ -132,9 +166,9 @@ async function ask(text) {
   $('#askInput').placeholder = '답변을 생성하는 동안에는 잠시만 기다려주세요';
   appendMessage({ role: 'user', content: text });
   const el = document.createElement('div'); el.className = 'answer-block';
-  el.innerHTML = `<div class="bot-avatar">🔧</div><div style="flex:1;min-width:0"><div class="answer-body"><span class="typing-dots"><span></span><span></span><span></span></span> <span class="muted small">관련 설명서를 찾고 답변을 준비하고 있어요…</span></div><div class="answer-meta"></div></div>`;
+  el.innerHTML = `<div class="bot-avatar thinking">${BRAND_MARK}</div><div style="flex:1;min-width:0"><div class="answer-body"><span class="typing-dots"><span></span><span></span><span></span></span> <span class="muted small">관련 설명서를 찾고 답변을 준비하고 있어요…</span></div><div class="answer-meta"></div></div>`;
   $('#conv').appendChild(el); $('#conv').scrollTop = $('#conv').scrollHeight; renderSourcesLoading();
-  const body = el.querySelector('.answer-body'); let acc = '', route = 'vector', first = true;
+  const body = el.querySelector('.answer-body'); let acc = '', route = 'vector';
   // 첫 질문이면(초안, id=null) /start 가 대화 행을 만들고 스트림 첫 줄(conv)로 알려준다 — 질문 없이 나간 대화는 기록에 안 남는다
   const url = S.conv.id ? `/api/conversations/${S.conv.id}/messages` : '/api/conversations/start';
   const payload = S.conv.id ? { content: text } : { appliance_id: S.conv.appliance.id, content: text };
@@ -143,8 +177,8 @@ async function ask(text) {
       if (ev.type === 'conv') { S.conv = { ...ev.conversation, messages: [] }; }
       else if (ev.type === 'status') { body.innerHTML = `<span class="typing-dots"><span></span><span></span><span></span></span> <span class="muted small">${esc(ev.text)}</span>`; }
       else if (ev.type === 'sources') { route = ev.route; renderSources(ev.sources, ev.route); }
-      else if (ev.type === 'token') { if (first) { body.textContent = ''; first = false; } acc += ev.text; if (route !== 'unregistered') body.textContent = acc; $('#conv').scrollTop = $('#conv').scrollHeight; }
-      else if (ev.type === 'done') { setAnswer(el, { content: acc, route }); el.dataset.mid = ev.message_id; }
+      else if (ev.type === 'token') { if (acc === '') el.querySelector('.bot-avatar')?.classList.remove('thinking'); acc += ev.text; if (route !== 'unregistered') body.innerHTML = renderAnswer(acc); $('#conv').scrollTop = $('#conv').scrollHeight; }
+      else if (ev.type === 'done') { el.querySelector('.bot-avatar')?.classList.remove('thinking'); setAnswer(el, { content: acc, route }); el.dataset.mid = ev.message_id; }
     });
   } catch (ex) { body.textContent = '오류: ' + ex.message; }
   S.streaming = false; $('#askInput').disabled = false; $('#askBtn').disabled = false; $('#askInput').placeholder = '추가로 궁금한 점을 입력하세요'; $('#askInput').focus();
@@ -170,18 +204,33 @@ $('#historyMain').addEventListener('click', async (e) => {
 $('#recentList').addEventListener('click', async (e) => { const b = e.target.closest('[data-cid]'); if (b) openConversation(await API.get('/api/conversations/' + b.dataset.cid)); });
 
 /* ── 내 제품 ─────────────────────────────────────────────────── */
+// 브랜드(LG/삼성)별로 묶어서 보여준다 — LG, 삼성 순, 그 외는 뒤에
+function groupByBrand(list) {
+  const order = { lg: 0, samsung: 1 };
+  const groups = new Map();
+  list.forEach(a => { const key = a.brand || 'etc'; if (!groups.has(key)) groups.set(key, { brand: a.brand, brand_name: a.brand_name, items: [] }); groups.get(key).items.push(a); });
+  return [...groups.values()].sort((x, y) => (order[x.brand] ?? 9) - (order[y.brand] ?? 9));
+}
+function productCard(a) {
+  return `<div class="product-grid-card" data-brand="${esc(a.brand)}">
+      <div class="thumb-wrap">${thumbHTML(a.manual_id, a.product_type, 'thumb')}<span class="tag type-badge">${esc(a.product_type)}</span></div>
+      <div class="name">${esc(a.nickname)}</div>
+      <div class="model"><span class="nameplate">${esc(a.model)}</span>${brandTag(a.brand, a.brand_name)}${a.location ? `<span class="tag loc-tag">📍 ${esc(a.location)}</span>` : ''}</div>
+      <div class="row-btns"><button class="btn outline sm" data-edit="${a.id}">수정</button><button class="btn danger sm" data-del="${a.id}">삭제</button></div></div>`;
+}
 async function renderProducts() {
   await loadAppliances(); show('products');
-  $('#productsMain').innerHTML = `<div class="product-grid">${S.appliances.map(a => `<div class="product-grid-card">
-      ${thumbHTML(a.manual_id, a.product_type, 'thumb')}<div class="name">${esc(a.nickname)}</div><div class="model">${esc(a.model)} · ${esc(a.brand_name)}${a.location ? ' · ' + esc(a.location) : ''}</div>
-      <div class="row-btns"><button class="btn outline sm" data-edit="${a.id}">수정</button><button class="btn ghost sm" data-del="${a.id}">삭제</button></div></div>`).join('')}
-    <button class="add-product-card" id="addProduct">+ 새 제품 등록하기</button></div>`;
+  const groups = groupByBrand(S.appliances);
+  $('#productsMain').innerHTML = groups.map(g => `<section class="brand-group">
+      <div class="brand-group-head">${brandTag(g.brand, g.brand_name) || '<span class="tag">기타</span>'}<span class="muted small">${g.items.length}개</span></div>
+      <div class="product-grid">${g.items.map(productCard).join('')}</div></section>`).join('')
+    + `<div class="product-grid"><button class="add-product-card" id="addProduct">+ 새 제품 등록하기</button></div>`;
 }
 $('#productsMain').addEventListener('click', async (e) => {
   if (e.target.closest('#addProduct')) return openAddModal();
   const ed = e.target.closest('[data-edit]'), del = e.target.closest('[data-del]');
   if (ed) openEditModal(S.appliances.find(a => a.id === +ed.dataset.edit));
-  if (del && confirm('이 제품과 관련 대화를 삭제할까요?')) { await API.del('/api/appliances/' + del.dataset.del); await renderProducts(); await loadConversations(); toast('삭제했어요'); }
+  if (del && confirm('이 제품과 관련 대화를 삭제할까요?')) { await API.del('/api/appliances/' + del.dataset.del); await renderProducts(); await loadConversations(); toast('삭제했어요', 'warn'); }
 });
 
 /* ── 모달 ────────────────────────────────────────────────────── */
@@ -189,29 +238,29 @@ function openAddModal() {
   $('#modalAdd').classList.remove('hidden');
   RegisterFlow.mount($('#modalAddBody'), {
     doneLabel: '확인', onCancel: () => $('#modalAdd').classList.add('hidden'),
-    onDone: async () => { $('#modalAdd').classList.add('hidden'); await loadAppliances(); toast('내 제품 목록에 추가됐어요'); if (!$('#view-products').classList.contains('hidden')) renderProducts(); else renderPicker(); },
+    onDone: async () => { $('#modalAdd').classList.add('hidden'); await loadAppliances(); toast('내 제품 목록에 추가됐어요', 'ok'); if (!$('#view-products').classList.contains('hidden')) renderProducts(); else renderPicker(); },
   });
 }
 let editing = null;
 async function openEditModal(a) {
   editing = a; const opts = await API.get('/api/catalog/options');
-  $('#modalEditBody').innerHTML = `<div class="product-card" style="border:none;padding:0;margin-bottom:18px">${thumbHTML(a.manual_id, a.product_type, 'product-thumb lg')}
-    <div class="meta"><div class="name">${esc(a.model)}</div><div class="model">${esc(a.manual_id)}</div></div><span class="tag">${esc(a.product_type)} · ${esc(a.brand_name)}</span></div>
+  $('#modalEditBody').innerHTML = `<div class="product-card flat">${thumbHTML(a.manual_id, a.product_type, 'product-thumb lg')}
+    <div class="meta"><div class="name">${esc(a.model)}</div><div class="model">${esc(a.manual_id)}</div></div><span class="tag">${esc(a.product_type)}</span>${brandTag(a.brand, a.brand_name)}</div>
     <div class="row-2"><div class="field"><label>제품 별칭</label><input class="input" id="ed-nick" value="${esc(a.nickname)}"></div>
       <div class="field"><label>설치 위치</label><select class="select" id="ed-loc">${['', '거실', '안방', '주방', '베란다', '세탁실', '작은방'].map(l => `<option value="${l}" ${l === a.location ? 'selected' : ''}>${l || '선택 안 함'}</option>`).join('')}</select></div></div>
     <div class="field"><label>모델 다시 찾기</label><div style="display:flex;gap:8px"><input class="input" id="ed-q" placeholder="모델명 검색 (예: FQ25)" style="flex:1"><button class="btn outline" id="ed-search" style="width:88px">검색</button></div>
       <div id="ed-results" style="margin-top:8px"></div><input type="hidden" id="ed-manual" value="${esc(a.manual_id)}"></div>
-    <button class="link-btn" id="ed-delete" style="color:var(--danger)">이 제품 삭제하기</button>`;
+    <button class="link-btn danger" id="ed-delete">이 제품 삭제하기</button>`;
   $('#modalEdit').classList.remove('hidden');
   const search = async () => { const r = await API.get('/api/catalog/models?q=' + encodeURIComponent($('#ed-q').value.trim()));
-    $('#ed-results').innerHTML = r.slice(0, 6).map(m => `<div class="product-card" style="padding:8px 12px">${thumbHTML(m.manual_id, m.product_type, 'thumb-xs')}<div class="meta"><div class="name" style="font-size:13px">${esc(m.brand_name)} ${esc(m.product_type)} ${esc(m.model)}</div></div><button class="btn ghost sm" data-pick="${m.manual_id}" data-label="${esc(m.model)}">선택</button></div>`).join('') || '<div class="empty-note">결과 없음</div>'; };
+    $('#ed-results').innerHTML = r.slice(0, 6).map(m => `<div class="product-card compact">${thumbHTML(m.manual_id, m.product_type, 'thumb-xs')}<div class="meta"><div class="name" style="font-size:13px">${esc(m.brand_name)} ${esc(m.product_type)} ${esc(m.model)}</div></div><button class="btn ghost sm" data-pick="${m.manual_id}" data-label="${esc(m.model)}">선택</button></div>`).join('') || '<div class="empty-note">결과 없음</div>'; };
   $('#ed-search').onclick = search; $('#ed-q').onkeydown = (e) => { if (e.key === 'Enter') { e.preventDefault(); search(); } };
   $('#ed-results').onclick = (e) => { const p = e.target.closest('[data-pick]'); if (p) { $('#ed-manual').value = p.dataset.pick; $('#ed-results').innerHTML = `<div class="tag accent">변경할 모델: ${esc(p.dataset.label)}</div>`; } };
   $('#ed-delete').onclick = async () => { if (confirm('이 제품과 관련 대화를 삭제할까요?')) { await API.del('/api/appliances/' + a.id); $('#modalEdit').classList.add('hidden'); renderProducts(); loadConversations(); } };
 }
 $('#editSave').onclick = async () => {
   try { await API.patch('/api/appliances/' + editing.id, { nickname: $('#ed-nick').value, location: $('#ed-loc').value, manual_id: $('#ed-manual').value });
-    $('#modalEdit').classList.add('hidden'); toast('저장했어요'); renderProducts(); } catch (ex) { toast(ex.message); }
+    $('#modalEdit').classList.add('hidden'); toast('저장했어요', 'ok'); renderProducts(); } catch (ex) { toast(ex.message, 'danger'); }
 };
 document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => $('#' + b.dataset.close).classList.add('hidden'));
 
@@ -219,6 +268,27 @@ document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => $('#' +
 document.querySelectorAll('.nav-item').forEach(b => b.onclick = () => b.dataset.view === 'history' ? renderHistory() : renderProducts());
 $('#newChat').onclick = async () => { await loadAppliances(); renderPicker(); };
 $('#logout').onclick = async () => { await API.post('/api/auth/logout').catch(() => {}); localStorage.removeItem('token'); location.href = '/'; };
+
+/* ── 사이드바 / 출처 패널 너비 드래그 조절 (localStorage에 저장, UI 전용) ───── */
+function makeResizable(handle, panel, { min, max, storageKey, sign = 1 }) {
+  if (!handle || !panel) return;
+  const saved = +localStorage.getItem(storageKey);
+  if (saved) panel.style.width = Math.min(max, Math.max(min, saved)) + 'px';
+  handle.addEventListener('mousedown', (e) => {
+    e.preventDefault();
+    const startX = e.clientX, startW = panel.getBoundingClientRect().width;
+    handle.classList.add('active'); document.body.style.cursor = 'col-resize'; document.body.style.userSelect = 'none';
+    const onMove = (ev) => { const w = Math.min(max, Math.max(min, startW + sign * (ev.clientX - startX))); panel.style.width = w + 'px'; };
+    const onUp = () => {
+      document.removeEventListener('mousemove', onMove); document.removeEventListener('mouseup', onUp);
+      handle.classList.remove('active'); document.body.style.cursor = ''; document.body.style.userSelect = '';
+      localStorage.setItem(storageKey, parseInt(panel.style.width, 10));
+    };
+    document.addEventListener('mousemove', onMove); document.addEventListener('mouseup', onUp);
+  });
+}
+makeResizable($('#sidebarResize'), document.querySelector('.sidebar'), { min: 200, max: 340, storageKey: 'ui.sidebarWidth', sign: 1 });
+makeResizable($('#sourcesResize'), $('#sources'), { min: 260, max: 460, storageKey: 'ui.sourcesWidth', sign: -1 });
 
 (async function init() {
   $('#whoami').textContent = localStorage.getItem('username') || 'admin1'; $('#avatar').textContent = ($('#whoami').textContent[0] || 'A').toUpperCase();

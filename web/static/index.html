@@ -4,18 +4,24 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>가전 도우미 — 로그인</title>
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
 <link rel="stylesheet" href="/static/css/base.css">
 </head>
 <body>
 <div class="login-split">
   <div class="login-brand">
-    <div class="logo-mark">🔧</div>
+    <div class="logo-mark"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H17.5A2.5 2.5 0 0 1 20 5.5V13.5A2.5 2.5 0 0 1 17.5 16H10.5L6.5 19V16A2.5 2.5 0 0 1 4 13.5V5.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="9" cy="8.3" r="1" fill="currentColor"/><circle cx="15" cy="8.3" r="1" fill="currentColor"/><path d="M9 11.6c1 1.1 5 1.1 6 0" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/><g transform="translate(13.3,10.3) scale(0.32)"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" fill="currentColor"/></g></svg></div>
     <h2>우리 집 가전,<br>설명서째로 물어보세요</h2>
     <p>보유하신 제품의 사용법과 문제 해결 방법을 실제 설명서 근거와 함께 바로 안내해드립니다.</p>
     <div class="brand-mock">
-      <div class="q">에어컨에서 이상한 냄새가 나요</div>
-      <div class="a">에어컨은 실내 공기를 흡입해 순환시키므로 실내 냄새가 배어 나올 수 있어요. 필터를 청소하고 자동 건조 기능을 켜 두세요.</div>
-      <div class="src">📄 참고: 사용설명서 › 문제해결 › 냄새 › 이상한 냄새가 나요</div>
+      <div class="bubble-user" style="margin-bottom:12px">에어컨에서 이상한 냄새가 나요</div>
+      <div class="answer-block">
+        <div class="bot-avatar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H17.5A2.5 2.5 0 0 1 20 5.5V13.5A2.5 2.5 0 0 1 17.5 16H10.5L6.5 19V16A2.5 2.5 0 0 1 4 13.5V5.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><g transform="translate(6,3) scale(0.58)"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" fill="currentColor"/></g></svg></div>
+        <div style="flex:1;min-width:0">
+          <div class="answer-body"><p>에어컨은 실내 공기를 흡입해 순환시키므로 실내 냄새가 배어 나올 수 있어요. 필터를 청소하고 자동 건조 기능을 켜 두세요.</p></div>
+          <div class="answer-meta"><span class="tag accent">설명서 근거</span></div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="login-form-side">

@@ -29,7 +29,7 @@ sys.path.insert(0, str(ROOT / "experiments"))
 from dotenv import load_dotenv  # noqa: E402
 load_dotenv(ROOT / ".env")
 
-from pipeline.evaluate import MODEL_QUESTIONS, judge_results  # noqa: E402
+from experiments.harness.evaluate import MODEL_QUESTIONS, judge_results  # noqa: E402
 from web import rag_service  # noqa: E402
 
 DB_PATH = ROOT / "data" / "appliance.sqlite"
@@ -60,7 +60,7 @@ def main(n: int | None, resume: bool = False) -> None:
     print(f"대상: {len(rows)}개 (round1)", flush=True)
 
     # brand_ko는 MODEL_LIST에만 있고 MODEL_QUESTIONS엔 model만 있어 재구성
-    from pipeline.evaluate import MODEL_LIST
+    from experiments.harness.evaluate import MODEL_LIST
     brand_by_model = {model: brand for brand, _category, model in MODEL_LIST}
 
     results = []

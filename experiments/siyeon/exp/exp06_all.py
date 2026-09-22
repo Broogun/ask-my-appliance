@@ -27,7 +27,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "experiments"))
 load_dotenv(ROOT / ".env")
 
-from pipeline.evaluate import run_and_save  # noqa: E402
+from experiments.harness.evaluate import run_and_save  # noqa: E402
 from siyeon.rag.chunking_lg import build_all_chunks  # noqa: E402
 from siyeon.rag.chunking_samsung import build_samsung_chunks  # noqa: E402
 from siyeon.rag.retrieval import LGAirconRetriever  # noqa: E402

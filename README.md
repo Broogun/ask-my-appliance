@@ -1,156 +1,114 @@
 # Ask My Appliance
 
-LG·삼성 가전제품 사용설명서 기반 RAG 실험 프로젝트.  
-팀원 4명이 각자 독립적인 RAG 파이프라인을 구현하고 공통 기준으로 성능을 비교한다.
+**내 가전제품 설명서만 근거로 답하는 RAG 챗봇.**
+LG·삼성 60개 모델의 사용설명서를 학습 데이터가 아닌 **검색 대상**으로 두고, 답변의 모든 문장에
+출처 쪽 번호와 설명서 그림을 붙인다.
+
+```
+"dE 에러가 나고 문이 안 닫혀요"
+ → dE 에러는 세탁기 문이 제대로 닫히지 않았을 때 발생합니다.
+   1. 세탁물이 고무 패킹과 도어 사이에 끼어있지 않은지 확인하세요.  [설명서 그림]
+   2. 도어가 아래로 처져 있다면 위쪽으로 살짝 들어 올려 닫아보세요.  [설명서 그림]
+   출처: WM_F21VDSK p.28 · LG전자 고객지원
+```
 
 ---
 
-## 실험 구조
+## 문제
 
-### 통일 (모든 팀원 동일)
+가전이 고장 나면 사용자는 세 가지 벽에 부딪힌다. 설명서는 평균 57쪽이라 원하는 쪽을 못 찾고,
+검색 결과는 어느 모델 기준인지 불분명하며, 제조사 챗봇은 브랜드별로 나뉘어 있다.
 
-| 항목 | 내용 |
+범용 LLM에 물으면 그럴듯한 답이 나오지만 **내 모델 설명서에 실제로 적힌 내용인지 확인할 수 없다.**
+가전 문제는 오답의 비용이 크고, 특히 안전 경고는 틀리면 위험으로 이어진다.
+
+→ 자세한 내용: [docs/01-problem.md](docs/01-problem.md)
+
+## 해결 방식
+
+| | 내용 |
 |---|---|
-| 데이터 | LG·삼성 에어컨·냉장고·세탁기 PDF 텍스트(`data/lg/` + `data/samsung/`) + 기본 에러코드 데이터 |
-| LLM | gpt-4o-mini |
-| 답변 형식 | 한국어, 근거 문서 기반 |
-| 평가 질문 | 900개 (`MODEL_QUESTIONS`, 제품 모델 60개 x 3라운드 x 5문항, 계속 늘어남 - 2026-09부터, 이전 22개에서 확대) |
+| **모델 한정 검색** | 사용자가 등록한 가전의 설명서만 검색 범위로 사용 |
+| **확정 가능한 건 DB로** | 에러코드·모델별 기능 유무는 벡터 검색이 아닌 관계형 DB 정확 매칭 |
+| **근거 제시** | 답변마다 출처 쪽 번호 + PDF 원문 + 해당 설명서 그림 |
+| **LLM 판단 최소화** | 안전 경고 주입, 그림 선택, 쪽 번호는 모두 결정론적 코드가 담당 |
 
-### 자유 (각자 결정)
+## 결과
 
-청킹 방식 / 임베딩 모델 / 벡터 DB / 검색 전략
+실제 서비스 경로로 300문항을 평가한 결과다(`experiments/web_baseline_eval.py`).
 
-### 이번 라운드 범위 밖
+| 라벨 | 개수 | 비율 |
+|---|---|---|
+| SUCCESS | 277 | **92.3%** |
+| GENUINE_NO_ANSWER (설명서에 정말 없음) | 20 | 6.7% |
+| FALSE_DECLINE (근거가 있는데 포기) | 3 | 1.0% |
+| **FALSE_CONFIDENCE (근거 없이 확신)** | **0** | **0%** |
 
-이미지/그림(다이어그램) 추출, OCR — RAG 고도화 단계에서 별도로 진행 예정. 지금은 PDF
-텍스트 데이터와 에러코드 데이터만으로 실험한다.
+근거 없이 지어낸 답변이 한 건도 없다. 검색 품질은 Recall@40 99%, 리랭킹 정확 매칭 94/97.
 
----
+→ 평가 설계와 전체 지표: [docs/05-evaluation.md](docs/05-evaluation.md)
 
-## 레포 구조
+## 시스템 구조
 
 ```
-experiments/
-  template_exp.py       ← 실험 시작 템플릿
-  rag_tutorial.ipynb    ← 청킹·임베딩 방식 비교 학습 노트북
-  planning_template.md  ← 사전 기획서 템플릿
-  RULES.md              ← 실험 규칙 및 브랜치 전략
-  compare_results.py    ← 팀 결과 비교 보고서 생성
-  results/              ← 실험 결과 JSON (커밋 대상)
-
-pipeline/
-  evaluate.py            ← 공용 평가 하니스 (실험마다 복붙 안 하고 import)
-
-.github/workflows/
-  eval_report.yml       ← PR push 시 자동 보고서 생성
-
-CLAUDE.md              ← AI 어시스턴트 사용 지침
-SETUP.md               ← 환경 세팅 가이드
+브라우저 ──► FastAPI ──► rag_service (4함수 계약)
+                          ├─ 에러코드 RDB 정확 매칭        (LLM 0회)
+                          ├─ 모델별 기능 표 '없음' 확정
+                          └─ 벡터검색 top40 → listwise 리랭킹 top5 → 답변 생성
+                                     │
+                          Postgres+pgvector (Supabase) ⇄ SQLite+Chroma (로컬)
 ```
 
----
+`DATABASE_URL` 하나로 로컬 모드와 팀 공유 DB 모드를 전환한다.
+
+→ 자세한 내용: [docs/03-architecture.md](docs/03-architecture.md) · [docs/04-rag-pipeline.md](docs/04-rag-pipeline.md)
 
 ## 빠른 시작
-
-### 1. 클론 및 패키지 설치
-
-**Python 3.12.14** 기준 (`.python-version`에 명시).
 
 ```bash
 git clone https://github.com/Broogun/ask-my-appliance.git
 cd ask-my-appliance
 pip install -r requirements.txt
+
+cp .env.example .env          # OPENAI_API_KEY 입력 (+ 공유 DB를 쓰면 DATABASE_URL 등)
+python -m uvicorn web.main:app --port 8000
+# → http://localhost:8000   로그인 admin1~admin7
 ```
 
-### 2. 환경변수 설정
+PDF·벡터 인덱스 준비, 공유 DB 연결, 원격 접속 설정은 [docs/06-setup.md](docs/06-setup.md) 참고.
 
-```bash
-cp .env.example .env
+## 저장소 구조
+
+```
+web/              웹 앱 (FastAPI + 정적 프런트) · RAG 연결 지점 · 그림 매칭
+scripts/          에러코드 사진 크롤러 · 공유 DB 이전
+supabase/         공유 DB 스키마 + 설정 가이드
+docs/             프로젝트 문서 (문제 정의 → 평가)
+experiments/      실험 기록 · 공용 평가 하니스 · 결과 JSON
+data/             설명서 PDF · SQLite (Git 제외)
 ```
 
-| 변수 | 설명 |
+## 문서
+
+| 문서 | 내용 |
 |---|---|
-| `OPENAI_API_KEY` | OpenAI 사용 시 팀장에게 문의 |
+| [01-problem.md](docs/01-problem.md) | 문제 정의, 설계 목표와 우선순위, 범위 |
+| [02-data.md](docs/02-data.md) | 설명서 60개·에러코드·기능 표 구성과 수집 |
+| [03-architecture.md](docs/03-architecture.md) | 시스템 구조, 모듈, 저장소 이중화, 설계 결정 |
+| [04-rag-pipeline.md](docs/04-rag-pipeline.md) | 청킹·검색·리랭킹·생성·안전경고·그림 매칭 |
+| [05-evaluation.md](docs/05-evaluation.md) | 평가 지표 설계와 결과, 한계 |
+| [06-setup.md](docs/06-setup.md) | 설치·실행·트러블슈팅 |
+| [web/README.md](web/README.md) | 웹 앱 내부 구조와 API |
+| [supabase/README.md](supabase/README.md) | 공유 DB 생성·이전·보안 |
+| [experiments/README.md](experiments/README.md) | 실험 참여 방법과 평가 하니스 |
 
-### 3. PDF 받기
+## 기술 스택
 
-PDF는 용량 문제로 Git에 포함되지 않는다.  
-아래 구글 드라이브에서 `ask-my-appliance-data.zip`을 받아서 압축을 풀고, 나오는
-`data/` 폴더 내용물을 레포 루트의 `data/` 밑에 그대로 넣는다.
+FastAPI · SQLAlchemy · ChromaDB / pgvector(Supabase) · sentence-transformers(`BGE-m3-ko`) ·
+OpenAI gpt-4o-mini · PyMuPDF · RAGAS
 
-**다운로드**: https://drive.google.com/file/d/1ePqOVFxh0t0qK-fjMoVuMGw4LbdHV-XF/view?usp=sharing
+## 팀
 
-```
-data/
-  lg/
-    aircon/       ← LG 에어컨 PDF
-    fridge/       ← LG 냉장고 PDF
-    washer/       ← LG 세탁기 PDF
-  samsung/
-    aircon/       ← 삼성 에어컨 PDF
-    fridge/       ← 삼성 냉장고 PDF
-    washer/       ← 삼성 세탁기 PDF
-```
-
-기본 에러코드 데이터(`lg_*_errors.json`, `samsung_*_errors.json`)도 같은 압축 파일에
-포함되어 있다.
-
-
----
-
-## 실험 참여 방법
-
-### Step 1. 노트북으로 개념 익히기
-
-`experiments/rag_tutorial.ipynb`를 열어서 청킹·임베딩 방식별 결과를 직접 비교해본다.
-
-### Step 2. 사전 기획서 작성
-
-`experiments/planning_template.md`를 복사해서 본인 전략을 먼저 정리한다.
-
-### Step 3. 실험 파일 구현
-
-```bash
-git checkout -b exp/{이름}
-cp experiments/template_exp.py experiments/{이름}_exp01.py
-```
-
-`{이름}_exp01.py` 안에서 **`my_answer()` 함수 하나만 구현**한다.  
-청킹·임베딩·DB·검색 방식은 전부 자유.
-
-```python
-def my_answer(query: str) -> dict:
-    # 본인 RAG 전 과정 구현
-    ...
-    return {"answer": str, "candidates": list}
-```
-
-### Step 4. 실험 실행 및 결과 커밋
-
-```bash
-python experiments/{이름}_exp01.py
-# → experiments/results/{이름}_exp01.json 자동 저장
-
-git add experiments/{이름}_exp01.py experiments/results/{이름}_exp01.json
-git commit -m "[{이름}] exp01: 한 줄 설명"
-git push origin exp/{이름}
-```
-
-### Step 5. PR → 자동 보고서
-
-PR을 올리면 GitHub Actions가 팀 전체 결과 비교 보고서를 댓글로 자동 게시한다.
-
----
-
-## 브랜치 전략
-
-| 브랜치 | 용도 |
-|---|---|
-| `main` | 검증된 코드만 (팀장 머지) |
-| `exp/{이름}` | 개인 실험 브랜치 |
-
----
-
-## AI 사용 가이드
-
-Claude 등 AI 어시스턴트에게 작업을 맡길 때는 `CLAUDE.md`를 먼저 읽혀라.
+4인 프로젝트. 각자 독립적으로 RAG 파이프라인을 구현해 공통 질문셋으로 비교한 뒤, 가장 성능이 좋은
+검색 엔진과 관계형 DB 설계를 통합해 하나의 서비스로 만들었다. 비교 과정과 실험 기록은
+[`experiments/`](experiments/)에 남아 있다.

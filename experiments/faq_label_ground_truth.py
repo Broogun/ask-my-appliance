@@ -17,7 +17,7 @@ spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().
 exp02 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exp02)
 
-from pipeline.evaluate import MODEL_QUESTIONS  # noqa: E402
+from experiments.harness.evaluate import MODEL_QUESTIONS  # noqa: E402
 
 JUDGE_PROMPT = (
     "너는 가전제품 사용설명서 검색 결과를 채점하는 심사위원이야. [질문]에 실제로 "

@@ -33,7 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import 박형건_exp02 as exp02  # noqa: E402
-from pipeline.evaluate import MODEL_QUESTIONS  # noqa: E402
+from experiments.harness.evaluate import MODEL_QUESTIONS  # noqa: E402
 
 TOP_K = 35  # 실제 _llm_rerank pool 크기와 동일 - 이게 진짜 의미있는 기준
 

@@ -26,7 +26,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "experiments"))
 load_dotenv(ROOT / ".env")
 
-from pipeline.evaluate import SYSTEM_PROMPT  # noqa: E402  (팀 공용 프롬프트, 수정 금지)
+from experiments.harness.evaluate import SYSTEM_PROMPT  # noqa: E402  (팀 공용 프롬프트, 수정 금지)
 from siyeon.rag.chunking_lg import build_all_chunks  # noqa: E402
 from siyeon.rag.chunking_samsung import build_samsung_chunks  # noqa: E402
 from siyeon.rag.retrieval import CONTEXT_CUTOFF, LGAirconRetriever, RetrievalResult, apply_cutoff, build_context  # noqa: E402

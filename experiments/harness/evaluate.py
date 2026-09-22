@@ -22,7 +22,7 @@ MODEL_QUESTIONS/SYSTEM_PROMPT(통일 기준)와 채점/보고서 저장 로직(R
 (다른 유형의 질문 추가) 여기 `MODEL_QUESTIONS`에 계속 이어붙인다.
 
 사용법 (experiments/{이름}_expNN.py 안에서):
-    from pipeline.evaluate import MODEL_QUESTIONS, SYSTEM_PROMPT, run_and_save
+    from experiments.harness.evaluate import MODEL_QUESTIONS, SYSTEM_PROMPT, run_and_save
 
     def my_answer(query: str) -> dict:
         ...

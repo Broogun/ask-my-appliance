@@ -40,7 +40,7 @@ ANSWER_MODEL = "gpt-4o-mini"
 ANSWER_TEMPERATURE = 0.2
 HISTORY_MESSAGES = 8      # 답변 LLM에 그대로 넣는 최근 메시지 수 (4턴). "그래도 안 돼요" 같은 후속은 LLM이 대화 맥락으로 답한다
 
-# 웹 전용 시스템 프롬프트 — 팀 채점용 SYSTEM_PROMPT(pipeline/evaluate.py)는 채점 비교 기준이라 그대로 두고, 서비스는 이걸 쓴다.
+# 웹 전용 시스템 프롬프트 — 팀 채점용 SYSTEM_PROMPT(experiments/harness/evaluate.py)는 채점 비교 기준이라 그대로 두고, 서비스는 이걸 쓴다.
 # 실사용 로그에서 확인된 답변 결함 3종을 겨눈다:
 #   A. 근거 3개 중 3번째가 정답인데 "설명서에 없습니다"라고 포기  → 규칙 2
 #   B. 다른 증상 조각의 조치를 가져다 자신 있게 오답              → 규칙 2·3

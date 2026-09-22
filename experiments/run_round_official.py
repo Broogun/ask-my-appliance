@@ -17,7 +17,7 @@ spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().
 exp02 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exp02)
 
-from pipeline.evaluate import MODEL_QUESTIONS  # noqa: E402
+from experiments.harness.evaluate import MODEL_QUESTIONS  # noqa: E402
 
 MAX_WORKERS = 3
 

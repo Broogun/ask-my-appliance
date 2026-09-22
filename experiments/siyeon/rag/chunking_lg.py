@@ -72,7 +72,7 @@ def _product_type_map() -> dict[str, str]:
     """모델명 → 8분류 카테고리 (pipeline.evaluate.MODEL_LIST). 평가 모듈이 없으면 빈 dict."""
     try:
         sys.path.insert(0, str(ROOT))
-        from pipeline.evaluate import MODEL_LIST
+        from experiments.harness.evaluate import MODEL_LIST
         return {model: category for brand, category, model in MODEL_LIST if brand == "LG"}
     except Exception:
         return {}

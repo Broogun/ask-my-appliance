@@ -27,7 +27,7 @@ from dotenv import load_dotenv
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from pipeline.evaluate import SYSTEM_PROMPT, run_and_save  # noqa: E402
+from experiments.harness.evaluate import SYSTEM_PROMPT, run_and_save  # noqa: E402
 
 load_dotenv(Path(__file__).parent.parent / ".env")
 

@@ -382,7 +382,7 @@ class LGAirconRetriever:
         from openai import OpenAI
         if system_prompt is None:
             sys.path.insert(0, str(ROOT))
-            from pipeline.evaluate import SYSTEM_PROMPT as system_prompt   # 팀 공용, 수정 금지
+            from experiments.harness.evaluate import SYSTEM_PROMPT as system_prompt   # 팀 공용, 수정 금지
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))
         cache: dict = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path and cache_path.exists() else {}
 

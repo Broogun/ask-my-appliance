@@ -20,7 +20,7 @@
   - 검색 전략 (top_k, 필터, 중복 제거 등)
 
 MODEL_QUESTIONS/SYSTEM_PROMPT(통일 기준)와 채점/보고서 저장 로직은
-pipeline/evaluate.py에 공용으로 모아뒀다 - 실험마다 똑같이 복붙하지 않고
+experiments/harness/evaluate.py에 공용으로 모아뒀다 - 실험마다 똑같이 복붙하지 않고
 import해서 쓴다. 이 파일에는 본인이 실제로 다르게 구현하는 my_answer()만 남는다.
 """
 
@@ -34,7 +34,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from pipeline.evaluate import SYSTEM_PROMPT, run_and_save  # noqa: E402
+from experiments.harness.evaluate import SYSTEM_PROMPT, run_and_save  # noqa: E402
 
 load_dotenv(Path(__file__).parent.parent / ".env")
 OAI = OpenAI(api_key=os.getenv("OPENAI_API_KEY", ""))

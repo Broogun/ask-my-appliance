@@ -7,7 +7,7 @@
     python experiments/siyeon/exp/exp05_all.py
     → experiments/results/siyeon_exp05.json
 
-평가 체계는 pipeline/evaluate.py의 MODEL_QUESTIONS (60모델 × 3라운드 × 5문항 = 900개, 질문에 모델명 포함).
+평가 체계는 experiments/harness/evaluate.py의 MODEL_QUESTIONS (60모델 × 3라운드 × 5문항 = 900개, 질문에 모델명 포함).
   - LG 30모델 450문항: 질문의 모델명 → manual_models → 해당 매뉴얼로 필터해 검색 (등록 가전이 있는 웹 시나리오와 동일)
   - 삼성 30모델 450문항: exp05부터 인덱스에 포함 (InDesign 템플릿 — 목차 1단계 페이지로 챕터 범위, `증상|확인/조치`·`코드|진단|해결방법` 표,
     에어컨·냉장고의 표 없는 문제해결은 글자 크기·'~나요!' 패턴으로 증상 감지. 목차 없는 3개는 폴백 파서)
@@ -32,7 +32,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "experiments"))
 load_dotenv(ROOT / ".env")
 
-from pipeline.evaluate import run_and_save  # noqa: E402
+from experiments.harness.evaluate import run_and_save  # noqa: E402
 from siyeon.rag.chunking_lg import build_all_chunks  # noqa: E402
 from siyeon.rag.chunking_samsung import build_samsung_chunks  # noqa: E402
 from siyeon.rag.retrieval import LGAirconRetriever  # noqa: E402

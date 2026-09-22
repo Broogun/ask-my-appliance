@@ -27,7 +27,7 @@ from dotenv import load_dotenv  # noqa: E402
 load_dotenv(ROOT / ".env")
 
 from openai import OpenAI  # noqa: E402
-from pipeline.evaluate import SYSTEM_PROMPT  # noqa: E402
+from experiments.harness.evaluate import SYSTEM_PROMPT  # noqa: E402
 from siyeon.rag.chunking_lg import build_all_chunks  # noqa: E402
 from siyeon.rag.chunking_samsung import build_samsung_chunks  # noqa: E402
 from siyeon.rag.retrieval import LGAirconRetriever, build_context  # noqa: E402

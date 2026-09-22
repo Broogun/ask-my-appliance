@@ -46,7 +46,7 @@ from openai import OpenAI, RateLimitError
 from sentence_transformers import SentenceTransformer
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from pipeline.evaluate import SYSTEM_PROMPT, run_and_save  # noqa: E402
+from experiments.harness.evaluate import SYSTEM_PROMPT, run_and_save  # noqa: E402
 
 load_dotenv(Path(__file__).parent.parent / ".env")
 # timeout 명시 - 기본 SDK 타임아웃(10분)이라 네트워크가 걸리면 재시도 로직

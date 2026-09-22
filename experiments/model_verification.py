@@ -1,4 +1,4 @@
-"""모델별 검증(회귀 테스트) 스크립트 — `pipeline/evaluate.py`의 `COMMON_QUESTIONS`(22개,
+"""모델별 검증(회귀 테스트) 스크립트 — `experiments/harness/evaluate.py`의 `COMMON_QUESTIONS`(22개,
 팀 공용 비교 기준, 수정 금지)와는 완전히 별개의 개인용 QA 도구다.
 
 **왜 필요한가**: `COMMON_QUESTIONS`만으로는 60개 제품 모델 중 39개만 우연히

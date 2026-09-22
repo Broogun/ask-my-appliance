@@ -1,0 +1,31 @@
+대상: 300개 (round1)
+[박형건_exp02] 임베딩 device: cuda
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:   5%|▍         | 18/391 [00:00<00:02, 177.69it/s]Loading weights:  10%|▉         | 39/391 [00:00<00:01, 183.19it/s]Loading weights:  16%|█▌        | 63/391 [00:00<00:01, 199.04it/s]Loading weights:  21%|██        | 83/391 [00:00<00:01, 163.60it/s]Loading weights:  26%|██▋       | 103/391 [00:00<00:01, 169.17it/s]Loading weights:  32%|███▏      | 124/391 [00:00<00:01, 176.02it/s]Loading weights:  36%|███▋      | 142/391 [00:00<00:01, 156.99it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 449.39it/s]
+  20/300 완료 (85초)
+  40/300 완료 (165초)
+  60/300 완료 (277초)
+  80/300 완료 (377초)
+  100/300 완료 (457초)
+  120/300 완료 (564초)
+Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\broogun_rag_experiments\experiments\web_baseline_eval.py", line 102, in <module>
+    main(args.n)
+  File "C:\Users\Admin\Desktop\broogun_rag_experiments\experiments\web_baseline_eval.py", line 74, in main
+    answer = "".join(rag_service.stream_answer(question, res, history=[]))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\broogun_rag_experiments\web\rag_service.py", line 213, in stream_answer
+    stream = client.chat.completions.create(model=ANSWER_MODEL, temperature=ANSWER_TEMPERATURE, messages=messages, stream=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\broogun_rag_experiments\.venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\broogun_rag_experiments\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\broogun_rag_experiments\.venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\broogun_rag_experiments\.venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-WNGzmontGR7zVf0mVH8waApV on tokens per min (TPM): Limit 200000, Used 197712, Requested 3319. Please try again in 309ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}

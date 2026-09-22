@@ -195,7 +195,7 @@ def build(db_path: Path = DB_PATH, data_dir: Path = DATA_DIR, verbose: bool = Tr
     # 1) 매뉴얼 + 모델 패턴 + 기능 표
     try:   # 평가 체계의 8분류 (없으면 폴더 3분류의 한글명)
         sys.path.insert(0, str(ROOT))
-        from pipeline.evaluate import MODEL_LIST
+        from experiments.harness.evaluate import MODEL_LIST
         ptype = {model: cat for brand, cat, model in MODEL_LIST}
     except Exception:
         ptype = {}

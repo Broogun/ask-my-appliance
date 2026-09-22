@@ -1,0 +1,22 @@
+대상: 300개 (round1)
+이어하기: 기존 120개 유지
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[박형건_exp02] 임베딩 device: cuda
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:   5%|▍         | 19/391 [00:00<00:02, 155.13it/s]Loading weights:   9%|▉         | 35/391 [00:00<00:02, 145.85it/s]Loading weights:  14%|█▎        | 53/391 [00:00<00:02, 159.08it/s]Loading weights:  19%|█▉        | 75/391 [00:00<00:01, 177.98it/s]Loading weights:  24%|██▍       | 93/391 [00:00<00:02, 143.27it/s]Loading weights:  28%|██▊       | 109/391 [00:00<00:02, 112.18it/s]Loading weights:  31%|███       | 122/391 [00:00<00:02, 102.96it/s]Loading weights:  35%|███▌      | 137/391 [00:01<00:02, 110.95it/s]Loading weights: 100%|██████████| 391/391 [00:01<00:00, 343.83it/s]
+  140/300 완료 (80초)
+  160/300 완료 (176초)
+  180/300 완료 (272초)
+  200/300 완료 (375초)
+  220/300 완료 (482초)
+  240/300 완료 (588초)
+  260/300 완료 (697초)
+  429 rate limit - 15초 대기 후 재시도(1/6)
+  280/300 완료 (816초)
+  300/300 완료 (919초)
+
+검색 완료: 300개 (manual_id 못 찾아 스킵: 0개), 919초
+저장: C:\Users\Admin\Desktop\broogun_rag_experiments\experiments\results\web_baseline_round1.json
+
+LLM 4분류 판정 시작...
+판정 분포: {'SUCCESS': 277, 'GENUINE_NO_ANSWER': 20, 'FALSE_DECLINE': 3}
+최종 저장: C:\Users\Admin\Desktop\broogun_rag_experiments\experiments\results\web_baseline_round1.json

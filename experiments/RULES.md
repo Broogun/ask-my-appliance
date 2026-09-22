@@ -27,7 +27,7 @@ experiments/
   results/
     {이름}_exp{번호}.json ← 평가 결과 (커밋 필수 — GitHub Actions가 사용)
 
-pipeline/
+experiments/harness/
   evaluate.py             ← 공용 평가 하니스 (MODEL_QUESTIONS/SYSTEM_PROMPT/채점/
                              보고서 저장). template_exp.py가 이미 import해서 쓰고
                              있으니 실험 파일에 복붙할 필요 없음 - my_answer()만
@@ -68,7 +68,7 @@ main
        ],
    }
    ```
-5. `MODEL_QUESTIONS`와 `SYSTEM_PROMPT`는 수정하지 않는다 (`pipeline/evaluate.py`에서
+5. `MODEL_QUESTIONS`와 `SYSTEM_PROMPT`는 수정하지 않는다 (`experiments/harness/evaluate.py`에서
    import돼 있어서, 애초에 실험 파일 안에 이 값들이 없다 - 건드릴 곳도 없다).
 6. 실험 실행 후 `results/{EXPERIMENT_NAME}.json`이 생성되면 함께 커밋한다.
 
@@ -115,7 +115,7 @@ PR push 시 GitHub Actions가 자동으로 PR 댓글에 보고서를 달아준�
 
 **2026-09 변경(관리자 승인)**: 기존 `COMMON_QUESTIONS`(22개, 고정)를
 `MODEL_QUESTIONS`(제품 모델 60개 기준, 라운드마다 5문항씩 누적)로 교체했다.
-`pipeline/evaluate.py`의 `MODEL_QUESTIONS`가 원본이다 - 여기 문서에는 표로
+`experiments/harness/evaluate.py`의 `MODEL_QUESTIONS`가 원본이다 - 여기 문서에는 표로
 복사해두지 않는다(복사해두면 코드가 바뀌어도 문서가 그대로 남아 어긋나기 쉽다).
 
 **바뀐 이유**: 22개짜리 고정 질문으로는 60개 제품 모델 중 39개만 우연히
@@ -135,7 +135,7 @@ PDF 표지에 실제로 적힌 제품명을 확인해서 8개로 다시 나눴�
 
 **라운드 구조**: 한 번에 다 만들지 않고, 회차(라운드)마다 "명확히 다른 축"의
 질문 5개씩을 쌓아간다 - 기존 라운드는 삭제/변경하지 않고 새 라운드를 추가만
-한다(과거 실험과의 비교 가능성 유지). `pipeline/evaluate.py`의 `_ROUNDS` 정의
+한다(과거 실험과의 비교 가능성 유지). `experiments/harness/evaluate.py`의 `_ROUNDS` 정의
 위 주석에 각 라운드의 설계 기준이 자세히 적혀 있다.
 - round1(300개) - "가장 흔한 질문" 축: 필터/소음/기본 고장 증상 등 A/S 문의에서
   가장 많이 나올 법한 기본 사용법·증상

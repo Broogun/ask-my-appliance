@@ -47,7 +47,7 @@ def _norm_cell(c) -> str:
 def _product_type_map() -> dict[str, str]:
     try:
         sys.path.insert(0, str(ROOT))
-        from pipeline.evaluate import MODEL_LIST
+        from experiments.harness.evaluate import MODEL_LIST
         return {model: category for brand, category, model in MODEL_LIST if brand == "삼성"}
     except Exception:
         return {}

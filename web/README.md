@@ -92,7 +92,7 @@ LangChain으로 옮길 때: `retrieve` = `BaseRetriever` 어댑터 한 장, `str
 
 ## 답변 품질
 
-팀 채점용 `SYSTEM_PROMPT`(pipeline/evaluate.py)는 비교 기준이라 그대로 두고, 웹은 `WEB_SYSTEM_PROMPT`를 씁니다.
+팀 채점용 `SYSTEM_PROMPT`(experiments/harness/evaluate.py)는 비교 기준이라 그대로 두고, 웹은 `WEB_SYSTEM_PROMPT`를 씁니다.
 실사용 로그에서 나온 결함 3종(근거가 있는데 포기 / 다른 증상의 조치를 섞음 / 바꿔 쓰다 뜻이 뒤집힘)을 규칙으로 겨누고,
 `python experiments/siyeon/eval_answers.py`(LLM 심판 30문항)로 두 프롬프트를 비교합니다.
 

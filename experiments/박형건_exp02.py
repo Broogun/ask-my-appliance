@@ -172,6 +172,40 @@ def _load_state() -> dict:
     for chunk_id, meta in zip(all_docs["ids"], all_meta):
         if meta.get("section_title") in _TS_TITLES:
             ts_map.setdefault(meta["product_model"], []).append(chunk_id)
+
+    # 위 exact-match만으로 놓친 3개 삼성 에어컨 모델(AF19TX978MZ3N/AR-EH05/AR06R1130HZN,
+    # round1 실패 23건 중 3건)을 직접 열어서 원인을 재확인함(2026-09-22) - "PDF 목차
+    # 손상"이라 짐작했던 게 틀렸다. 실제로는 두 가지 별개 현상이었다:
+    #  ① AF19TX978MZ3N은 챕터가 있지만 제목이 "[...> 부록 > 서비스를 요청하기 전에]
+    #     냄새"처럼 조상 경로 + 하위 증상명이 합쳐진 복합 문자열이라, 위 exact-match
+    #     (`in _TS_TITLES`)가 절대 안 걸린다 - "서비스를 요청하기 전에"는 부분 문자열로만
+    #     존재한다. → substring 매칭으로 해결(아래).
+    #  ② AR06R1130HZN(+같은 패턴의 AR06A9170HNQ/AR09T9170HCN/AF18RX975CAN)은 그 반대로,
+    #     조상 챕터명("서비스를 요청하기 전에")이 아예 안 붙고 하위 증상명만 단독
+    #     제목("냄새","소리","전원" 등)으로 남아 있다 - exp02 청킹이 "제목이 중복될 때만
+    #     조상 경로를 붙인다"는 규칙 때문에(위 149번째 줄 주석), 이 모델들은 그 증상명이
+    #     문서 내에서 중복 안 되는 케이스였던 것. "냄새"/"소리" 같은 2글자 제목은 단독으로
+    #     매칭하면 다른 모델의 무관한 챕터와 오탐할 위험이 있어, 실측으로 전수 스캔한 결과
+    #     (모든 모델 대상) 이 8개 증상명 세트가 실제로 같이 나타나는 모델은 이 4개뿐이고
+    #     전부 7~8개가 한꺼번에 나타남을 확인함 - 그래서 "이 세트 중 3개 이상이 같은
+    #     product_model에 있을 때만" 트러블슈팅 챕터로 인정한다(단일 우연 일치 배제).
+    #  AR-EH05는 위 둘 다 아니고, 실제로 매뉴얼 자체(26청크, 8챕터)에 트러블슈팅/고장진단
+    #  챕터가 없다 - 화면 에러코드도 없는 축소판 매뉴얼이라 "설명서에 없다"는 답이 맞다.
+    for chunk_id, meta in zip(all_docs["ids"], all_meta):
+        title = meta.get("section_title", "")
+        if any(t in title for t in _TS_TITLES) and title not in _TS_TITLES:
+            ts_map.setdefault(meta["product_model"], []).append(chunk_id)
+
+    _TS_LEAF_TITLES = ("냄새", "소리", "전원", "작동법", "냉방 안됨", "물방울/습기", "실외기 작동", "확인(Check) 사항")
+    leaf_hits: dict[str, list[tuple[str, str]]] = {}
+    for chunk_id, meta in zip(all_docs["ids"], all_meta):
+        title = meta.get("section_title", "")
+        if title in _TS_LEAF_TITLES:
+            leaf_hits.setdefault(meta["product_model"], []).append((chunk_id, title))
+    for model, hits in leaf_hits.items():
+        if len({t for _, t in hits}) >= 3:
+            ts_map.setdefault(model, []).extend(cid for cid, _ in hits)
+
     _state["troubleshooting_chunks"] = ts_map
 
     # 냉장고/김치냉장고 "제어판" 대표 챕터 위치 미리 인덱싱 (#19 잔여 대책).

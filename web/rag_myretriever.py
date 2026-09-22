@@ -142,6 +142,7 @@ def _translate_chunk(c: dict, manual_id: str) -> dict:
     return {
         "id": c["id"], "doc_id": manual_id, "section": heading, "subsection": "",
         "tag": tag, "page_start": page_start, "page_end": page_end, "body": body, "text": c["text"],
+        "is_structural": bool(c.get("_structural")),
     }
 
 
@@ -173,6 +174,42 @@ def retrieve(query: str, manual_id: str | None = None, top_k: int = 5, feature: 
     where = {"product_model": product_model} if product_model else None
     found = exp02._vector_search(query, state, top_k=40, where=where)
     picked = exp02._llm_rerank([query], found, state, top_k=top_k)
+
+    # 구조적 챕터 매칭(exp02.gather_candidates와 같은 로직, 원래 실험 하니스에만 연결돼 있었는데
+    # 벡터검색+리랭킹만 이식할 때 빠졌던 걸 실사용 로그 감사로 발견함) - "에러 메시지 확인하는
+    # 방법"처럼 "에러"라는 단어가 원문에 없어 벡터검색이 놓치는 질문은, 모델별로 미리 인덱싱해 둔
+    # 대표 트러블슈팅/패널 챕터(고장신고 전 확인하기, LG ThinQ로 고장 진단하기 등)가 정답이다.
+    # find_troubleshooting_chapter/find_panel_chapter는 내부에서 이미 자체 리랭킹을 하므로(그
+    # 챕터 안의 세부 청크만 추리는 것), 위 vector 리랭킹 결과와 다시 합쳐 리랭킹하지 않고 앞에
+    # 붙이기만 한다 - exp02._load_state()가 이미 인덱스를 만들어 둬서 추가 계산 비용도 없고,
+    # 패턴이 안 걸리는 보통 질문엔 LLM 호출이 전혀 추가되지 않는다(2026-09-22, round1 300문항
+    # 실패 23건 중 13건이 이 유형이었음. 10/13은 이 인덱스에 챕터가 있었고, 나머지 3건은 삼성
+    # PDF의 목차 손상으로 챕터 자체가 사전인덱싱 안 된 별개 문제 - 아래 마킹까지 붙인 뒤
+    # 재현 테스트로 10/10 확인함(단, 그중 1건은 해당 모델 설명서에 애초에 화면 에러 코드
+    # 표시 자체가 없어 "설명서에 없다"는 답이 맞는 정답 케이스).
+    if product_model:
+        structural: list[dict] = []
+        if exp02.is_generic_troubleshooting_question(query):
+            structural += exp02.find_troubleshooting_chapter(query, product_model, state, top_k=top_k)
+        if exp02.is_panel_setting_question(query):
+            structural += exp02.find_panel_chapter(query, product_model, state, top_k=top_k)
+        if structural:
+            # WEB_SYSTEM_PROMPT 규칙 2("근거 제목과 질문을 비교해서 고르라")가 여기서는
+            # 역효과를 낸다 - 삼성 등 모델은 이 챕터의 실제 하위 제목이 "고장신고 전
+            # 확인하기"처럼 뭉뚱그려져 있어서(LG처럼 "LG ThinQ로 고장 진단하기" 같은
+            # 구체적 부제목이 없음), 제목만 보고는 "에러 코드는 어디서 확인해" 질문과
+            # 안 맞는다고 LLM이 오판해 통째로 거절하는 걸 실측 확인함(2026-09-22, 10건
+            # 재현 테스트 중 4건 - SQ09GK1WEN/DV90TA040TE/DF60R8300WG/DF90H24R5C, 내용은
+            # 맞는데 제목 매칭 규칙 때문에 거절). 안전 경고와 같은 이유로 - "이 근거가
+            # 맞다"는 판단을 LLM의 제목-비교 휴리스틱에 맡기지 않고, 사전 검증된 구조적
+            # 매칭 결과라는 걸 _structural 플래그로 표시해서 넘긴다(build_web_context가
+            # 이 플래그를 보고 제목 표시 + "점검문자/코드 표는 곧 화면 표시 코드다"라는
+            # 해석 규칙을 함께 준다 - 표 제목만 있고 "화면에 표시됩니다" 연결 문장이
+            # 청킹 경계에서 잘린 경우까지 커버해야 4건이 전부 잡혔다).
+            for c in structural:
+                c["_structural"] = True
+            seen_ids = {c["id"] for c in structural}
+            picked = (structural + [c for c in picked if c["id"] not in seen_ids])[:top_k]
 
     # picked는 순위 정보만 있고 점수가 없다(web/rag_listwise.py와 같은 이유) -
     # CONTEXT_CUTOFF(0.9)보다 확실히 낮은 값을 순서대로 매긴다.

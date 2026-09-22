@@ -102,14 +102,21 @@ class Message(Base):
 def init_db() -> None:
     Base.metadata.create_all(engine)
     from .auth import hash_password
+    # 회원가입 없음 — 고정 계정 admin1~admin7. 비번은 ADMIN_PASSWORD(.env)로 - 기본값은 로컬 전용 "1234",
+    # 서버를 팀 밖에 노출할 때(ngrok 등)는 반드시 강한 값으로 바꾼다. 바뀌면 기존 계정 비번도 같이 갱신한다
+    # (공유 DB라 한 번 바꾸면 모든 팀원에게 적용됨).
+    password_hash = hash_password(os.getenv("ADMIN_PASSWORD", "1234"))
     with SessionLocal() as s:
-        # 회원가입 없음 — 고정 계정 admin1~admin7 / 1234. 온보딩(첫 가전 등록) 화면은 계정당 한 번만 보이므로
-        # 테스트용으로 새 계정을 여러 개 둔다. 이미 있는 계정은 건너뛴다 (기존 data/app.sqlite 그대로 씀).
-        existing = {u.username for u in s.query(User).all()}
+        existing = {u.username: u for u in s.query(User).all()}
+        changed = False
         for n in range(1, 8):
-            if f"admin{n}" not in existing:
-                s.add(User(username=f"admin{n}", password_hash=hash_password("1234")))
-        s.commit()
+            name = f"admin{n}"
+            if name not in existing:
+                s.add(User(username=name, password_hash=password_hash)); changed = True
+            elif existing[name].password_hash != password_hash:
+                existing[name].password_hash = password_hash; changed = True
+        if changed:
+            s.commit()
 
 
 def get_db():

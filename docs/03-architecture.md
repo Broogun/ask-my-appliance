@@ -2,57 +2,51 @@
 
 ## 전체 구조
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  브라우저 (web/static)                                       │
-│  로그인 → 제품 등록(온보딩) → 채팅 + 출처 패널               │
-└───────────────────────────┬─────────────────────────────────┘
-                            │ NDJSON 스트리밍
-┌───────────────────────────▼─────────────────────────────────┐
-│  FastAPI (web/main.py, web/routers/)                        │
-│  auth · catalog · appliance · chat                          │
-└───────────────────────────┬─────────────────────────────────┘
-                            │ 4함수 계약
-┌───────────────────────────▼─────────────────────────────────┐
-│  rag_service.py                                             │
-│   understand_query → retrieve → stream_answer → sources_of  │
-└──────┬──────────────────────────────────┬───────────────────┘
-       │                                  │
-┌──────▼─────────────┐          ┌─────────▼──────────────────┐
-│ rag_myretriever.py │          │ manual_figures.py          │
-│ ① 에러코드 RDB     │          │ 답변 줄 ↔ 설명서 그림 매칭  │
-│ ② 기능 유무 표     │          │ manual_pages.py (쪽 보정)   │
-│ ③ 벡터검색+리랭킹  │          └─────────┬──────────────────┘
-└──────┬─────────────┘                    │
-       │                                  │
-┌──────▼──────────────────────────────────▼───────────────────┐
-│  저장소                                                      │
-│  Postgres+pgvector (Supabase)  ←→  SQLite + Chroma (로컬)    │
-│  Supabase Storage (PDF)         ←→  data/ (로컬 PDF)         │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph PROD["제품 코드"]
+        direction TB
+        FE["브라우저<br/>web/static<br/>로그인→온보딩→채팅"]
+        RT["FastAPI 라우터<br/>auth · catalog · appliance · chat"]
+        RS["rag_service.py<br/>understand_query → retrieve<br/>→ stream_answer → sources_of"]
+        RV["rag_myretriever.py<br/>① RDB 에러코드<br/>② 기능유무 표<br/>③ 벡터+구조매칭"]
+        EXP["박형건_exp02.py<br/>벡터검색+listwise 리랭킹<br/>+구조 인덱스"]
+        FG["manual_figures.py<br/>답변 줄 ↔ 설명서 그림 매칭 (결정론)"]
+        FE -->|"요청 → NDJSON 스트리밍 응답"| RT
+        RT -->|"4함수 계약"| RS
+        RS -->|"② retrieve()"| RV
+        RV -->|"③ 위임"| EXP
+        RS -->|"④ sources_of()"| FG
+    end
+    subgraph STORE["저장소"]
+        direction TB
+        RDB[("RDB<br/>에러코드·기능표<br/>SQLite ↔ Postgres")]
+        VEC[("벡터 저장소<br/>pgvector(Supabase) ↔ Chroma(로컬)")]
+        PDF[("PDF 저장소<br/>Supabase Storage ↔ data/")]
+    end
+    RV -->|"① 조회"| RDB
+    EXP -->|"임베딩 유사도 검색"| VEC
+    FG -->|"조회"| PDF
+    EVAL["배치 평가 스크립트<br/>experiments/harness/evaluate.py"] -.->|"같은 4함수 재사용 — 우회 없음"| RS
 ```
 
 ## 한 턴의 흐름
 
 LLM 호출은 질문당 **2회로 고정**한다(질문 이해 1회 + 답변 생성 1회). 리랭킹이 필요한 경우만 1회 추가.
 
-```
-질문
- │
- ├─① understand_query()  LLM 1회 (~1초)
- │     feature       : 기능 질문이면 정식 명칭으로 정규화 ("자동청소" → 클린봇)
- │     other_product : 등록 가전이 아닌 제품이면 그 이름 → 등록 안내로 분기
- │
- ├─② retrieve()  라우팅 (아래 3경로 중 하나)
- │     error_code     : 질문에 코드가 있으면 RDB 정확 매칭 (LLM 0회, 0ms)
- │     feature_absent : 기능 표에서 '없음' 확정
- │     vector         : 벡터검색 top_k=40 → listwise LLM 리랭킹 → top_k=5
- │
- ├─③ stream_answer()  LLM 1회, 토큰 스트리밍
- │     WEB_SYSTEM_PROMPT 8개 규칙 + 번호 매긴 근거 + 최근 4턴 대화
- │     안전 경고는 코드가 결정론적으로 주입/제거 (LLM 판단에 맡기지 않음)
- │
- └─④ sources_of() + figures  출처 카드(쪽 번호·PDF·썸네일) + 답변 줄 사이 그림
+```mermaid
+flowchart TD
+    Q["질문"] --> U["① understand_query()<br/>LLM 1회 (~1초)"]
+    U -->|"feature"| UF["기능 질문 → 정식 명칭 정규화<br/>예: 자동청소 → 클린봇"]
+    U -->|"other_product"| UO["등록 안 된 제품 → 등록 안내로 분기"]
+    U --> R["② retrieve() 라우팅"]
+    R -->|"질문에 코드 있음"| REC["error_code<br/>RDB 정확 매칭 — LLM 0회, 0ms"]
+    R -->|"기능 표에서 '없음' 확정"| RFA["feature_absent"]
+    R -->|"그 외"| RV["vector<br/>top_k=40 검색 → listwise 리랭킹 → top_k=5"]
+    REC --> A
+    RFA --> A
+    RV --> A["③ stream_answer()<br/>LLM 1회, 토큰 스트리밍<br/>WEB_SYSTEM_PROMPT 8개 규칙 + 최근 4턴 대화<br/>안전 경고는 코드가 결정론적으로 주입/제거"]
+    A --> S["④ sources_of() + figures<br/>출처 카드(쪽 번호·PDF·썸네일) + 답변 줄 사이 그림"]
 ```
 
 경로(`route`)는 `error_code` / `feature_absent` / `vector` / `none` / `unregistered` 5가지이며,

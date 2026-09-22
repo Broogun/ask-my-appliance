@@ -47,7 +47,7 @@ const RegisterFlow = {
         q('#rf-cartn').textContent = st.cart.length;
         q('#rf-next').disabled = !st.cart.length; q('#rf-next').textContent = `담은 제품 확인하러 가기 (${st.cart.length})`;
         q('#rf-cart').innerHTML = st.cart.map(c => `<div class="added-item-row">${thumbHTML(c.manual_id, c.product_type, 'thumb-xs')}
-          <div class="info">${esc(c.product_type)} · ${esc(c.model)} <span class="muted">(${esc(c.brand_name)})</span></div><button class="remove-btn" data-rm="${c.manual_id}">✕</button></div>`).join('');
+          <div class="info">${esc(c.product_type)} <span class="nameplate">${esc(c.model)}</span> <span class="muted small">${esc(c.brand_name)}</span></div><button class="remove-btn" data-rm="${c.manual_id}">✕</button></div>`).join('');
       };
       renderCart();
       q('#rf-search').onclick = search; q('#rf-q').onkeydown = (e) => { if (e.key === 'Enter') { e.preventDefault(); search(); } };

@@ -95,7 +95,7 @@ input,select{font:inherit;}
 .cart .head{display:flex;justify-content:space-between;align-items:center;padding:8px 4px 6px;font-size:12.5px;}
 .cart .head b{font-size:13px;}
 .added-item-row{display:flex;align-items:center;gap:10px;padding:8px 4px;border-top:1px solid var(--line);}
-.added-item-row .thumb-xs{width:30px;height:30px;border-radius:8px;background:var(--bg);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:14px;}
+.thumb-xs{width:30px;height:30px;border-radius:8px;background:var(--bg);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
 .added-item-row .info{flex:1;min-width:0;font-size:12.5px;}
 .remove-btn{width:26px;height:26px;border:1.5px solid var(--line);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--muted);background:var(--bg);}
 .remove-btn:hover{color:var(--danger);border-color:var(--danger);}
@@ -118,8 +118,8 @@ input,select{font:inherit;}
 .app-shell{display:flex;height:100vh;overflow:hidden;background-color:var(--bg);background-image:var(--noise);}
 .sidebar{width:240px;min-width:200px;max-width:340px;flex-shrink:0;border-right:none;display:flex;flex-direction:column;padding:18px 14px;background:linear-gradient(180deg,var(--dark-bg),var(--dark-bg-2));color:var(--dark-ink);}
 .brand-row{display:flex;align-items:center;gap:10px;margin-bottom:22px;padding:0 4px;}
-.brand-row .mark{width:26px;height:26px;border-radius:8px;background:#fff;color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:13px;}
-.brand-row span{font-size:14px;font-weight:800;color:var(--dark-ink);}
+.brand-row .mark{width:27px;height:29px;border-radius:8px;background:#fff;color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:14px;}
+.brand-row span{font-size:17px;font-weight:800;letter-spacing:-.01em;color:var(--dark-ink);}
 .nav-group-label{font-size:11px;color:var(--dark-muted);margin:8px 6px 8px;}
 .nav-item{height:38px;display:flex;align-items:center;gap:10px;padding:0 10px;font-size:13.5px;color:var(--dark-ink);border-radius:8px;border:none;background:transparent;width:100%;text-align:left;}
 .nav-item:hover{background:var(--dark-hover);}
@@ -139,8 +139,10 @@ input,select{font:inherit;}
 .resize-handle:hover,.resize-handle.active{background:var(--accent);}
 .main-col{flex:1;display:flex;flex-direction:column;min-width:0;}
 .topbar{height:58px;border-bottom:1.5px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 24px;flex-shrink:0;}
-.topbar .title{font-size:15px;font-weight:700;}
+.topbar .title{font-size:17px;font-weight:800;letter-spacing:-.01em;}
+/* 등록 제품 기준 답변 중 표시 — 닉네임을 진짜 제목처럼 크고 굵게, 나머지(브랜드·모델·안내문구)는 보조 정보로 내림 */
 .context-label{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--ink-2);}
+.context-label b{font-size:16px;font-weight:750;color:var(--ink);letter-spacing:-.01em;}
 .context-label .context-thumb{width:28px;height:28px;border-radius:8px;background:var(--thumb-tint,var(--panel-2));display:flex;align-items:center;justify-content:center;font-size:14px;}
 .view{flex:1;display:flex;flex-direction:column;min-height:0;}
 
@@ -163,7 +165,11 @@ input,select{font:inherit;}
 .chat-main{flex:1;display:flex;min-height:0;}
 .conversation-col{flex:1;overflow:auto;padding:28px 32px;display:flex;flex-direction:column;gap:18px;}
 .chat-empty{margin:auto;text-align:center;color:var(--muted);max-width:560px;}
-.chat-empty .avatar{width:84px;height:84px;border-radius:50%;background:var(--thumb-tint,var(--accent-soft));margin:0 auto 20px;display:flex;align-items:center;justify-content:center;font-size:36px;outline:2px dashed var(--line-strong);outline-offset:6px;}
+/* 등록된 제품 사진/아이콘 + 캐릭터 마크 배지 — "AI 아바타" 느낌의 점선 원 대신, 브랜드 캐릭터가 그 제품을 알아보고 인사하는 느낌 */
+.chat-empty .avatar-wrap{position:relative;width:84px;margin:0 auto 20px;}
+.chat-empty .avatar{width:84px;height:84px;border-radius:50%;background:var(--thumb-tint,var(--accent-soft));display:flex;align-items:center;justify-content:center;font-size:36px;}
+.chat-empty .avatar-badge{position:absolute;right:-6px;bottom:-6px;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;border:3px solid var(--bg);}
+.chat-empty .avatar-badge svg{width:17px;height:17px;}
 .chat-empty h4{font-size:27px;color:var(--ink);margin:0 0 8px;font-weight:800;letter-spacing:-.015em;line-height:1.28;}
 .suggest-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px;}
 .suggest-chip{border:1.5px solid var(--line);padding:12px 14px;font-size:13px;text-align:left;color:var(--ink);background:var(--bg);border-radius:10px;}
@@ -247,11 +253,29 @@ input,select{font:inherit;}
 /* 대화 기록 / 내 제품 — 채팅(흰 배경)과 구분되게 화면마다 살짝 다른 톤을 줘서 "어느 영역인지" 배경만 봐도 느껴지게 */
 .page-main{flex:1;padding:26px 32px;overflow:auto;}
 #view-history .page-main{background:var(--panel);}
-#view-products .page-main{background:linear-gradient(180deg,#f4f8f6,#eef4f0);}
-table.history-table{width:100%;border-collapse:collapse;}
-table.history-table th{text-align:left;font-size:11.5px;color:var(--muted);font-weight:600;padding:8px 10px;border-bottom:1.5px solid var(--line);}
-table.history-table td{padding:12px 10px;font-size:13.5px;border-bottom:1px solid var(--line);vertical-align:middle;}
-table.history-table tr:hover td{background:var(--panel);}
+#view-products .page-main{background:linear-gradient(180deg,var(--panel),var(--panel-2));}
+
+/* 대화 기록 — 제품 필터 chip */
+.hist-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px;}
+.filter-chip{height:32px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink-2);padding:0 12px;font-size:12.5px;border-radius:999px;display:inline-flex;align-items:center;gap:5px;}
+.filter-chip:hover{border-color:var(--line-strong);}
+.filter-chip.active{border-color:var(--accent);background:var(--accent-soft);color:var(--accent);font-weight:600;}
+.filter-chip .muted{font-size:11px;}
+
+/* 대화 기록 — 날짜 그룹 */
+.hist-group{margin-bottom:22px;}
+.hist-group-head{font-size:12.5px;color:var(--muted);font-weight:700;margin:0 4px 10px;}
+
+/* 대화 기록 — 카드 한 줄(썸네일 + 제목/메타 + 액션) */
+.history-card{display:flex;align-items:center;gap:12px;border:1.5px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer;transition:border-color .15s,box-shadow .15s;}
+.history-card:hover{border-color:var(--line-strong);box-shadow:0 2px 10px rgba(30,25,15,.06);}
+.history-card .h-body{flex:1;min-width:0;}
+.history-card .h-title{font-size:13.5px;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.history-card .h-meta{display:flex;align-items:center;gap:8px;margin-top:5px;}
+.history-card .h-meta .tag{font-size:10.5px;padding:1px 7px;}
+.history-card .h-time{margin-left:auto;}
+.history-card .btn{flex-shrink:0;}
+.history-card .remove-btn{flex-shrink:0;}
 /* 브랜드(LG/삼성)별 묶음 — 헤더 아래 얇은 선, 카드 위쪽엔 브랜드 CI색 띠를 살짝 얹어서 훑어볼 때 바로 구분되게 */
 .brand-group{margin-bottom:30px;}
 .brand-group:last-of-type{margin-bottom:22px;}
@@ -293,7 +317,8 @@ table.history-table tr:hover td{background:var(--panel);}
 .ready-banner{border-top:1.5px solid var(--line);background:#faf1de;color:var(--warn);font-size:12.5px;padding:8px 24px;display:flex;align-items:center;gap:10px;justify-content:center;}
 
 /* 제품 썸네일 이미지 (thumbHTML) — 사진/선화가 있으면 아이콘 자리에 채움 */
-.has-img{overflow:hidden;background:#fff;border:1px solid var(--line);}
+/* 사진은 박스 끝까지 채워서 아이콘(글자 하나 크기)보다 훨씬 커 보이던 문제 — 안쪽 여백을 줘서 아이콘과 시각적 크기감을 맞춘다 */
+.has-img{overflow:hidden;background:#fff;border:1px solid var(--line);padding:4px;}
 .has-img img{width:100%;height:100%;object-fit:contain;display:block;}
 .product-thumb.lg{width:54px;height:54px;font-size:24px;}
 .thumb-xs.has-img{border-radius:8px;}

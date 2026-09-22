@@ -47,10 +47,10 @@ const ICON = { '에어컨': '❄️', '냉장고': '🧊', '김치냉장고': '�
 const iconOf = (t) => ICON[t] || '🔌';
 // 제품군마다 다른 톤을 줘서 아이콘 자리(사진 없을 때)를 더 눈에 띄고 재밌게 — 사진이 있으면 has-img가 흰 배경으로 덮어써서 안 보임
 const TYPE_TINT = {
-  '에어컨': 'linear-gradient(160deg,#dff1f5,#c3e6ee)', '냉장고': 'linear-gradient(160deg,#e2eefc,#c9def7)',
-  '김치냉장고': 'linear-gradient(160deg,#e8f5e0,#d3ecc2)', '세탁기': 'linear-gradient(160deg,#eee5fb,#ddceF5)',
-  '세탁건조기': 'linear-gradient(160deg,#eee5fb,#ddceF5)', '건조기': 'linear-gradient(160deg,#fdedd9,#fad9b0)',
-  '스타일러': 'linear-gradient(160deg,#efe6ee,#ddc9db)', '슈드레서': 'linear-gradient(160deg,#f5ecda,#e9d7ae)',
+  '에어컨': 'linear-gradient(160deg,#e3f0ec,#c9e2da)', '냉장고': 'linear-gradient(160deg,#e6eee8,#cfe1d5)',
+  '김치냉장고': 'linear-gradient(160deg,#ecf0e0,#d9e4c4)', '세탁기': 'linear-gradient(160deg,#f0ece0,#e0d7c0)',
+  '세탁건조기': 'linear-gradient(160deg,#f0ece0,#e0d7c0)', '건조기': 'linear-gradient(160deg,#f7e9d6,#eecfa0)',
+  '스타일러': 'linear-gradient(160deg,#f0e4dc,#ddc3b3)', '슈드레서': 'linear-gradient(160deg,#f5ecda,#e9d7ae)',
 };
 const tintOf = (t) => TYPE_TINT[t] || '';
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

@@ -66,7 +66,7 @@ function openConversation(c) {
   const conv = $('#conv'); conv.innerHTML = '';
   if (!c.messages.length) {
     const sug = SUGGEST[a.product_type] || SUGGEST['세탁기'];
-    conv.innerHTML = `<div class="chat-empty">${thumbHTML(a.manual_id, a.product_type, 'avatar')}
+    conv.innerHTML = `<div class="chat-empty"><div class="avatar-wrap">${thumbHTML(a.manual_id, a.product_type, 'avatar')}<span class="avatar-badge">${CHARACTER_MARK}</span></div>
       <h4>${esc(a.nickname)}에 대해 무엇이든 물어보세요</h4><p class="small">${esc(a.brand_name)} ${esc(a.model)} 설명서를 기반으로 답변해드려요</p>
       <div class="suggest-grid">${sug.map(s => `<button class="suggest-chip" data-q="${esc(s)}">"${esc(s)}"</button>`).join('')}</div></div>`;
     renderSources([], null);
@@ -154,7 +154,7 @@ function renderSources(sources, route) {
     <div class="top-row"><div class="s-title">${esc(s.title)}</div><span class="tag">${esc(s.tag)}</span></div>
     <div class="s-snippet">${esc(s.snippet)}</div>
     ${thumbHtml(s, seenPages)}
-    <div class="s-doc"><span>${esc(s.doc_id)}${pageLabel(s) ? ` · <b>${pageLabel(s)}</b>` : ''}</span>${relevanceBadge(s.distance)}</div></div>`).join('');
+    <div class="s-doc"><span>${esc(s.doc_id)}${pageLabel(s) ? ` <b>${pageLabel(s)}</b>` : ''}</span>${relevanceBadge(s.distance)}</div></div>`).join('');
   p.querySelectorAll('[data-src]').forEach(el => el.onclick = () => openSource(sources[+el.dataset.src]));
 }
 // 청크가 실린 PDF 페이지의 렌더링 이미지(GET /api/manuals/{doc_id}/page/{n}.png). 같은 페이지의 출처가 여럿이면 첫 카드에만 보여준다
@@ -176,7 +176,7 @@ function openSource(s) {
   const pdfHref = s.pdf_url ? `${s.pdf_url}#page=${page}` : null;
   $('#srcTitle').textContent = s.title;
   $('#modalSourceBody').innerHTML = `
-    <div class="src-meta"><span class="tag">${esc(s.tag)}</span> <span>${esc(s.doc_id)}</span>${pageLabel(s) ? ` <span>· ${pageLabel(s)}</span>` : ''}
+    <div class="src-meta"><span class="tag">${esc(s.tag)}</span> <span>${esc(s.doc_id)}</span>${pageLabel(s) ? ` <span class="muted">${pageLabel(s)}</span>` : ''}
       ${pdfHref ? ` <a class="src-open" href="${pdfHref}" target="_blank" rel="noopener">새 탭에서 PDF 열기 ↗</a>` : ''}</div>
     <pre class="src-body">${esc(s.body || s.snippet)}</pre>
     ${pdfHref ? `<iframe class="src-pdf" src="${pdfHref}" title="설명서 PDF"></iframe>` : `<div class="sources-empty">이 출처는 PDF 설명서가 아니라 제조사 에러코드 표에서 가져온 내용이에요${(() => { const pg = (s.images || []).find(i => i.page); return pg ? `<br><a href="${esc(pg.page)}" target="_blank" rel="noopener">${esc(pg.credit || '제조사')} 원문 보기 ↗</a>` : ''; })()}</div>`}`;
@@ -212,19 +212,62 @@ async function ask(text) {
 $('#askForm').addEventListener('submit', (e) => { e.preventDefault(); ask(); });
 
 /* ── 대화 기록 ───────────────────────────────────────────────── */
+// 시간(오늘 14:20) / 날짜(오늘·어제는 라벨, 그 외는 M월 D일 요일) 두 가지 표기 — 카드에선 시간, 그룹 헤더엔 날짜만
+const histTimeFmt = (iso) => new Date(iso).toLocaleTimeString('ko-KR', { hour: 'numeric', minute: '2-digit' });
+function histDateBucket(iso) {
+  const d = new Date(iso), today = new Date(); const startOf = (x) => new Date(x.getFullYear(), x.getMonth(), x.getDate());
+  const days = Math.round((startOf(today) - startOf(d)) / 86400000);
+  if (days === 0) return '오늘';
+  if (days === 1) return '어제';
+  if (days <= 7) return '지난 7일';
+  if (days <= 30) return '지난 30일';
+  return d.toLocaleDateString('ko-KR', { year: startOf(d).getFullYear() !== startOf(today).getFullYear() ? 'numeric' : undefined, month: 'long' });
+}
+let histFilter = null; // appliance_id 또는 null(전체)
+function historyCard(c) {
+  return `<div class="history-card" data-open="${c.id}">
+      ${thumbHTML(c.appliance.manual_id, c.appliance.product_type, 'thumb-xs')}
+      <div class="h-body">
+        <div class="h-title">${esc(c.title)}</div>
+        <div class="h-meta"><span class="tag">${esc(c.appliance.nickname)}</span><span class="muted small">${c.message_count}개 메시지</span><span class="muted small h-time">${histTimeFmt(c.updated_at)}</span></div>
+      </div>
+      <button class="btn ghost sm" data-open="${c.id}">이어보기 ›</button>
+      <button class="remove-btn" data-delconv="${c.id}" title="삭제">🗑</button></div>`;
+}
 async function renderHistory() {
   await loadConversations(); show('history');
-  const fmt = (iso) => { const d = new Date(iso); const today = new Date(); const same = d.toDateString() === today.toDateString();
-    return same ? '오늘 ' + d.toLocaleTimeString('ko-KR', { hour: 'numeric', minute: '2-digit' }) : d.toLocaleDateString('ko-KR', { month: 'long', day: 'numeric', weekday: 'short' }); };
-  $('#historyMain').innerHTML = S.conversations.length ? `<table class="history-table"><tr><th style="width:50%">질문</th><th>제품</th><th>일시</th><th></th></tr>
-    ${S.conversations.map(c => `<tr><td>"${esc(c.title)}" <span class="muted small">· ${c.message_count}개 메시지</span></td><td>${iconOf(c.appliance.product_type)} ${esc(c.appliance.nickname)}</td><td class="muted">${fmt(c.updated_at)}</td>
-      <td style="text-align:right;white-space:nowrap"><button class="btn ghost sm" data-open="${c.id}">이어보기 ›</button> <button class="btn ghost sm" data-delconv="${c.id}" title="삭제">🗑</button></td></tr>`).join('')}</table>`
-    : `<div class="empty-state"><div class="icon-circle">🗂</div><h4>아직 대화 기록이 없어요</h4><p>"+ 새 대화 시작"에서 제품을 선택하고 질문해 보세요</p></div>`;
+  const main = $('#historyMain');
+  if (!S.conversations.length) {
+    main.innerHTML = `<div class="empty-state"><div class="icon-circle">🗂</div><h4>아직 대화 기록이 없어요</h4><p>"+ 새 대화 시작"에서 제품을 선택하고 질문해 보세요</p></div>`;
+    return;
+  }
+  // 제품별 필터 chip — 등장한 제품만, 대화 많은 순
+  const byAppliance = new Map();
+  S.conversations.forEach(c => { const a = c.appliance; if (!byAppliance.has(a.id)) byAppliance.set(a.id, { a, n: 0 }); byAppliance.get(a.id).n++; });
+  const chips = [...byAppliance.values()].sort((x, y) => y.n - x.n);
+  if (histFilter && !byAppliance.has(histFilter)) histFilter = null;
+  const list = histFilter ? S.conversations.filter(c => c.appliance.id === histFilter) : S.conversations;
+
+  const filterHTML = chips.length > 1 ? `<div class="hist-filters">
+      <button class="filter-chip ${histFilter === null ? 'active' : ''}" data-filter="">전체 <span class="muted">${S.conversations.length}</span></button>
+      ${chips.map(({ a, n }) => `<button class="filter-chip ${histFilter === a.id ? 'active' : ''}" data-filter="${a.id}">${esc(a.nickname)} <span class="muted">${n}</span></button>`).join('')}
+    </div>` : '';
+
+  // 날짜 그룹 헤더 — updated_at 내림차순은 이미 API가 정렬해서 옴
+  const groups = [];
+  list.forEach(c => { const label = histDateBucket(c.updated_at); let g = groups[groups.length - 1]; if (!g || g.label !== label) { g = { label, items: [] }; groups.push(g); } g.items.push(c); });
+
+  main.innerHTML = filterHTML + (list.length
+    ? groups.map(g => `<section class="hist-group"><div class="hist-group-head">${g.label}</div>${g.items.map(historyCard).join('')}</section>`).join('')
+    : `<div class="empty-note">이 제품과의 대화가 아직 없어요</div>`);
 }
 $('#historyMain').addEventListener('click', async (e) => {
-  const o = e.target.closest('[data-open]'), d = e.target.closest('[data-delconv]');
+  const f = e.target.closest('[data-filter]');
+  if (f) { histFilter = f.dataset.filter ? +f.dataset.filter : null; return renderHistory(); }
+  const d = e.target.closest('[data-delconv]');
+  if (d) { if (confirm('이 대화를 삭제할까요?')) { await API.del('/api/conversations/' + d.dataset.delconv); renderHistory(); } return; }
+  const o = e.target.closest('[data-open]');
   if (o) openConversation(await API.get('/api/conversations/' + o.dataset.open));
-  if (d && confirm('이 대화를 삭제할까요?')) { await API.del('/api/conversations/' + d.dataset.delconv); renderHistory(); }
 });
 $('#recentList').addEventListener('click', async (e) => { const b = e.target.closest('[data-cid]'); if (b) openConversation(await API.get('/api/conversations/' + b.dataset.cid)); });
 

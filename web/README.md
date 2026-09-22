@@ -98,5 +98,5 @@ LangChain으로 옮길 때: `retrieve` = `BaseRetriever` 어댑터 한 장, `str
 
 ## 아직 없는 것
 
-- Postgres — `DATABASE_URL` 환경변수로 교체 (SQLAlchemy라 코드 변경 없음). 벡터도 옮기려면 pgvector
+- (공유 DB는 구현됨) `DATABASE_URL` 이 postgres 면 앱 데이터·RDB·벡터(pgvector)·PDF(Storage)를 Supabase에서 읽는다 — 설정과 이전은 `supabase/README.md`
 - 삼성 모델별 기능 표 (LG 부록 표만 있음) — 삼성 공용 설명서에서 "없는 기능"을 확정할 데이터가 없어 ②가 "모름"으로 떨어짐

@@ -36,5 +36,6 @@ scipy>=1.11          # web/manual_figures.py 그림 영역 검출(ndimage)
 fastapi>=0.110
 uvicorn>=0.29
 sqlalchemy>=2.0
+psycopg[binary,pool]>=3.1   # 공유 DB(Supabase/Postgres+pgvector) - DATABASE_URL 이 postgres 일 때 (supabase/README.md)
 streamlit>=1.35
 # GPU가 있으면 CPU 전용 torch 대신 CUDA 빌드를 설치하면 리랭커가 질문당 3초 → 0.3초 (SETUP.md "GPU" 항목 참고)

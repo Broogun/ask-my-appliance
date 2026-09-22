@@ -1,7 +1,6 @@
 """제품 찾기 — data/appliance.sqlite 의 manuals 테이블(60개)에서 카테고리·제조사·모델명으로 검색.
 + 설명서 PDF 원본 서빙 (/api/manuals/{doc_id}/pdf — 출처 카드에서 해당 페이지로 이동)."""
 import re
-import sqlite3
 import uuid
 from pathlib import Path
 
@@ -10,6 +9,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import FileResponse
 
 from ..auth import current_user
+from .. import rdb
 from ..manual_figures import render_figure
 from ..rag_service import SUPPORT, manual_pdf_path
 
@@ -19,11 +19,7 @@ BRAND_KO = {"lg": "LG", "samsung": "삼성"}
 
 
 def _rows(sql, params=()):
-    con = sqlite3.connect(MANUAL_DB); con.row_factory = sqlite3.Row
-    try:
-        return [dict(r) for r in con.execute(sql, params).fetchall()]
-    finally:
-        con.close()
+    return rdb.rows(sql, params)
 
 
 _MODELS_SQL = """SELECT m.manual_id, m.brand, m.category, m.product_type,

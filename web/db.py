@@ -14,9 +14,20 @@ from sqlalchemy import JSON, DateTime, ForeignKey, Integer, String, Text, create
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship, sessionmaker
 
 ROOT = Path(__file__).resolve().parents[1]
-DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{(ROOT / 'data' / 'app.sqlite').as_posix()}")
+def _normalize_url(url: str) -> str:
+    """Supabase 가 주는 'postgres://...' / 'postgresql://...' 를 SQLAlchemy 가 psycopg3 드라이버로 열 수 있게 바꾼다."""
+    for prefix in ("postgres://", "postgresql://"):
+        if url.startswith(prefix):
+            return "postgresql+psycopg://" + url[len(prefix):]
+    return url
 
-engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False} if DATABASE_URL.startswith("sqlite") else {})
+
+DATABASE_URL = _normalize_url(os.getenv("DATABASE_URL", f"sqlite:///{(ROOT / 'data' / 'app.sqlite').as_posix()}"))
+
+if DATABASE_URL.startswith("sqlite"):
+    engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
+else:   # Postgres(Supabase): 끊긴 연결 자동 복구, pgbouncer(transaction 모드)와 호환되게 prepared statement 끔
+    engine = create_engine(DATABASE_URL, pool_pre_ping=True, pool_size=5, max_overflow=5, connect_args={"prepare_threshold": None})
 SessionLocal = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False)
 
 

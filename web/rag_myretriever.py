@@ -17,7 +17,6 @@ exp02로 교체한다. RDB는 시연님의 무거운 LGAirconRetriever(임베딩
 from __future__ import annotations
 
 import json
-import sqlite3
 import sys
 from pathlib import Path
 
@@ -28,28 +27,16 @@ sys.path.insert(0, str(ROOT / "experiments" / "siyeon" / "rdb"))
 
 from build_db import FEATURE_IMPLIED_BY, code_variants, extract_query_codes  # noqa: E402
 from siyeon.rag.retrieval import CONTEXT_CUTOFF, RetrievalResult, apply_cutoff  # noqa: E402
+from . import rdb  # noqa: E402
 from .manual_pages import locate_pages  # noqa: E402
 import 박형건_exp02 as exp02  # noqa: E402
 
-DB_PATH = ROOT / "data" / "appliance.sqlite"
-
-_db: sqlite3.Connection | None = None
-
-
-def _get_db() -> sqlite3.Connection:
-    global _db
-    if _db is None:
-        _db = sqlite3.connect(str(DB_PATH), check_same_thread=False)
-        _db.row_factory = sqlite3.Row
-    return _db
 
 
 def appliance_for(manual_id: str) -> dict:
     """시연님 LGAirconRetriever.appliance_for()와 동일 - manual_id는 이미 등록
     시점에 검증된 값이라 known_doc_ids 재확인 없이 바로 신뢰한다."""
-    row = _get_db().execute(
-        "SELECT brand, category, product_type FROM manuals WHERE manual_id = ?", (manual_id,)
-    ).fetchone()
+    row = rdb.one("SELECT brand, category, product_type FROM manuals WHERE manual_id = ?", (manual_id,))
     if row is None:
         raise ValueError(f"manuals 테이블에 없는 매뉴얼: {manual_id}")
     return {
@@ -64,28 +51,24 @@ def lookup_error_codes(brand: str, category: str, query: str) -> list[dict]:
     variants = sorted({v for tok in extract_query_codes(query) for v in code_variants(tok)})
     if not variants:
         return []
-    rows = _get_db().execute(
+    rows = rdb.rows(
         f"SELECT e.entry_id, e.brand, e.category, e.title, e.summary, e.content, e.chunk_id, "
         f"c.code_display, c.kind FROM error_codes c JOIN error_entries e USING (entry_id) "
         f"WHERE c.brand = ? AND c.category = ? AND c.code_norm IN ({','.join('?' * len(variants))}) "
-        f"ORDER BY c.kind = 'primary' DESC, e.entry_id", (brand, category, *variants),
-    ).fetchall()
+        f"ORDER BY c.kind = 'primary' DESC, e.entry_id", (brand, category, *variants))
     seen, out = set(), []
     for r in rows:
         if r["entry_id"] not in seen:
             seen.add(r["entry_id"])
-            out.append(dict(r))
+            out.append(r)
     return out
 
 
 def feature_available(appliance: dict, feature: str) -> bool | None:
     """시연님 LGAirconRetriever.feature_available()과 동일."""
     target = FEATURE_IMPLIED_BY.get(feature, feature)
-    row = _get_db().execute(
-        "SELECT has FROM model_features WHERE brand=? AND category=? AND feature=? "
-        "AND ? GLOB replace(model_pattern,'*','?')",
-        (appliance["brand"], appliance["category"], target, appliance.get("model") or ""),
-    ).fetchone()
+    row = rdb.one("SELECT has FROM model_features WHERE brand=? AND category=? AND feature=? AND {MODEL_MATCH}",
+                  (appliance["brand"], appliance["category"], target, appliance.get("model") or ""))
     return None if row is None else bool(row["has"])
 
 

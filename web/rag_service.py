@@ -26,6 +26,10 @@ from siyeon.rag.retrieval import CONTEXT_CUTOFF, RetrievalResult, appliance_labe
 from siyeon.rag.understand import Understanding, understand  # noqa: E402
 from . import rag_myretriever  # noqa: E402
 from .manual_pages import manual_pdf_path  # noqa: E402,F401  (라우터들이 여기서 import)
+from . import rdb  # noqa: E402
+if rdb.use_postgres():   # 공유 DB 모드: siyeon 의 기능 목록 조회(SQLite 직접 접근)를 Postgres 조회로 대체
+    import siyeon.rag.understand as _understand
+    _understand.feature_vocab = rdb.feature_vocab
 import 박형건_exp02 as exp02  # noqa: E402
 
 SUPPORT = {   # 고객센터 연결 버튼 (브랜드별)
@@ -114,14 +118,14 @@ def embed_texts(texts: list[str]):
 def prewarm_figures() -> None:
     """등록된 가전의 매뉴얼 그림 이름표+임베딩을 미리 계산 - 답변 그림의 매뉴얼 전체 보조 검색이 첫 대화에서 매뉴얼당 ~4초 걸리는 걸 없앤다."""
     try:
-        import sqlite3
+        from .db import Appliance, SessionLocal
         from .manual_figures import _doc_labels
-        con = sqlite3.connect(str(ROOT / "data" / "app.sqlite"))
-        for (mid,) in con.execute("SELECT DISTINCT manual_id FROM user_appliances").fetchall():
+        with SessionLocal() as db:
+            manual_ids = sorted({a.manual_id for a in db.query(Appliance).all()})
+        for mid in manual_ids:
             path = manual_pdf_path(mid)
             if path is not None:
                 _doc_labels(str(path), embed_texts)
-        con.close()
     except Exception as e:  # 미리 계산은 최적화일 뿐 - 실패해도 서비스는 그대로
         print(f"[prewarm_figures] 건너뜀: {type(e).__name__}: {e}")
 

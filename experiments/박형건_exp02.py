@@ -123,8 +123,14 @@ def _load_state() -> dict:
     # 교체됨(#20, _llm_rerank 참고). pointwise 방식이 어휘만 겹치는 오답에
     # 정답보다 높은 점수를 주는 걸 반복 확인해서 신뢰할 수 없다고 결론 내림.
 
-    client = chromadb.PersistentClient(path=str(CHROMA_PATH))
-    _state["collection"] = client.get_collection("appliance_manuals")
+    if os.getenv("DATABASE_URL", "").startswith(("postgres://", "postgresql")):
+        # 공유 DB(Supabase, pgvector) 모드 - Chroma 컬렉션과 같은 모양(get/query/count)으로 감싼 어댑터
+        from web.vecstore import PgCollection
+        _state["collection"] = PgCollection()
+        print("[박형건_exp02] 벡터 저장소: Postgres(pgvector)")
+    else:
+        client = chromadb.PersistentClient(path=str(CHROMA_PATH))
+        _state["collection"] = client.get_collection("appliance_manuals")
 
     # 합성 질문(FAQ) 컬렉션(#14)은 2026-09-18 제거 - retrieval_metrics_offline.py의
     # use_faq 토글로 97문항(FAQ가 실제 생성된 10모델 전체) 재검증한 결과 MRR·

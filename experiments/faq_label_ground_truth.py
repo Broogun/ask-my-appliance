@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import importlib.util
 
-spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().parent / "박형건_exp02.py")
+spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().parent / "exp02_retrieval.py")
 exp02 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exp02)
 

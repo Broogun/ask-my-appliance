@@ -1,4 +1,4 @@
-"""박형건 exp02 파이프라인을 web/rag_service.py(김시연)와 같은 4개 함수 계약으로
+"""exp02 파이프라인을 web/rag_service.py(김시연)와 같은 4개 함수 계약으로
 감싼 어댑터. 웹앱에 통째로 꽂아 넣을 때 이 파일 하나만 옮기면 된다.
 
     und = understand_query(query, appliance)   # exp02엔 별도 "질문 이해" 단계가 없어 패스스루
@@ -7,10 +7,10 @@
     sources_of(res)                             # 출처 패널 데이터
 
 통합 방법(web/README.md 형식 그대로): web/routers/*.py의
-`from ..rag_service import ...`를 `from ..rag_service_박형건 import ...`로
+`from ..rag_service import ...`를 `from ..rag_service_exp02_adapter import ...`로
 바꾸면 이 파이프라인으로 통째로 전환된다. 이 파일은 일부러 자체완결형으로
 작성했다 - RetrievalResult/Understanding을 siyeon.rag에서 import하지 않고
-같은 모양으로 직접 재정의해서, 어느 저장소/브랜치에 두든 박형건_exp02.py
+같은 모양으로 직접 재정의해서, 어느 저장소/브랜치에 두든 exp02_retrieval.py
 하나만 옆에 있으면 동작한다.
 
 ⚠ 알려진 통합 갭 (2026-09-18, NOTES_ARCHITECTURE.md 참고 - 다음에 다듬을 지점):
@@ -50,7 +50,7 @@ sys.path.insert(0, str(ROOT.parent))
 
 import importlib.util
 
-_spec = importlib.util.spec_from_file_location("박형건_exp02", ROOT / "박형건_exp02.py")
+_spec = importlib.util.spec_from_file_location("exp02_retrieval", ROOT / "exp02_retrieval.py")
 exp02 = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(exp02)
 
@@ -107,7 +107,7 @@ def is_ready() -> bool:
 def warm_in_background() -> None:
     """서버 시작 직후 호출 - 사용자가 채팅 화면에 도달하기 전에 로딩을 시작한다."""
     if _state is None:
-        threading.Thread(target=get_retriever, name="rag-warmup-박형건", daemon=True).start()
+        threading.Thread(target=get_retriever, name="rag-warmup-exp02", daemon=True).start()
 
 
 def manual_pdf_path(doc_id: str) -> Path | None:

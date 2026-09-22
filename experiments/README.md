@@ -20,7 +20,7 @@ web_baseline_eval.py    실제 서비스 경로(web/rag_service) 평가
 results/                실험 결과 JSON (커밋 대상)
 reports/latest.md       자동 생성 비교 보고서
 siyeon/                 팀원 개인 작업 폴더 (검색기·RDB·자체 테스트셋)
-박형건_exp01.py, _exp02.py   팀원 개인 실험 (exp02가 통합 베이스라인)
+exp01_toc_chunking.py, _exp02.py   팀원 개인 실험 (exp02가 통합 베이스라인)
 ```
 
 ## 통일 기준 (수정 금지)
@@ -96,7 +96,7 @@ python experiments/ragas_eval.py
 
 | 실험 | 확인한 것 |
 |---|---|
-| `박형건_exp01` → `exp02` | TOC 청킹 + 삼성 PDF 손상 방어. exp02가 통합 베이스라인 |
+| `exp01_toc_chunking` → `exp02` | TOC 청킹 + 삼성 PDF 손상 방어. exp02가 통합 베이스라인 |
 | `compare_chunking_v2.py` | 청킹 방식 비교 (오버랩 0%/15%/25%) |
 | `quant_llm_rerank.py` | listwise LLM 리랭킹 정확도 — 97케이스 중 94개 정확 |
 | `retrieval_metrics_offline.py` | MRR·Recall@k — Recall@40 99%, P@1 47% |

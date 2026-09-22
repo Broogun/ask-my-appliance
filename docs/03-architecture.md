@@ -10,7 +10,7 @@ flowchart TD
         RT["FastAPI 라우터<br/>auth · catalog · appliance · chat"]
         RS["rag_service.py<br/>understand_query → retrieve<br/>→ stream_answer → sources_of"]
         RV["rag_myretriever.py<br/>① RDB 에러코드<br/>② 기능유무 표<br/>③ 벡터+구조매칭"]
-        EXP["박형건_exp02.py<br/>벡터검색+listwise 리랭킹<br/>+구조 인덱스"]
+        EXP["exp02_retrieval.py<br/>벡터검색+listwise 리랭킹<br/>+구조 인덱스"]
         FG["manual_figures.py<br/>답변 줄 ↔ 설명서 그림 매칭 (결정론)"]
         FE -->|"요청 → NDJSON 스트리밍 응답"| RT
         RT -->|"4함수 계약"| RS

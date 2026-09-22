@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import importlib.util
 
-spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().parent / "박형건_exp02.py")
+spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().parent / "exp02_retrieval.py")
 exp02 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exp02)
 
@@ -93,7 +93,7 @@ def main():
     # 2026-09-18 재생성판(FAQ 제거 반영, #21/리랭커 전문화는 9/17에 이미 반영) -
     # 이전 날짜 파일들은 각각 그 시점 코드 상태의 기록으로 보존
     # (덮어쓰면 코드 변경 전/후 비교가 불가능해짐).
-    out_path = Path(f"experiments/results/박형건_{args.round_name}_official_20260918.json")
+    out_path = Path(f"experiments/results/exp02_{args.round_name}_official_20260918.json")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({

@@ -32,11 +32,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "experiments"))
-import 박형건_exp02 as exp02  # noqa: E402
+import exp02_retrieval as exp02  # noqa: E402
 
 
 def load_round(round_name: str, date: str) -> list[dict]:
-    path = ROOT / "experiments" / "results" / f"박형건_{round_name}_official_{date}.json"
+    path = ROOT / "experiments" / "results" / f"exp02_{round_name}_official_{date}.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     return data["results"]
 
@@ -157,7 +157,7 @@ async def main_async(round_name: str, date: str, n: int | None, concurrency: int
               f" / 평균 AnswerRelevancy: {_avg(scored, 'answer_relevancy'):.4f}"
               f" — 거절 비율에 따라 왜곡되므로 라운드 간 비교엔 위 '정상 답변' 값을 쓸 것", flush=True)
 
-    out_path = ROOT / "experiments" / "results" / f"박형건_{round_name}_ragas_{date}.json"
+    out_path = ROOT / "experiments" / "results" / f"exp02_{round_name}_ragas_{date}.json"
     out_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"저장: {out_path}", flush=True)
     if ckpt_path.exists():

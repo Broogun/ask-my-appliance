@@ -95,7 +95,7 @@ PDF 60개 ──► 청킹 (목차 기반)         ──► 청크 6,105개 ─
                      └──► 사진 크롤링    ──► data/error_images/
 ```
 
-- 청킹·인덱싱: `experiments/박형건_exp02.py`, `experiments/siyeon/rag/chunking_*.py`
+- 청킹·인덱싱: `experiments/exp02_retrieval.py`, `experiments/siyeon/rag/chunking_*.py`
 - 관계형 DB 구축: `experiments/siyeon/rdb/build_db.py` → `data/appliance.sqlite`
 - 에러코드 사진: `scripts/crawl_error_images.py`
 - 공유 DB 이전: `scripts/migrate_to_postgres.py`

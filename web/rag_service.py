@@ -30,7 +30,7 @@ from . import rdb  # noqa: E402
 if rdb.use_postgres():   # 공유 DB 모드: siyeon 의 기능 목록 조회(SQLite 직접 접근)를 Postgres 조회로 대체
     import siyeon.rag.understand as _understand
     _understand.feature_vocab = rdb.feature_vocab
-import 박형건_exp02 as exp02  # noqa: E402
+import exp02_retrieval as exp02  # noqa: E402
 
 SUPPORT = {   # 고객센터 연결 버튼 (브랜드별)
     "lg":      {"name": "LG전자 고객센터", "phone": "1544-7777", "url": "https://www.lge.co.kr/support"},

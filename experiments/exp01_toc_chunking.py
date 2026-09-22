@@ -1,4 +1,4 @@
-"""박형건 exp01 — TOC 기반 청킹 + BGE-m3-ko(GPU) + Chroma + 에러코드 RDB +
+"""exp01 — TOC 기반 청킹 + BGE-m3-ko(GPU) + Chroma + 에러코드 RDB +
 질문 재구성(decomposition) + 리랭커 결합 검색.
 
 `experiments/rag_tutorial.ipynb`에서 단계별로(TOC 파싱 -> 중복 헤딩 처리 ->
@@ -9,7 +9,7 @@ RDB 구축 -> decomposition+리랭커 결합) 검증한 파이프라인을 그�
 한 번만 해도 충분).
 
 사용법:
-  python experiments/박형건_exp01.py
+  python experiments/exp01_toc_chunking.py
 """
 
 from __future__ import annotations
@@ -42,7 +42,7 @@ ERROR_DB_PATH = ROOT / "data" / "error_codes.db"
 LOCAL_LLM_MODEL = "qwen3.5:9b"
 
 # ── 실험 메타 정보 ────────────────────────────────────────────────────────────
-EXPERIMENT_NAME = "박형건_exp01"
+EXPERIMENT_NAME = "exp01_toc_chunking"
 
 NOTES = (
     "PDF 내장 TOC로 재귀 청킹(중복 헤딩은 조상 경로 접두어로 구분, 문제해결/고장진단 "
@@ -80,7 +80,7 @@ def _load_state() -> dict:
         return _state
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"[박형건_exp01] 임베딩/리랭커 device: {device}")
+    print(f"[exp01_toc_chunking] 임베딩/리랭커 device: {device}")
 
     _state["embed_model"] = SentenceTransformer("dragonkue/BGE-m3-ko", device=device)
     _state["reranker"] = CrossEncoder("dragonkue/bge-reranker-v2-m3-ko", device=device)

@@ -32,7 +32,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import 박형건_exp02 as exp02  # noqa: E402
+import exp02_retrieval as exp02  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 LABELS_PATH = ROOT / "experiments" / "results" / "faq_ground_truth_labels.json"

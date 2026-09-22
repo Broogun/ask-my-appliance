@@ -38,7 +38,7 @@ flowchart TD
 
 ## 4.1 청킹
 
-`experiments/박형건_exp02.py` — 2026-09-18 팀 통합 베이스라인으로 채택.
+`experiments/exp02_retrieval.py` — 2026-09-18 팀 통합 베이스라인으로 채택.
 
 | 항목 | 값 |
 |---|---|
@@ -199,7 +199,7 @@ LG 고객지원 페이지의 사진을 에러코드 항목에 연결해 답변�
 
 | 단계 | 파일 |
 |---|---|
-| 청킹·벡터검색·리랭킹 | `experiments/박형건_exp02.py` |
+| 청킹·벡터검색·리랭킹 | `experiments/exp02_retrieval.py` |
 | 라우팅 | `web/rag_myretriever.py` |
 | 프롬프트·생성·안전경고 | `web/rag_service.py` |
 | 그림 매칭 | `web/manual_figures.py` |

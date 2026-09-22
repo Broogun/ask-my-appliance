@@ -20,7 +20,7 @@ from round1_llm_judge import judge_one  # noqa: E402
 
 def main() -> None:
     round_name = sys.argv[1] if len(sys.argv) > 1 else "round2"
-    v1_path = Path(f"experiments/results/박형건_{round_name}_llm_judged_20260916.json")
+    v1_path = Path(f"experiments/results/exp02_{round_name}_llm_judged_20260916.json")
     v1 = json.load(open(v1_path, encoding="utf-8"))
 
     targets = [
@@ -64,7 +64,7 @@ def main() -> None:
             "v2_reason": j["reason"],
             "v2_quote": j.get("quote", ""),
         })
-    out_path = Path(f"experiments/results/박형건_{round_name}_rejudge_problems_20260917.json")
+    out_path = Path(f"experiments/results/exp02_{round_name}_rejudge_problems_20260917.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({"new_label_counts": dict(new_labels), "results": out}, f, ensure_ascii=False, indent=2)
     print(f"저장: {out_path}")

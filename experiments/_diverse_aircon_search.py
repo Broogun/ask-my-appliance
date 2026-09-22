@@ -1,7 +1,7 @@
 import sys, json
 sys.path.insert(0, 'experiments')
 import importlib.util
-spec = importlib.util.spec_from_file_location('exp02', 'experiments/박형건_exp02.py')
+spec = importlib.util.spec_from_file_location('exp02', 'experiments/exp02_retrieval.py')
 exp02 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exp02)
 state = exp02._load_state()

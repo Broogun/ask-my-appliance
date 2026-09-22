@@ -1,4 +1,4 @@
-"""박형건 exp02 — exp01 + 삼성 문서 청킹 버그 수정.
+"""exp02 — exp01 + 삼성 문서 청킹 버그 수정.
 
 2026-09-18 기준 팀 통합 RAG 파이프라인의 베이스라인으로 채택됨. 청킹(700자/15%
 오버랩, TOC 기반)·리랭킹(listwise LLM)·확신 게이트(3단계)는 다른 3인의 구현과
@@ -26,7 +26,7 @@ exp01과 검색/생성 코드는 동일하다. 차이는 전부 `experiments/rag
 재실행 완료). 이 파일은 그 결과를 그대로 읽기만 한다.
 
 사용법:
-  python experiments/박형건_exp02.py
+  python experiments/exp02_retrieval.py
 """
 
 from __future__ import annotations
@@ -65,7 +65,7 @@ ERROR_DB_PATH = ROOT / "data" / "error_codes.db"
 # SYSTEM_PROMPT는 pipeline.evaluate에서 그대로 가져다 쓰고 있어 수정하지 않았다.
 
 # ── 실험 메타 정보 ────────────────────────────────────────────────────────────
-EXPERIMENT_NAME = "박형건_exp02"
+EXPERIMENT_NAME = "exp02_retrieval"
 
 NOTES = (
     "exp01 대비 3가지 수정. (1) 삼성 문서 청킹 버그: TOC 북마크가 손상된 2개 PDF"
@@ -116,7 +116,7 @@ def _load_state() -> dict:
         return _state
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"[박형건_exp02] 임베딩 device: {device}")
+    print(f"[exp02_retrieval] 임베딩 device: {device}")
 
     _state["embed_model"] = SentenceTransformer("dragonkue/BGE-m3-ko", device=device)
     # bge-reranker-v2-m3-ko(cross-encoder) 로딩 제거 - listwise LLM 리랭킹으로
@@ -127,7 +127,7 @@ def _load_state() -> dict:
         # 공유 DB(Supabase, pgvector) 모드 - Chroma 컬렉션과 같은 모양(get/query/count)으로 감싼 어댑터
         from web.vecstore import PgCollection
         _state["collection"] = PgCollection()
-        print("[박형건_exp02] 벡터 저장소: Postgres(pgvector)")
+        print("[exp02_retrieval] 벡터 저장소: Postgres(pgvector)")
     else:
         client = chromadb.PersistentClient(path=str(CHROMA_PATH))
         _state["collection"] = client.get_collection("appliance_manuals")

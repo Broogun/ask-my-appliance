@@ -4,7 +4,7 @@ import sys, json, time
 from pathlib import Path
 sys.path.insert(0, str(Path(".").resolve()))
 import importlib.util
-spec = importlib.util.spec_from_file_location("exp02", Path("experiments/박형건_exp02.py").resolve())
+spec = importlib.util.spec_from_file_location("exp02", Path("experiments/exp02_retrieval.py").resolve())
 exp02 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exp02)
 state = exp02._load_state()

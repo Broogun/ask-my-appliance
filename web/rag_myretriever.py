@@ -1,4 +1,4 @@
-"""검색 엔진을 박형건 exp02(청킹+벡터검색+listwise 리랭킹)로 교체한 버전.
+"""검색 엔진을 exp02(청킹+벡터검색+listwise 리랭킹)로 교체한 버전.
 
 배경: 실사용 로그 감사 중(2026-09-21) 세탁기 "탈수 시 모터소리+안돌아감" 질문에서
 시연님 RRF 파이프라인(기본 n_candidates=8)이 실제 정답 청크(본문 벡터검색 5위)를
@@ -29,7 +29,7 @@ from build_db import FEATURE_IMPLIED_BY, code_variants, extract_query_codes  # n
 from siyeon.rag.retrieval import CONTEXT_CUTOFF, RetrievalResult, apply_cutoff  # noqa: E402
 from . import rdb  # noqa: E402
 from .manual_pages import locate_pages  # noqa: E402
-import 박형건_exp02 as exp02  # noqa: E402
+import exp02_retrieval as exp02  # noqa: E402
 
 
 
@@ -188,7 +188,7 @@ def retrieve(query: str, manual_id: str | None = None, top_k: int = 5, feature: 
     # 코드 표시 자체가 없어 "설명서에 없다"는 답이 맞는 정답 케이스). 나머지 3건은 처음엔
     # "삼성 PDF 목차 손상"이라 짐작했는데 틀렸다 - 실제로는 exp02._load_state()의
     # _TS_TITLES exact-match가 놓친 두 가지 제목 변형 패턴이었고, 인덱싱 로직을 고쳐서
-    # 마저 잡았다(experiments/박형건_exp02.py, 상세 경위는 docs/05-evaluation.md 5.3절).
+    # 마저 잡았다(experiments/exp02_retrieval.py, 상세 경위는 docs/05-evaluation.md 5.3절).
     if product_model:
         structural: list[dict] = []
         if exp02.is_generic_troubleshooting_question(query):

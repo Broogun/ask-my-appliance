@@ -1,4 +1,4 @@
-"""이미 만든 round1 공식 결과(박형건_round1_official_20260916.json)를 keyword_hit
+"""이미 만든 round1 공식 결과(exp02_round1_official_20260916.json)를 keyword_hit
 대신 LLM 판정으로 재채점한다. 판정자는 질문+최종답변+실제 근거후보를 같이 보고
 "진짜 문서 내용으로 정확히 답했는지"를 본다 - 이러면 거짓 겸손(답할 수 있는데
 못 찾았다고 함)과 거짓 확신(무관한 근거로 자신 있게 답함) 둘 다 잡아낼 수 있다."""
@@ -13,7 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import importlib.util
 
-spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().parent / "박형건_exp02.py")
+spec = importlib.util.spec_from_file_location("exp02", Path(__file__).resolve().parent / "exp02_retrieval.py")
 exp02 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exp02)
 
@@ -104,7 +104,7 @@ if __name__ == "__main__":
     parser.add_argument("--date", default="20260916", help="재생성 날짜(입력 official 파일 선택용, 예: 20260917)")
     args = parser.parse_args()
 
-    in_path = Path(f"experiments/results/박형건_{args.round_name}_official_{args.date}.json")
+    in_path = Path(f"experiments/results/exp02_{args.round_name}_official_{args.date}.json")
     data = json.load(open(in_path, encoding="utf-8"))
     results = data["results"]
     print(f"판정 대상: {len(results)}개")
@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
     # v2: 200자 절단 제거 + 인용 강제 + 인용-원문 불일치 자동강등 반영판
     # (2026-09-17) - 기존 v1 파일(_llm_judged_20260916.json)은 비교용으로 보존
-    out_path = Path(f"experiments/results/박형건_{args.round_name}_llm_judged_v2_src{args.date}.json")
+    out_path = Path(f"experiments/results/exp02_{args.round_name}_llm_judged_v2_src{args.date}.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({"label_counts": dict(label_counts), "results": out}, f, ensure_ascii=False, indent=2)
     print(f"저장: {out_path}")

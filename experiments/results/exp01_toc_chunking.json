@@ -1,5 +1,5 @@
 {
-  "experiment_name": "박형건_exp01",
+  "experiment_name": "exp01_toc_chunking",
   "notes": "PDF 내장 TOC로 재귀 청킹(중복 헤딩은 조상 경로 접두어로 구분, 문제해결/고장진단 챕터는 키워드 매칭으로 max_depth 무시하고 강제 세분화) + TOC 자체가 없는 구형 PDF는 다단 레이아웃이라 안전하게 페이지 단위 폴백. 임베딩은 dragonkue/BGE-m3-ko(한국어 검색 벤치마크로 파인튜닝된 BGE-M3, GPU) 하나로 단일 Chroma 컬렉션에 brand/category/product_model 메타데이터와 함께 적재. 에러코드는 벡터 유사도보다 정확 매칭이 신뢰도가 높아 별도 SQLite RDB로 분리. 검색 시 질문에서 에러코드 토큰을 뽑아 RDB부터 확인하고, 항상 로컬 LLM으로 질문을 주제별 서브 질문으로 재구성(decomposition)한 뒤 서브 질문별 벡터 검색 결과를 합쳐서 bge-reranker-v2-m3-ko cross-encoder로 서브 질문 기준 재정렬한다.",
   "strategy": {
     "chunking": "TOC 재귀 분할(max_depth=2) + 중복 헤딩 조상경로 접두어 + 문제해결 키워드 강제 세분화 + 700자/15% 오버랩 슬라이싱, TOC 없는 문서는 페이지 단위 폴백",

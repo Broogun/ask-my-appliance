@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import 박형건_exp02 as exp02  # noqa: E402
+import exp02_retrieval as exp02  # noqa: E402
 from retrieval_metrics_offline import LABELS_PATH, RECALL_KS, compute_metrics  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent

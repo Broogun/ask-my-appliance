@@ -36,7 +36,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import importlib
 
-exp = importlib.import_module("박형건_exp02")
+exp = importlib.import_module("exp02_retrieval")
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "experiments" / "results"

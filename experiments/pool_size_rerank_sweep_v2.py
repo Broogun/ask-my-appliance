@@ -1,10 +1,13 @@
-"""pool_size_rerank_sweep.py를 5.8의 20건(page 단위, 느슨한 매칭) 대신
-faq_ground_truth_labels_v2_full.json의 99건(정확한 chunk_id 매칭, 순환성
-없음)으로 다시 돌린 버전 - 통계적으로 훨씬 힘이 세다.
+"""faq_ground_truth_labels_v2_full.json의 99건(정확한 chunk_id 매칭, 순환성
+없음)으로 pool_size 후보를 리랭킹까지 포함해 실측 비교한다.
 
-99건 x pool_size 후보(15/20/35) = 최대 297회 gpt-4o-mini 리랭킹 호출(사전 승인,
-2026-09-23). 이전 재라벨링 작업에서 겪은 TPM 문제 때문에 worker=2 유지 +
-10개마다 중간 저장(--resume 지원).
+15/20/35(첫 스윕)에 40을 추가해 처음부터 다시 깔끔하게 돌린다(2026-09-23) -
+벡터검색 단독 Recall@40(93.9%)이 Recall@35(88.9%)보다 뚜렷이 높았고, 프로덕션이
+이미 벡터검색에서 40개를 가져오는데 리랭킹 전에 35개로 자르고 있어서 40은
+추가 검색 비용 없이 그냥 안 버리는 선택지다.
+
+99건 x pool_size 후보(15/20/35/40) = 최대 396회 gpt-4o-mini 리랭킹 호출(사전
+승인, 2026-09-23). worker=1 + 10개마다 중간 저장(--resume 지원).
 
 사용법: python experiments/pool_size_rerank_sweep_v2.py [--resume]
 """
@@ -30,7 +33,7 @@ import exp02_retrieval as exp02  # noqa: E402
 LABELS_PATH = ROOT / "experiments" / "results" / "faq_ground_truth_labels_v2_full.json"
 OUT_PATH = ROOT / "experiments" / "results" / "pool_size_rerank_sweep_v2.json"
 
-POOL_CANDIDATES = (15, 20, 35)
+POOL_CANDIDATES = (15, 20, 35, 40)
 TOP_K = 5
 
 

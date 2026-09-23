@@ -22,8 +22,10 @@ import exp02_retrieval as exp02  # noqa: E402
 
 LABELS_PATH = ROOT / "experiments" / "results" / "faq_ground_truth_labels_v2_full.json"
 OUT_PATH = ROOT / "experiments" / "results" / "retrieval_metrics_v2.json"
-POOL_SIZE = 40
-RECALL_KS = (1, 3, 5, 10, 20, 35, 40)
+# 2026-09-23: Recall@40이 93.9%로 포화 안 됐다는 지적으로 K를 모델 최대 청크 수(128)까지
+# 확장 - "더 늘려도 의미 있는지"를 리랭킹 비용 들이기 전에 무료로 먼저 확인한다.
+POOL_SIZE = 128
+RECALL_KS = (1, 3, 5, 10, 20, 35, 40, 60, 80, 100, 128)
 
 
 def rank_of(query: str, model: str, target_id: str, state: dict) -> int | None:

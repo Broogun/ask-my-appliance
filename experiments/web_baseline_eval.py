@@ -33,7 +33,6 @@ from experiments.harness.evaluate import MODEL_QUESTIONS, judge_results  # noqa:
 from web import rag_service  # noqa: E402
 
 DB_PATH = ROOT / "data" / "appliance.sqlite"
-OUT_PATH = ROOT / "experiments" / "results" / "web_baseline_round1.json"
 
 _BRAND_KO_TO_CODE = {"LG": "lg", "삼성": "samsung"}
 
@@ -51,26 +50,27 @@ def _resolve_manual_id(db: sqlite3.Connection, brand_ko: str, model: str) -> str
     return row[0] if row else None
 
 
-def main(n: int | None, resume: bool = False) -> None:
+def main(n: int | None, resume: bool = False, round_name: str = "round1") -> None:
     db = sqlite3.connect(str(DB_PATH))
+    out_path = ROOT / "experiments" / "results" / f"web_baseline_{round_name}.json"
 
-    rows = [r for r in MODEL_QUESTIONS if r[4] == "round1"]
+    rows = [r for r in MODEL_QUESTIONS if r[4] == round_name]
     if n:
         rows = rows[:n]
-    print(f"대상: {len(rows)}개 (round1)", flush=True)
+    print(f"대상: {len(rows)}개 ({round_name})", flush=True)
 
     # brand_ko는 MODEL_LIST에만 있고 MODEL_QUESTIONS엔 model만 있어 재구성
     from experiments.harness.evaluate import MODEL_LIST
     brand_by_model = {model: brand for brand, _category, model in MODEL_LIST}
 
     results = []
-    if resume and OUT_PATH.exists():
-        results = json.loads(OUT_PATH.read_text(encoding="utf-8")).get("results", [])
+    if resume and out_path.exists():
+        results = json.loads(out_path.read_text(encoding="utf-8")).get("results", [])
         print(f"이어하기: 기존 {len(results)}개 유지", flush=True)
     done = {(r["question"], r["model"]) for r in results}
     t0 = time.time()
     skipped_no_manual = 0
-    for i, (question, keyword, model, description, round_name) in enumerate(rows, 1):
+    for i, (question, keyword, model, description, _round) in enumerate(rows, 1):
         if (question, model) in done:
             continue
         manual_id = _resolve_manual_id(db, brand_by_model.get(model, ""), model)
@@ -96,24 +96,25 @@ def main(n: int | None, resume: bool = False) -> None:
         })
         if len(results) % 20 == 0:
             print(f"  {i}/{len(rows)} 완료 ({time.time()-t0:.0f}초)", flush=True)
-            OUT_PATH.write_text(json.dumps({"results": results}, ensure_ascii=False, indent=2), encoding="utf-8")  # 중간 저장(크래시 대비)
+            out_path.write_text(json.dumps({"results": results}, ensure_ascii=False, indent=2), encoding="utf-8")  # 중간 저장(크래시 대비)
 
     print(f"\n검색 완료: {len(results)}개 (manual_id 못 찾아 스킵: {skipped_no_manual}개), {time.time()-t0:.0f}초", flush=True)
 
-    OUT_PATH.write_text(json.dumps({"results": results}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"저장: {OUT_PATH}", flush=True)
+    out_path.write_text(json.dumps({"results": results}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"저장: {out_path}", flush=True)
 
     print("\nLLM 4분류 판정 시작...", flush=True)
     label_counts = judge_results(results)
     print("판정 분포:", dict(label_counts), flush=True)
 
-    OUT_PATH.write_text(json.dumps({"results": results, "label_counts": dict(label_counts)}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"최종 저장: {OUT_PATH}", flush=True)
+    out_path.write_text(json.dumps({"results": results, "label_counts": dict(label_counts)}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"최종 저장: {out_path}", flush=True)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--n", type=int, default=None, help="테스트용 일부만(파일럿)")
     parser.add_argument("--resume", action="store_true", help="기존 저장분 유지하고 남은 문항만")
+    parser.add_argument("--round", type=str, default="round1", choices=["round1", "round2", "round3"])
     args = parser.parse_args()
-    main(args.n, args.resume)
+    main(args.n, args.resume, args.round)

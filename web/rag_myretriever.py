@@ -172,6 +172,12 @@ def retrieve(query: str, manual_id: str | None = None, top_k: int = 5, feature: 
     product_model = manual_id.split("_", 1)[1] if manual_id and "_" in manual_id else None
     state = exp02._load_state()
     where = {"product_model": product_model} if product_model else None
+    # _strip_known_models 연결을 시도했다가 되돌림(2026-09-23) - exp02.my_answer()에서 검증된
+    # 픽스(예전 pointwise CrossEncoder 기준)라 여기(listwise LLM 리랭커) 연결도 시도했는데,
+    # 검증된 10개 모델 한정 오프라인 A/B(rerank_strip_ab_test_v3.py)에서는 71.2%->74.0%로
+    # 오히려 개선됐지만, 실제 round1 60개 모델 전체 재측정에서는 SUCCESS가 92.3%->86~87%로
+    # 떨어졌다 - 검증 안 된 나머지 50개 모델에서 부작용이 있는 것으로 추정. 좁은 범위 오프라인
+    # 지표보다 실제 결과를 우선해 되돌림. 연결하려면 60개 모델 전체 기준 검증이 먼저 필요하다.
     found = exp02._vector_search(query, state, top_k=40, where=where)
     picked = exp02._llm_rerank([query], found, state, top_k=top_k)
 

@@ -98,6 +98,7 @@ data/             설명서 PDF · SQLite (Git 제외)
 | [04-rag-pipeline.md](docs/04-rag-pipeline.md) | 청킹·검색·리랭킹·생성·안전경고·그림 매칭 |
 | [05-evaluation.md](docs/05-evaluation.md) | 평가 지표 설계와 결과, 한계 |
 | [06-setup.md](docs/06-setup.md) | 설치·실행·트러블슈팅 |
+| [07-lessons-learned.md](docs/07-lessons-learned.md) | 발견하고 고친 문제들 (원인·시도·결과) |
 | [web/README.md](web/README.md) | 웹 앱 내부 구조와 API |
 | [supabase/README.md](supabase/README.md) | 공유 DB 생성·이전·보안 |
 | [experiments/README.md](experiments/README.md) | 실험 참여 방법과 평가 하니스 |

@@ -81,11 +81,12 @@ python experiments/web_baseline_eval.py            # 전체
 python experiments/web_baseline_eval.py --resume   # 중단 지점부터
 
 # 검색 품질 재현: 정답 라벨링(청크 전체 기준, 순환성 없음) -> 지표 -> pool_size/top_k 선정
-python experiments/faq_label_ground_truth_v2.py [--resume]
-python experiments/retrieval_metrics_v2.py
-python experiments/pool_size_rerank_sweep_v2.py [--resume]
-python experiments/topk_sweep_v2.py --pool 35 [--resume]
+python experiments/faq_label_ground_truth_v3.py [--resume]
+python experiments/retrieval_metrics_v3.py
+python experiments/pool_size_rerank_sweep_v3.py [--resume]
+python experiments/topk_sweep_v3.py --pool 35 [--resume]
 python experiments/rerank_shuffle_test_v2.py [--resume]
+python experiments/rerank_ensemble_check_v3.py [--resume]
 
 # RAGAS
 python experiments/ragas_eval.py
@@ -101,11 +102,13 @@ python experiments/ragas_eval.py
 | 실험 | 확인한 것 |
 |---|---|
 | `exp01_toc_chunking` → `exp02` | TOC 청킹 + 삼성 PDF 손상 방어. exp02가 통합 베이스라인 |
-| `faq_label_ground_truth_v2.py` | 청크 전체 기준 정답 라벨링(순환성 없음) — 99/150건 확보 |
-| `retrieval_metrics_v2.py` | MRR·Recall@k(청크 전체 라벨 기준) |
-| `pool_size_rerank_sweep_v2.py` | pool_size(15/20/35/40) 리랭킹까지 포함해 실측 비교 — 35 유지(40도 동일), 리랭킹 정확도가 진짜 병목 |
-| `topk_sweep_v2.py` | 최종 근거 개수(top_k=1/3/5/10) 히트율 비교 — 5 유지(10은 수확체감) |
-| `rerank_shuffle_test_v2.py` | 리랭킹 위치 편향("lost in the middle") 검증 — 순서 셔플은 전체 히트율을 오히려 낮춤(65.7%→57.6%) |
+| `faq_label_ground_truth_v3.py` | 청크 전체 기준 정답 라벨링(순환성 없음, 목차/포괄챕터 제외 가드레일) — 104/150건 확보 |
+| `retrieval_metrics_v3.py` | MRR·Recall@k(청크 전체 라벨 기준) |
+| `pool_size_rerank_sweep_v3.py` | pool_size(15/20/35/40) 리랭킹까지 포함해 실측 비교 — 35 유지(40도 동일), 리랭킹 정확도가 진짜 병목 |
+| `topk_sweep_v3.py` | 최종 근거 개수(top_k=1/3/5/10) 히트율 비교 — 5 유지(10은 수확체감) |
+| `rerank_shuffle_test_v2.py` | 리랭킹 위치 편향("lost in the middle") 검증 — 순서 셔플은 전체 히트율을 오히려 낮춤 |
+| `rerank_cot_test_v2.py` | 후보별 개별 판단(CoT) 프롬프트 시도 — 전체 히트율이 더 크게 떨어져 기각 |
+| `rerank_ensemble_check_v3.py` | 정렬+셔플 결과 합집합(앙상블) 검증 — 실제 존재하는 개선 여지지만 비용 2배라 미도입 |
 | `faq_*` | 예상질문(FAQ) 생성·필터·효과 측정 |
 | `tagging_vs_structural_coverage.py` | 의미 유형 태깅 vs 구조적 챕터 매칭 |
 | `siyeon/` | CrossEncoder+RRF 파이프라인, 에러코드 RDB 설계 |

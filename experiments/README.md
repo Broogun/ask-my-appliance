@@ -80,8 +80,10 @@ python experiments/web_baseline_eval.py --n 5      # 파일럿
 python experiments/web_baseline_eval.py            # 전체
 python experiments/web_baseline_eval.py --resume   # 중단 지점부터
 
-# 검색 품질만 (오프라인, LLM 호출 없음)
-python experiments/retrieval_metrics_offline.py
+# 검색 품질 재현: 정답 라벨링(청크 전체 기준, 순환성 없음) -> 지표 -> pool_size 선정
+python experiments/faq_label_ground_truth_v2.py [--resume]
+python experiments/retrieval_metrics_v2.py
+python experiments/pool_size_rerank_sweep_v2.py [--resume]
 
 # RAGAS
 python experiments/ragas_eval.py
@@ -97,9 +99,9 @@ python experiments/ragas_eval.py
 | 실험 | 확인한 것 |
 |---|---|
 | `exp01_toc_chunking` → `exp02` | TOC 청킹 + 삼성 PDF 손상 방어. exp02가 통합 베이스라인 |
-| `compare_chunking_v2.py` | 청킹 방식 비교 (오버랩 0%/15%/25%) |
-| `quant_llm_rerank.py` | listwise LLM 리랭킹 정확도 — 97케이스 중 94개 정확 |
-| `retrieval_metrics_offline.py` | MRR·Recall@k — Recall@40 99%, P@1 47% |
+| `faq_label_ground_truth_v2.py` | 청크 전체 기준 정답 라벨링(순환성 없음) — 99/150건 확보 |
+| `retrieval_metrics_v2.py` | MRR·Recall@k(청크 전체 라벨 기준) |
+| `pool_size_rerank_sweep_v2.py` | pool_size(15/20/35) 리랭킹까지 포함해 실측 비교 — 35 채택, 리랭킹 정확도가 진짜 병목 |
 | `faq_*` | 예상질문(FAQ) 생성·필터·효과 측정 |
 | `tagging_vs_structural_coverage.py` | 의미 유형 태깅 vs 구조적 챕터 매칭 |
 | `siyeon/` | CrossEncoder+RRF 파이프라인, 에러코드 RDB 설계 |

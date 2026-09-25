@@ -44,9 +44,9 @@ LG·삼성 60개 모델의 사용설명서를 학습 데이터가 아닌 **검�
 | FALSE_DECLINE (근거가 있는데 포기) | 3 | 1.0% |
 | **FALSE_CONFIDENCE (근거 없이 확신)** | **0** | **0%** |
 
-LLM 판정 기준으로 근거 없이 지어낸 답변은 관측되지 않았다. 다만 판정자가 사람 검수와 대조되지 않았고, GENUINE_NO_ANSWER 29건 중 20건은 판정 후처리로 강등된 건이라 이 0건은 확정 수치가 아니다([docs/05 §5.10](docs/05-evaluation.md#510-한계)). 같은 경로로 잰 round2는 SUCCESS 227 / GENUINE_NO_ANSWER 71 / FALSE_DECLINE 2 / FALSE_CONFIDENCE 0(75.7%)이다.
+LLM 판정 기준으로 근거 없이 지어낸 답변은 관측되지 않았다. 다만 판정자가 사람 검수와 대조되지 않았고, GENUINE_NO_ANSWER 29건 중 20건은 판정 후처리로 강등된 건이라 이 0건은 확정 수치가 아니다([docs/05 §5.10](docs/05-evaluation.md#510-한계)). 같은 경로로 잰 round2는 SUCCESS 227 / GENUINE_NO_ANSWER 71 / FALSE_DECLINE 2 / FALSE_CONFIDENCE 0(75.7%), round3는 SUCCESS 240 / GENUINE_NO_ANSWER 56 / FALSE_DECLINE 4 / FALSE_CONFIDENCE 0(80.0%)이다.
 
-검색 품질(독립 라벨 104건): 벡터 검색 Recall@40 90.4%, 리랭킹 후 최종 top-5 적중 71.2%.
+검색 품질(독립 라벨 104건, 정답 = 청크 1개): 벡터 검색 Recall@40 90.4%, 리랭킹 후 최종 top-5 적중 71.2%. 이 값은 하한선이다 — 라벨 감사(2026-09-26)에서 미스의 상당수가 라벨 오류로 확인됐고 거친 추정은 78~92%다([docs/05 §5.5](docs/05-evaluation.md#55-검색-품질-오프라인-지표)).
 
 → 평가 설계와 전체 지표: [docs/05-evaluation.md](docs/05-evaluation.md)
 

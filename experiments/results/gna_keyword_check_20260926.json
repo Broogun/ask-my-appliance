@@ -1,0 +1,138 @@
+{
+  "summary": {
+    "round1": {
+      "SUCCESS": {
+        "C": 268
+      },
+      "GENUINE_NO_ANSWER": {
+        "C": 25,
+        "B": 1,
+        "A": 3
+      },
+      "FALSE_DECLINE": {
+        "C": 3
+      }
+    },
+    "round2": {
+      "SUCCESS": {
+        "C": 225,
+        "A": 1,
+        "B": 1
+      },
+      "GENUINE_NO_ANSWER": {
+        "A": 21,
+        "C": 41,
+        "B": 9
+      },
+      "FALSE_DECLINE": {
+        "C": 2
+      }
+    },
+    "round3": {
+      "SUCCESS": {
+        "C": 239,
+        "A": 1
+      },
+      "GENUINE_NO_ANSWER": {
+        "C": 22,
+        "A": 26,
+        "B": 8
+      },
+      "FALSE_DECLINE": {
+        "C": 4
+      }
+    }
+  },
+  "gna_group_b": [
+    {
+      "round": "round1",
+      "question": "AF18RX975CAN 에어컨 에러 메시지 확인하는 방법 알려줘",
+      "keyword": "에러"
+    },
+    {
+      "round": "round2",
+      "question": "B242S32 냉장고 정수 필터 교체 방법 알려줘",
+      "keyword": "정수"
+    },
+    {
+      "round": "round2",
+      "question": "GC-B40BSCQ 냉장고 정수 필터 교체 방법 알려줘",
+      "keyword": "정수"
+    },
+    {
+      "round": "round2",
+      "question": "M402ND 냉장고 정수 필터 교체 방법 알려줘",
+      "keyword": "정수"
+    },
+    {
+      "round": "round2",
+      "question": "F21VDSK 세탁기 에러 코드는 어디서 확인해",
+      "keyword": "에러"
+    },
+    {
+      "round": "round2",
+      "question": "RH82M9152SL 냉장고 절전하는 방법 알려줘",
+      "keyword": "절전"
+    },
+    {
+      "round": "round2",
+      "question": "RT42CG6024S9 냉장고 정수 필터 교체 방법 알려줘",
+      "keyword": "정수"
+    },
+    {
+      "round": "round2",
+      "question": "RT53DG7A1CWW 냉장고 정수 필터 교체 방법 알려줘",
+      "keyword": "정수"
+    },
+    {
+      "round": "round2",
+      "question": "WF17M9100KG 세탁기 통 세척 방법 알려줘",
+      "keyword": "통세척"
+    },
+    {
+      "round": "round2",
+      "question": "DV17T8520BV 건조기 응축수 비우는 방법 알려줘",
+      "keyword": "응축수"
+    },
+    {
+      "round": "round3",
+      "question": "FC4KC 세탁기 전기/수도 사용량이 궁금해",
+      "keyword": "사용량"
+    },
+    {
+      "round": "round3",
+      "question": "SC3GBE50 스타일러 정기 점검은 얼마나 자주 해야 해",
+      "keyword": "점검"
+    },
+    {
+      "round": "round3",
+      "question": "AR-EH05 에어컨 전력 소비량이 궁금해",
+      "keyword": "전력"
+    },
+    {
+      "round": "round3",
+      "question": "RH82M9152SL 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+      "keyword": "등급"
+    },
+    {
+      "round": "round3",
+      "question": "RS84B5041WW 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+      "keyword": "등급"
+    },
+    {
+      "round": "round3",
+      "question": "RP20C3111S9 김치냉장고 정기 점검은 얼마나 자주 해야 해",
+      "keyword": "점검"
+    },
+    {
+      "round": "round3",
+      "question": "RQ49C9002S9 김치냉장고 전력 소비량이 궁금해",
+      "keyword": "전력"
+    },
+    {
+      "round": "round3",
+      "question": "WF21T6500KW 세탁기 전기/수도 사용량이 궁금해",
+      "keyword": "사용량"
+    }
+  ]
+}

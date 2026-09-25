@@ -267,9 +267,24 @@ $('#historyMain').addEventListener('click', async (e) => {
   const d = e.target.closest('[data-delconv]');
   if (d) { if (confirm('이 대화를 삭제할까요?')) { await API.del('/api/conversations/' + d.dataset.delconv); renderHistory(); } return; }
   const o = e.target.closest('[data-open]');
-  if (o) openConversation(await API.get('/api/conversations/' + o.dataset.open));
+  if (o) openConversationById(o.dataset.open, o);
 });
-$('#recentList').addEventListener('click', async (e) => { const b = e.target.closest('[data-cid]'); if (b) openConversation(await API.get('/api/conversations/' + b.dataset.cid)); });
+// 대화를 여는 동안(설명서 그림·쪽 보정 계산으로 몇 초 걸릴 수 있음) 클릭한 항목에 진행 표시를 하고, 실패하면 알린다. 마지막으로 누른 항목이 이긴다.
+let openSeq = 0;
+async function openConversationById(id, btn) {
+  const seq = ++openSeq;
+  document.querySelectorAll('[aria-busy="true"]').forEach(x => x.removeAttribute('aria-busy'));
+  btn.setAttribute('aria-busy', 'true');
+  try {
+    const conv = await API.get('/api/conversations/' + id);
+    if (seq === openSeq) openConversation(conv);
+  } catch (e) {
+    if (e.message !== 'unauthorized' && seq === openSeq) toast('대화를 불러오지 못했어요: ' + e.message, 'danger');
+  } finally {
+    if (seq === openSeq) btn.removeAttribute('aria-busy');
+  }
+}
+$('#recentList').addEventListener('click', (e) => { const b = e.target.closest('[data-cid]'); if (b) openConversationById(b.dataset.cid, b); });
 
 /* ── 내 제품 ─────────────────────────────────────────────────── */
 // 브랜드(LG/삼성)별로 묶어서 보여준다 — LG, 삼성 순, 그 외는 뒤에

@@ -35,16 +35,18 @@ LG·삼성 60개 모델의 사용설명서를 학습 데이터가 아닌 **검�
 
 ## 결과
 
-실제 서비스 경로로 300문항을 평가한 결과다(`experiments/web_baseline_eval.py`).
+실제 서비스 경로로 round1 300문항을 평가한 결과다(`experiments/web_baseline_eval.py`, 2026-09-23 최종 코드 기준).
 
 | 라벨 | 개수 | 비율 |
 |---|---|---|
-| SUCCESS | 277 | **92.3%** |
-| GENUINE_NO_ANSWER (설명서에 정말 없음) | 20 | 6.7% |
+| SUCCESS | 268 | **89.3%** |
+| GENUINE_NO_ANSWER (설명서에 정말 없음) | 29 | 9.7% |
 | FALSE_DECLINE (근거가 있는데 포기) | 3 | 1.0% |
 | **FALSE_CONFIDENCE (근거 없이 확신)** | **0** | **0%** |
 
-근거 없이 지어낸 답변이 한 건도 없다. 검색 품질은 Recall@40 99%, 리랭킹 정확 매칭 94/97.
+LLM 판정 기준으로 근거 없이 지어낸 답변은 관측되지 않았다. 다만 판정자가 사람 검수와 대조되지 않았고, GENUINE_NO_ANSWER 29건 중 20건은 판정 후처리로 강등된 건이라 이 0건은 확정 수치가 아니다([docs/05 §5.10](docs/05-evaluation.md#510-한계)). 같은 경로로 잰 round2는 SUCCESS 227 / GENUINE_NO_ANSWER 71 / FALSE_DECLINE 2 / FALSE_CONFIDENCE 0(75.7%)이다.
+
+검색 품질(독립 라벨 104건): 벡터 검색 Recall@40 90.4%, 리랭킹 후 최종 top-5 적중 71.2%.
 
 → 평가 설계와 전체 지표: [docs/05-evaluation.md](docs/05-evaluation.md)
 

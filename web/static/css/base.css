@@ -129,6 +129,8 @@ input,select{font:inherit;}
 .recent-list{overflow:auto;flex:1;margin-top:4px;}
 .recent-item{display:block;width:100%;text-align:left;border:none;background:transparent;padding:7px 10px;font-size:12.5px;color:var(--dark-muted);border-radius:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .recent-item:hover,.recent-item.active{background:var(--dark-hover);color:var(--dark-ink);}
+[aria-busy="true"]{cursor:progress;opacity:.55;}
+.recent-item[aria-busy="true"]::after{content:" 불러오는 중…";font-size:11px;}
 .sidebar-footer{margin-top:auto;display:flex;align-items:center;gap:8px;padding:12px 4px 0;border-top:1px solid var(--dark-line);font-size:12.5px;color:var(--dark-muted);}
 .sidebar-footer .link-btn{color:var(--dark-muted);}
 .sidebar-footer .link-btn:hover{color:var(--dark-ink);}

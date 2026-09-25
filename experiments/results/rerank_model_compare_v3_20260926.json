@@ -1,0 +1,850 @@
+{
+  "summary": {
+    "n": 104,
+    "pool_size": 35,
+    "top_k": 5,
+    "pool_chars_total": 2143808,
+    "gpt-4o-mini": "73/104",
+    "gpt-4o": "74/104",
+    "paired": {
+      "둘 다 적중": 67,
+      "mini만 적중": 6,
+      "4o만 적중": 7,
+      "둘 다 실패": 24
+    }
+  },
+  "rows": [
+    {
+      "question": "FQ18GU1BHN 에어컨 필터 청소 방법 알려줘",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 8,
+      "pool_chars": 22433,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨에서 이상한 소리가 나요",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": null,
+      "pool_chars": 23378,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨이 냉방이 잘 안 돼요",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 4,
+      "pool_chars": 22186,
+      "gpt-4o-mini": true,
+      "gpt-4o": false
+    },
+    {
+      "question": "M402ND 냉장고 온도 설정 방법 알려줘",
+      "model": "M402ND",
+      "target_vector_rank": 11,
+      "pool_chars": 22308,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고에 성에가 계속 생겨요",
+      "model": "M402ND",
+      "target_vector_rank": 4,
+      "pool_chars": 21357,
+      "gpt-4o-mini": true,
+      "gpt-4o": false
+    },
+    {
+      "question": "M402ND 냉장고에서 소음이 나는데 왜 그래요",
+      "model": "M402ND",
+      "target_vector_rank": 1,
+      "pool_chars": 20295,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 문이 잘 안 닫혀요",
+      "model": "M402ND",
+      "target_vector_rank": null,
+      "pool_chars": 20951,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "M402ND 냉장고 청소하는 방법 알려줘",
+      "model": "M402ND",
+      "target_vector_rank": 7,
+      "pool_chars": 22229,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 세탁 코스 선택하는 방법 알려줘",
+      "model": "FC2521KX6C",
+      "target_vector_rank": 2,
+      "pool_chars": 23669,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 필터 청소 방법 알려줘",
+      "model": "FC2521KX6C",
+      "target_vector_rank": 3,
+      "pool_chars": 23836,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 문이 안 열려요",
+      "model": "FC2521KX6C",
+      "target_vector_rank": 6,
+      "pool_chars": 23481,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 냄새 제거 기능이 뭐야",
+      "model": "SC3GBE50",
+      "target_vector_rank": 1,
+      "pool_chars": 21783,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+      "model": "SC3GBE50",
+      "target_vector_rank": 7,
+      "pool_chars": 21228,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "SC3GBE50 스타일러 문이 안 열려요",
+      "model": "SC3GBE50",
+      "target_vector_rank": null,
+      "pool_chars": 21850,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "SC3GBE50 스타일러 청소하는 방법 알려줘",
+      "model": "SC3GBE50",
+      "target_vector_rank": 2,
+      "pool_chars": 21484,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 에러 코드는 어디서 확인해",
+      "model": "SC3GBE50",
+      "target_vector_rank": null,
+      "pool_chars": 21860,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "AR-EH05 에어컨에서 이상한 소리가 나요",
+      "model": "AR-EH05",
+      "target_vector_rank": 24,
+      "pool_chars": 14719,
+      "gpt-4o-mini": false,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+      "model": "AR-EH05",
+      "target_vector_rank": 11,
+      "pool_chars": 14719,
+      "gpt-4o-mini": false,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 온도 설정 방법 알려줘",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 2,
+      "pool_chars": 19705,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고에 성에가 계속 생겨요",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 5,
+      "pool_chars": 20848,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "RS63R557EB4 냉장고에서 소음이 나는데 왜 그래요",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 2,
+      "pool_chars": 20355,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 문이 잘 안 닫혀요",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 1,
+      "pool_chars": 20961,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 청소하는 방법 알려줘",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 4,
+      "pool_chars": 20802,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 온도 설정 방법 알려줘",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 7,
+      "pool_chars": 19569,
+      "gpt-4o-mini": false,
+      "gpt-4o": true
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 발효 기능이 뭐야",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 1,
+      "pool_chars": 20417,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고에서 냄새가 나요",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 16,
+      "pool_chars": 20390,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 청소하는 방법 알려줘",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 8,
+      "pool_chars": 19842,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 필터 청소 방법 알려줘",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 8,
+      "pool_chars": 20355,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 탈수할 때 소음이 심해요",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 26,
+      "pool_chars": 21421,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "WF17M9100KG 세탁기 문이 안 열려요",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 4,
+      "pool_chars": 21282,
+      "gpt-4o-mini": true,
+      "gpt-4o": false
+    },
+    {
+      "question": "WF17M9100KG 세탁기 배수가 안 돼요",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 10,
+      "pool_chars": 21470,
+      "gpt-4o-mini": false,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁 코스 선택하는 방법 알려줘",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 16,
+      "pool_chars": 20272,
+      "gpt-4o-mini": true,
+      "gpt-4o": false
+    },
+    {
+      "question": "DV90TA040TE 건조기 건조 코스 선택하는 방법 알려줘",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 14,
+      "pool_chars": 18903,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DV90TA040TE 건조기 먼지 필터 청소 방법 알려줘",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 7,
+      "pool_chars": 21412,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DV90TA040TE 건조기 건조 시간이 너무 오래 걸려요",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 33,
+      "pool_chars": 20615,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DV90TA040TE 건조기에서 소음이 나는데 왜 그래요",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 3,
+      "pool_chars": 20907,
+      "gpt-4o-mini": false,
+      "gpt-4o": true
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 신발 살균 기능이 뭐야",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 1,
+      "pool_chars": 20785,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 냄새 제거는 어떻게 해",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 1,
+      "pool_chars": 20865,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": null,
+      "pool_chars": 20981,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 청소하는 방법 알려줘",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 4,
+      "pool_chars": 19605,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 리모컨 사용법 알려줘",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 11,
+      "pool_chars": 22895,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 제습 모드는 어떻게 써",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 1,
+      "pool_chars": 22999,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨에서 냄새가 나는데 계속 써도 될까",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 1,
+      "pool_chars": 22128,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 실내기 자동 건조 기능 알려줘",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 1,
+      "pool_chars": 23068,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 야채실 사용법 알려줘",
+      "model": "M402ND",
+      "target_vector_rank": 1,
+      "pool_chars": 21700,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 문이 오래 열려 있으면 알림이 오나",
+      "model": "M402ND",
+      "target_vector_rank": 1,
+      "pool_chars": 21724,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 예약 세탁 어떻게 해",
+      "model": "FC2521KX6C",
+      "target_vector_rank": 1,
+      "pool_chars": 22579,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 세제는 어디에 넣어",
+      "model": "FC2521KX6C",
+      "target_vector_rank": 2,
+      "pool_chars": 21835,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 스팀 기능 알려줘",
+      "model": "SC3GBE50",
+      "target_vector_rank": 1,
+      "pool_chars": 21629,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러에서 소음이 나는데 왜 그래요",
+      "model": "SC3GBE50",
+      "target_vector_rank": null,
+      "pool_chars": 21963,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "AR-EH05 에어컨 리모컨 사용법 알려줘",
+      "model": "AR-EH05",
+      "target_vector_rank": 1,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨 무풍 기능이 뭐야",
+      "model": "AR-EH05",
+      "target_vector_rank": 2,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨 제습 모드는 어떻게 써",
+      "model": "AR-EH05",
+      "target_vector_rank": 2,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨에서 냄새가 나는데 계속 써도 될까",
+      "model": "AR-EH05",
+      "target_vector_rank": 1,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨 실내기 자동 건조 기능 알려줘",
+      "model": "AR-EH05",
+      "target_vector_rank": 3,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 냉동실 온도는 몇 도가 적당해",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 1,
+      "pool_chars": 20523,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 야채실 사용법 알려줘",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 1,
+      "pool_chars": 19394,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 6,
+      "pool_chars": 19872,
+      "gpt-4o-mini": true,
+      "gpt-4o": false
+    },
+    {
+      "question": "RS63R557EB4 냉장고 문이 오래 열려 있으면 알림이 오나",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 4,
+      "pool_chars": 20360,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 보관 용기는 어떻게 써",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 4,
+      "pool_chars": 19076,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 설치 시 주의사항 알려줘",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 13,
+      "pool_chars": 19295,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 세제는 어디에 넣어",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 2,
+      "pool_chars": 20348,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 울 코스는 어떻게 써",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 2,
+      "pool_chars": 19926,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 에러 코드는 어디서 확인해",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 2,
+      "pool_chars": 21865,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DV90TA040TE 건조기에 세탁물을 얼마나 넣어도 돼",
+      "model": "DV90TA040TE",
+      "target_vector_rank": null,
+      "pool_chars": 19801,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DV90TA040TE 건조기 사용하면 옷에 구김이 덜 가나",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 26,
+      "pool_chars": 19764,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DV90TA040TE 건조기에서 냄새가 나요",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 4,
+      "pool_chars": 20450,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DV90TA040TE 건조기 정기 관리 방법 알려줘",
+      "model": "DV90TA040TE",
+      "target_vector_rank": null,
+      "pool_chars": 21004,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 신발 트레이는 어떻게 써",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 5,
+      "pool_chars": 19538,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 한 번 사용하는데 시간이 얼마나 걸려",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 1,
+      "pool_chars": 20989,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 예약 기능 사용법 알려줘",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 1,
+      "pool_chars": 23227,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 취침 모드 어떻게 설정해",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": null,
+      "pool_chars": 23013,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 2,
+      "pool_chars": 23117,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 전력 소비량이 궁금해",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": null,
+      "pool_chars": 22085,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "FQ18GU1BHN 에어컨 설치할 때 주의사항 알려줘",
+      "model": "FQ18GU1BHN",
+      "target_vector_rank": 14,
+      "pool_chars": 22645,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 급속 냉동 기능이 뭐야",
+      "model": "M402ND",
+      "target_vector_rank": 5,
+      "pool_chars": 21373,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 문 열림 알람 기능 알려줘",
+      "model": "M402ND",
+      "target_vector_rank": 1,
+      "pool_chars": 21732,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 스마트폰 앱으로 확인하는 방법 알려줘",
+      "model": "M402ND",
+      "target_vector_rank": 5,
+      "pool_chars": 22975,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+      "model": "M402ND",
+      "target_vector_rank": 1,
+      "pool_chars": 20744,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "M402ND 냉장고 설치할 때 주의사항 알려줘",
+      "model": "M402ND",
+      "target_vector_rank": null,
+      "pool_chars": 22128,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+      "model": "FC2521KX6C",
+      "target_vector_rank": 4,
+      "pool_chars": 22563,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "FC2521KX6C 세탁건조기 설치할 때 주의사항 알려줘",
+      "model": "FC2521KX6C",
+      "target_vector_rank": 12,
+      "pool_chars": 21376,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 스마트폰 앱으로 제어하는 방법 알려줘",
+      "model": "SC3GBE50",
+      "target_vector_rank": 5,
+      "pool_chars": 22111,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 항균 기능이 뭐야",
+      "model": "SC3GBE50",
+      "target_vector_rank": 1,
+      "pool_chars": 21799,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 전력 소비량이 궁금해",
+      "model": "SC3GBE50",
+      "target_vector_rank": 3,
+      "pool_chars": 22246,
+      "gpt-4o-mini": false,
+      "gpt-4o": true
+    },
+    {
+      "question": "SC3GBE50 스타일러 설치할 때 주의사항 알려줘",
+      "model": "SC3GBE50",
+      "target_vector_rank": 32,
+      "pool_chars": 21541,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨 예약 기능 사용법 알려줘",
+      "model": "AR-EH05",
+      "target_vector_rank": 1,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨 취침 모드 어떻게 설정해",
+      "model": "AR-EH05",
+      "target_vector_rank": 4,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "AR-EH05 에어컨 설치할 때 주의사항 알려줘",
+      "model": "AR-EH05",
+      "target_vector_rank": 5,
+      "pool_chars": 14719,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 급속 냉동 기능이 뭐야",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 1,
+      "pool_chars": 20198,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 문 열림 알람 기능 알려줘",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 3,
+      "pool_chars": 19347,
+      "gpt-4o-mini": false,
+      "gpt-4o": true
+    },
+    {
+      "question": "RS63R557EB4 냉장고 설치할 때 주의사항 알려줘",
+      "model": "RS63R557EB4",
+      "target_vector_rank": 6,
+      "pool_chars": 20220,
+      "gpt-4o-mini": true,
+      "gpt-4o": false
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 김치 발효 코스 자세히 알려줘",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 16,
+      "pool_chars": 19574,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "RP20C3111S9 김치냉장고 설치할 때 주의사항 알려줘",
+      "model": "RP20C3111S9",
+      "target_vector_rank": 13,
+      "pool_chars": 19295,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 소음을 줄이는 방법 알려줘",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 12,
+      "pool_chars": 22390,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 전기/수도 사용량이 궁금해",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 1,
+      "pool_chars": 22075,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "WF17M9100KG 세탁기 설치할 때 수평 맞추는 방법 알려줘",
+      "model": "WF17M9100KG",
+      "target_vector_rank": 2,
+      "pool_chars": 20326,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 2,
+      "pool_chars": 20328,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DV90TA040TE 건조기 전력 소비량이 궁금해",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 1,
+      "pool_chars": 21590,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DV90TA040TE 건조기 설치할 때 환기구 주의사항 알려줘",
+      "model": "DV90TA040TE",
+      "target_vector_rank": 2,
+      "pool_chars": 22017,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 스마트폰 앱으로 제어하는 방법 알려줘",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": null,
+      "pool_chars": 20999,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 자외선 살균 기능 알려줘",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 1,
+      "pool_chars": 21263,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 전력 소비량이 궁금해",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 1,
+      "pool_chars": 20508,
+      "gpt-4o-mini": true,
+      "gpt-4o": true
+    },
+    {
+      "question": "DJ30T9500FE 슈드레서 설치할 때 주의사항 알려줘",
+      "model": "DJ30T9500FE",
+      "target_vector_rank": 11,
+      "pool_chars": 20998,
+      "gpt-4o-mini": false,
+      "gpt-4o": false
+    }
+  ]
+}

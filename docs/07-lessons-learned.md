@@ -120,4 +120,5 @@ top-20 밖에 정답이 있는 질문은 전부 "no_answer_in_doc"으로 버려�
 - 정답 라벨의 잔여 오류 — 더 강한 모델(gpt-4o 등)을 심사위원으로 쓰면 줄어들 가능성이 있으나
   미검증
 - 정렬+셔플 앙상블 — 실제 효과 확인됐으나(75.0%) 비용 2배라 미도입
-- round2·round3는 아직 실제 서비스 경로로 재측정 중(진행 상황은 [05-evaluation.md](05-evaluation.md) 참고)
+- round3는 아직 실제 서비스 경로로 재측정하지 않음 (round1·round2는 측정 완료, [05-evaluation.md](05-evaluation.md) 5.3 참고)
+- 판정 후처리(자동 강등)로 GENUINE_NO_ANSWER가 된 건의 사람 검수 — FALSE_CONFIDENCE 0건 주장의 확정 여부가 여기에 달려 있음

@@ -1,0 +1,1589 @@
+{
+"note": "Recall@K 확정용 추가 판정 264쌍: (1) vector top-5에 정답이 없던 16문항 중 후보에서도 정답이 안 보이던 8문항의 top-40 미판정 234쌍 전부, (2) 정답이 6등 이후에 있던 나머지 8문항 중 '알려진 첫 정답보다 앞선 순위'의 미판정 30쌍. 같은 Y/P/N 기준, Claude 1인 판정, 출처를 가리고 셔플. 청크 본문 제외.",
+"items": [
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_16_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_14_2",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_15_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_4_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_34_0",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_22_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_15_2",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_13_4",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_22_4",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_22_2",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_5_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_60_3",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_32_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_13_1",
+"code": "P"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_8_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_13_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_1_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_13_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_6_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_3_4",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_20_4",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_27_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_5_2",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_12_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_10_2",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_6_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_12_0",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_0_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_57_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_15_3",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_10_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_7_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_2",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_19_1",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_22_3",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_29_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_27_3",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_19_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_0_1",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_7_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_19_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_3",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_20_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_26_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_19_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_24_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_18_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_2_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_16_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_37_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_16_2",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_28_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_12_1",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_1_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_26_1",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_16_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_11_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_13_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_26_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_17_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_22_1",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_26_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_0_1",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_18_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_15_1",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_28_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_15_1",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_21_0",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_5_4",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_3_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_23_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_18_3",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_15_0",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_2_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_22_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_12_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_22_0",
+"code": "P"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_60_8",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_5_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_7_2",
+"code": "P"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_3_1",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_60_6",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_27_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_24_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_3_1",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_17_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_60_4",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_9_1",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_7_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_3_3",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_14_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_10_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_15_3",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_4_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_12_4",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_12_3",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_5_3",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_18_3",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_4_2",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_6_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_8_2",
+"code": "P"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_20_2",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_9_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_17_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_12_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_28_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_12_4",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_14_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_10_1",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_21_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_15_3",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_2_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_25_0",
+"code": "P"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_19_1",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_15_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_23_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_13_2",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_11_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_4_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_8_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_39_0",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_20_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_18_0",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_3_3",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_6_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_18_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_6_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_27_0",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_19_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_50_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_25_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_21_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_22_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_7_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_11_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_8_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_23_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_19_0",
+"code": "P"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_10_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_2_5",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_3_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_12_2",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_23_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_28_1",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_44_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_7_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_27_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_27_3",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_6_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_4_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_16_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_38_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_52_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_4",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_22_2",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_9_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_11_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_15_2",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_0_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_14_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_13_3",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_28_1",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_1_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_12_2",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_5_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_15_4",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_26_1",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_21_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_13_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_15_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_23_3",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_22_0",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_6_2",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_2_3",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_17_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_14_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_2_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_60_5",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_10_3",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_17_0",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_27_2",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_5_5",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_23_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_25_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_21_1",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_56_0",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_14_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_8_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_15_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_21_0",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_27_2",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_15_4",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_7",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_17_0",
+"code": "Y"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_27_1",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_6_1",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_7_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_22_4",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_24_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_8",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_14_1",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_0_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_23_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_17_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_6_0",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_3_8",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_5",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_28_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_18_1",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_20_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_3_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_16_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_5_0",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_20_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_17_1",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_7_3",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_14_1",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_13_1",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_0_0",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_19_8",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_15_2",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_29_1",
+"code": "N"
+},
+{
+"qi": 12,
+"question": "SC3GBE50 스타일러 트리트먼트 기능 알려줘",
+"chunk_id": "SC3GBE50_11_1",
+"code": "N"
+},
+{
+"qi": 78,
+"question": "M402ND 냉장고 에너지 소비 효율 등급이 어떻게 돼",
+"chunk_id": "M402ND_0_0",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_5_2",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_12_1",
+"code": "N"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_3_6",
+"code": "N"
+},
+{
+"qi": 17,
+"question": "AR-EH05 에어컨이 냉방이 잘 안 돼요",
+"chunk_id": "AR-EH05_5_2",
+"code": "N"
+},
+{
+"qi": 72,
+"question": "FQ18GU1BHN 에어컨 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "FQ18GU1BHN_19_12",
+"code": "N"
+},
+{
+"qi": 44,
+"question": "M402ND 냉장고 야채실 사용법 알려줘",
+"chunk_id": "M402ND_18_0",
+"code": "P"
+},
+{
+"qi": 97,
+"question": "DV90TA040TE 건조기 스마트폰 앱으로 제어하는 방법 알려줘",
+"chunk_id": "DV90TA040TE_49_0",
+"code": "N"
+},
+{
+"qi": 57,
+"question": "RS63R557EB4 냉장고 절전하는 방법 알려줘",
+"chunk_id": "RS63R557EB4_23_0",
+"code": "N"
+},
+{
+"qi": 13,
+"question": "SC3GBE50 스타일러 문이 안 열려요",
+"chunk_id": "SC3GBE50_12_2",
+"code": "N"
+},
+{
+"qi": 65,
+"question": "DV90TA040TE 건조기 사용하면 옷에 구김이 덜 가나",
+"chunk_id": "DV90TA040TE_10_0",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_5_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_33_4",
+"code": "N"
+},
+{
+"qi": 15,
+"question": "SC3GBE50 스타일러 에러 코드는 어디서 확인해",
+"chunk_id": "SC3GBE50_28_0",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_16_6",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_3_0",
+"code": "N"
+},
+{
+"qi": 74,
+"question": "FQ18GU1BHN 에어컨 설치할 때 주의사항 알려줘",
+"chunk_id": "FQ18GU1BHN_12_0",
+"code": "N"
+},
+{
+"qi": 15,
+"question": "SC3GBE50 스타일러 에러 코드는 어디서 확인해",
+"chunk_id": "SC3GBE50_17_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_5_0",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_14_0",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_7_1",
+"code": "P"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_25_2",
+"code": "N"
+},
+{
+"qi": 3,
+"question": "M402ND 냉장고 온도 설정 방법 알려줘",
+"chunk_id": "M402ND_7_0",
+"code": "P"
+},
+{
+"qi": 74,
+"question": "FQ18GU1BHN 에어컨 설치할 때 주의사항 알려줘",
+"chunk_id": "FQ18GU1BHN_0_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_4_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_2_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_16_5",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_29_0",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_3_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_4_0",
+"code": "N"
+},
+{
+"qi": 74,
+"question": "FQ18GU1BHN 에어컨 설치할 때 주의사항 알려줘",
+"chunk_id": "FQ18GU1BHN_6_0",
+"code": "N"
+},
+{
+"qi": 74,
+"question": "FQ18GU1BHN 에어컨 설치할 때 주의사항 알려줘",
+"chunk_id": "FQ18GU1BHN_12_2",
+"code": "N"
+},
+{
+"qi": 3,
+"question": "M402ND 냉장고 온도 설정 방법 알려줘",
+"chunk_id": "M402ND_12_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_2_0",
+"code": "N"
+},
+{
+"qi": 15,
+"question": "SC3GBE50 스타일러 에러 코드는 어디서 확인해",
+"chunk_id": "SC3GBE50_26_0",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_1_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_21_0",
+"code": "N"
+},
+{
+"qi": 3,
+"question": "M402ND 냉장고 온도 설정 방법 알려줘",
+"chunk_id": "M402ND_24_1",
+"code": "N"
+},
+{
+"qi": 38,
+"question": "DJ30T9500FE 슈드레서 건조 기능 알려줘",
+"chunk_id": "DJ30T9500FE_25_0",
+"code": "N"
+},
+{
+"qi": 3,
+"question": "M402ND 냉장고 온도 설정 방법 알려줘",
+"chunk_id": "M402ND_11_1",
+"code": "N"
+}
+]
+}

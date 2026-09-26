@@ -46,7 +46,7 @@ LG·삼성 60개 모델의 사용설명서를 학습 데이터가 아닌 **검�
 
 LLM 판정 기준으로 근거 없이 지어낸 답변은 관측되지 않았다. 다만 판정자가 사람 검수와 대조되지 않았고, GENUINE_NO_ANSWER 29건 중 20건은 판정 후처리로 강등된 건이라 이 0건은 확정 수치가 아니다([docs/05 §5.10](docs/05-evaluation.md#510-한계)). 같은 경로로 잰 round2는 SUCCESS 227 / GENUINE_NO_ANSWER 71 / FALSE_DECLINE 2 / FALSE_CONFIDENCE 0(75.7%), round3는 SUCCESS 240 / GENUINE_NO_ANSWER 56 / FALSE_DECLINE 4 / FALSE_CONFIDENCE 0(80.0%)이다.
 
-검색 품질(질문 104건, 출처를 가린 다중 정답 판정·엄격 기준): 벡터 검색 Recall@40 93.3%, 최종 top-5 적중은 벡터만 84.6%에서 리랭킹 후 92.3%로 올라간다(관대 기준 96.2%→98.1%). 정답 판정은 Claude 1인이며 사람의 독립 검증은 아직 없다([docs/05 §5.5](docs/05-evaluation.md#55-검색-품질-오프라인-지표)).
+검색 품질(질문 104건, 출처를 가린 다중 정답 판정·엄격 기준): 벡터 검색 Recall@35 93.3%(리랭킹에 넘기는 후보 35개), 최종 top-5 적중은 벡터만 84.6%에서 리랭킹 후 92.3%로 올라간다(관대 기준 96.2%→98.1%). 정답 판정은 Claude 1인이며 사람의 독립 검증은 아직 없다([docs/05 §5.5](docs/05-evaluation.md#55-검색-품질-오프라인-지표)).
 
 → 평가 설계와 전체 지표: [docs/05-evaluation.md](docs/05-evaluation.md)
 

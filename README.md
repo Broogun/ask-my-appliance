@@ -127,8 +127,13 @@ OpenAI gpt-4o-mini · PyMuPDF · RAGAS
 
 ## 시연 영상
 
+<일반 질문 케이스>
+
 <img width="2558" height="1388" alt="일반 질문 케이스" src="https://github.com/user-attachments/assets/31b41a8f-cd0b-4530-81eb-73d0a0676796" />
 
+<에러코드 케이스>
+
+<img width="2558" height="1392" alt="에러코드 케이스" src="https://github.com/user-attachments/assets/8584ff11-ec8d-4421-9bbc-7f3f438c59f2" />
 
 
 

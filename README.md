@@ -124,3 +124,12 @@ OpenAI gpt-4o-mini · PyMuPDF · RAGAS
 4인 프로젝트. 각자 독립적으로 RAG 파이프라인을 구현해 공통 질문셋으로 비교한 뒤, 가장 성능이 좋은
 검색 엔진과 관계형 DB 설계를 통합해 하나의 서비스로 만들었다. 비교 과정과 실험 기록은
 [`experiments/`](experiments/)에 남아 있다.
+
+## 시연 영상
+
+<img width="2558" height="1388" alt="일반 질문 케이스" src="https://github.com/user-attachments/assets/31b41a8f-cd0b-4530-81eb-73d0a0676796" />
+
+
+
+
+

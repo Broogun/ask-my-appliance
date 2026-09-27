@@ -12,6 +12,27 @@ LG·삼성 60개 모델의 사용설명서를 학습 데이터가 아닌 **검�
    출처: WM_F21VDSK p.28 · LG전자 고객지원
 ```
 
+## 시연 영상
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**에러코드 케이스** — RDB 정확 매칭
+
+<video src="ppt/demo/에러코드 케이스.mp4" controls width="100%"></video>
+
+</td>
+<td width="50%" valign="top">
+
+**일반 질문 케이스** — 벡터 검색 · 리랭킹 · 그림 매칭
+
+<video src="ppt/demo/일반 질문 케이스.mp4" controls width="100%"></video>
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 문제

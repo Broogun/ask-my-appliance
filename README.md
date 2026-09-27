@@ -14,12 +14,24 @@ LG·삼성 60개 모델의 사용설명서를 학습 데이터가 아닌 **검�
 
 ## 시연 영상
 
-GitHub은 README 안에 동영상을 직접 재생하지 못해 링크로 남긴다 — 클릭하면 GitHub 페이지에서 바로 재생된다.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| 케이스 | 흐름 | 영상 |
-|---|---|---|
-| 에러코드 케이스 | 질문 → RDB 정확 매칭 → 원인·조치 답변 | [▶ 재생](ppt/demo/에러코드%20케이스.mp4) |
-| 일반 질문 케이스 | 질문 → 벡터 검색·리랭킹 → 매뉴얼 그림 포함 답변 | [▶ 재생](ppt/demo/일반%20질문%20케이스.mp4) |
+**에러코드 케이스** — RDB 정확 매칭 → 원인·조치 답변
+
+<img width="100%" alt="에러코드 케이스" src="https://github.com/user-attachments/assets/8584ff11-ec8d-4421-9bbc-7f3f438c59f2" />
+
+</td>
+<td width="50%" valign="top">
+
+**일반 질문 케이스** — 벡터 검색·리랭킹 → 매뉴얼 그림 포함 답변
+
+<img width="100%" alt="일반 질문 케이스" src="https://github.com/user-attachments/assets/31b41a8f-cd0b-4530-81eb-73d0a0676796" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -124,17 +136,3 @@ OpenAI gpt-4o-mini · PyMuPDF · RAGAS
 4인 프로젝트. 각자 독립적으로 RAG 파이프라인을 구현해 공통 질문셋으로 비교한 뒤, 가장 성능이 좋은
 검색 엔진과 관계형 DB 설계를 통합해 하나의 서비스로 만들었다. 비교 과정과 실험 기록은
 [`experiments/`](experiments/)에 남아 있다.
-
-## 시연 영상
-
-<일반 질문 케이스>
-
-<img width="2558" height="1388" alt="일반 질문 케이스" src="https://github.com/user-attachments/assets/31b41a8f-cd0b-4530-81eb-73d0a0676796" />
-
-<에러코드 케이스>
-
-<img width="2558" height="1392" alt="에러코드 케이스" src="https://github.com/user-attachments/assets/8584ff11-ec8d-4421-9bbc-7f3f438c59f2" />
-
-
-
-

@@ -14,24 +14,12 @@ LG·삼성 60개 모델의 사용설명서를 학습 데이터가 아닌 **검�
 
 ## 시연 영상
 
-<table>
-<tr>
-<td width="50%" valign="top">
+GitHub은 README 안에 동영상을 직접 재생하지 못해 링크로 남긴다 — 클릭하면 GitHub 페이지에서 바로 재생된다.
 
-**에러코드 케이스** — RDB 정확 매칭
-
-<video src="ppt/demo/에러코드 케이스.mp4" controls width="100%"></video>
-
-</td>
-<td width="50%" valign="top">
-
-**일반 질문 케이스** — 벡터 검색 · 리랭킹 · 그림 매칭
-
-<video src="ppt/demo/일반 질문 케이스.mp4" controls width="100%"></video>
-
-</td>
-</tr>
-</table>
+| 케이스 | 흐름 | 영상 |
+|---|---|---|
+| 에러코드 케이스 | 질문 → RDB 정확 매칭 → 원인·조치 답변 | [▶ 재생](ppt/demo/에러코드%20케이스.mp4) |
+| 일반 질문 케이스 | 질문 → 벡터 검색·리랭킹 → 매뉴얼 그림 포함 답변 | [▶ 재생](ppt/demo/일반%20질문%20케이스.mp4) |
 
 ---
 
